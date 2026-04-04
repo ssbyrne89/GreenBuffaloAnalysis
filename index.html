@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>S&P 500 Heatmap</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #000;
+      color: #fff;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+      overflow: hidden;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    #header {
+      text-align: center;
+      padding: 12px 0 6px;
+      flex-shrink: 0;
+    }
+    #header h1 { font-size: 18px; font-weight: 700; }
+    #header p { font-size: 11px; color: #ccc; margin-top: 2px; }
+    #main {
+      display: flex;
+      flex: 1;
+      min-height: 0;
+      padding: 0 8px 8px;
+      gap: 8px;
+    }
+    #treemap-container { flex: 1; min-width: 0; position: relative; }
+    #treemap-container svg { display: block; width: 100%; height: 100%; }
+    #sidebar {
+      width: 180px;
+      flex-shrink: 0;
+      display: flex;
+      flex-direction: column;
+      padding: 8px 0;
+      overflow-y: auto;
+    }
+    #sidebar h2 {
+      font-size: 13px;
+      font-weight: 700;
+      margin-bottom: 10px;
+      letter-spacing: 0.5px;
+    }
+    .sector-entry {
+      display: flex;
+      align-items: baseline;
+      margin-bottom: 6px;
+      font-size: 11px;
+      line-height: 1.3;
+    }
+    .sector-rank { color: #999; width: 18px; flex-shrink: 0; }
+    .sector-info { flex: 1; min-width: 0; }
+    .sector-name { font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .sector-stats { display: flex; justify-content: space-between; font-size: 10px; margin-top: 1px; }
+    #color-legend {
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 16px 10px;
+      font-size: 10px;
+      color: #ccc;
+    }
+    #gradient-bar {
+      width: 180px;
+      height: 12px;
+      border-radius: 2px;
+      background: linear-gradient(to right, #67000d, #a50f15, #cb181d, #333, #006d2c, #238b45, #00441b);
+    }
+    #gradient-labels { display: flex; width: 180px; justify-content: space-between; font-size: 9px; }
+    #referral-banner {
+      margin-left: auto;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 11px;
+      color: #ccc;
+    }
+    #referral-banner a {
+      color: #5ac87a;
+      text-decoration: none;
+      font-weight: 600;
+      padding: 4px 10px;
+      border: 1px solid #5ac87a;
+      border-radius: 4px;
+      transition: background 0.2s, color 0.2s;
+    }
+    #referral-banner a:hover {
+      background: #5ac87a;
+      color: #000;
+    }
+    #tooltip {
+      position: fixed;
+      display: none;
+      background: rgba(0,0,0,0.95);
+      border: 1px solid #fff;
+      border-radius: 6px;
+      padding: 10px 12px;
+      color: #fff;
+      font-family: 'SF Mono', 'Consolas', 'Monaco', monospace;
+      font-size: 12px;
+      pointer-events: none;
+      z-index: 1000;
+      line-height: 1.5;
+      white-space: pre;
+    }
+  </style>
+</head>
+<body>
+  <div id="header">
+    <h1>S&P 500 Market Treemap</h1>
+    <p id="subtitle">Daily price changes &bull; Sector size = total market value</p>
+  </div>
+  <div id="main">
+    <div id="treemap-container"></div>
+    <div id="sidebar">
+      <h2>SECTORS</h2>
+      <div id="sector-list"></div>
+    </div>
+  </div>
+  <div id="color-legend">
+    <span>Daily Change:</span>
+    <div>
+      <div id="gradient-bar"></div>
+      <div id="gradient-labels"><span>-3%</span><span>0%</span><span>+3%</span></div>
+    </div>
+    <span id="legend-note" style="margin-left:12px; color:#888;">Rectangle size = Market Value</span>
+    <div id="referral-banner">
+      Start investing &mdash;
+      <a href="https://acorns.com/share/?shareable_code=JGDTDBJ&first_name=Sean&friend_reward=5" target="_blank" rel="noopener">Get $5 on Acorns</a>
+    </div>
+  </div>
+  <div id="tooltip"></div>
+
+  <script>
+    const tooltip = document.getElementById('tooltip');
+
+    function cellColor(changePct) {
+      const intensity = Math.min(Math.abs(changePct) / 3.0, 1.0);
+      const t = 0.4 + intensity * 0.6;
+      return changePct >= 0 ? d3.interpolateGreens(t) : d3.interpolateReds(t);
+    }
+
+    function formatValue(v) {
+      if (v >= 1e12) return '$' + (v / 1e12).toFixed(1) + 'T';
+      if (v >= 1e9) return '$' + (v / 1e9).toFixed(1) + 'B';
+      if (v >= 1e6) return '$' + (v / 1e6).toFixed(0) + 'M';
+      return '$' + v.toFixed(0);
+    }
+
+    function formatVolume(v) {
+      if (v >= 1e9) return (v / 1e9).toFixed(1) + 'B';
+      if (v >= 1e6) return (v / 1e6).toFixed(1) + 'M';
+      if (v >= 1e3) return (v / 1e3).toFixed(0) + 'K';
+      return v.toFixed(0);
+    }
+
+    fetch('data.json')
+      .then(r => r.json())
+      .then(data => {
+        // Update subtitle with date
+        const date = new Date(data.generated_at);
+        document.getElementById('subtitle').innerHTML =
+          `Daily price changes &bull; Sector size = total market value &bull; ${date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}`;
+
+        render(data.companies);
+        window.addEventListener('resize', () => render(data.companies));
+      })
+      .catch(err => {
+        document.getElementById('treemap-container').innerHTML =
+          `<p style="padding:40px;color:#f66;">Failed to load data.json: ${err.message}<br><br>Run: <code>python generate_data.py</code> first, then serve with <code>python -m http.server</code></p>`;
+      });
+
+    function render(companies) {
+      const container = document.getElementById('treemap-container');
+      container.innerHTML = '';
+      const width = container.clientWidth;
+      const height = container.clientHeight;
+      if (width === 0 || height === 0) return;
+
+      // Build hierarchy
+      const grouped = d3.group(companies, d => d.sector);
+      const hierarchyData = {
+        name: 'S&P 500',
+        children: Array.from(grouped, ([sector, comps]) => ({
+          name: sector,
+          children: comps.map(c => ({ name: c.symbol, ...c, value: c.market_value }))
+        }))
+      };
+
+      const root = d3.hierarchy(hierarchyData)
+        .sum(d => d.value || 0)
+        .sort((a, b) => b.value - a.value);
+
+      d3.treemap()
+        .size([width, height])
+        .paddingOuter(2)
+        .paddingTop(16)
+        .paddingInner(1)
+        .round(true)(root);
+
+      const svg = d3.select(container).append('svg')
+        .attr('width', width)
+        .attr('height', height);
+
+      // Sector backgrounds (depth 1)
+      svg.selectAll('.sector-bg')
+        .data(root.children)
+        .join('rect')
+          .attr('x', d => d.x0)
+          .attr('y', d => d.y0)
+          .attr('width', d => d.x1 - d.x0)
+          .attr('height', d => d.y1 - d.y0)
+          .attr('fill', 'none')
+          .attr('stroke', '#555')
+          .attr('stroke-width', 1.5);
+
+      // Sector labels
+      svg.selectAll('.sector-label')
+        .data(root.children.filter(d => (d.x1 - d.x0) > 60))
+        .join('text')
+          .attr('x', d => d.x0 + 4)
+          .attr('y', d => d.y0 + 12)
+          .attr('fill', '#fff')
+          .attr('font-size', d => Math.min(11, Math.max(7, (d.x1 - d.x0) / 14)) + 'px')
+          .attr('font-weight', '700')
+          .attr('opacity', 0.7)
+          .text(d => {
+            const w = d.x1 - d.x0;
+            const name = d.data.name;
+            if (w < 100 && name.length > 10) return name.substring(0, 8) + '...';
+            if (w < 140 && name.length > 16) return name.substring(0, 13) + '...';
+            return name;
+          });
+
+      // Company cells (leaves)
+      const leaves = root.leaves();
+
+      svg.selectAll('.cell')
+        .data(leaves)
+        .join('rect')
+          .attr('class', 'cell')
+          .attr('x', d => d.x0)
+          .attr('y', d => d.y0)
+          .attr('width', d => d.x1 - d.x0)
+          .attr('height', d => d.y1 - d.y0)
+          .attr('fill', d => cellColor(d.data.change_pct))
+          .attr('stroke', '#222')
+          .attr('stroke-width', 0.5)
+          .style('cursor', 'pointer')
+          .on('mouseenter', function(event, d) {
+            d3.select(this).attr('stroke', '#fff').attr('stroke-width', 1.5);
+          })
+          .on('mouseleave', function() {
+            d3.select(this).attr('stroke', '#222').attr('stroke-width', 0.5);
+            tooltip.style.display = 'none';
+          })
+          .on('mousemove', function(event, d) {
+            const c = d.data;
+            const companyName = c.company.length > 25 ? c.company.substring(0, 25) + '...' : c.company;
+            tooltip.textContent =
+              `${c.symbol}\n` +
+              `${companyName}\n` +
+              `Sector:  ${c.sector}\n` +
+              `Price:   $${c.current_price.toFixed(2)}\n` +
+              `Change:  ${c.change_pct >= 0 ? '+' : ''}${c.change_pct.toFixed(2)}%\n` +
+              `Volume:  ${formatVolume(c.volume)}\n` +
+              `Mkt Val: ${formatValue(c.market_value)}`;
+            tooltip.style.display = 'block';
+
+            let tx = event.clientX + 16;
+            let ty = event.clientY + 16;
+            if (tx + 240 > window.innerWidth) tx = event.clientX - 250;
+            if (ty + 160 > window.innerHeight) ty = event.clientY - 170;
+            tooltip.style.left = tx + 'px';
+            tooltip.style.top = ty + 'px';
+          });
+
+      // Company text labels
+      svg.selectAll('.cell-symbol')
+        .data(leaves.filter(d => (d.x1 - d.x0) > 24 && (d.y1 - d.y0) > 16))
+        .join('text')
+          .attr('class', 'cell-symbol')
+          .attr('x', d => (d.x0 + d.x1) / 2)
+          .attr('y', d => {
+            const h = d.y1 - d.y0;
+            return (d.y0 + d.y1) / 2 + (h > 36 ? -3 : 0);
+          })
+          .attr('text-anchor', 'middle')
+          .attr('dominant-baseline', 'central')
+          .attr('fill', '#fff')
+          .attr('font-weight', '700')
+          .attr('pointer-events', 'none')
+          .attr('font-size', d => {
+            const w = d.x1 - d.x0;
+            const h = d.y1 - d.y0;
+            return Math.min(12, Math.max(5, Math.min(w / 5, h / 3))) + 'px';
+          })
+          .text(d => {
+            const w = d.x1 - d.x0;
+            return w < 32 && d.data.symbol.length > 3 ? d.data.symbol.substring(0, 3) : d.data.symbol;
+          });
+
+      // Percentage labels for larger cells
+      svg.selectAll('.cell-pct')
+        .data(leaves.filter(d => (d.x1 - d.x0) > 32 && (d.y1 - d.y0) > 36))
+        .join('text')
+          .attr('class', 'cell-pct')
+          .attr('x', d => (d.x0 + d.x1) / 2)
+          .attr('y', d => (d.y0 + d.y1) / 2 + 9)
+          .attr('text-anchor', 'middle')
+          .attr('dominant-baseline', 'central')
+          .attr('fill', '#fff')
+          .attr('opacity', 0.85)
+          .attr('pointer-events', 'none')
+          .attr('font-size', d => {
+            const w = d.x1 - d.x0;
+            const h = d.y1 - d.y0;
+            return Math.min(9, Math.max(4, Math.min(w / 7, h / 5))) + 'px';
+          })
+          .text(d => (d.data.change_pct >= 0 ? '+' : '') + d.data.change_pct.toFixed(1) + '%');
+
+      // Build sidebar
+      buildSidebar(root);
+    }
+
+    function buildSidebar(root) {
+      const list = document.getElementById('sector-list');
+      list.innerHTML = '';
+      const sectors = root.children
+        .map(d => {
+          const comps = d.leaves();
+          const totalValue = d3.sum(comps, c => c.data.market_value);
+          const avgChange = d3.mean(comps, c => c.data.change_pct);
+          return { name: d.data.name, totalValue, avgChange, count: comps.length };
+        })
+        .sort((a, b) => b.totalValue - a.totalValue);
+
+      sectors.forEach((s, i) => {
+        const color = s.avgChange >= 0 ? '#90EE90' : '#FFB6C1';
+        const entry = document.createElement('div');
+        entry.className = 'sector-entry';
+        entry.innerHTML =
+          `<span class="sector-rank">${i + 1}.</span>` +
+          `<div class="sector-info">` +
+            `<div class="sector-name">${s.name}</div>` +
+            `<div class="sector-stats">` +
+              `<span style="color:${color}">${formatValue(s.totalValue)}</span>` +
+              `<span style="color:${color};font-weight:700">${s.avgChange >= 0 ? '+' : ''}${s.avgChange.toFixed(1)}%</span>` +
+            `</div>` +
+          `</div>`;
+        list.appendChild(entry);
+      });
+    }
+  </script>
+</body>
+</html>
