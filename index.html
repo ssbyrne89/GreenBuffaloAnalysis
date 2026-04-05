@@ -72,26 +72,46 @@
       background: linear-gradient(to right, #67000d, #a50f15, #cb181d, #333, #006d2c, #238b45, #00441b);
     }
     #gradient-labels { display: flex; width: 180px; justify-content: space-between; font-size: 9px; }
-    #referral-banner {
-      margin-left: auto;
+    .referral-bar {
+      flex-shrink: 0;
+      background: linear-gradient(135deg, #0a2e1a, #0d3b20);
+      border-top: 1px solid #1a5c34;
+      border-bottom: 1px solid #1a5c34;
+      padding: 10px 20px;
       display: flex;
       align-items: center;
-      gap: 8px;
-      font-size: 11px;
-      color: #ccc;
+      justify-content: center;
+      gap: 16px;
+      font-size: 13px;
+      color: #d4e8dc;
     }
-    #referral-banner a {
+    .referral-bar .referral-text {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .referral-bar .referral-highlight {
       color: #5ac87a;
-      text-decoration: none;
-      font-weight: 600;
-      padding: 4px 10px;
-      border: 1px solid #5ac87a;
-      border-radius: 4px;
-      transition: background 0.2s, color 0.2s;
+      font-weight: 700;
     }
-    #referral-banner a:hover {
-      background: #5ac87a;
+    .referral-bar a {
       color: #000;
+      background: #5ac87a;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 12px;
+      padding: 6px 16px;
+      border-radius: 4px;
+      transition: background 0.2s, transform 0.1s;
+      white-space: nowrap;
+    }
+    .referral-bar a:hover {
+      background: #7ddb9a;
+      transform: scale(1.03);
+    }
+    .referral-bar-bottom {
+      border-top: 1px solid #1a5c34;
+      border-bottom: none;
     }
     #tooltip {
       position: fixed;
@@ -111,6 +131,10 @@
   </style>
 </head>
 <body>
+  <div class="referral-bar">
+    <span class="referral-text">Start investing with little risk. Acorns rounds up your everyday purchases and invests the spare change. <span class="referral-highlight">Get a free $5 to start.</span></span>
+    <a href="https://acorns.com/share/?shareable_code=JGDTDBJ&first_name=Sean&friend_reward=5" target="_blank" rel="noopener">Claim Your $5</a>
+  </div>
   <div id="header">
     <h1>S&P 500 Market Treemap</h1>
     <p id="subtitle">Daily price changes &bull; Sector size = total market value</p>
@@ -129,10 +153,10 @@
       <div id="gradient-labels"><span>-3%</span><span>0%</span><span>+3%</span></div>
     </div>
     <span id="legend-note" style="margin-left:12px; color:#888;">Rectangle size = Market Value</span>
-    <div id="referral-banner">
-      Start investing &mdash;
-      <a href="https://acorns.com/share/?shareable_code=JGDTDBJ&first_name=Sean&friend_reward=5" target="_blank" rel="noopener">Get $5 on Acorns</a>
-    </div>
+  </div>
+  <div class="referral-bar referral-bar-bottom">
+    <span class="referral-text">No experience needed. No large deposits. Acorns makes it easy to invest your spare change automatically. <span class="referral-highlight">You get $5, we both win.</span></span>
+    <a href="https://acorns.com/share/?shareable_code=JGDTDBJ&first_name=Sean&friend_reward=5" target="_blank" rel="noopener">Start Investing Free</a>
   </div>
   <div id="tooltip"></div>
 
