@@ -18,15 +18,34 @@ def get_latest_trading_date():
 
 # (label, ticker, unit-suffix shown in the marquee — empty = none)
 COMMODITY_TICKERS = [
-    ('Silver',      'SI=F', '/oz'),
-    ('Gold',        'GC=F', '/oz'),
-    ('Brent Crude', 'BZ=F', '/bbl'),
-    ('WTI Crude',   'CL=F', '/bbl'),
-    ('Corn',        'ZC=F', '¢/bu'),
-    ('Soybean',     'ZS=F', '¢/bu'),
-    ('Sugar',       'SB=F', '¢/lb'),
-    ('Live Cattle', 'LE=F', '¢/lb'),
-    ('Lean Hogs',   'HE=F', '¢/lb'),
+    # Precious metals
+    ('Silver',      'SI=F',    '/oz'),
+    ('Gold',        'GC=F',    '/oz'),
+    ('Platinum',    'PL=F',    '/oz'),
+    # Industrial metals
+    ('Copper',      'HG=F',    '¢/lb'),
+    # Energy
+    ('Brent Crude', 'BZ=F',    '/bbl'),
+    ('WTI Crude',   'CL=F',    '/bbl'),
+    ('Natural Gas', 'NG=F',    '/MMBtu'),
+    ('Heating Oil', 'HO=F',    '/gal'),
+    # Grains
+    ('Corn',        'ZC=F',    '¢/bu'),
+    ('Soybean',     'ZS=F',    '¢/bu'),
+    ('Wheat',       'ZW=F',    '¢/bu'),
+    # Softs
+    ('Sugar',       'SB=F',    '¢/lb'),
+    ('Coffee',      'KC=F',    '¢/lb'),
+    ('Cocoa',       'CC=F',    '/mt'),
+    ('Cotton',      'CT=F',    '¢/lb'),
+    # Materials
+    ('Lumber',      'LBR=F',   '/kbf'),
+    # Livestock
+    ('Live Cattle', 'LE=F',    '¢/lb'),
+    ('Lean Hogs',   'HE=F',    '¢/lb'),
+    # Crypto
+    ('Bitcoin',     'BTC-USD', ''),
+    ('Ethereum',    'ETH-USD', ''),
 ]
 
 def get_commodity_data():
