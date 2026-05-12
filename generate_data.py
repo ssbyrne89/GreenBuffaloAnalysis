@@ -3,10 +3,18 @@ import os
 import json
 from datetime import datetime
 
-# Add heatmaps dir to path so we can import the existing module
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'heatmaps'))
+import yfinance as yf
+
+sys.path.insert(0, os.path.dirname(__file__))
 
 from sp500_heatmap import InteractiveSP500Heatmap
+
+def get_latest_trading_date():
+    """Use SPY as the canonical reference for the most recent US trading day."""
+    spy = yf.Ticker('SPY').history(period='5d')
+    if len(spy) == 0:
+        return None
+    return spy.index[-1].strftime('%Y-%m-%d')
 
 def main():
     heatmap = InteractiveSP500Heatmap()
@@ -32,7 +40,8 @@ def main():
         })
 
     output = {
-        'generated_at': datetime.now().isoformat(),
+        'generated_at': datetime.utcnow().isoformat() + 'Z',
+        'trading_date': get_latest_trading_date(),
         'companies': records,
     }
 

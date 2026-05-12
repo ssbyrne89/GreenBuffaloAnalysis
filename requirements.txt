@@ -1,0 +1,8 @@
+pandas
+numpy
+yfinance
+requests
+lxml
+beautifulsoup4
+matplotlib
+squarify
