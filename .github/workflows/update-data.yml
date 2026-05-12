@@ -1,65 +1,61 @@
 name: Update market data
 
-  on:
-    schedule:
-      # 02:00 UTC Tue-Sat ≈ 9-10 PM ET the prior weekday (after the 4 PM ET close).
-      - cron: '0 2 * * 2-6'
-    workflow_dispatch:
+on:
+  schedule:
+    # 02:00 UTC Tue-Sat ≈ 9-10 PM ET the prior weekday (after the 4 PM ET close).
+    - cron: '0 2 * * 2-6'
+  workflow_dispatch:
 
-  permissions:
-    contents: write
+permissions:
+  contents: write
 
-  concurrency:
-    group: update-data
-    cancel-in-progress: false
+concurrency:
+  group: update-data
+  cancel-in-progress: false
 
-  jobs:
-    update-data:
-      runs-on: ubuntu-latest
-      timeout-minutes: 30
-      steps:
-        - uses: actions/checkout@v4
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
 
-        - uses: actions/setup-python@v5
-          with:
-            python-version: '3.11'
-            cache: pip
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
 
-        - name: Install dependencies
-          run: pip install -r requirements.txt
+      - name: Install dependencies
+        run: pip install -r requirements.txt
 
-        - name: Generate data.json
-          run: python generate_data.py
+      - name: Generate data.json
+        run: python generate_data.py
 
-        - name: Validate output
-          run: |
-            python <<'PY'
-            import json, sys
-            d = json.load(open('data.json'))
-            n = len(d.get('companies', []))
-            td = d.get('trading_date')
-            print(f"trading_date={td}  companies={n}")
-            if n < 300:
-                print(f"::error::Only {n} companies fetched (expected >=300). Refusing to 
-  commit.")
-                sys.exit(1)
-            if not td:
-                print("::error::Missing trading_date. Refusing to commit.")
-                sys.exit(1)
-            PY
+      - name: Validate output
+        run: |
+          python <<'PY'
+          import json, sys
+          d = json.load(open('data.json'))
+          n = len(d.get('companies', []))
+          td = d.get('trading_date')
+          print(f"trading_date={td}  companies={n}")
+          if n < 300:
+              print(f"::error::Only {n} companies fetched (expected >=300). Refusing to commit.")
+              sys.exit(1)
+          if not td:
+              print("::error::Missing trading_date. Refusing to commit.")
+              sys.exit(1)
+          PY
 
-        - name: Commit and push
-          run: |
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add data.json
-            if git diff --cached --quiet; then
-              echo "No changes to commit"
-            if git diff --cached --quiet; then
-              echo "No changes to commit"
-              exit 0
-            fi
-            trading_date=$(python -c "import json;
-  print(json.load(open('data.json')).get('trading_date') or 'unknown')")
-            git commit -m "data: market close ${trading_date}"
-            git push
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          trading_date=$(python -c "import json; print(json.load(open('data.json')).get('trading_date') or 'unknown')")
+          git commit -m "data: market close ${trading_date}"
+          git push
