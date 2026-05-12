@@ -18,11 +18,29 @@
     }
     #header {
       text-align: center;
-      padding: 12px 0 6px;
+      padding: 12px 0 4px;
       flex-shrink: 0;
     }
-    #header h1 { font-size: 18px; font-weight: 700; }
-    #header p { font-size: 11px; color: #ccc; margin-top: 2px; }
+    #treemap-title {
+      text-align: center;
+      padding: 6px 0 4px;
+      flex-shrink: 0;
+    }
+    #treemap-title h1 { font-size: 18px; font-weight: 700; }
+    #treemap-title p { font-size: 11px; color: #ccc; margin-top: 2px; }
+    #marquee-section {
+      flex-shrink: 0;
+      padding: 4px 0 0;
+    }
+    .section-title {
+      text-align: center;
+      font-size: 10px;
+      font-weight: 700;
+      color: #888;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      padding: 0 0 4px;
+    }
     #intro {
       max-width: 720px;
       margin: 0 auto 10px;
@@ -37,6 +55,40 @@
       font-weight: 600;
     }
     #intro a:hover { text-decoration: underline; }
+    #marquee {
+      flex-shrink: 0;
+      overflow: hidden;
+      background: #0a0a0a;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+      display: none;
+    }
+    #marquee.active { display: block; }
+    #marquee-track {
+      display: inline-flex;
+      white-space: nowrap;
+      padding: 7px 0;
+      animation: marquee-scroll 90s linear infinite;
+      will-change: transform;
+    }
+    #marquee:hover #marquee-track { animation-play-state: paused; }
+    .marquee-item {
+      padding: 0 22px;
+      font-size: 12px;
+      color: #ccc;
+      font-family: 'SF Mono', 'Consolas', 'Monaco', monospace;
+      letter-spacing: 0.2px;
+    }
+    .marquee-item .label { color: #fff; font-weight: 700; }
+    .marquee-item .price { margin-left: 8px; color: #ddd; }
+    .marquee-item .unit  { color: #888; font-size: 10px; margin-left: 2px; }
+    .marquee-item .chg-pos { color: #5ac87a; margin-left: 8px; font-weight: 600; }
+    .marquee-item .chg-neg { color: #e57373; margin-left: 8px; font-weight: 600; }
+    .marquee-item .sep    { color: #444; margin-left: 22px; }
+    @keyframes marquee-scroll {
+      from { transform: translate3d(0, 0, 0); }
+      to   { transform: translate3d(-50%, 0, 0); }
+    }
     #main {
       display: flex;
       flex: 1;
@@ -177,16 +229,24 @@
   </style>
 </head>
 <body>
-  <div class="referral-bar">
-    <span class="referral-text">Start investing with little risk. Acorns rounds up your everyday purchases and invests the spare change. <span class="referral-highlight">Get $5 when you invest just $5 within 14 days.</span></span>
-    <a href="https://acorns.com/share/?shareable_code=JGDTDBJ&first_name=Sean&friend_reward=5" target="_blank" rel="noopener">Claim Your $5</a>
-  </div>
   <div id="header">
     <p id="intro">
       Welcome &mdash; this site gives you a free, daily-refreshed snapshot of the S&amp;P 500: every company in the index, color-coded by yesterday's price change and sized by market value, all on one screen. No paywalls, no logins, no dashboards to configure &mdash; just a quick read on how the market closed. If you find it useful, please support the site by
       <a href="https://acorns.com/share/?shareable_code=JGDTDBJ&first_name=Sean&friend_reward=5" target="_blank" rel="noopener">claiming your $5 at Acorns</a>
       &mdash; the least-risk way to start investing if you're just learning.
     </p>
+  </div>
+  <div id="marquee-section">
+    <h2 class="section-title">Commodities Marquee</h2>
+    <div id="marquee" aria-label="Commodity spot prices">
+      <div id="marquee-track"></div>
+    </div>
+  </div>
+  <div class="referral-bar">
+    <span class="referral-text">Start investing with little risk. Acorns rounds up your everyday purchases and invests the spare change. <span class="referral-highlight">Get $5 when you invest just $5 within 14 days.</span></span>
+    <a href="https://acorns.com/share/?shareable_code=JGDTDBJ&first_name=Sean&friend_reward=5" target="_blank" rel="noopener">Claim Your $5</a>
+  </div>
+  <div id="treemap-title">
     <h1>S&P 500 Market Treemap</h1>
     <p id="subtitle">Daily price changes &bull; Sector size = total market value</p>
   </div>
@@ -227,6 +287,33 @@
       return '$' + v.toFixed(0);
     }
 
+    function formatCommodityPrice(v) {
+      // Big numbers get commas; small numbers keep 2 decimals
+      if (v >= 1000) return v.toLocaleString('en-US', { maximumFractionDigits: 2 });
+      return v.toFixed(2);
+    }
+
+    function buildMarquee(commodities) {
+      if (!commodities || !commodities.length) return;
+      const track = document.getElementById('marquee-track');
+      const itemHTML = commodities.map((c, i) => {
+        const chgClass = c.change_pct >= 0 ? 'chg-pos' : 'chg-neg';
+        const sign = c.change_pct >= 0 ? '+' : '';
+        const unit = c.unit ? `<span class="unit">${c.unit}</span>` : '';
+        const sep = i < commodities.length - 1 ? `<span class="sep">•</span>` : '';
+        return (
+          `<span class="marquee-item">` +
+            `<span class="label">${c.label}</span>` +
+            `<span class="price">${formatCommodityPrice(c.price)}</span>${unit}` +
+            `<span class="${chgClass}">${sign}${c.change_pct.toFixed(2)}%</span>` +
+          `</span>${sep}`
+        );
+      }).join('');
+      // Duplicate the content for seamless infinite scroll
+      track.innerHTML = itemHTML + `<span class="sep">•</span>` + itemHTML;
+      document.getElementById('marquee').classList.add('active');
+    }
+
     function formatVolume(v) {
       if (v >= 1e9) return (v / 1e9).toFixed(1) + 'B';
       if (v >= 1e6) return (v / 1e6).toFixed(1) + 'M';
@@ -246,6 +333,7 @@
         document.getElementById('subtitle').innerHTML =
           `Market close &bull; ${date.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}`;
 
+        buildMarquee(data.commodities);
         render(data.companies);
         window.addEventListener('resize', () => render(data.companies));
       })

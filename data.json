@@ -4511,5 +4511,70 @@
       "volume": 15585070.0,
       "market_value": 32142219264.0
     }
+  ],
+  "commodities": [
+    {
+      "label": "Silver",
+      "symbol": "SI=F",
+      "unit": "/oz",
+      "price": 86.72000122070312,
+      "change_pct": 7.867410711786146
+    },
+    {
+      "label": "Gold",
+      "symbol": "GC=F",
+      "unit": "/oz",
+      "price": 4738.0,
+      "change_pct": 0.3728518350216744
+    },
+    {
+      "label": "Brent Crude",
+      "symbol": "BZ=F",
+      "unit": "/bbl",
+      "price": 105.25,
+      "change_pct": 3.909565651771659
+    },
+    {
+      "label": "WTI Crude",
+      "symbol": "CL=F",
+      "unit": "/bbl",
+      "price": 99.18000030517578,
+      "change_pct": 3.9404760096234956
+    },
+    {
+      "label": "Corn",
+      "symbol": "ZC=F",
+      "unit": "\u00a2/bu",
+      "price": 475.25,
+      "change_pct": 4.164383561643835
+    },
+    {
+      "label": "Soybean",
+      "symbol": "ZS=F",
+      "unit": "\u00a2/bu",
+      "price": 1215.25,
+      "change_pct": 1.7584257902449236
+    },
+    {
+      "label": "Sugar",
+      "symbol": "SB=F",
+      "unit": "\u00a2/lb",
+      "price": 14.949999809265137,
+      "change_pct": 1.7699131130611772
+    },
+    {
+      "label": "Live Cattle",
+      "symbol": "LE=F",
+      "unit": "\u00a2/lb",
+      "price": 249.64999389648438,
+      "change_pct": 0.30132584105723975
+    },
+    {
+      "label": "Lean Hogs",
+      "symbol": "HE=F",
+      "unit": "\u00a2/lb",
+      "price": 100.125,
+      "change_pct": 10.178817056396149
+    }
   ]
 }

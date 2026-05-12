@@ -16,6 +16,42 @@ def get_latest_trading_date():
         return None
     return spy.index[-1].strftime('%Y-%m-%d')
 
+# (label, ticker, unit-suffix shown in the marquee — empty = none)
+COMMODITY_TICKERS = [
+    ('Silver',      'SI=F', '/oz'),
+    ('Gold',        'GC=F', '/oz'),
+    ('Brent Crude', 'BZ=F', '/bbl'),
+    ('WTI Crude',   'CL=F', '/bbl'),
+    ('Corn',        'ZC=F', '¢/bu'),
+    ('Soybean',     'ZS=F', '¢/bu'),
+    ('Sugar',       'SB=F', '¢/lb'),
+    ('Live Cattle', 'LE=F', '¢/lb'),
+    ('Lean Hogs',   'HE=F', '¢/lb'),
+]
+
+def get_commodity_data():
+    """Fetch spot prices + daily change for the marquee tickers. Skip any that fail."""
+    out = []
+    for label, ticker, unit in COMMODITY_TICKERS:
+        try:
+            h = yf.Ticker(ticker).history(period='5d')
+            if len(h) < 2:
+                print(f"  skip {ticker}: only {len(h)} rows")
+                continue
+            last = float(h['Close'].iloc[-1])
+            prev = float(h['Close'].iloc[-2])
+            chg = (last - prev) / prev * 100 if prev else 0.0
+            out.append({
+                'label': label,
+                'symbol': ticker,
+                'unit': unit,
+                'price': last,
+                'change_pct': chg,
+            })
+        except Exception as e:
+            print(f"  skip {ticker}: {e}")
+    return out
+
 def main():
     heatmap = InteractiveSP500Heatmap()
     df = heatmap.prepare_data()
@@ -39,9 +75,14 @@ def main():
             'market_value': float(row['market_value']),
         })
 
+    print("Fetching commodity prices...")
+    commodities = get_commodity_data()
+    print(f"  got {len(commodities)} commodities")
+
     output = {
         'generated_at': datetime.utcnow().isoformat() + 'Z',
         'trading_date': get_latest_trading_date(),
+        'commodities': commodities,
         'companies': records,
     }
 
