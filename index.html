@@ -401,6 +401,117 @@
       border-bottom: 1px solid #2a2a2a;
       border-top: 1px solid #2a2a2a;
     }
+    #portfolio-section {
+      padding: 40px 20px 32px;
+      border-top: 1px solid #1a1a1a;
+    }
+    #portfolio-section h2 {
+      text-align: center;
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+    #portfolio-section .blurb {
+      text-align: center;
+      font-size: 12px;
+      color: #aaa;
+      max-width: 760px;
+      margin: 0 auto 8px;
+      line-height: 1.5;
+    }
+    #portfolio-section .blurb strong { color: #ddd; }
+    #portfolio-section .strategy-note {
+      text-align: center;
+      font-size: 12.5px;
+      color: #cfa14a;
+      max-width: 700px;
+      margin: 0 auto 8px;
+      font-style: italic;
+      line-height: 1.5;
+    }
+    #portfolio-meta {
+      text-align: center;
+      font-size: 10.5px;
+      color: #666;
+      margin: 4px 0 20px;
+    }
+    #portfolio-table-wrap {
+      max-width: 1000px;
+      margin: 0 auto;
+      overflow-x: auto;
+    }
+    #portfolio-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+      color: #ddd;
+    }
+    #portfolio-table th,
+    #portfolio-table td {
+      padding: 6px 10px;
+      text-align: left;
+      border-bottom: 1px solid #1a1a1a;
+      white-space: nowrap;
+    }
+    #portfolio-table th {
+      background: #0a0a0a;
+      color: #aaa;
+      font-weight: 700;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      cursor: pointer;
+      user-select: none;
+      position: sticky;
+      top: 0;
+    }
+    #portfolio-table th:hover { color: #fff; }
+    #portfolio-table th.sorted::after {
+      content: ' \25BE';
+      color: #5ac87a;
+    }
+    #portfolio-table th.sorted.asc::after { content: ' \25B4'; }
+    #portfolio-table td.num {
+      text-align: right;
+      font-family: 'SF Mono', 'Consolas', 'Monaco', monospace;
+    }
+    #portfolio-table td.pos { color: #5ac87a; }
+    #portfolio-table td.neg { color: #e57373; }
+    #portfolio-table td.ticker-cell {
+      font-family: 'SF Mono', 'Consolas', 'Monaco', monospace;
+      font-weight: 700;
+      color: #fff;
+    }
+    #portfolio-table td.asset-class {
+      color: #888;
+      font-size: 11px;
+    }
+    #portfolio-table td.schedule-cell {
+      color: #cfa14a;
+      font-size: 11.5px;
+    }
+    #portfolio-table tbody tr:hover { background: #0a0a0a; }
+    #portfolio-table tfoot td {
+      background: #0a0a0a;
+      color: #ddd;
+      font-weight: 700;
+      font-size: 12px;
+      border-top: 2px solid #2a2a2a;
+      border-bottom: none;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    #portfolio-table tfoot td.label {
+      text-align: right;
+      color: #888;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      font-size: 11px;
+    }
+    #portfolio-table tfoot td#portfolio-div-total {
+      color: #5ac87a;
+      font-family: 'SF Mono', 'Consolas', 'Monaco', monospace;
+    }
     @media (max-width: 768px) {
       #fold {
         height: auto;
@@ -564,6 +675,45 @@
     <div class="referral-bar referral-bar-bottom">
       <span class="referral-text">Not ready to be a landlord? Start small &mdash; Acorns invests your spare change automatically. <span class="referral-highlight">Get $5 when you invest just $5 within 14 days.</span></span>
       <a href="https://acorns.com/share/?shareable_code=JGDTDBJ&first_name=Sean&friend_reward=5" target="_blank" rel="noopener">Claim Your $5</a>
+    </div>
+  </section>
+
+  <section id="portfolio-section">
+    <h2>My Portfolio &mdash; YTD Performance</h2>
+    <p class="blurb">
+      These positions are held across <strong>Acorns</strong>, <strong>Fidelity</strong>, and <strong>Vanguard</strong>. Prices, year-to-date gains and dividends paid per share are pulled from Yahoo Finance and refreshed twice daily during U.S. market hours.
+    </p>
+    <p class="strategy-note">
+      My investment strategy is to go dividend-heavy so if the prices go down then I still get a return.
+    </p>
+    <div id="portfolio-meta"></div>
+    <div id="portfolio-table-wrap">
+      <table id="portfolio-table">
+        <thead>
+          <tr>
+            <th data-sort="ticker">Ticker</th>
+            <th data-sort="name">Name</th>
+            <th data-sort="asset_class">Asset Class</th>
+            <th data-sort="price">Current Price</th>
+            <th data-sort="ytd_dollar" class="sorted">YTD $</th>
+            <th data-sort="ytd_pct">YTD %</th>
+            <th data-sort="schedule">Payout Schedule</th>
+            <th data-sort="last_div">Last Payout</th>
+            <th data-sort="div">Div / Share YTD</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+        <tfoot>
+          <tr>
+            <td class="label" colspan="8">Total Div / Share YTD</td>
+            <td class="num" id="portfolio-div-total">—</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+    <div class="referral-bar referral-bar-bottom">
+      <span class="referral-text">Want to build your own portfolio? Acorns makes it dead simple &mdash; round-up investing on autopilot. <span class="referral-highlight">Get $5 when you invest just $5 within 14 days.</span></span>
+      <a href="https://acorns.com/share/?shareable_code=JGDTDBJ&first_name=Sean&friend_reward=5" target="_blank" rel="noopener">Start Investing Free</a>
     </div>
   </section>
 
@@ -1161,6 +1311,122 @@
             // First-click defaults: text col ascending, numeric cols descending,
             // rank ascending (1 first).
             state.asc = (key === 'metro' || key === 'rank');
+          }
+          render();
+        });
+      });
+
+      render();
+    }
+
+    fetch('portfolio.json').then(r => r.json())
+      .then(renderPortfolio)
+      .catch(err => {
+        const wrap = document.getElementById('portfolio-table-wrap');
+        wrap.innerHTML = `<p style="padding:20px;color:#f66;text-align:center;">Failed to load portfolio data: ${err.message}</p>`;
+      });
+
+    function renderPortfolio(data) {
+      const holdings = data.holdings || [];
+      const tbody = document.querySelector('#portfolio-table tbody');
+      const ths = document.querySelectorAll('#portfolio-table th');
+      const state = { key: 'ytd_dollar', asc: false };
+
+      const meta = document.getElementById('portfolio-meta');
+      const asOf = holdings.length ? holdings[holdings.length - 1].as_of : '';
+      meta.textContent = `${holdings.length} holdings · YTD baseline ${data.ytd_start || ''} · prices as of ${asOf}`;
+
+      const divTotal = holdings.reduce((s, h) => s + (h.ytd_dividend_per_share || 0), 0);
+      document.getElementById('portfolio-div-total').textContent =
+        '$' + divTotal.toFixed(2);
+
+      const scheduleOrder = { 'Monthly': 1, 'Quarterly': 2, 'Trimesterly': 3, 'Bi-annually': 4, 'Annually': 5 };
+
+      function valueFor(row, key) {
+        switch (key) {
+          case 'ticker': return row.ticker;
+          case 'name': return row.name;
+          case 'asset_class': return row.asset_class;
+          case 'price': return row.current_price;
+          case 'ytd_dollar': return row.ytd_change_dollar;
+          case 'ytd_pct': return row.ytd_change_pct;
+          case 'schedule': return row.payout_schedule ? scheduleOrder[row.payout_schedule] : null;
+          case 'last_div': return row.last_dividend_amount;
+          case 'div': return row.ytd_dividend_per_share;
+        }
+      }
+
+      function comparator(key, asc) {
+        const dir = asc ? 1 : -1;
+        return (a, b) => {
+          const av = valueFor(a, key), bv = valueFor(b, key);
+          if (av == null && bv == null) return 0;
+          if (av == null) return 1;
+          if (bv == null) return -1;
+          if (av < bv) return -1 * dir;
+          if (av > bv) return 1 * dir;
+          return 0;
+        };
+      }
+
+      function fmtPrice(p) {
+        if (p == null) return '—';
+        if (p >= 1000) return '$' + p.toLocaleString('en-US', { maximumFractionDigits: 2 });
+        if (p >= 1) return '$' + p.toFixed(2);
+        return '$' + p.toFixed(4);
+      }
+      function fmtDollar(d) {
+        if (d == null) return '—';
+        const sign = d >= 0 ? '+' : '−';
+        const abs = Math.abs(d);
+        if (abs >= 1000) return sign + '$' + abs.toLocaleString('en-US', { maximumFractionDigits: 0 });
+        return sign + '$' + abs.toFixed(2);
+      }
+      function fmtPct(p) {
+        if (p == null) return '—';
+        const sign = p >= 0 ? '+' : '';
+        return sign + p.toFixed(2) + '%';
+      }
+      function fmtDiv(d) {
+        if (d == null || d === 0) return '—';
+        return '$' + (d >= 1 ? d.toFixed(2) : d.toFixed(3));
+      }
+
+      function rowHTML(r) {
+        const cls = (r.ytd_change_dollar ?? 0) >= 0 ? 'pos' : 'neg';
+        return `<tr>
+          <td class="ticker-cell">${r.ticker}</td>
+          <td>${r.name}</td>
+          <td class="asset-class">${r.asset_class}</td>
+          <td class="num">${fmtPrice(r.current_price)}</td>
+          <td class="num ${cls}">${fmtDollar(r.ytd_change_dollar)}</td>
+          <td class="num ${cls}">${fmtPct(r.ytd_change_pct)}</td>
+          <td class="schedule-cell">${r.payout_schedule || '—'}</td>
+          <td class="num">${fmtDiv(r.last_dividend_amount)}</td>
+          <td class="num">${fmtDiv(r.ytd_dividend_per_share)}</td>
+        </tr>`;
+      }
+
+      function render() {
+        const sorted = holdings.slice().sort(comparator(state.key, state.asc));
+        tbody.innerHTML = sorted.map(rowHTML).join('');
+        ths.forEach(th => {
+          th.classList.remove('sorted', 'asc');
+          if (th.dataset.sort === state.key) {
+            th.classList.add('sorted');
+            if (state.asc) th.classList.add('asc');
+          }
+        });
+      }
+
+      ths.forEach(th => {
+        th.addEventListener('click', () => {
+          const key = th.dataset.sort;
+          if (state.key === key) {
+            state.asc = !state.asc;
+          } else {
+            state.key = key;
+            state.asc = (key === 'ticker' || key === 'name' || key === 'asset_class' || key === 'schedule');
           }
           render();
         });
