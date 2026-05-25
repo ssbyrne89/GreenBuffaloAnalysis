@@ -1,0 +1,65 @@
+name: Update portfolio data
+
+on:
+  schedule:
+    # Twice daily, Mon-Fri.
+    # 17:00 UTC ≈ 12:00 PM ET (winter) / 1:00 PM ET (summer) — solid midday 
+read.
+    # 20:00 UTC ≈ 3:00 PM ET (winter) / 4:00 PM ET (summer) — near U.S. market
+ close.
+    - cron: '0 17 * * 1-5'
+    - cron: '0 20 * * 1-5'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-portfolio
+  cancel-in-progress: false
+
+jobs:
+  update-portfolio:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate portfolio.json
+        run: python generate_portfolio_data.py
+
+      - name: Validate output
+        run: |
+          python <<'PY'
+          import json, sys
+          d = json.load(open('portfolio.json'))
+          n = len(d.get('holdings', []))
+          print(f"holdings={n}")
+          if n < 20:
+              print(f"::error::Only {n} holdings fetched (expected >=20). 
+Refusing to commit.")
+              sys.exit(1)
+          PY
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email 
+"41898282+github-actions[bot]@users.noreply.github.com"
+          git pull --rebase
+          git add portfolio.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          stamp=$(date -u +"%Y-%m-%d %H:%MZ")
+          git commit -m "data: portfolio update ${stamp}"
+          git push
