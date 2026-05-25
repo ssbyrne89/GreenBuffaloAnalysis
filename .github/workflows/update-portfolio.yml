@@ -3,10 +3,8 @@ name: Update portfolio data
 on:
   schedule:
     # Twice daily, Mon-Fri.
-    # 17:00 UTC ≈ 12:00 PM ET (winter) / 1:00 PM ET (summer) — solid midday 
-read.
-    # 20:00 UTC ≈ 3:00 PM ET (winter) / 4:00 PM ET (summer) — near U.S. market
- close.
+    # 17:00 UTC = midday ET.
+    # 20:00 UTC = near U.S. market close.
     - cron: '0 17 * * 1-5'
     - cron: '0 20 * * 1-5'
   workflow_dispatch:
@@ -44,16 +42,16 @@ jobs:
           n = len(d.get('holdings', []))
           print(f"holdings={n}")
           if n < 20:
-              print(f"::error::Only {n} holdings fetched (expected >=20). 
-Refusing to commit.")
+              msg = f"Only {n} holdings fetched. Refusing to commit."
+              print(f"::error::{msg}")
               sys.exit(1)
           PY
 
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email 
-"41898282+github-actions[bot]@users.noreply.github.com"
+          email="41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.email "$email"
           git pull --rebase
           git add portfolio.json
           if git diff --cached --quiet; then
