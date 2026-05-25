@@ -3,12 +3,17 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://static.cloudflareinsights.com; connect-src 'self' https://cdn.jsdelivr.net https://cloudflareinsights.com; img-src 'self' data:; style-src 'self' 'unsafe-inline'; font-src 'self'; frame-ancestors 'none'; base-uri 'none'; form-action 'none'; object-src 'none'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
   <title>S&P 500 Heatmap</title>
-  <!-- Cloudflare Web Analytics -->
-  <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "f84e3a205cf64c9789a50c3be29078a5"}'></script>
-  <!-- End Cloudflare Web Analytics -->
-  <script src="https://d3js.org/d3.v7.min.js"></script>
-  <script src="https://unpkg.com/topojson-client@3"></script>
+  <!-- Cloudflare Web Analytics (no SRI: Cloudflare rotates beacon.min.js) -->
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "f84e3a205cf64c9789a50c3be29078a5"}'></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"
+          integrity="sha384-CjloA8y00+1SDAUkjs099PVfnY2KmDC2BZnws9kh8D/lX1s46w6EPhpXdqMfjK6i"
+          crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"
+          integrity="sha384-Ukv1p/xTma6P4/2bY5KzWBw+ydSpXmhCMtyciIQVDJ1RmOxtCYNMF1uXT9T63H67"
+          crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
@@ -564,7 +569,7 @@
   <div id="header">
     <p id="intro">
       Welcome &mdash; this site gives you a free, daily-refreshed snapshot of the S&amp;P 500: every company in the index, color-coded by yesterday's price change and sized by market value, all on one screen. No paywalls, no logins, no dashboards to configure &mdash; just a quick read on how the market closed. If you find it useful, please support the site by
-      <a href="https://acorns.com/share/?shareable_code=JGDTDBJ&first_name=Sean&friend_reward=5" target="_blank" rel="noopener">claiming your $5 at Acorns</a>
+      <a href="https://acorns.com/share/?shareable_code=JGDTDBJ&first_name=Sean&friend_reward=5" target="_blank" rel="noopener noreferrer">claiming your $5 at Acorns</a>
       &mdash; a set-and-forget investment platform.
     </p>
   </div>
@@ -576,7 +581,7 @@
   </div>
   <div class="referral-bar">
     <span class="referral-text">Start investing with little risk. Acorns rounds up your everyday purchases and invests the spare change. <span class="referral-highlight">Get $5 when you invest just $5 within 14 days.</span></span>
-    <a href="https://acorns.com/share/?shareable_code=JGDTDBJ&first_name=Sean&friend_reward=5" target="_blank" rel="noopener">Claim Your $5</a>
+    <a href="https://acorns.com/share/?shareable_code=JGDTDBJ&first_name=Sean&friend_reward=5" target="_blank" rel="noopener noreferrer">Claim Your $5</a>
   </div>
   <div id="treemap-title">
     <h1>S&P 500 Market Treemap</h1>
@@ -599,7 +604,7 @@
   </div>
   <div class="referral-bar referral-bar-bottom">
     <span class="referral-text">No experience needed. Invest as little as $5 within 14 days and Acorns gives you $5 back. <span class="referral-highlight">That's a 100% return on day one.</span></span>
-    <a href="https://acorns.com/share/?shareable_code=JGDTDBJ&first_name=Sean&friend_reward=5" target="_blank" rel="noopener">Start Investing Free</a>
+    <a href="https://acorns.com/share/?shareable_code=JGDTDBJ&first_name=Sean&friend_reward=5" target="_blank" rel="noopener noreferrer">Start Investing Free</a>
   </div>
   </div><!-- /#fold -->
 
@@ -607,9 +612,9 @@
     <h2>US State Migration &mdash; 2024</h2>
     <p class="blurb">
       Net domestic migration by state for the year ending July&nbsp;1,&nbsp;2024. Source:
-      <a href="https://www.census.gov/data/tables/time-series/demo/popest/2020s-state-total.html" target="_blank" rel="noopener">US Census Bureau Population Estimates Program (Vintage 2024)</a>.
+      <a href="https://www.census.gov/data/tables/time-series/demo/popest/2020s-state-total.html" target="_blank" rel="noopener noreferrer">US Census Bureau Population Estimates Program (Vintage 2024)</a>.
       Hover a state to see the figure and U-Haul's 2025 ranking from
-      <a href="https://www.uhaul.com/Articles/About/U-Haul-Growth-Index-Texas-Back-ON-Top-As-No-1-Growth-State-Of-2025-36556/" target="_blank" rel="noopener">U-Haul's 2025 Growth Index</a>.
+      <a href="https://www.uhaul.com/Articles/About/U-Haul-Growth-Index-Texas-Back-ON-Top-As-No-1-Growth-State-Of-2025-36556/" target="_blank" rel="noopener noreferrer">U-Haul's 2025 Growth Index</a>.
     </p>
     <div id="migration-map-container"></div>
     <div id="migration-legend">
@@ -634,7 +639,7 @@
     </div>
     <div class="referral-bar referral-bar-bottom">
       <span class="referral-text">No experience needed. Invest as little as $5 within 14 days and Acorns gives you $5 back. <span class="referral-highlight">That's a 100% return on day one.</span></span>
-      <a href="https://acorns.com/share/?shareable_code=JGDTDBJ&first_name=Sean&friend_reward=5" target="_blank" rel="noopener">Start Investing Free</a>
+      <a href="https://acorns.com/share/?shareable_code=JGDTDBJ&first_name=Sean&friend_reward=5" target="_blank" rel="noopener noreferrer">Start Investing Free</a>
     </div>
   </section>
 
@@ -642,9 +647,9 @@
     <h2>Metro Rental-Yield Heatmap</h2>
     <p class="blurb">
       Gross rental yield by metro &mdash; annual rent &divide; home value, as a back-of-envelope read on rental investment potential. Home values are
-      <a href="https://www.zillow.com/research/data/" target="_blank" rel="noopener">Zillow's ZHVI</a>
+      <a href="https://www.zillow.com/research/data/" target="_blank" rel="noopener noreferrer">Zillow's ZHVI</a>
       and rents are Zillow's ZORI; we also show
-      <a href="https://www.redfin.com/news/data-center/" target="_blank" rel="noopener">Redfin's</a>
+      <a href="https://www.redfin.com/news/data-center/" target="_blank" rel="noopener noreferrer">Redfin's</a>
       actual median sale price as a cross-check. Top 15 and bottom 15 of the 700+ metros where all three series report.
     </p>
     <div id="rental-map-container"></div>
@@ -674,7 +679,7 @@
     </div>
     <div class="referral-bar referral-bar-bottom">
       <span class="referral-text">Not ready to be a landlord? Start small &mdash; Acorns invests your spare change automatically. <span class="referral-highlight">Get $5 when you invest just $5 within 14 days.</span></span>
-      <a href="https://acorns.com/share/?shareable_code=JGDTDBJ&first_name=Sean&friend_reward=5" target="_blank" rel="noopener">Claim Your $5</a>
+      <a href="https://acorns.com/share/?shareable_code=JGDTDBJ&first_name=Sean&friend_reward=5" target="_blank" rel="noopener noreferrer">Claim Your $5</a>
     </div>
   </section>
 
@@ -713,7 +718,7 @@
     </div>
     <div class="referral-bar referral-bar-bottom">
       <span class="referral-text">Want to build your own portfolio? Acorns makes it dead simple &mdash; round-up investing on autopilot. <span class="referral-highlight">Get $5 when you invest just $5 within 14 days.</span></span>
-      <a href="https://acorns.com/share/?shareable_code=JGDTDBJ&first_name=Sean&friend_reward=5" target="_blank" rel="noopener">Start Investing Free</a>
+      <a href="https://acorns.com/share/?shareable_code=JGDTDBJ&first_name=Sean&friend_reward=5" target="_blank" rel="noopener noreferrer">Start Investing Free</a>
     </div>
   </section>
 
@@ -721,6 +726,13 @@
 
   <script>
     const tooltip = document.getElementById('tooltip');
+
+    // HTML-escape any string before it's interpolated into innerHTML.
+    // All free-form data fields (yfinance sector names, ticker labels, etc.)
+    // pass through this — never raw template-literal interpolation.
+    const esc = s => String(s ?? '').replace(/[&<>"']/g, c => (
+      { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]
+    ));
 
     function cellColor(changePct) {
       const intensity = Math.min(Math.abs(changePct) / 3.0, 1.0);
@@ -747,13 +759,13 @@
       const itemHTML = commodities.map((c, i) => {
         const chgClass = c.change_pct >= 0 ? 'chg-pos' : 'chg-neg';
         const sign = c.change_pct >= 0 ? '+' : '';
-        const unit = c.unit ? `<span class="unit">${c.unit}</span>` : '';
+        const unit = c.unit ? `<span class="unit">${esc(c.unit)}</span>` : '';
         const sep = i < commodities.length - 1 ? `<span class="sep">•</span>` : '';
         return (
           `<span class="marquee-item">` +
-            `<span class="label">${c.label}</span>` +
+            `<span class="label">${esc(c.label)}</span>` +
             `<span class="price">${formatCommodityPrice(c.price)}</span>${unit}` +
-            `<span class="${chgClass}">${sign}${c.change_pct.toFixed(2)}%</span>` +
+            `<span class="${chgClass}">${sign}${Number(c.change_pct).toFixed(2)}%</span>` +
           `</span>${sep}`
         );
       }).join('');
@@ -787,7 +799,7 @@
       })
       .catch(err => {
         document.getElementById('treemap-container').innerHTML =
-          `<p style="padding:40px;color:#f66;">Failed to load data.json: ${err.message}<br><br>Run: <code>python generate_data.py</code> first, then serve with <code>python -m http.server</code></p>`;
+          `<p style="padding:40px;color:#f66;">Failed to load data.json: ${esc(err.message)}<br><br>Run: <code>python generate_data.py</code> first, then serve with <code>python -m http.server</code></p>`;
       });
 
     function render(companies) {
@@ -962,7 +974,7 @@
         entry.innerHTML =
           `<span class="sector-rank">${i + 1}.</span>` +
           `<div class="sector-info">` +
-            `<div class="sector-name">${s.name}</div>` +
+            `<div class="sector-name">${esc(s.name)}</div>` +
             `<div class="sector-stats">` +
               `<span style="color:${color}">${formatValue(s.totalValue)}</span>` +
               `<span style="color:${color};font-weight:700">${s.avgChange >= 0 ? '+' : ''}${s.avgChange.toFixed(1)}%</span>` +
@@ -997,7 +1009,7 @@
       .then(([mig, us]) => renderMigrationMap(mig, us))
       .catch(err => {
         const c = document.getElementById('migration-map-container');
-        c.innerHTML = `<p style="padding:20px;color:#f66;text-align:center;">Failed to load migration data: ${err.message}</p>`;
+        c.innerHTML = `<p style="padding:20px;color:#f66;text-align:center;">Failed to load migration data: ${esc(err.message)}</p>`;
       });
 
     function renderMigrationMap(mig, us) {
@@ -1099,7 +1111,7 @@
           const mStr = m == null ? '—' : (m > 0 ? '+' : m < 0 ? '−' : '') + Math.abs(m).toLocaleString('en-US');
           const rank = s.uhaul_rank_2025 == null ? '—' : '#' + s.uhaul_rank_2025;
           return `<tr>
-            <td>${s.state}</td>
+            <td>${esc(s.state)}</td>
             <td class="num ${cls}">${mStr}</td>
             <td class="num">${rank}</td>
           </tr>`;
@@ -1155,7 +1167,7 @@
       .then(([rent, us]) => renderRentalMap(rent, us))
       .catch(err => {
         const c = document.getElementById('rental-map-container');
-        c.innerHTML = `<p style="padding:20px;color:#f66;text-align:center;">Failed to load rental data: ${err.message}</p>`;
+        c.innerHTML = `<p style="padding:20px;color:#f66;text-align:center;">Failed to load rental data: ${esc(err.message)}</p>`;
       });
 
     function renderRentalMap(rent, us) {
@@ -1270,7 +1282,7 @@
           : '—';
         return `<tr>
           <td class="num">${label}</td>
-          <td>${r.metro}</td>
+          <td>${esc(r.metro)}</td>
           <td class="num">$${r.zhvi_home_value.toLocaleString('en-US')}</td>
           <td class="num">${redfin}</td>
           <td class="num">$${r.zori_rent_monthly.toLocaleString('en-US')}</td>
@@ -1323,7 +1335,7 @@
       .then(renderPortfolio)
       .catch(err => {
         const wrap = document.getElementById('portfolio-table-wrap');
-        wrap.innerHTML = `<p style="padding:20px;color:#f66;text-align:center;">Failed to load portfolio data: ${err.message}</p>`;
+        wrap.innerHTML = `<p style="padding:20px;color:#f66;text-align:center;">Failed to load portfolio data: ${esc(err.message)}</p>`;
       });
 
     function renderPortfolio(data) {
@@ -1395,13 +1407,13 @@
       function rowHTML(r) {
         const cls = (r.ytd_change_dollar ?? 0) >= 0 ? 'pos' : 'neg';
         return `<tr>
-          <td class="ticker-cell">${r.ticker}</td>
-          <td>${r.name}</td>
-          <td class="asset-class">${r.asset_class}</td>
+          <td class="ticker-cell">${esc(r.ticker)}</td>
+          <td>${esc(r.name)}</td>
+          <td class="asset-class">${esc(r.asset_class)}</td>
           <td class="num">${fmtPrice(r.current_price)}</td>
           <td class="num ${cls}">${fmtDollar(r.ytd_change_dollar)}</td>
           <td class="num ${cls}">${fmtPct(r.ytd_change_pct)}</td>
-          <td class="schedule-cell">${r.payout_schedule || '—'}</td>
+          <td class="schedule-cell">${esc(r.payout_schedule || '—')}</td>
           <td class="num">${fmtDiv(r.last_dividend_amount)}</td>
           <td class="num">${fmtDiv(r.ytd_dividend_per_share)}</td>
         </tr>`;
