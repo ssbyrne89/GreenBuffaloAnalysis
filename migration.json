@@ -1,0 +1,324 @@
+{
+  "generated_at": "2026-05-25T04:03:03.186993Z",
+  "sources": {
+    "census": {
+      "label": "Census PEP Vintage 2024 (year ending Jul 1, 2024)",
+      "url": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2024/state/totals/NST-EST2024-ALLDATA.csv",
+      "field": "DOMESTICMIG2024",
+      "units": "persons (net domestic migration)"
+    },
+    "uhaul": {
+      "label": "U-Haul Growth Index 2025",
+      "url": "https://www.uhaul.com/Articles/About/U-Haul-Growth-Index-Texas-Back-ON-Top-As-No-1-Growth-State-Of-2025-36556/",
+      "units": "rank 1-50 (1 = highest net inflow of one-way rentals)"
+    }
+  },
+  "states": [
+    {
+      "state": "Texas",
+      "state_code": "TX",
+      "census_net_migration": 85267,
+      "uhaul_rank_2025": 1
+    },
+    {
+      "state": "North Carolina",
+      "state_code": "NC",
+      "census_net_migration": 82288,
+      "uhaul_rank_2025": 3
+    },
+    {
+      "state": "South Carolina",
+      "state_code": "SC",
+      "census_net_migration": 68043,
+      "uhaul_rank_2025": 5
+    },
+    {
+      "state": "Florida",
+      "state_code": "FL",
+      "census_net_migration": 64017,
+      "uhaul_rank_2025": 2
+    },
+    {
+      "state": "Tennessee",
+      "state_code": "TN",
+      "census_net_migration": 48476,
+      "uhaul_rank_2025": 4
+    },
+    {
+      "state": "Arizona",
+      "state_code": "AZ",
+      "census_net_migration": 34902,
+      "uhaul_rank_2025": 7
+    },
+    {
+      "state": "Alabama",
+      "state_code": "AL",
+      "census_net_migration": 26028,
+      "uhaul_rank_2025": 9
+    },
+    {
+      "state": "Georgia",
+      "state_code": "GA",
+      "census_net_migration": 25321,
+      "uhaul_rank_2025": 10
+    },
+    {
+      "state": "Nevada",
+      "state_code": "NV",
+      "census_net_migration": 16853,
+      "uhaul_rank_2025": 20
+    },
+    {
+      "state": "Idaho",
+      "state_code": "ID",
+      "census_net_migration": 16383,
+      "uhaul_rank_2025": 8
+    },
+    {
+      "state": "Oklahoma",
+      "state_code": "OK",
+      "census_net_migration": 14036,
+      "uhaul_rank_2025": 14
+    },
+    {
+      "state": "Arkansas",
+      "state_code": "AR",
+      "census_net_migration": 13465,
+      "uhaul_rank_2025": 13
+    },
+    {
+      "state": "Missouri",
+      "state_code": "MO",
+      "census_net_migration": 12289,
+      "uhaul_rank_2025": 29
+    },
+    {
+      "state": "Delaware",
+      "state_code": "DE",
+      "census_net_migration": 8155,
+      "uhaul_rank_2025": 33
+    },
+    {
+      "state": "Kentucky",
+      "state_code": "KY",
+      "census_net_migration": 7294,
+      "uhaul_rank_2025": 17
+    },
+    {
+      "state": "Wisconsin",
+      "state_code": "WI",
+      "census_net_migration": 6332,
+      "uhaul_rank_2025": 26
+    },
+    {
+      "state": "Colorado",
+      "state_code": "CO",
+      "census_net_migration": 5422,
+      "uhaul_rank_2025": 23
+    },
+    {
+      "state": "Montana",
+      "state_code": "MT",
+      "census_net_migration": 5410,
+      "uhaul_rank_2025": 12
+    },
+    {
+      "state": "Maine",
+      "state_code": "ME",
+      "census_net_migration": 5329,
+      "uhaul_rank_2025": 15
+    },
+    {
+      "state": "Virginia",
+      "state_code": "VA",
+      "census_net_migration": 5284,
+      "uhaul_rank_2025": 36
+    },
+    {
+      "state": "New Hampshire",
+      "state_code": "NH",
+      "census_net_migration": 4889,
+      "uhaul_rank_2025": 32
+    },
+    {
+      "state": "West Virginia",
+      "state_code": "WV",
+      "census_net_migration": 4520,
+      "uhaul_rank_2025": 34
+    },
+    {
+      "state": "Indiana",
+      "state_code": "IN",
+      "census_net_migration": 4268,
+      "uhaul_rank_2025": 25
+    },
+    {
+      "state": "Utah",
+      "state_code": "UT",
+      "census_net_migration": 3220,
+      "uhaul_rank_2025": 16
+    },
+    {
+      "state": "Washington",
+      "state_code": "WA",
+      "census_net_migration": 2671,
+      "uhaul_rank_2025": 6
+    },
+    {
+      "state": "South Dakota",
+      "state_code": "SD",
+      "census_net_migration": 2132,
+      "uhaul_rank_2025": 18
+    },
+    {
+      "state": "Wyoming",
+      "state_code": "WY",
+      "census_net_migration": 861,
+      "uhaul_rank_2025": 30
+    },
+    {
+      "state": "Iowa",
+      "state_code": "IA",
+      "census_net_migration": -231,
+      "uhaul_rank_2025": 35
+    },
+    {
+      "state": "North Dakota",
+      "state_code": "ND",
+      "census_net_migration": -291,
+      "uhaul_rank_2025": 38
+    },
+    {
+      "state": "Rhode Island",
+      "state_code": "RI",
+      "census_net_migration": -305,
+      "uhaul_rank_2025": 40
+    },
+    {
+      "state": "District of Columbia",
+      "state_code": "DC",
+      "census_net_migration": -337,
+      "uhaul_rank_2025": null
+    },
+    {
+      "state": "Vermont",
+      "state_code": "VT",
+      "census_net_migration": -511,
+      "uhaul_rank_2025": 24
+    },
+    {
+      "state": "Minnesota",
+      "state_code": "MN",
+      "census_net_migration": -1161,
+      "uhaul_rank_2025": 19
+    },
+    {
+      "state": "Oregon",
+      "state_code": "OR",
+      "census_net_migration": -1162,
+      "uhaul_rank_2025": 11
+    },
+    {
+      "state": "Nebraska",
+      "state_code": "NE",
+      "census_net_migration": -1498,
+      "uhaul_rank_2025": 39
+    },
+    {
+      "state": "New Mexico",
+      "state_code": "NM",
+      "census_net_migration": -1571,
+      "uhaul_rank_2025": 22
+    },
+    {
+      "state": "Ohio",
+      "state_code": "OH",
+      "census_net_migration": -2462,
+      "uhaul_rank_2025": 43
+    },
+    {
+      "state": "Alaska",
+      "state_code": "AK",
+      "census_net_migration": -3774,
+      "uhaul_rank_2025": 27
+    },
+    {
+      "state": "Kansas",
+      "state_code": "KS",
+      "census_net_migration": -4701,
+      "uhaul_rank_2025": 37
+    },
+    {
+      "state": "Mississippi",
+      "state_code": "MS",
+      "census_net_migration": -4939,
+      "uhaul_rank_2025": 21
+    },
+    {
+      "state": "Connecticut",
+      "state_code": "CT",
+      "census_net_migration": -6060,
+      "uhaul_rank_2025": 42
+    },
+    {
+      "state": "Michigan",
+      "state_code": "MI",
+      "census_net_migration": -7656,
+      "uhaul_rank_2025": 41
+    },
+    {
+      "state": "Hawaii",
+      "state_code": "HI",
+      "census_net_migration": -9321,
+      "uhaul_rank_2025": 28
+    },
+    {
+      "state": "Pennsylvania",
+      "state_code": "PA",
+      "census_net_migration": -11500,
+      "uhaul_rank_2025": 44
+    },
+    {
+      "state": "Louisiana",
+      "state_code": "LA",
+      "census_net_migration": -17405,
+      "uhaul_rank_2025": 31
+    },
+    {
+      "state": "Maryland",
+      "state_code": "MD",
+      "census_net_migration": -18509,
+      "uhaul_rank_2025": 45
+    },
+    {
+      "state": "Massachusetts",
+      "state_code": "MA",
+      "census_net_migration": -27480,
+      "uhaul_rank_2025": 46
+    },
+    {
+      "state": "New Jersey",
+      "state_code": "NJ",
+      "census_net_migration": -35554,
+      "uhaul_rank_2025": 48
+    },
+    {
+      "state": "Illinois",
+      "state_code": "IL",
+      "census_net_migration": -56235,
+      "uhaul_rank_2025": 49
+    },
+    {
+      "state": "New York",
+      "state_code": "NY",
+      "census_net_migration": -120917,
+      "uhaul_rank_2025": 47
+    },
+    {
+      "state": "California",
+      "state_code": "CA",
+      "census_net_migration": -239575,
+      "uhaul_rank_2025": 50
+    }
+  ]
+}
