@@ -2,3 +2,4 @@ heatmaps/
 __pycache__/
 *.pyc
 TODO.md
+.cache/

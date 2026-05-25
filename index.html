@@ -285,6 +285,122 @@
     #migration-table td.pos { color: #5ac87a; }
     #migration-table td.neg { color: #e57373; }
     #migration-table tbody tr:hover { background: #0a0a0a; }
+    #rental-section {
+      padding: 40px 20px 32px;
+      border-top: 1px solid #1a1a1a;
+    }
+    #rental-section h2 {
+      text-align: center;
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+    #rental-section .blurb {
+      text-align: center;
+      font-size: 12px;
+      color: #aaa;
+      max-width: 760px;
+      margin: 0 auto 20px;
+      line-height: 1.5;
+    }
+    #rental-section .blurb a {
+      color: #5ac87a;
+      text-decoration: none;
+    }
+    #rental-section .blurb a:hover { text-decoration: underline; }
+    #rental-map-container {
+      max-width: 960px;
+      margin: 0 auto;
+      position: relative;
+    }
+    #rental-map-container svg { display: block; width: 100%; height: auto; }
+    .rent-state {
+      fill: #1a1a1a;
+      stroke: #333;
+      stroke-width: 0.5;
+    }
+    .rent-bubble {
+      stroke: #000;
+      stroke-width: 1;
+      cursor: pointer;
+      transition: stroke 0.1s, stroke-width 0.1s;
+    }
+    .rent-bubble:hover { stroke: #fff; stroke-width: 2; }
+    #rental-legend {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 4px;
+      margin-top: 14px;
+      font-size: 11px;
+      color: #ccc;
+    }
+    #rent-gradient-bar {
+      width: 320px;
+      height: 12px;
+      border-radius: 2px;
+      background: linear-gradient(to right, #c81e1e, #555, #28a046);
+    }
+    #rent-gradient-labels {
+      display: flex;
+      width: 320px;
+      justify-content: space-between;
+      font-size: 10px;
+      color: #888;
+    }
+    #rental-table-wrap {
+      max-width: 960px;
+      margin: 32px auto 0;
+      overflow-x: auto;
+    }
+    #rental-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+      color: #ddd;
+    }
+    #rental-table th,
+    #rental-table td {
+      padding: 6px 10px;
+      text-align: left;
+      border-bottom: 1px solid #1a1a1a;
+      white-space: nowrap;
+    }
+    #rental-table th {
+      background: #0a0a0a;
+      color: #aaa;
+      font-weight: 700;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      cursor: pointer;
+      user-select: none;
+      position: sticky;
+      top: 0;
+    }
+    #rental-table th:hover { color: #fff; }
+    #rental-table th.sorted::after {
+      content: ' \25BE';
+      color: #5ac87a;
+    }
+    #rental-table th.sorted.asc::after { content: ' \25B4'; }
+    #rental-table td.num {
+      text-align: right;
+      font-family: 'SF Mono', 'Consolas', 'Monaco', monospace;
+    }
+    #rental-table td.yield-cell { font-weight: 700; }
+    #rental-table tbody tr:hover { background: #0a0a0a; }
+    #rental-table tr.group-divider td {
+      background: #050505;
+      color: #666;
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      text-align: center;
+      padding: 8px;
+      border-bottom: 1px solid #2a2a2a;
+      border-top: 1px solid #2a2a2a;
+    }
     @media (max-width: 768px) {
       #fold {
         height: auto;
@@ -408,6 +524,46 @@
     <div class="referral-bar referral-bar-bottom">
       <span class="referral-text">No experience needed. Invest as little as $5 within 14 days and Acorns gives you $5 back. <span class="referral-highlight">That's a 100% return on day one.</span></span>
       <a href="https://acorns.com/share/?shareable_code=JGDTDBJ&first_name=Sean&friend_reward=5" target="_blank" rel="noopener">Start Investing Free</a>
+    </div>
+  </section>
+
+  <section id="rental-section">
+    <h2>Metro Rental-Yield Heatmap</h2>
+    <p class="blurb">
+      Gross rental yield by metro &mdash; annual rent &divide; home value, as a back-of-envelope read on rental investment potential. Home values are
+      <a href="https://www.zillow.com/research/data/" target="_blank" rel="noopener">Zillow's ZHVI</a>
+      and rents are Zillow's ZORI; we also show
+      <a href="https://www.redfin.com/news/data-center/" target="_blank" rel="noopener">Redfin's</a>
+      actual median sale price as a cross-check. Top 15 and bottom 15 of the 700+ metros where all three series report.
+    </p>
+    <div id="rental-map-container"></div>
+    <div id="rental-legend">
+      <div id="rent-gradient-bar"></div>
+      <div id="rent-gradient-labels">
+        <span id="rent-min">lowest yield</span>
+        <span>median</span>
+        <span id="rent-max">highest yield</span>
+      </div>
+    </div>
+    <div id="rental-table-wrap">
+      <table id="rental-table">
+        <thead>
+          <tr>
+            <th data-sort="rank">#</th>
+            <th data-sort="metro">Metro</th>
+            <th data-sort="zhvi">Zillow Home Value</th>
+            <th data-sort="redfin">Redfin Median Sale</th>
+            <th data-sort="rent">Median Rent / mo</th>
+            <th data-sort="annual">Annual Rent</th>
+            <th data-sort="yield" class="sorted">Gross Yield</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <div class="referral-bar referral-bar-bottom">
+      <span class="referral-text">Not ready to be a landlord? Start small &mdash; Acorns invests your spare change automatically. <span class="referral-highlight">Get $5 when you invest just $5 within 14 days.</span></span>
+      <a href="https://acorns.com/share/?shareable_code=JGDTDBJ&first_name=Sean&friend_reward=5" target="_blank" rel="noopener">Claim Your $5</a>
     </div>
   </section>
 
@@ -816,6 +972,195 @@
             state.key = key;
             // First click defaults: state=A→Z, census=high→low, uhaul=1→50.
             state.asc = (key === 'state' || key === 'uhaul');
+          }
+          render();
+        });
+      });
+
+      render();
+    }
+
+    function yieldColor(value, minY, medianY, maxY) {
+      if (value == null) return '#333';
+      const gray = [85, 85, 85];
+      let target, intensity;
+      if (value >= medianY) {
+        target = [40, 160, 70];
+        intensity = (value - medianY) / Math.max(maxY - medianY, 0.01);
+      } else {
+        target = [200, 30, 30];
+        intensity = (medianY - value) / Math.max(medianY - minY, 0.01);
+      }
+      intensity = Math.min(Math.max(intensity, 0), 1);
+      const r = Math.round(gray[0] + (target[0] - gray[0]) * intensity);
+      const g = Math.round(gray[1] + (target[1] - gray[1]) * intensity);
+      const b = Math.round(gray[2] + (target[2] - gray[2]) * intensity);
+      return `rgb(${r},${g},${b})`;
+    }
+
+    Promise.all([
+      fetch('rental.json').then(r => r.json()),
+      fetch('https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json').then(r => r.json()),
+    ])
+      .then(([rent, us]) => renderRentalMap(rent, us))
+      .catch(err => {
+        const c = document.getElementById('rental-map-container');
+        c.innerHTML = `<p style="padding:20px;color:#f66;text-align:center;">Failed to load rental data: ${err.message}</p>`;
+      });
+
+    function renderRentalMap(rent, us) {
+      const rows = rent.top_15_by_yield.concat(rent.bottom_15_by_yield);
+      const yields = rows.map(r => r.gross_yield_pct);
+      const minY = d3.min(yields), maxY = d3.max(yields);
+      const medianY = d3.median(yields);
+
+      const states = topojson.feature(us, us.objects.states);
+      const container = document.getElementById('rental-map-container');
+      container.innerHTML = '';
+
+      const width = 960;
+      const height = 600;
+      const svg = d3.select(container).append('svg')
+        .attr('viewBox', `0 0 ${width} ${height}`)
+        .attr('preserveAspectRatio', 'xMidYMid meet');
+
+      const projection = d3.geoAlbersUsa().fitSize([width, height], states);
+      const path = d3.geoPath(projection);
+
+      svg.selectAll('path.rent-state')
+        .data(states.features)
+        .join('path')
+          .attr('class', 'rent-state')
+          .attr('d', path);
+
+      // Bubble radius scales with annual rent (a rough proxy for absolute cash flow).
+      const rentExtent = d3.extent(rows, r => r.annual_rent);
+      const radius = d3.scaleSqrt().domain(rentExtent).range([5, 16]);
+
+      // Largest bubbles drawn first so smaller ones sit on top and stay clickable.
+      const sortedRows = rows.slice().sort((a, b) => b.annual_rent - a.annual_rent);
+
+      svg.selectAll('circle.rent-bubble')
+        .data(sortedRows.filter(r => r.lat != null && r.lon != null))
+        .join('circle')
+          .attr('class', 'rent-bubble')
+          .attr('cx', d => { const p = projection([d.lon, d.lat]); return p ? p[0] : null; })
+          .attr('cy', d => { const p = projection([d.lon, d.lat]); return p ? p[1] : null; })
+          .attr('r', d => radius(d.annual_rent))
+          .attr('fill', d => yieldColor(d.gross_yield_pct, minY, medianY, maxY))
+          .style('display', d => projection([d.lon, d.lat]) ? null : 'none')
+          .on('mouseenter mousemove', function(event, d) {
+            const lines = [
+              d.metro,
+              `Gross yield: ${d.gross_yield_pct.toFixed(2)}%`,
+              `Rent: $${d.zori_rent_monthly.toLocaleString('en-US')}/mo`,
+              `Home (Zillow): $${d.zhvi_home_value.toLocaleString('en-US')}`,
+              `Sale (Redfin): ${d.redfin_median_sale_price ? '$' + d.redfin_median_sale_price.toLocaleString('en-US') : 'n/a'}`,
+            ];
+            tooltip.textContent = lines.join('\n');
+            tooltip.style.display = 'block';
+            let tx = event.clientX + 16;
+            let ty = event.clientY + 16;
+            if (tx + 260 > window.innerWidth) tx = event.clientX - 270;
+            if (ty + 110 > window.innerHeight) ty = event.clientY - 120;
+            tooltip.style.left = tx + 'px';
+            tooltip.style.top = ty + 'px';
+          })
+          .on('mouseleave', () => { tooltip.style.display = 'none'; });
+
+      document.getElementById('rent-min').textContent =
+        `${minY.toFixed(2)}% (${rows.find(r => r.gross_yield_pct === minY).metro})`;
+      document.getElementById('rent-max').textContent =
+        `${maxY.toFixed(2)}% (${rows.find(r => r.gross_yield_pct === maxY).metro})`;
+
+      renderRentalTable(rent.top_15_by_yield, rent.bottom_15_by_yield);
+    }
+
+    function renderRentalTable(top, bottom) {
+      const tbody = document.querySelector('#rental-table tbody');
+      const ths = document.querySelectorAll('#rental-table th');
+
+      // Each row carries its original group + rank within that group so default
+      // view shows Top 15 then a divider then Bottom 15. Sorting other columns
+      // flattens the two groups and hides the divider.
+      const tagged = top.map((r, i) => ({ ...r, _group: 'top', _rank: i + 1 }))
+        .concat(bottom.map((r, i) => ({ ...r, _group: 'bottom', _rank: bottom.length - i })));
+
+      const state = { key: 'yield', asc: false };
+
+      function valueFor(row, key) {
+        switch (key) {
+          case 'rank': return row._group === 'top' ? row._rank : 1000 + row._rank;
+          case 'metro': return row.metro;
+          case 'zhvi': return row.zhvi_home_value;
+          case 'redfin': return row.redfin_median_sale_price;
+          case 'rent': return row.zori_rent_monthly;
+          case 'annual': return row.annual_rent;
+          case 'yield': return row.gross_yield_pct;
+        }
+      }
+
+      function comparator(key, asc) {
+        const dir = asc ? 1 : -1;
+        return (a, b) => {
+          const av = valueFor(a, key), bv = valueFor(b, key);
+          if (av == null && bv == null) return 0;
+          if (av == null) return 1;
+          if (bv == null) return -1;
+          if (av < bv) return -1 * dir;
+          if (av > bv) return 1 * dir;
+          return 0;
+        };
+      }
+
+      function rowHTML(r) {
+        const label = r._group === 'top' ? `${r._rank}` : `L${r._rank}`;
+        const redfin = r.redfin_median_sale_price
+          ? '$' + r.redfin_median_sale_price.toLocaleString('en-US')
+          : '—';
+        return `<tr>
+          <td class="num">${label}</td>
+          <td>${r.metro}</td>
+          <td class="num">$${r.zhvi_home_value.toLocaleString('en-US')}</td>
+          <td class="num">${redfin}</td>
+          <td class="num">$${r.zori_rent_monthly.toLocaleString('en-US')}</td>
+          <td class="num">$${r.annual_rent.toLocaleString('en-US')}</td>
+          <td class="num yield-cell">${r.gross_yield_pct.toFixed(2)}%</td>
+        </tr>`;
+      }
+
+      function render() {
+        const isDefault = state.key === 'yield' && !state.asc;
+        if (isDefault) {
+          // Show top group, a divider, then bottom group — preserves the
+          // two-set framing the section is built around.
+          tbody.innerHTML =
+            top.map((r, i) => rowHTML({ ...r, _group: 'top', _rank: i + 1 })).join('') +
+            `<tr class="group-divider"><td colspan="7">Bottom 15 &mdash; lowest gross yields</td></tr>` +
+            bottom.map((r, i) => rowHTML({ ...r, _group: 'bottom', _rank: bottom.length - i })).join('');
+        } else {
+          const sorted = tagged.slice().sort(comparator(state.key, state.asc));
+          tbody.innerHTML = sorted.map(rowHTML).join('');
+        }
+        ths.forEach(th => {
+          th.classList.remove('sorted', 'asc');
+          if (th.dataset.sort === state.key) {
+            th.classList.add('sorted');
+            if (state.asc) th.classList.add('asc');
+          }
+        });
+      }
+
+      ths.forEach(th => {
+        th.addEventListener('click', () => {
+          const key = th.dataset.sort;
+          if (state.key === key) {
+            state.asc = !state.asc;
+          } else {
+            state.key = key;
+            // First-click defaults: text col ascending, numeric cols descending,
+            // rank ascending (1 first).
+            state.asc = (key === 'metro' || key === 'rank');
           }
           render();
         });
