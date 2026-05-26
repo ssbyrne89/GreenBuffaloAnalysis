@@ -1,83 +1,83 @@
 {
-  "generated_at": "2026-05-23T05:41:27.685817Z",
+  "generated_at": "2026-05-26T06:09:07.041493Z",
   "trading_date": "2026-05-22",
   "commodities": [
     {
       "label": "Silver",
       "symbol": "SI=F",
       "unit": "/oz",
-      "price": 75.89299774169922,
-      "change_pct": -0.6818170926230483
+      "price": 76.81500244140625,
+      "change_pct": 1.2148745301181298
     },
     {
       "label": "Gold",
       "symbol": "GC=F",
       "unit": "/oz",
-      "price": 4521.0,
-      "change_pct": -0.4141108748471365
+      "price": 4528.89990234375,
+      "change_pct": 0.17473794168878568
     },
     {
       "label": "Platinum",
       "symbol": "PL=F",
       "unit": "/oz",
-      "price": 1931.5999755859375,
-      "change_pct": -1.2019845682294135
+      "price": 1956.9000244140625,
+      "change_pct": 1.309797533024425
     },
     {
       "label": "Copper",
       "symbol": "HG=F",
       "unit": "\u00a2/lb",
-      "price": 6.3420000076293945,
-      "change_pct": 1.358479120369947
+      "price": 6.395500183105469,
+      "change_pct": 0.8435852319727811
     },
     {
       "label": "Brent Crude",
       "symbol": "BZ=F",
       "unit": "/bbl",
-      "price": 103.54000091552734,
-      "change_pct": 0.9358540332780826
+      "price": 95.41000366210938,
+      "change_pct": -7.852035137657369
     },
     {
       "label": "WTI Crude",
       "symbol": "CL=F",
       "unit": "/bbl",
-      "price": 96.5999984741211,
-      "change_pct": 0.2594706839223751
+      "price": 91.91000366210938,
+      "change_pct": -4.855067169869735
     },
     {
       "label": "Natural Gas",
       "symbol": "NG=F",
       "unit": "/MMBtu",
-      "price": 2.9070000648498535,
-      "change_pct": -3.677926665191494
+      "price": 3.058000087738037,
+      "change_pct": 5.194359116603003
     },
     {
       "label": "Heating Oil",
       "symbol": "HO=F",
       "unit": "/gal",
-      "price": 3.8877999782562256,
-      "change_pct": 1.4667509183527117
+      "price": 3.652100086212158,
+      "change_pct": -6.0625519152810075
     },
     {
       "label": "Corn",
       "symbol": "ZC=F",
       "unit": "\u00a2/bu",
-      "price": 463.25,
-      "change_pct": 0.2163331530557058
+      "price": 459.25,
+      "change_pct": -0.8634646519158122
     },
     {
       "label": "Soybean",
       "symbol": "ZS=F",
       "unit": "\u00a2/bu",
-      "price": 1196.5,
-      "change_pct": 0.18840276324052752
+      "price": 1189.5,
+      "change_pct": -0.5850396991224405
     },
     {
       "label": "Wheat",
       "symbol": "ZW=F",
       "unit": "\u00a2/bu",
-      "price": 646.25,
-      "change_pct": -0.19305019305019305
+      "price": 639.0,
+      "change_pct": -1.1218568665377175
     },
     {
       "label": "Sugar",
@@ -132,15 +132,15 @@
       "label": "Bitcoin",
       "symbol": "BTC-USD",
       "unit": "",
-      "price": 75404.640625,
-      "change_pct": -2.7528424645043326
+      "price": 76817.9921875,
+      "change_pct": -0.21191274159737208
     },
     {
       "label": "Ethereum",
       "symbol": "ETH-USD",
       "unit": "",
-      "price": 2063.14990234375,
-      "change_pct": -3.2026086743370015
+      "price": 2098.860107421875,
+      "change_pct": 0.04128758138674839
     }
   ],
   "companies": [
@@ -1429,7 +1429,7 @@
       "change_pct": 3.9465945370949376,
       "current_price": 106.66999816894531,
       "volume": 5163700.0,
-      "market_value": 15141803008.0
+      "market_value": 14814432256.0
     },
     {
       "symbol": "DE",
@@ -2068,7 +2068,7 @@
       "change_pct": -0.1207271073841869,
       "current_price": 24.81999969482422,
       "volume": 5733400.0,
-      "market_value": 15032573952.0
+      "market_value": 14952408064.0
     },
     {
       "symbol": "GNRC",
@@ -2301,7 +2301,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": 3.043515650337598,
       "current_price": 475.010009765625,
-      "volume": 824493.0,
+      "volume": 824993.0,
       "market_value": 25100371968.0
     },
     {
@@ -3769,7 +3769,7 @@
       "change_pct": -4.120632925519411,
       "current_price": 1478.68994140625,
       "volume": 9593600.0,
-      "market_value": 218978844672.0
+      "market_value": 218977370112.0
     },
     {
       "symbol": "SBAC",
@@ -4012,7 +4012,7 @@
       "change_pct": -4.422882517771958,
       "current_price": 227.5500030517578,
       "volume": 7045300.0,
-      "market_value": 42187771904.0
+      "market_value": 42248450048.0
     },
     {
       "symbol": "TPR",
@@ -4561,7 +4561,7 @@
       "change_pct": 0.29175656531769667,
       "current_price": 192.5,
       "volume": 1001500.0,
-      "market_value": 22665463808.0
+      "market_value": 22666221568.0
     },
     {
       "symbol": "WMB",
@@ -4588,7 +4588,7 @@
       "change_pct": 5.162085346158815,
       "current_price": 128.13999938964844,
       "volume": 10781700.0,
-      "market_value": 31994705920.0
+      "market_value": 31647180800.0
     },
     {
       "symbol": "WYNN",
