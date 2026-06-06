@@ -1,146 +1,146 @@
 {
-  "generated_at": "2026-06-05T06:24:21.147519Z",
-  "trading_date": "2026-06-04",
+  "generated_at": "2026-06-06T05:56:02.405720Z",
+  "trading_date": "2026-06-05",
   "commodities": [
     {
       "label": "Silver",
       "symbol": "SI=F",
       "unit": "/oz",
-      "price": 72.12999725341797,
-      "change_pct": -2.235056168016892
+      "price": 68.94300079345703,
+      "change_pct": -6.554708764233311
     },
     {
       "label": "Gold",
       "symbol": "GC=F",
       "unit": "/oz",
-      "price": 4464.7998046875,
-      "change_pct": -0.24576613074784337
+      "price": 4337.10009765625,
+      "change_pct": -3.0988809393572505
     },
     {
       "label": "Platinum",
       "symbol": "PL=F",
       "unit": "/oz",
-      "price": 1871.0999755859375,
-      "change_pct": -1.2090825984193505
+      "price": 1792.0,
+      "change_pct": -5.385427666314678
     },
     {
       "label": "Copper",
       "symbol": "HG=F",
       "unit": "\u00a2/lb",
-      "price": 6.417500019073486,
-      "change_pct": -1.4360334062833382
+      "price": 6.263500213623047,
+      "change_pct": -3.801258437018499
     },
     {
       "label": "Brent Crude",
       "symbol": "BZ=F",
       "unit": "/bbl",
-      "price": 95.04000091552734,
-      "change_pct": 0.010525240828107645
+      "price": 93.08999633789062,
+      "change_pct": -2.04146318670573
     },
     {
       "label": "WTI Crude",
       "symbol": "CL=F",
       "unit": "/bbl",
-      "price": 92.6500015258789,
-      "change_pct": -0.4191738884466745
+      "price": 90.54000091552734,
+      "change_pct": -2.687016310618692
     },
     {
       "label": "Natural Gas",
       "symbol": "NG=F",
       "unit": "/MMBtu",
-      "price": 3.3529999256134033,
-      "change_pct": 0.5095911307144166
+      "price": 3.2290000915527344,
+      "change_pct": -3.2074303122354326
     },
     {
       "label": "Heating Oil",
       "symbol": "HO=F",
       "unit": "/gal",
-      "price": 3.6633999347686768,
-      "change_pct": -0.28308718119513526
+      "price": 3.587399959564209,
+      "change_pct": -2.3517892166374605
     },
     {
       "label": "Corn",
       "symbol": "ZC=F",
       "unit": "\u00a2/bu",
-      "price": 422.0,
-      "change_pct": -0.5889281507656066
+      "price": 417.5,
+      "change_pct": -1.6489988221436984
     },
     {
       "label": "Soybean",
       "symbol": "ZS=F",
       "unit": "\u00a2/bu",
-      "price": 1127.75,
-      "change_pct": -0.15493581230633025
+      "price": 1121.5,
+      "change_pct": -0.7082779991146525
     },
     {
       "label": "Wheat",
       "symbol": "ZW=F",
       "unit": "\u00a2/bu",
-      "price": 580.25,
-      "change_pct": -0.25784271594327457
+      "price": 580.0,
+      "change_pct": -0.30081650193382037
     },
     {
       "label": "Sugar",
       "symbol": "SB=F",
       "unit": "\u00a2/lb",
-      "price": 14.270000457763672,
-      "change_pct": 0.21067898263843915
+      "price": 14.140000343322754,
+      "change_pct": -0.9110028750573074
     },
     {
       "label": "Coffee",
       "symbol": "KC=F",
       "unit": "\u00a2/lb",
-      "price": 247.14999389648438,
-      "change_pct": -2.3508542329302626
+      "price": 246.5,
+      "change_pct": -0.26299571617898426
     },
     {
       "label": "Cocoa",
       "symbol": "CC=F",
       "unit": "/mt",
-      "price": 3965.0,
-      "change_pct": -2.6277013752455796
+      "price": 3762.0,
+      "change_pct": -5.1197982345523325
     },
     {
       "label": "Cotton",
       "symbol": "CT=F",
       "unit": "\u00a2/lb",
-      "price": 74.88999938964844,
-      "change_pct": -2.3980240932947736
+      "price": 73.75,
+      "change_pct": -1.5222318052335466
     },
     {
       "label": "Lumber",
       "symbol": "LBR=F",
       "unit": "/kbf",
-      "price": 606.5,
-      "change_pct": 1.506276150627615
+      "price": 608.0,
+      "change_pct": 0.24732069249793898
     },
     {
       "label": "Live Cattle",
       "symbol": "LE=F",
       "unit": "\u00a2/lb",
-      "price": 249.1750030517578,
-      "change_pct": 1.033959676333629
+      "price": 250.0749969482422,
+      "change_pct": 0.36118947946693963
     },
     {
       "label": "Lean Hogs",
       "symbol": "HE=F",
       "unit": "\u00a2/lb",
-      "price": 95.30000305175781,
-      "change_pct": -0.7808432859662197
+      "price": 94.30000305175781,
+      "change_pct": -1.049317909734899
     },
     {
       "label": "Bitcoin",
       "symbol": "BTC-USD",
       "unit": "",
-      "price": 61256.69921875,
-      "change_pct": -4.307889134751123
+      "price": 60898.30078125,
+      "change_pct": -4.5504730456114455
     },
     {
       "label": "Ethereum",
       "symbol": "ETH-USD",
       "unit": "",
-      "price": 1639.06005859375,
-      "change_pct": -9.530781188233622
+      "price": 1564.1600341796875,
+      "change_pct": -11.608430614930434
     }
   ],
   "companies": [
@@ -148,4510 +148,4510 @@
       "symbol": "MMM",
       "company": "3M",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2473041.0,
-      "market_value": 79679832064.0
+      "change_pct": 0.6480265802764401,
+      "current_price": 153.75999450683594,
+      "volume": 2488400.0,
+      "market_value": 80196182016.0
     },
     {
       "symbol": "AOS",
       "company": "A. O. Smith",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1722590.0,
-      "market_value": 7857609728.0
+      "change_pct": 0.33327915628877386,
+      "current_price": 57.20000076293945,
+      "volume": 1811100.0,
+      "market_value": 7883797504.0
     },
     {
       "symbol": "ABT",
       "company": "Abbott Laboratories",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 14124497.0,
-      "market_value": 158121787392.0
+      "change_pct": 0.319454636954105,
+      "current_price": 91.06999969482422,
+      "volume": 11919200.0,
+      "market_value": 158626922496.0
     },
     {
       "symbol": "ABBV",
       "company": "AbbVie",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 5277854.0,
-      "market_value": 397422395392.0
+      "change_pct": 1.0180462617934416,
+      "current_price": 227.22999572753906,
+      "volume": 6246700.0,
+      "market_value": 401468325888.0
     },
     {
       "symbol": "ACN",
       "company": "Accenture",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 4390962.0,
-      "market_value": 110076731392.0
+      "change_pct": -0.34104920511571246,
+      "current_price": 178.25,
+      "volume": 3745200.0,
+      "market_value": 109701316608.0
     },
     {
       "symbol": "ADBE",
       "company": "Adobe Inc.",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 4685263.0,
-      "market_value": 104453365760.0
+      "change_pct": -2.7010334430928444,
+      "current_price": 251.44000244140625,
+      "volume": 4902600.0,
+      "market_value": 101632049152.0
     },
     {
       "symbol": "AMD",
       "company": "Advanced Micro Devices",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 28296824.0,
-      "market_value": 853130215424.0
+      "change_pct": -10.860092889626111,
+      "current_price": 466.3800048828125,
+      "volume": 46735900.0,
+      "market_value": 760479481856.0
     },
     {
       "symbol": "AES",
       "company": "AES Corporation",
       "sector": "UTILITIES",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 5282381.0,
-      "market_value": 10504812544.0
+      "change_pct": -0.4073283625728723,
+      "current_price": 14.670000076293945,
+      "volume": 5352700.0,
+      "market_value": 10462023680.0
     },
     {
       "symbol": "AFL",
       "company": "Aflac",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1773999.0,
-      "market_value": 58680868864.0
+      "change_pct": 2.5587621865001475,
+      "current_price": 118.23999786376953,
+      "volume": 2090800.0,
+      "market_value": 60182372352.0
     },
     {
       "symbol": "A",
       "company": "Agilent Technologies",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1679949.0,
-      "market_value": 39080103936.0
+      "change_pct": -2.117505802684894,
+      "current_price": 135.44000244140625,
+      "volume": 2201100.0,
+      "market_value": 38252580864.0
     },
     {
       "symbol": "APD",
       "company": "Air Products",
       "sector": "BASIC MATERIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 794617.0,
-      "market_value": 62985232384.0
+      "change_pct": -0.1767721368961234,
+      "current_price": 282.3500061035156,
+      "volume": 1154000.0,
+      "market_value": 62873894912.0
     },
     {
       "symbol": "ABNB",
       "company": "Airbnb",
       "sector": "CONSUMER CYCLICAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 3675978.0,
-      "market_value": 79363473408.0
+      "change_pct": -0.13461556455807366,
+      "current_price": 133.5399932861328,
+      "volume": 4044300.0,
+      "market_value": 79256641536.0
     },
     {
       "symbol": "AKAM",
       "company": "Akamai Technologies",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 4810656.0,
-      "market_value": 23113379840.0
+      "change_pct": -6.07622887339591,
+      "current_price": 149.32000732421875,
+      "volume": 3022500.0,
+      "market_value": 21708957696.0
     },
     {
       "symbol": "ALB",
       "company": "Albemarle Corporation",
       "sector": "BASIC MATERIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1760381.0,
-      "market_value": 19535874048.0
+      "change_pct": -6.163593016162987,
+      "current_price": 155.44000244140625,
+      "volume": 1789000.0,
+      "market_value": 18331762688.0
     },
     {
       "symbol": "ARE",
       "company": "Alexandria Real Estate Equities",
       "sector": "REAL ESTATE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1521765.0,
-      "market_value": 9257194496.0
+      "change_pct": -3.4638557785878423,
+      "current_price": 51.279998779296875,
+      "volume": 2760800.0,
+      "market_value": 8936538112.0
     },
     {
       "symbol": "ALGN",
       "company": "Align Technology",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 877223.0,
-      "market_value": 12052614144.0
+      "change_pct": -0.32680956379482445,
+      "current_price": 167.74000549316406,
+      "volume": 494400.0,
+      "market_value": 12013224960.0
     },
     {
       "symbol": "ALLE",
       "company": "Allegion",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 580233.0,
-      "market_value": 11201740800.0
+      "change_pct": -0.14576327772118572,
+      "current_price": 130.16000366210938,
+      "volume": 772200.0,
+      "market_value": 11185412096.0
     },
     {
       "symbol": "LNT",
       "company": "Alliant Energy",
       "sector": "UTILITIES",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1662915.0,
-      "market_value": 18438397952.0
+      "change_pct": 2.0731242044921414,
+      "current_price": 72.87000274658203,
+      "volume": 2776100.0,
+      "market_value": 18820648960.0
     },
     {
       "symbol": "ALL",
       "company": "Allstate",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1055804.0,
-      "market_value": 54274625536.0
+      "change_pct": 4.823562106616122,
+      "current_price": 221.00999450683594,
+      "volume": 1638200.0,
+      "market_value": 56892596224.0
     },
     {
       "symbol": "GOOGL",
       "company": "Alphabet Inc. (Class A)",
       "sector": "COMMUNICATION SERVICES",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 42891063.0,
-      "market_value": 4528198909952.0
+      "change_pct": -0.9833696870150531,
+      "current_price": 368.5299987792969,
+      "volume": 37375600.0,
+      "market_value": 4494199357440.0
     },
     {
       "symbol": "GOOG",
       "company": "Alphabet Inc. (Class C)",
       "sector": "COMMUNICATION SERVICES",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 37645382.0,
-      "market_value": 4492672630784.0
+      "change_pct": -0.9505184153800599,
+      "current_price": 365.760009765625,
+      "volume": 23325000.0,
+      "market_value": 4460419481600.0
     },
     {
       "symbol": "MO",
       "company": "Altria",
       "sector": "CONSUMER DEFENSIVE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 5792909.0,
-      "market_value": 117894316032.0
+      "change_pct": 2.252130313951753,
+      "current_price": 72.19000244140625,
+      "volume": 8057000.0,
+      "market_value": 120549449728.0
     },
     {
       "symbol": "AMZN",
       "company": "Amazon",
       "sector": "CONSUMER CYCLICAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 35528228.0,
-      "market_value": 2730046783488.0
+      "change_pct": -3.057644001781825,
+      "current_price": 246.02999877929688,
+      "volume": 55498100.0,
+      "market_value": 2646571745280.0
     },
     {
       "symbol": "AMCR",
       "company": "Amcor",
       "sector": "BASIC MATERIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2342358.0,
-      "market_value": 17402691584.0
+      "change_pct": 1.3018110691084515,
+      "current_price": 38.130001068115234,
+      "volume": 3389000.0,
+      "market_value": 17629241344.0
     },
     {
       "symbol": "AEE",
       "company": "Ameren",
       "sector": "UTILITIES",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 891093.0,
-      "market_value": 29609654272.0
+      "change_pct": 2.131039185737717,
+      "current_price": 109.2699966430664,
+      "volume": 2020100.0,
+      "market_value": 30240647168.0
     },
     {
       "symbol": "AEP",
       "company": "American Electric Power",
       "sector": "UTILITIES",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 4819838.0,
-      "market_value": 69531181056.0
+      "change_pct": 1.056419488574446,
+      "current_price": 129.13999938964844,
+      "volume": 3544500.0,
+      "market_value": 70265724928.0
     },
     {
       "symbol": "AXP",
       "company": "American Express",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2434439.0,
-      "market_value": 213247492096.0
+      "change_pct": -0.5983409991013557,
+      "current_price": 310.6600036621094,
+      "volume": 2445700.0,
+      "market_value": 211971538944.0
     },
     {
       "symbol": "AIG",
       "company": "American International Group",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2670402.0,
-      "market_value": 38938345472.0
+      "change_pct": 2.7913880095508716,
+      "current_price": 75.48999786376953,
+      "volume": 3136300.0,
+      "market_value": 40025264128.0
     },
     {
       "symbol": "AMT",
       "company": "American Tower",
       "sector": "REAL ESTATE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2642839.0,
-      "market_value": 90341326848.0
+      "change_pct": 0.10829325517627124,
+      "current_price": 194.1199951171875,
+      "volume": 3060800.0,
+      "market_value": 90439155712.0
     },
     {
       "symbol": "AWK",
       "company": "American Water Works",
       "sector": "UTILITIES",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1376721.0,
-      "market_value": 23873044480.0
+      "change_pct": 1.8159519187755622,
+      "current_price": 124.47000122070312,
+      "volume": 2580000.0,
+      "market_value": 24306567168.0
     },
     {
       "symbol": "AMP",
       "company": "Ameriprise Financial",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 565564.0,
-      "market_value": 40911265792.0
+      "change_pct": -0.09448519616809889,
+      "current_price": 454.6600036621094,
+      "volume": 615400.0,
+      "market_value": 40872611840.0
     },
     {
       "symbol": "AME",
       "company": "Ametek",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 975929.0,
-      "market_value": 52432478208.0
+      "change_pct": -0.9660742735382801,
+      "current_price": 226.5500030517578,
+      "volume": 999600.0,
+      "market_value": 51925942272.0
     },
     {
       "symbol": "AMGN",
       "company": "Amgen",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2905587.0,
-      "market_value": 186523189248.0
+      "change_pct": 1.1516146986287663,
+      "current_price": 349.5799865722656,
+      "volume": 3450800.0,
+      "market_value": 188671213568.0
     },
     {
       "symbol": "APH",
       "company": "Amphenol",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 5617573.0,
-      "market_value": 180561526784.0
+      "change_pct": -5.423456075595929,
+      "current_price": 138.80999755859375,
+      "volume": 7165600.0,
+      "market_value": 170768842752.0
     },
     {
       "symbol": "ADI",
       "company": "Analog Devices",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 3348255.0,
-      "market_value": 208843440128.0
+      "change_pct": -6.383523298301276,
+      "current_price": 401.3900146484375,
+      "volume": 7241100.0,
+      "market_value": 195511877632.0
     },
     {
       "symbol": "AON",
       "company": "Aon plc",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1256339.0,
-      "market_value": 68823031808.0
+      "change_pct": 1.9519639819834154,
+      "current_price": 328.5299987792969,
+      "volume": 1341000.0,
+      "market_value": 70166429696.0
     },
     {
       "symbol": "APA",
       "company": "APA Corporation",
       "sector": "ENERGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2630011.0,
-      "market_value": 13509633024.0
+      "change_pct": -4.317115314442032,
+      "current_price": 36.56999969482422,
+      "volume": 3605100.0,
+      "market_value": 12926406656.0
     },
     {
       "symbol": "APO",
       "company": "Apollo Global Management",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 4106302.0,
-      "market_value": 74030612480.0
+      "change_pct": -0.29593090255835736,
+      "current_price": 128.02999877929688,
+      "volume": 2858300.0,
+      "market_value": 73811533824.0
     },
     {
       "symbol": "AAPL",
       "company": "Apple Inc.",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 37124759.0,
-      "market_value": 4571145961472.0
+      "change_pct": -1.24988417283717,
+      "current_price": 307.3399963378906,
+      "volume": 65246700.0,
+      "market_value": 4514011676672.0
     },
     {
       "symbol": "AMAT",
       "company": "Applied Materials",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 6693349.0,
-      "market_value": 398329446400.0
+      "change_pct": -9.705003240325587,
+      "current_price": 453.010009765625,
+      "volume": 11896900.0,
+      "market_value": 359671562240.0
     },
     {
       "symbol": "APP",
       "company": "AppLovin",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 4956259.0,
-      "market_value": 187746516992.0
+      "change_pct": -0.2988142009316634,
+      "current_price": 557.2000122070312,
+      "volume": 5543100.0,
+      "market_value": 187185512448.0
     },
     {
       "symbol": "APTV",
       "company": "Aptiv",
       "sector": "CONSUMER CYCLICAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 6325977.0,
-      "market_value": 15431368704.0
+      "change_pct": -5.924300333655236,
+      "current_price": 68.5999984741211,
+      "volume": 5326100.0,
+      "market_value": 14517168128.0
     },
     {
       "symbol": "ACGL",
       "company": "Arch Capital Group",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1976295.0,
-      "market_value": 30865076224.0
+      "change_pct": 3.2261786525490335,
+      "current_price": 91.19000244140625,
+      "volume": 2328300.0,
+      "market_value": 31860838400.0
     },
     {
       "symbol": "ADM",
       "company": "Archer Daniels Midland",
       "sector": "CONSUMER DEFENSIVE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2448937.0,
-      "market_value": 40180715520.0
+      "change_pct": -2.938712362867426,
+      "current_price": 80.91999816894531,
+      "volume": 3512900.0,
+      "market_value": 38999920640.0
     },
     {
       "symbol": "ARES",
       "company": "Ares Management",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2127049.0,
-      "market_value": 43044982784.0
+      "change_pct": -3.716473926529574,
+      "current_price": 125.6500015258789,
+      "volume": 1850500.0,
+      "market_value": 41445228544.0
     },
     {
       "symbol": "ANET",
       "company": "Arista Networks",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 8901442.0,
-      "market_value": 209034706944.0
+      "change_pct": -7.07185749222561,
+      "current_price": 154.27000427246094,
+      "volume": 9076200.0,
+      "market_value": 194252062720.0
     },
     {
       "symbol": "AJG",
       "company": "Arthur J. Gallagher & Co.",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1287967.0,
-      "market_value": 54214762496.0
+      "change_pct": 2.776983477481605,
+      "current_price": 216.13999938964844,
+      "volume": 1462900.0,
+      "market_value": 55535443968.0
     },
     {
       "symbol": "AIZ",
       "company": "Assurant",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 316060.0,
-      "market_value": 12469157888.0
+      "change_pct": 2.2609879832338855,
+      "current_price": 257.3500061035156,
+      "volume": 613800.0,
+      "market_value": 12751084544.0
     },
     {
       "symbol": "T",
       "company": "AT&T",
       "sector": "COMMUNICATION SERVICES",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 72066302.0,
-      "market_value": 158213668864.0
+      "change_pct": -0.08783687905835114,
+      "current_price": 22.75,
+      "volume": 60805100.0,
+      "market_value": 158074699776.0
     },
     {
       "symbol": "ATO",
       "company": "Atmos Energy",
       "sector": "UTILITIES",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1094365.0,
-      "market_value": 28035854336.0
+      "change_pct": 1.3574652823043933,
+      "current_price": 170.24000549316406,
+      "volume": 1467600.0,
+      "market_value": 28416432128.0
     },
     {
       "symbol": "ADSK",
       "company": "Autodesk",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1873770.0,
-      "market_value": 49331974144.0
+      "change_pct": -1.5750696307972571,
+      "current_price": 229.9600067138672,
+      "volume": 2684600.0,
+      "market_value": 48554962944.0
     },
     {
       "symbol": "ADP",
       "company": "Automatic Data Processing",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2115202.0,
-      "market_value": 92462530560.0
+      "change_pct": 0.27668470727743516,
+      "current_price": 231.9499969482422,
+      "volume": 2980400.0,
+      "market_value": 92718366720.0
     },
     {
       "symbol": "AZO",
       "company": "AutoZone",
       "sector": "CONSUMER CYCLICAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 398243.0,
-      "market_value": 50448273408.0
+      "change_pct": 1.119100011359652,
+      "current_price": 3116.429931640625,
+      "volume": 408000.0,
+      "market_value": 51012841472.0
     },
     {
       "symbol": "AVB",
       "company": "AvalonBay Communities",
       "sector": "REAL ESTATE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1001686.0,
-      "market_value": 26840776704.0
+      "change_pct": 0.2801410076946429,
+      "current_price": 189.72000122070312,
+      "volume": 874700.0,
+      "market_value": 26915969024.0
     },
     {
       "symbol": "AVY",
       "company": "Avery Dennison",
       "sector": "BASIC MATERIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 313409.0,
-      "market_value": 11722150912.0
+      "change_pct": 1.259375318617455,
+      "current_price": 155.17999267578125,
+      "volume": 589000.0,
+      "market_value": 11869776896.0
     },
     {
       "symbol": "AXON",
       "company": "Axon Enterprise",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1285423.0,
-      "market_value": 41364987904.0
+      "change_pct": -5.276698450061481,
+      "current_price": 486.1199951171875,
+      "volume": 1667000.0,
+      "market_value": 39182282752.0
     },
     {
       "symbol": "BKR",
       "company": "Baker Hughes",
       "sector": "ENERGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 5921197.0,
-      "market_value": 65585659904.0
+      "change_pct": -5.324459877878911,
+      "current_price": 62.59000015258789,
+      "volume": 7172800.0,
+      "market_value": 62093578240.0
     },
     {
       "symbol": "BALL",
       "company": "Ball Corporation",
       "sector": "BASIC MATERIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 3633754.0,
-      "market_value": 14031191040.0
+      "change_pct": 0.4174523772693558,
+      "current_price": 52.91999816894531,
+      "volume": 2391600.0,
+      "market_value": 14089764864.0
     },
     {
       "symbol": "BAC",
       "company": "Bank of America",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 34258778.0,
-      "market_value": 384422313984.0
+      "change_pct": -0.11133338146831515,
+      "current_price": 53.83000183105469,
+      "volume": 38822900.0,
+      "market_value": 382009507840.0
     },
     {
       "symbol": "BAX",
       "company": "Baxter International",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 5852719.0,
-      "market_value": 9993674752.0
+      "change_pct": 0.15503244809030048,
+      "current_price": 19.3799991607666,
+      "volume": 6838800.0,
+      "market_value": 10009168896.0
     },
     {
       "symbol": "BDX",
       "company": "Becton Dickinson",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2241565.0,
-      "market_value": 41209823232.0
+      "change_pct": 1.0698088590759598,
+      "current_price": 151.16000366210938,
+      "volume": 2077400.0,
+      "market_value": 41650692096.0
     },
     {
       "symbol": "BBY",
       "company": "Best Buy",
       "sector": "CONSUMER CYCLICAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 3316360.0,
-      "market_value": 14957250560.0
+      "change_pct": 0.774761330199324,
+      "current_price": 71.54000091552734,
+      "volume": 3901500.0,
+      "market_value": 15073133568.0
     },
     {
       "symbol": "TECH",
       "company": "Bio-Techne",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 3543975.0,
-      "market_value": 8326326272.0
+      "change_pct": -2.237680744415428,
+      "current_price": 51.9900016784668,
+      "volume": 2947800.0,
+      "market_value": 8140009472.0
     },
     {
       "symbol": "BIIB",
       "company": "Biogen",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 698598.0,
-      "market_value": 29003311104.0
+      "change_pct": -0.5650295890022383,
+      "current_price": 195.33999633789062,
+      "volume": 880400.0,
+      "market_value": 28839434240.0
     },
     {
       "symbol": "BLK",
       "company": "BlackRock",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 789173.0,
-      "market_value": 166522372096.0
+      "change_pct": -2.0878594638500405,
+      "current_price": 995.5999755859375,
+      "volume": 724100.0,
+      "market_value": 162131968000.0
     },
     {
       "symbol": "BX",
       "company": "Blackstone Inc.",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 8014315.0,
-      "market_value": 144899162112.0
+      "change_pct": -2.6992867948216137,
+      "current_price": 115.3499984741211,
+      "volume": 5561000.0,
+      "market_value": 140987924480.0
     },
     {
       "symbol": "XYZ",
       "company": "Block, Inc.",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 4569394.0,
-      "market_value": 42192379904.0
+      "change_pct": -3.8651401994082026,
+      "current_price": 68.1500015258789,
+      "volume": 4884000.0,
+      "market_value": 40561586176.0
     },
     {
       "symbol": "BNY",
       "company": "BNY Mellon",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 3359054.0,
-      "market_value": 98852306944.0
+      "change_pct": -1.131790608566302,
+      "current_price": 142.38999938964844,
+      "volume": 2996300.0,
+      "market_value": 97733517312.0
     },
     {
       "symbol": "BA",
       "company": "Boeing",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 6848992.0,
-      "market_value": 171392696320.0
+      "change_pct": -0.9060809664676492,
+      "current_price": 215.4499969482422,
+      "volume": 4797200.0,
+      "market_value": 169839738880.0
     },
     {
       "symbol": "BKNG",
       "company": "Booking Holdings",
       "sector": "CONSUMER CYCLICAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 6659075.0,
-      "market_value": 129784397824.0
+      "change_pct": -0.7362248951968655,
+      "current_price": 165.83999633789062,
+      "volume": 7809100.0,
+      "market_value": 128505839616.0
     },
     {
       "symbol": "BSX",
       "company": "Boston Scientific",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 22680549.0,
-      "market_value": 72608448512.0
+      "change_pct": -0.6141233294397651,
+      "current_price": 48.54999923706055,
+      "volume": 20256000.0,
+      "market_value": 72162541568.0
     },
     {
       "symbol": "BMY",
       "company": "Bristol Myers Squibb",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 8886510.0,
-      "market_value": 115581231104.0
+      "change_pct": 1.1837491196204175,
+      "current_price": 57.27000045776367,
+      "volume": 9574700.0,
+      "market_value": 116949426176.0
     },
     {
       "symbol": "AVGO",
       "company": "Broadcom",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 80554978.0,
-      "market_value": 1983399854080.0
+      "change_pct": -7.920553910320094,
+      "current_price": 385.7300109863281,
+      "volume": 50977900.0,
+      "market_value": 1826303639552.0
     },
     {
       "symbol": "BR",
       "company": "Broadridge Financial Solutions",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1193010.0,
-      "market_value": 17822943232.0
+      "change_pct": -1.7910510423802206,
+      "current_price": 151.33999633789062,
+      "volume": 1345300.0,
+      "market_value": 17503725568.0
     },
     {
       "symbol": "BRO",
       "company": "Brown & Brown",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 3069590.0,
-      "market_value": 19448827904.0
+      "change_pct": 2.579295076135386,
+      "current_price": 58.86000061035156,
+      "volume": 2278100.0,
+      "market_value": 19950469120.0
     },
     {
       "symbol": "BLDR",
       "company": "Builders FirstSource",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2042274.0,
-      "market_value": 8064839680.0
+      "change_pct": -1.7871484493088416,
+      "current_price": 73.63999938964844,
+      "volume": 2395200.0,
+      "market_value": 7920709120.0
     },
     {
       "symbol": "BG",
       "company": "Bunge Global",
       "sector": "CONSUMER DEFENSIVE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1791934.0,
-      "market_value": 25109823488.0
+      "change_pct": -2.287126507766337,
+      "current_price": 126.45999908447266,
+      "volume": 1321000.0,
+      "market_value": 24535529472.0
     },
     {
       "symbol": "BXP",
       "company": "BXP, Inc.",
       "sector": "REAL ESTATE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1326981.0,
-      "market_value": 11064223744.0
+      "change_pct": 0.4512531787863484,
+      "current_price": 62.33000183105469,
+      "volume": 1306400.0,
+      "market_value": 11114150912.0
     },
     {
       "symbol": "CHRW",
       "company": "C.H. Robinson",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1353876.0,
-      "market_value": 21758183424.0
+      "change_pct": 0.07067019398304678,
+      "current_price": 184.08999633789062,
+      "volume": 1004500.0,
+      "market_value": 21699248128.0
     },
     {
       "symbol": "CDNS",
       "company": "Cadence Design Systems",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2979705.0,
-      "market_value": 113547927552.0
+      "change_pct": -8.620771197478415,
+      "current_price": 376.19000244140625,
+      "volume": 3519000.0,
+      "market_value": 103759224832.0
     },
     {
       "symbol": "CPT",
       "company": "Camden Property Trust",
       "sector": "REAL ESTATE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1005430.0,
-      "market_value": 11099137024.0
+      "change_pct": 0.5267354045516853,
+      "current_price": 112.5999984741211,
+      "volume": 1606800.0,
+      "market_value": 11157600256.0
     },
     {
       "symbol": "CPB",
       "company": "Campbell's Company (The)",
       "sector": "CONSUMER DEFENSIVE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 9875793.0,
-      "market_value": 6425056768.0
+      "change_pct": 0.6032532376691013,
+      "current_price": 21.68000030517578,
+      "volume": 13453900.0,
+      "market_value": 6463816192.0
     },
     {
       "symbol": "COF",
       "company": "Capital One",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 3456894.0,
-      "market_value": 114004041728.0
+      "change_pct": -1.3810037234944128,
+      "current_price": 180.6699981689453,
+      "volume": 6083400.0,
+      "market_value": 112429637632.0
     },
     {
       "symbol": "CAH",
       "company": "Cardinal Health",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1552754.0,
-      "market_value": 47248691200.0
+      "change_pct": 1.9678800002995183,
+      "current_price": 205.7100067138672,
+      "volume": 1590800.0,
+      "market_value": 48178487296.0
     },
     {
       "symbol": "CCL",
       "company": "Carnival Corporation",
       "sector": "CONSUMER CYCLICAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 17883322.0,
-      "market_value": 38576136192.0
+      "change_pct": -1.5798941760531389,
+      "current_price": 27.40999984741211,
+      "volume": 15892400.0,
+      "market_value": 37966675968.0
     },
     {
       "symbol": "CARR",
       "company": "Carrier Global",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 5412301.0,
-      "market_value": 56927981568.0
+      "change_pct": -2.013418784628785,
+      "current_price": 67.16000366210938,
+      "volume": 6387800.0,
+      "market_value": 55781785600.0
     },
     {
       "symbol": "CVNA",
       "company": "Carvana",
       "sector": "CONSUMER CYCLICAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 5758554.0,
-      "market_value": 72599560192.0
+      "change_pct": 0.4834562366234899,
+      "current_price": 66.51000213623047,
+      "volume": 6718600.0,
+      "market_value": 72950546432.0
     },
     {
       "symbol": "CASY",
       "company": "Casey's",
       "sector": "CONSUMER DEFENSIVE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 437545.0,
-      "market_value": 28229062656.0
+      "change_pct": 0.04464012724279573,
+      "current_price": 761.9099731445312,
+      "volume": 434900.0,
+      "market_value": 28241666048.0
     },
     {
       "symbol": "CAT",
       "company": "Caterpillar Inc.",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2179672.0,
-      "market_value": 433177526272.0
+      "change_pct": -3.8490932208713655,
+      "current_price": 904.280029296875,
+      "volume": 2779300.0,
+      "market_value": 416504119296.0
     },
     {
       "symbol": "CBOE",
       "company": "Cboe Global Markets",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1708909.0,
-      "market_value": 29934120960.0
+      "change_pct": -1.4404066478238609,
+      "current_price": 281.9100036621094,
+      "volume": 1520000.0,
+      "market_value": 29502949376.0
     },
     {
       "symbol": "CBRE",
       "company": "CBRE Group",
       "sector": "REAL ESTATE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1717384.0,
-      "market_value": 38344331264.0
+      "change_pct": -0.015276267985591601,
+      "current_price": 130.92999267578125,
+      "volume": 2482400.0,
+      "market_value": 38338473984.0
     },
     {
       "symbol": "CDW",
       "company": "CDW Corporation",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2278200.0,
-      "market_value": 17815218176.0
+      "change_pct": -4.596632343053038,
+      "current_price": 133.0399932861328,
+      "volume": 1641800.0,
+      "market_value": 16996318208.0
     },
     {
       "symbol": "COR",
       "company": "Cencora",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1135044.0,
-      "market_value": 52593745920.0
+      "change_pct": 1.74607912578295,
+      "current_price": 275.0400085449219,
+      "volume": 1319200.0,
+      "market_value": 53512073216.0
     },
     {
       "symbol": "CNC",
       "company": "Centene Corporation",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 5831198.0,
-      "market_value": 30961072128.0
+      "change_pct": -0.5901099320296398,
+      "current_price": 62.33000183105469,
+      "volume": 3961000.0,
+      "market_value": 30778368000.0
     },
     {
       "symbol": "CNP",
       "company": "CenterPoint Energy",
       "sector": "UTILITIES",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 3225987.0,
-      "market_value": 27376992256.0
+      "change_pct": 2.0071688965707466,
+      "current_price": 42.689998626708984,
+      "volume": 4075100.0,
+      "market_value": 27926493184.0
     },
     {
       "symbol": "CF",
       "company": "CF Industries",
       "sector": "BASIC MATERIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1815192.0,
-      "market_value": 18054512640.0
+      "change_pct": -3.4292025990579726,
+      "current_price": 113.48999786376953,
+      "volume": 2234900.0,
+      "market_value": 17435385856.0
     },
     {
       "symbol": "CRL",
       "company": "Charles River Laboratories",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 609660.0,
-      "market_value": 8949082112.0
+      "change_pct": -2.395175794741972,
+      "current_price": 181.33999633789062,
+      "volume": 519300.0,
+      "market_value": 8734735360.0
     },
     {
       "symbol": "SCHW",
       "company": "Charles Schwab Corporation",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 9344315.0,
-      "market_value": 153043927040.0
+      "change_pct": 0.9545412930575284,
+      "current_price": 88.83999633789062,
+      "volume": 9212200.0,
+      "market_value": 154504790016.0
     },
     {
       "symbol": "CHTR",
       "company": "Charter Communications",
       "sector": "COMMUNICATION SERVICES",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 4245634.0,
-      "market_value": 20219342848.0
+      "change_pct": 2.3789166933986143,
+      "current_price": 132.1199951171875,
+      "volume": 2731600.0,
+      "market_value": 20700344320.0
     },
     {
       "symbol": "CVX",
       "company": "Chevron Corporation",
       "sector": "ENERGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 5153211.0,
-      "market_value": 375117447168.0
+      "change_pct": -0.5521680441838133,
+      "current_price": 187.30999755859375,
+      "volume": 6308700.0,
+      "market_value": 373046149120.0
     },
     {
       "symbol": "CMG",
       "company": "Chipotle Mexican Grill",
       "sector": "CONSUMER CYCLICAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 29142378.0,
-      "market_value": 36147441664.0
+      "change_pct": 4.116394020049226,
+      "current_price": 29.34000015258789,
+      "volume": 40670500.0,
+      "market_value": 37635416064.0
     },
     {
       "symbol": "CB",
       "company": "Chubb Limited",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1702773.0,
-      "market_value": 121982001152.0
+      "change_pct": 3.742444837415541,
+      "current_price": 326.2699890136719,
+      "volume": 1908900.0,
+      "market_value": 126547107840.0
     },
     {
       "symbol": "CHD",
       "company": "Church & Dwight",
       "sector": "CONSUMER DEFENSIVE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1925741.0,
-      "market_value": 22301132800.0
+      "change_pct": 2.78367513889883,
+      "current_price": 96.73999786376953,
+      "volume": 2157000.0,
+      "market_value": 22921922560.0
     },
     {
       "symbol": "CIEN",
       "company": "Ciena",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 7588956.0,
-      "market_value": 75843895296.0
+      "change_pct": -8.853128651392323,
+      "current_price": 488.2099914550781,
+      "volume": 4185300.0,
+      "market_value": 69107556352.0
     },
     {
       "symbol": "CI",
       "company": "Cigna",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1610014.0,
-      "market_value": 74248953856.0
+      "change_pct": 3.1352495867818915,
+      "current_price": 289.4800109863281,
+      "volume": 1703900.0,
+      "market_value": 76576841728.0
     },
     {
       "symbol": "CINF",
       "company": "Cincinnati Financial",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 828899.0,
-      "market_value": 24851972096.0
+      "change_pct": 2.8818557939043483,
+      "current_price": 165.2899932861328,
+      "volume": 523400.0,
+      "market_value": 25568169984.0
     },
     {
       "symbol": "CTAS",
       "company": "Cintas",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2498360.0,
-      "market_value": 72008638464.0
+      "change_pct": -0.06112503125567298,
+      "current_price": 179.85000610351562,
+      "volume": 2508500.0,
+      "market_value": 71964622848.0
     },
     {
       "symbol": "CSCO",
       "company": "Cisco",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 23296389.0,
-      "market_value": 512386498560.0
+      "change_pct": -6.430769700270433,
+      "current_price": 121.63999938964844,
+      "volume": 33148700.0,
+      "market_value": 479436111872.0
     },
     {
       "symbol": "C",
       "company": "Citigroup",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 9713778.0,
-      "market_value": 230508707840.0
+      "change_pct": -1.9829765422216303,
+      "current_price": 132.47000122070312,
+      "volume": 12555800.0,
+      "market_value": 225937784832.0
     },
     {
       "symbol": "CFG",
       "company": "Citizens Financial Group",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 3567724.0,
-      "market_value": 27022157824.0
+      "change_pct": 0.12519251087188696,
+      "current_price": 63.97999954223633,
+      "volume": 3671500.0,
+      "market_value": 27055986688.0
     },
     {
       "symbol": "CLX",
       "company": "Clorox",
       "sector": "CONSUMER DEFENSIVE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2126682.0,
-      "market_value": 10838180864.0
+      "change_pct": 5.031799926847017,
+      "current_price": 94.13999938964844,
+      "volume": 3289700.0,
+      "market_value": 11383535616.0
     },
     {
       "symbol": "CME",
       "company": "CME Group",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2896427.0,
-      "market_value": 92520300544.0
+      "change_pct": 0.5233134228957399,
+      "current_price": 257.3999938964844,
+      "volume": 3515900.0,
+      "market_value": 93004472320.0
     },
     {
       "symbol": "CMS",
       "company": "CMS Energy",
       "sector": "UTILITIES",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 3823461.0,
-      "market_value": 21735583744.0
+      "change_pct": 2.387720708644529,
+      "current_price": 72.04000091552734,
+      "volume": 4707800.0,
+      "market_value": 22254569472.0
     },
     {
       "symbol": "KO",
       "company": "Coca-Cola Company (The)",
       "sector": "CONSUMER DEFENSIVE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 12281672.0,
-      "market_value": 330516692992.0
+      "change_pct": 3.4626447184021454,
+      "current_price": 79.4800033569336,
+      "volume": 25699700.0,
+      "market_value": 341961310208.0
     },
     {
       "symbol": "CTSH",
       "company": "Cognizant",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 7180081.0,
-      "market_value": 25258201088.0
+      "change_pct": -0.35580980520041805,
+      "current_price": 53.209999084472656,
+      "volume": 9231700.0,
+      "market_value": 25168328704.0
     },
     {
       "symbol": "COHR",
       "company": "Coherent Corp.",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 6001404.0,
-      "market_value": 82540232704.0
+      "change_pct": -10.644703558144233,
+      "current_price": 376.989990234375,
+      "volume": 6392000.0,
+      "market_value": 73754066944.0
     },
     {
       "symbol": "COIN",
       "company": "Coinbase",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 8312755.0,
-      "market_value": 43241816064.0
+      "change_pct": -7.146780379799085,
+      "current_price": 152.39999389648438,
+      "volume": 16672900.0,
+      "market_value": 40151420928.0
     },
     {
       "symbol": "CL",
       "company": "Colgate-Palmolive",
       "sector": "CONSUMER DEFENSIVE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 3975454.0,
-      "market_value": 68096110592.0
+      "change_pct": 4.089310716018241,
+      "current_price": 88.58000183105469,
+      "volume": 5961600.0,
+      "market_value": 70880772096.0
     },
     {
       "symbol": "CMCSA",
       "company": "Comcast",
       "sector": "COMMUNICATION SERVICES",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 44639199.0,
-      "market_value": 83340091392.0
+      "change_pct": 2.1002990686693748,
+      "current_price": 23.81999969482422,
+      "volume": 37173100.0,
+      "market_value": 85090484224.0
     },
     {
       "symbol": "FIX",
       "company": "Comfort Systems USA",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 476911.0,
-      "market_value": 67364986880.0
+      "change_pct": -3.693107466439032,
+      "current_price": 1843.93994140625,
+      "volume": 365800.0,
+      "market_value": 64877125632.0
     },
     {
       "symbol": "CAG",
       "company": "Conagra Brands",
       "sector": "CONSUMER DEFENSIVE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 11443259.0,
-      "market_value": 6066583040.0
+      "change_pct": 2.6025229949825297,
+      "current_price": 13.010000228881836,
+      "volume": 14728100.0,
+      "market_value": 6224467456.0
     },
     {
       "symbol": "COP",
       "company": "ConocoPhillips",
       "sector": "ENERGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 4811325.0,
-      "market_value": 145257201664.0
+      "change_pct": -1.752917813000813,
+      "current_price": 117.13999938964844,
+      "volume": 5988000.0,
+      "market_value": 142710964224.0
     },
     {
       "symbol": "ED",
       "company": "Consolidated Edison",
       "sector": "UTILITIES",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1352288.0,
-      "market_value": 38356570112.0
+      "change_pct": 2.0945429158566053,
+      "current_price": 106.26000213623047,
+      "volume": 1810100.0,
+      "market_value": 39159967744.0
     },
     {
       "symbol": "STZ",
       "company": "Constellation Brands",
       "sector": "CONSUMER DEFENSIVE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1464021.0,
-      "market_value": 23729115136.0
+      "change_pct": 2.2717411166669437,
+      "current_price": 140.91000366210938,
+      "volume": 2640300.0,
+      "market_value": 24268179456.0
     },
     {
       "symbol": "CEG",
       "company": "Constellation Energy",
       "sector": "UTILITIES",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 3281759.0,
-      "market_value": 94485618688.0
+      "change_pct": -3.688723928312122,
+      "current_price": 254.8300018310547,
+      "volume": 4121100.0,
+      "market_value": 91000307712.0
     },
     {
       "symbol": "COO",
       "company": "Cooper Companies (The)",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 3724689.0,
-      "market_value": 12100995072.0
+      "change_pct": 8.577871397711341,
+      "current_price": 67.33999633789062,
+      "volume": 9087400.0,
+      "market_value": 13139003392.0
     },
     {
       "symbol": "CPRT",
       "company": "Copart",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 10074787.0,
-      "market_value": 28487219200.0
+      "change_pct": 0.6174800906154854,
+      "current_price": 30.959999084472656,
+      "volume": 12369600.0,
+      "market_value": 28663121920.0
     },
     {
       "symbol": "GLW",
       "company": "Corning Inc.",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 11036274.0,
-      "market_value": 170148102144.0
+      "change_pct": -10.17703360028625,
+      "current_price": 177.5800018310547,
+      "volume": 15639000.0,
+      "market_value": 152832065536.0
     },
     {
       "symbol": "CPAY",
       "company": "Corpay",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 333325.0,
-      "market_value": 23345969152.0
+      "change_pct": -2.7241112795424907,
+      "current_price": 347.45001220703125,
+      "volume": 492400.0,
+      "market_value": 22709999616.0
     },
     {
       "symbol": "CTVA",
       "company": "Corteva",
       "sector": "BASIC MATERIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2225587.0,
-      "market_value": 51806793728.0
+      "change_pct": -0.55512562646283,
+      "current_price": 77.02999877929688,
+      "volume": 3343200.0,
+      "market_value": 51519201280.0
     },
     {
       "symbol": "CSGP",
       "company": "CoStar Group",
       "sector": "REAL ESTATE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 7145389.0,
-      "market_value": 13745253376.0
+      "change_pct": 0.683302267614274,
+      "current_price": 33.88999938964844,
+      "volume": 6998700.0,
+      "market_value": 13839174656.0
     },
     {
       "symbol": "COST",
       "company": "Costco",
       "sector": "CONSUMER DEFENSIVE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2201925.0,
-      "market_value": 431216623616.0
+      "change_pct": -0.049362933182650004,
+      "current_price": 971.8699951171875,
+      "volume": 3083000.0,
+      "market_value": 431003762688.0
     },
     {
       "symbol": "CRH",
       "company": "CRH plc",
       "sector": "BASIC MATERIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1996597.0,
-      "market_value": 71210090496.0
+      "change_pct": -1.4169110824383393,
+      "current_price": 105.05999755859375,
+      "volume": 2970200.0,
+      "market_value": 70201114624.0
     },
     {
       "symbol": "CRWD",
       "company": "CrowdStrike",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 7389052.0,
-      "market_value": 183055024128.0
+      "change_pct": -6.68483854996927,
+      "current_price": 671.02001953125,
+      "volume": 5230200.0,
+      "market_value": 170818093056.0
     },
     {
       "symbol": "CCI",
       "company": "Crown Castle",
       "sector": "REAL ESTATE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 5109864.0,
-      "market_value": 40934830080.0
+      "change_pct": 0.7463449636519834,
+      "current_price": 94.48999786376953,
+      "volume": 5481700.0,
+      "market_value": 41240346624.0
     },
     {
       "symbol": "CSX",
       "company": "CSX Corporation",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 11089745.0,
-      "market_value": 85901762560.0
+      "change_pct": 1.6439587794849986,
+      "current_price": 46.9900016784668,
+      "volume": 13615300.0,
+      "market_value": 87313948672.0
     },
     {
       "symbol": "CMI",
       "company": "Cummins",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 622346.0,
-      "market_value": 93570383872.0
+      "change_pct": -3.964017969413114,
+      "current_price": 651.219970703125,
+      "volume": 981800.0,
+      "market_value": 89861242880.0
     },
     {
       "symbol": "CVS",
       "company": "CVS Health",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 12330798.0,
-      "market_value": 120983429120.0
+      "change_pct": 1.1706397531365444,
+      "current_price": 95.93000030517578,
+      "volume": 9702200.0,
+      "market_value": 122399703040.0
     },
     {
       "symbol": "DHR",
       "company": "Danaher Corporation",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 7751858.0,
-      "market_value": 132098310144.0
+      "change_pct": -1.253748577766234,
+      "current_price": 184.3000030517578,
+      "volume": 3305400.0,
+      "market_value": 130442125312.0
     },
     {
       "symbol": "DRI",
       "company": "Darden Restaurants",
       "sector": "CONSUMER CYCLICAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 989616.0,
-      "market_value": 22157942784.0
+      "change_pct": 2.4087605921634063,
+      "current_price": 198.1199951171875,
+      "volume": 960500.0,
+      "market_value": 22691674112.0
     },
     {
       "symbol": "DDOG",
       "company": "Datadog",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 6921049.0,
-      "market_value": 86711902208.0
+      "change_pct": -3.895732863459523,
+      "current_price": 234.11000061035156,
+      "volume": 6788000.0,
+      "market_value": 83333840896.0
     },
     {
       "symbol": "DVA",
       "company": "DaVita",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 651654.0,
-      "market_value": 12334431232.0
+      "change_pct": -0.005200867425283981,
+      "current_price": 192.16000366210938,
+      "volume": 624200.0,
+      "market_value": 12333790208.0
     },
     {
       "symbol": "DECK",
       "company": "Deckers Brands",
       "sector": "CONSUMER CYCLICAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1304834.0,
-      "market_value": 15132469248.0
+      "change_pct": -0.7617491171335434,
+      "current_price": 108.12999725341797,
+      "volume": 1181300.0,
+      "market_value": 15017197568.0
     },
     {
       "symbol": "DE",
       "company": "Deere & Company",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1765800.0,
-      "market_value": 159735480320.0
+      "change_pct": -1.4043088396440644,
+      "current_price": 583.4400024414062,
+      "volume": 1751600.0,
+      "market_value": 157492297728.0
     },
     {
       "symbol": "DELL",
       "company": "Dell Technologies",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 12261715.0,
-      "market_value": 274150277120.0
+      "change_pct": -6.553719688317939,
+      "current_price": 394.3900146484375,
+      "volume": 10948500.0,
+      "market_value": 256183238656.0
     },
     {
       "symbol": "DAL",
       "company": "Delta Air Lines",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 4171792.0,
-      "market_value": 52237623296.0
+      "change_pct": -0.11319829564454757,
+      "current_price": 79.41999816894531,
+      "volume": 5065500.0,
+      "market_value": 52178493440.0
     },
     {
       "symbol": "DVN",
       "company": "Devon Energy",
       "sector": "ENERGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 13094824.0,
-      "market_value": 53045010432.0
+      "change_pct": -3.71820577682338,
+      "current_price": 44.279998779296875,
+      "volume": 11087700.0,
+      "market_value": 51072688128.0
     },
     {
       "symbol": "DXCM",
       "company": "Dexcom",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 6193870.0,
-      "market_value": 28010518528.0
+      "change_pct": 0.3719579640204504,
+      "current_price": 72.86000061035156,
+      "volume": 4858800.0,
+      "market_value": 28114706432.0
     },
     {
       "symbol": "FANG",
       "company": "Diamondback Energy",
       "sector": "ENERGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 4772665.0,
-      "market_value": 57089724416.0
+      "change_pct": -5.085250418876086,
+      "current_price": 192.6199951171875,
+      "volume": 3749300.0,
+      "market_value": 54186569728.0
     },
     {
       "symbol": "DLR",
       "company": "Digital Realty",
       "sector": "REAL ESTATE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1528568.0,
-      "market_value": 67497811968.0
+      "change_pct": -1.0121906163216647,
+      "current_price": 186.7899932861328,
+      "volume": 1892200.0,
+      "market_value": 66814607360.0
     },
     {
       "symbol": "DG",
       "company": "Dollar General",
       "sector": "CONSUMER DEFENSIVE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 3033608.0,
-      "market_value": 22835128320.0
+      "change_pct": 0.1738797440231924,
+      "current_price": 103.69999694824219,
+      "volume": 2786000.0,
+      "market_value": 22874832896.0
     },
     {
       "symbol": "DLTR",
       "company": "Dollar Tree",
       "sector": "CONSUMER DEFENSIVE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2539758.0,
-      "market_value": 20998916096.0
+      "change_pct": -0.43012135604235563,
+      "current_price": 108.80000305175781,
+      "volume": 2036100.0,
+      "market_value": 20908595200.0
     },
     {
       "symbol": "D",
       "company": "Dominion Energy",
       "sector": "UTILITIES",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 6055956.0,
-      "market_value": 58487582720.0
+      "change_pct": 0.6015060539532425,
+      "current_price": 66.9000015258789,
+      "volume": 5117200.0,
+      "market_value": 58839388160.0
     },
     {
       "symbol": "DPZ",
       "company": "Domino's",
       "sector": "CONSUMER CYCLICAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 725921.0,
-      "market_value": 10228358144.0
+      "change_pct": 2.1072421264234125,
+      "current_price": 313.989990234375,
+      "volume": 878800.0,
+      "market_value": 10443893760.0
     },
     {
       "symbol": "DASH",
       "company": "DoorDash",
       "sector": "CONSUMER CYCLICAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 4528137.0,
-      "market_value": 69745500160.0
+      "change_pct": -2.042858826037039,
+      "current_price": 156.8000030517578,
+      "volume": 6437500.0,
+      "market_value": 68320698368.0
     },
     {
       "symbol": "DOV",
       "company": "Dover Corporation",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 823866.0,
-      "market_value": 28746170368.0
+      "change_pct": 0.6042972215094099,
+      "current_price": 214.75999450683594,
+      "volume": 778300.0,
+      "market_value": 28919883776.0
     },
     {
       "symbol": "DOW",
       "company": "Dow Inc.",
       "sector": "BASIC MATERIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 8980371.0,
-      "market_value": 25074595840.0
+      "change_pct": -2.3569981984629367,
+      "current_price": 33.970001220703125,
+      "volume": 8120600.0,
+      "market_value": 24483588096.0
     },
     {
       "symbol": "DHI",
       "company": "D. R. Horton",
       "sector": "CONSUMER CYCLICAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1527761.0,
-      "market_value": 41518891008.0
+      "change_pct": -0.5532392174943821,
+      "current_price": 145.60000610351562,
+      "volume": 1431400.0,
+      "market_value": 41289195520.0
     },
     {
       "symbol": "DTE",
       "company": "DTE Energy",
       "sector": "UTILITIES",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1337373.0,
-      "market_value": 29691881472.0
+      "change_pct": 2.129901657620046,
+      "current_price": 145.77000427246094,
+      "volume": 1325100.0,
+      "market_value": 30324289536.0
     },
     {
       "symbol": "DUK",
       "company": "Duke Energy",
       "sector": "UTILITIES",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 3481510.0,
-      "market_value": 94970413056.0
+      "change_pct": 1.9701211064613682,
+      "current_price": 124.22000122070312,
+      "volume": 3362300.0,
+      "market_value": 96841441280.0
     },
     {
       "symbol": "DD",
       "company": "DuPont",
       "sector": "BASIC MATERIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1679345.0,
-      "market_value": 19301023744.0
+      "change_pct": -1.6789150601040959,
+      "current_price": 46.849998474121094,
+      "volume": 2675700.0,
+      "market_value": 18976976896.0
     },
     {
       "symbol": "ETN",
       "company": "Eaton Corporation",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1859048.0,
-      "market_value": 162546253824.0
+      "change_pct": -5.415538019504539,
+      "current_price": 395.94000244140625,
+      "volume": 2536400.0,
+      "market_value": 153743507456.0
     },
     {
       "symbol": "EBAY",
       "company": "eBay Inc.",
       "sector": "CONSUMER CYCLICAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 4447443.0,
-      "market_value": 48462602240.0
+      "change_pct": 0.18323128304745762,
+      "current_price": 109.3499984741211,
+      "volume": 4018200.0,
+      "market_value": 48551399424.0
     },
     {
       "symbol": "SATS",
       "company": "EchoStar",
       "sector": "COMMUNICATION SERVICES",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 6083576.0,
-      "market_value": 36122353664.0
+      "change_pct": -6.707317595707461,
+      "current_price": 116.27999877929688,
+      "volume": 9720600.0,
+      "market_value": 33699514368.0
     },
     {
       "symbol": "ECL",
       "company": "Ecolab",
       "sector": "BASIC MATERIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1142522.0,
-      "market_value": 71578001408.0
+      "change_pct": 1.4312111679480117,
+      "current_price": 257.9700012207031,
+      "volume": 2353700.0,
+      "market_value": 72602435584.0
     },
     {
       "symbol": "EIX",
       "company": "Edison International",
       "sector": "UTILITIES",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2543378.0,
-      "market_value": 27632052224.0
+      "change_pct": 2.1167028605183864,
+      "current_price": 73.33000183105469,
+      "volume": 2517600.0,
+      "market_value": 28216940544.0
     },
     {
       "symbol": "EW",
       "company": "Edwards Lifesciences",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 3339297.0,
-      "market_value": 50353709056.0
+      "change_pct": -1.7038283770911915,
+      "current_price": 85.95999908447266,
+      "volume": 5779000.0,
+      "market_value": 49495769088.0
     },
     {
       "symbol": "EA",
       "company": "Electronic Arts",
       "sector": "COMMUNICATION SERVICES",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2714210.0,
-      "market_value": 51002851328.0
+      "change_pct": -0.19665383898091088,
+      "current_price": 203.0,
+      "volume": 2425400.0,
+      "market_value": 50902552576.0
     },
     {
       "symbol": "ELV",
       "company": "Elevance Health",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1073410.0,
-      "market_value": 88914968576.0
+      "change_pct": 1.4873965175794337,
+      "current_price": 415.5299987792969,
+      "volume": 1739200.0,
+      "market_value": 90237485056.0
     },
     {
       "symbol": "EME",
       "company": "Emcor",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 239147.0,
-      "market_value": 37649170432.0
+      "change_pct": -3.3107401531600313,
+      "current_price": 817.4400024414062,
+      "volume": 358000.0,
+      "market_value": 36402704384.0
     },
     {
       "symbol": "EMR",
       "company": "Emerson Electric",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1448188.0,
-      "market_value": 79567798272.0
+      "change_pct": -2.77347776229629,
+      "current_price": 138.1199951171875,
+      "volume": 2232600.0,
+      "market_value": 77361004544.0
     },
     {
       "symbol": "ETR",
       "company": "Entergy",
       "sector": "UTILITIES",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2590315.0,
-      "market_value": 50037874688.0
+      "change_pct": 1.3360167466887394,
+      "current_price": 110.73999786376953,
+      "volume": 5273400.0,
+      "market_value": 50706386944.0
     },
     {
       "symbol": "EOG",
       "company": "EOG Resources",
       "sector": "ENERGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1641566.0,
-      "market_value": 75036712960.0
+      "change_pct": -2.2004585434918797,
+      "current_price": 137.77999877929688,
+      "volume": 2750300.0,
+      "market_value": 73385558016.0
     },
     {
       "symbol": "EQT",
       "company": "EQT Corporation",
       "sector": "ENERGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 3766626.0,
-      "market_value": 34551406592.0
+      "change_pct": -2.6973237385827544,
+      "current_price": 53.75,
+      "volume": 4991800.0,
+      "market_value": 33619443712.0
     },
     {
       "symbol": "EFX",
       "company": "Equifax",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 959028.0,
-      "market_value": 20627310592.0
+      "change_pct": 0.6667052769315298,
+      "current_price": 172.1300048828125,
+      "volume": 1242600.0,
+      "market_value": 20764833792.0
     },
     {
       "symbol": "EQIX",
       "company": "Equinix",
       "sector": "REAL ESTATE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 447415.0,
-      "market_value": 107416600576.0
+      "change_pct": -0.7528873946083736,
+      "current_price": 1080.949951171875,
+      "volume": 524900.0,
+      "market_value": 106607878144.0
     },
     {
       "symbol": "EQR",
       "company": "Equity Residential",
       "sector": "REAL ESTATE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2153844.0,
-      "market_value": 26234931200.0
+      "change_pct": 0.42710001326997754,
+      "current_price": 68.19000244140625,
+      "volume": 2159700.0,
+      "market_value": 26346981376.0
     },
     {
       "symbol": "ERIE",
       "company": "Erie Indemnity",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 221255.0,
-      "market_value": 11478149120.0
+      "change_pct": 3.5123716034839063,
+      "current_price": 227.22000122070312,
+      "volume": 165700.0,
+      "market_value": 11881304064.0
     },
     {
       "symbol": "ESS",
       "company": "Essex Property Trust",
       "sector": "REAL ESTATE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 358436.0,
-      "market_value": 19617083392.0
+      "change_pct": 0.28811614715690376,
+      "current_price": 285.42999267578125,
+      "volume": 437100.0,
+      "market_value": 19673602048.0
     },
     {
       "symbol": "EL",
       "company": "Est\u00e9e Lauder Companies (The)",
       "sector": "CONSUMER DEFENSIVE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 3924757.0,
-      "market_value": 29992798208.0
+      "change_pct": 0.7116964137889018,
+      "current_price": 83.48999786376953,
+      "volume": 3165600.0,
+      "market_value": 30206257152.0
     },
     {
       "symbol": "EG",
       "company": "Everest Group",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 615686.0,
-      "market_value": 12643126272.0
+      "change_pct": 4.666667812866784,
+      "current_price": 334.4100036621094,
+      "volume": 701100.0,
+      "market_value": 13233138688.0
     },
     {
       "symbol": "EVRG",
       "company": "Evergy",
       "sector": "UTILITIES",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1280455.0,
-      "market_value": 18876710912.0
+      "change_pct": 1.685184105145337,
+      "current_price": 83.2699966430664,
+      "volume": 1708000.0,
+      "market_value": 19194818560.0
     },
     {
       "symbol": "ES",
       "company": "Eversource Energy",
       "sector": "UTILITIES",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2043721.0,
-      "market_value": 26280472576.0
+      "change_pct": 1.03033950916177,
+      "current_price": 70.5999984741211,
+      "volume": 3105800.0,
+      "market_value": 26551248896.0
     },
     {
       "symbol": "EXC",
       "company": "Exelon",
       "sector": "UTILITIES",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 7997059.0,
-      "market_value": 45665779712.0
+      "change_pct": 2.509520289222938,
+      "current_price": 45.75,
+      "volume": 8489700.0,
+      "market_value": 46811770880.0
     },
     {
       "symbol": "EXE",
       "company": "Expand Energy",
       "sector": "ENERGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2553719.0,
-      "market_value": 22343974912.0
+      "change_pct": -1.4239848065593188,
+      "current_price": 92.06999969482422,
+      "volume": 3477900.0,
+      "market_value": 22025799680.0
     },
     {
       "symbol": "EXPE",
       "company": "Expedia Group",
       "sector": "CONSUMER CYCLICAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1418949.0,
-      "market_value": 27266615296.0
+      "change_pct": 0.7483107059772705,
+      "current_price": 228.8800048828125,
+      "volume": 1838200.0,
+      "market_value": 27470653440.0
     },
     {
       "symbol": "EXPD",
       "company": "Expeditors International",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1532581.0,
-      "market_value": 20943585280.0
+      "change_pct": 0.19359117538316112,
+      "current_price": 160.44000244140625,
+      "volume": 1611300.0,
+      "market_value": 20984129536.0
     },
     {
       "symbol": "EXR",
       "company": "Extra Space Storage",
       "sector": "REAL ESTATE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 491720.0,
-      "market_value": 32192620544.0
+      "change_pct": -0.383901814861833,
+      "current_price": 145.30999755859375,
+      "volume": 1321500.0,
+      "market_value": 32069033984.0
     },
     {
       "symbol": "XOM",
       "company": "ExxonMobil",
       "sector": "ENERGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 11767814.0,
-      "market_value": 630197714944.0
+      "change_pct": -1.394366752698916,
+      "current_price": 149.9199981689453,
+      "volume": 16580300.0,
+      "market_value": 621410451456.0
     },
     {
       "symbol": "FFIV",
       "company": "F5, Inc.",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 504803.0,
-      "market_value": 23056289792.0
+      "change_pct": -3.7463900115981135,
+      "current_price": 393.3500061035156,
+      "volume": 433100.0,
+      "market_value": 22192510976.0
     },
     {
       "symbol": "FDS",
       "company": "FactSet",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 809744.0,
-      "market_value": 9290665984.0
+      "change_pct": 0.23527207069039885,
+      "current_price": 255.6199951171875,
+      "volume": 626300.0,
+      "market_value": 9312524288.0
     },
     {
       "symbol": "FICO",
       "company": "Fair Isaac",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 157550.0,
-      "market_value": 27056828416.0
+      "change_pct": -2.517356333793211,
+      "current_price": 1137.3299560546875,
+      "volume": 199400.0,
+      "market_value": 26375712768.0
     },
     {
       "symbol": "FAST",
       "company": "Fastenal",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 7323915.0,
-      "market_value": 54141333504.0
+      "change_pct": -0.7845609268064262,
+      "current_price": 46.790000915527344,
+      "volume": 7275800.0,
+      "market_value": 53716561920.0
     },
     {
       "symbol": "FRT",
       "company": "Federal Realty Investment Trust",
       "sector": "REAL ESTATE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 538101.0,
-      "market_value": 10500612096.0
+      "change_pct": 1.4485556124204348,
+      "current_price": 122.55999755859375,
+      "volume": 1167300.0,
+      "market_value": 10652719104.0
     },
     {
       "symbol": "FDX",
       "company": "FedEx",
       "sector": "INDUSTRIALS",
-      "change_pct": 1.0910462424184566,
-      "current_price": 328.0,
-      "volume": 1894900.0,
-      "market_value": 78263017472.0
+      "change_pct": 0.9146341463414633,
+      "current_price": 331.0,
+      "volume": 2584100.0,
+      "market_value": 78978834432.0
     },
     {
       "symbol": "FDXF",
       "company": "FedEx Freight",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2455373.0,
-      "market_value": 23483992064.0
+      "change_pct": 6.423174936770022,
+      "current_price": 167.83999633789062,
+      "volume": 2924300.0,
+      "market_value": 24992409600.0
     },
     {
       "symbol": "FIS",
       "company": "Fidelity National Information Services",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 4368077.0,
-      "market_value": 21440145408.0
+      "change_pct": -1.277721275664944,
+      "current_price": 40.95000076293945,
+      "volume": 4683400.0,
+      "market_value": 21166200832.0
     },
     {
       "symbol": "FITB",
       "company": "Fifth Third Bancorp",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 10350608.0,
-      "market_value": 46946938880.0
+      "change_pct": 0.40540364394911316,
+      "current_price": 52.0099983215332,
+      "volume": 6349200.0,
+      "market_value": 47137263616.0
     },
     {
       "symbol": "FSLR",
       "company": "First Solar",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2717185.0,
-      "market_value": 33842436096.0
+      "change_pct": -11.411335465445614,
+      "current_price": 279.010009765625,
+      "volume": 3900800.0,
+      "market_value": 29980563456.0
     },
     {
       "symbol": "FE",
       "company": "FirstEnergy",
       "sector": "UTILITIES",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 5173230.0,
-      "market_value": 26399598592.0
+      "change_pct": 1.7090245173705805,
+      "current_price": 46.41999816894531,
+      "volume": 3879600.0,
+      "market_value": 26850772992.0
     },
     {
       "symbol": "FISV",
       "company": "Fiserv",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 5133590.0,
-      "market_value": 29984870400.0
+      "change_pct": -3.2011368517058303,
+      "current_price": 54.43000030517578,
+      "volume": 7136600.0,
+      "market_value": 29025013760.0
     },
     {
       "symbol": "F",
       "company": "Ford Motor Company",
       "sector": "CONSUMER CYCLICAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 43592804.0,
-      "market_value": 61125185536.0
+      "change_pct": -2.868321575494823,
+      "current_price": 14.899999618530273,
+      "volume": 65316800.0,
+      "market_value": 59371921408.0
     },
     {
       "symbol": "FTNT",
       "company": "Fortinet",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 5240689.0,
-      "market_value": 109655482368.0
+      "change_pct": -3.334005180872266,
+      "current_price": 144.67999267578125,
+      "volume": 7119300.0,
+      "market_value": 105999564800.0
     },
     {
       "symbol": "FTV",
       "company": "Fortive",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2735757.0,
-      "market_value": 18739808256.0
+      "change_pct": -0.30909783249240785,
+      "current_price": 61.279998779296875,
+      "volume": 2328300.0,
+      "market_value": 18681882624.0
     },
     {
       "symbol": "FOXA",
       "company": "Fox Corporation (Class A)",
       "sector": "COMMUNICATION SERVICES",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1944522.0,
-      "market_value": 27539011584.0
+      "change_pct": 2.059808445625548,
+      "current_price": 66.88999938964844,
+      "volume": 2607500.0,
+      "market_value": 28106262528.0
     },
     {
       "symbol": "FOX",
       "company": "Fox Corporation (Class B)",
       "sector": "COMMUNICATION SERVICES",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 553275.0,
-      "market_value": 24677541888.0
+      "change_pct": 1.9581160136939384,
+      "current_price": 59.880001068115234,
+      "volume": 918100.0,
+      "market_value": 25160757248.0
     },
     {
       "symbol": "BEN",
       "company": "Franklin Resources",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 7808968.0,
-      "market_value": 16612799488.0
+      "change_pct": -2.001874893319429,
+      "current_price": 31.329999923706055,
+      "volume": 3425200.0,
+      "market_value": 16280231936.0
     },
     {
       "symbol": "FCX",
       "company": "Freeport-McMoRan",
       "sector": "BASIC MATERIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 9837837.0,
-      "market_value": 100183547904.0
+      "change_pct": -9.068737678457104,
+      "current_price": 63.369998931884766,
+      "volume": 18093800.0,
+      "market_value": 91098161152.0
     },
     {
       "symbol": "GRMN",
       "company": "Garmin",
       "sector": "CONSUMER CYCLICAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 330746.0,
-      "market_value": 46663487488.0
+      "change_pct": -2.22764061832022,
+      "current_price": 236.57000732421875,
+      "volume": 581400.0,
+      "market_value": 45623996416.0
     },
     {
       "symbol": "IT",
       "company": "Gartner",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 817821.0,
-      "market_value": 11038357504.0
+      "change_pct": -0.5155521743798196,
+      "current_price": 164.02000427246094,
+      "volume": 1312700.0,
+      "market_value": 10981448704.0
     },
     {
       "symbol": "GE",
       "company": "GE Aerospace",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 3345973.0,
-      "market_value": 342338437120.0
+      "change_pct": 0.10682316802551313,
+      "current_price": 328.0,
+      "volume": 3950200.0,
+      "market_value": 342704128000.0
     },
     {
       "symbol": "GEHC",
       "company": "GE HealthCare",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 4447494.0,
-      "market_value": 29026643968.0
+      "change_pct": 1.3477460854816188,
+      "current_price": 64.66999816894531,
+      "volume": 4928200.0,
+      "market_value": 29417850880.0
     },
     {
       "symbol": "GEV",
       "company": "GE Vernova",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2177824.0,
-      "market_value": 258866036736.0
+      "change_pct": -3.085135022374108,
+      "current_price": 933.6099853515625,
+      "volume": 3049500.0,
+      "market_value": 250879672320.0
     },
     {
       "symbol": "GEN",
       "company": "Gen Digital",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 6146866.0,
-      "market_value": 15976546304.0
+      "change_pct": -0.904976496891065,
+      "current_price": 26.280000686645508,
+      "volume": 6939300.0,
+      "market_value": 15831962624.0
     },
     {
       "symbol": "GNRC",
       "company": "Generac",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 408416.0,
-      "market_value": 16373735424.0
+      "change_pct": -5.968219324536114,
+      "current_price": 261.5400085449219,
+      "volume": 809200.0,
+      "market_value": 15396514816.0
     },
     {
       "symbol": "GD",
       "company": "General Dynamics",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 662246.0,
-      "market_value": 92351905792.0
+      "change_pct": 1.446560012124817,
+      "current_price": 346.44000244140625,
+      "volume": 1192100.0,
+      "market_value": 93687832576.0
     },
     {
       "symbol": "GIS",
       "company": "General Mills",
       "sector": "CONSUMER DEFENSIVE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 13800048.0,
-      "market_value": 17184536576.0
+      "change_pct": 2.950312858479355,
+      "current_price": 33.150001525878906,
+      "volume": 12686600.0,
+      "market_value": 17691533312.0
     },
     {
       "symbol": "GM",
       "company": "General Motors",
       "sector": "CONSUMER CYCLICAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 6855963.0,
-      "market_value": 75036581888.0
+      "change_pct": -1.119942551688826,
+      "current_price": 82.11000061035156,
+      "volume": 7369300.0,
+      "market_value": 74035732480.0
     },
     {
       "symbol": "GPC",
       "company": "Genuine Parts Company",
       "sector": "CONSUMER CYCLICAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1179757.0,
-      "market_value": 13721613312.0
+      "change_pct": 0.5975461478424694,
+      "current_price": 98.1500015258789,
+      "volume": 1383700.0,
+      "market_value": 13654835200.0
     },
     {
       "symbol": "GILD",
       "company": "Gilead Sciences",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 12087414.0,
-      "market_value": 160385990656.0
+      "change_pct": -0.015473769008521205,
+      "current_price": 129.16000366210938,
+      "volume": 15367600.0,
+      "market_value": 160361168896.0
     },
     {
       "symbol": "GPN",
       "company": "Global Payments",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 5069881.0,
-      "market_value": 18548985856.0
+      "change_pct": -2.197312958877551,
+      "current_price": 66.31999969482422,
+      "volume": 4600200.0,
+      "market_value": 18141405184.0
     },
     {
       "symbol": "GL",
       "company": "Globe Life",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 322598.0,
-      "market_value": 11981363200.0
+      "change_pct": 3.1559815917554483,
+      "current_price": 159.17999267578125,
+      "volume": 396900.0,
+      "market_value": 12359492608.0
     },
     {
       "symbol": "GDDY",
       "company": "GoDaddy",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2996634.0,
-      "market_value": 11233650688.0
+      "change_pct": -0.5421960211320929,
+      "current_price": 84.37999725341797,
+      "volume": 2203700.0,
+      "market_value": 11172742144.0
     },
     {
       "symbol": "GS",
       "company": "Goldman Sachs",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1939008.0,
-      "market_value": 322328068096.0
+      "change_pct": -4.935881271785402,
+      "current_price": 1038.6800537109375,
+      "volume": 2642900.0,
+      "market_value": 306418319360.0
     },
     {
       "symbol": "HAL",
       "company": "Halliburton",
       "sector": "ENERGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 9179288.0,
-      "market_value": 34435096576.0
+      "change_pct": -4.9490559318633265,
+      "current_price": 39.18000030517578,
+      "volume": 7482000.0,
+      "market_value": 32730884096.0
     },
     {
       "symbol": "HIG",
       "company": "Hartford (The)",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1721401.0,
-      "market_value": 34905075712.0
+      "change_pct": 3.777583828967348,
+      "current_price": 132.13999938964844,
+      "volume": 1544600.0,
+      "market_value": 36223647744.0
     },
     {
       "symbol": "HAS",
       "company": "Hasbro",
       "sector": "CONSUMER CYCLICAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1848347.0,
-      "market_value": 11951718400.0
+      "change_pct": -0.3433182329068869,
+      "current_price": 84.18000030517578,
+      "volume": 1510700.0,
+      "market_value": 11910685696.0
     },
     {
       "symbol": "HCA",
       "company": "HCA Healthcare",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1495409.0,
-      "market_value": 80268296192.0
+      "change_pct": 2.8466458537951302,
+      "current_price": 372.1300048828125,
+      "volume": 2184600.0,
+      "market_value": 82553249792.0
     },
     {
       "symbol": "DOC",
       "company": "Healthpeak Properties",
       "sector": "REAL ESTATE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 6544530.0,
-      "market_value": 13512626176.0
+      "change_pct": 0.9693904610188063,
+      "current_price": 19.790000915527344,
+      "volume": 5488500.0,
+      "market_value": 13643616256.0
     },
     {
       "symbol": "HSIC",
       "company": "Henry Schein",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1099204.0,
-      "market_value": 8691849216.0
+      "change_pct": 1.5072003282939335,
+      "current_price": 77.44999694824219,
+      "volume": 1285200.0,
+      "market_value": 8822852608.0
     },
     {
       "symbol": "HSY",
       "company": "Hershey Company (The)",
       "sector": "CONSUMER DEFENSIVE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1067267.0,
-      "market_value": 37061513216.0
+      "change_pct": 1.0234771213795661,
+      "current_price": 184.5800018310547,
+      "volume": 1618300.0,
+      "market_value": 37440831488.0
     },
     {
       "symbol": "HPE",
       "company": "Hewlett Packard Enterprise",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 31285436.0,
-      "market_value": 71096483840.0
+      "change_pct": -8.362819852142643,
+      "current_price": 49.20000076293945,
+      "volume": 37608800.0,
+      "market_value": 65150812160.0
     },
     {
       "symbol": "HLT",
       "company": "Hilton Worldwide",
       "sector": "CONSUMER CYCLICAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1905872.0,
-      "market_value": 76979298304.0
+      "change_pct": 1.4638510413655559,
+      "current_price": 343.1000061035156,
+      "volume": 1291700.0,
+      "market_value": 78106157056.0
     },
     {
       "symbol": "HD",
       "company": "Home Depot (The)",
       "sector": "CONSUMER CYCLICAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 3503906.0,
-      "market_value": 309056339968.0
+      "change_pct": 0.26778078386111986,
+      "current_price": 310.7799987792969,
+      "volume": 3945700.0,
+      "market_value": 309883928576.0
     },
     {
       "symbol": "HON",
       "company": "Honeywell",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 6636277.0,
-      "market_value": 137908256768.0
+      "change_pct": -1.6862700694897486,
+      "current_price": 213.97000122070312,
+      "volume": 4923700.0,
+      "market_value": 135582760960.0
     },
     {
       "symbol": "HRL",
       "company": "Hormel Foods",
       "sector": "CONSUMER DEFENSIVE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 4121896.0,
-      "market_value": 12816835584.0
+      "change_pct": 1.4169167485349696,
+      "current_price": 23.6200008392334,
+      "volume": 4371700.0,
+      "market_value": 12998439936.0
     },
     {
       "symbol": "HST",
       "company": "Host Hotels & Resorts",
       "sector": "REAL ESTATE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 7792816.0,
-      "market_value": 16962585600.0
+      "change_pct": 0.6952968138619697,
+      "current_price": 24.6200008392334,
+      "volume": 9228600.0,
+      "market_value": 17080525824.0
     },
     {
       "symbol": "HWM",
       "company": "Howmet Aerospace",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1510163.0,
-      "market_value": 99758800896.0
+      "change_pct": 1.0307592534215384,
+      "current_price": 251.89999389648438,
+      "volume": 2189100.0,
+      "market_value": 100787077120.0
     },
     {
       "symbol": "HPQ",
       "company": "HP Inc.",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 13730613.0,
-      "market_value": 24051945472.0
+      "change_pct": -2.7376400541483963,
+      "current_price": 25.579999923706055,
+      "volume": 17550300.0,
+      "market_value": 23393490944.0
     },
     {
       "symbol": "HUBB",
       "company": "Hubbell Incorporated",
       "sector": "INDUSTRIALS",
-      "change_pct": 0.07423755930870458,
-      "current_price": 485.2699890136719,
-      "volume": 416497.0,
-      "market_value": 25642528768.0
+      "change_pct": -1.741294924631133,
+      "current_price": 476.82000732421875,
+      "volume": 784168.0,
+      "market_value": 25196015616.0
     },
     {
       "symbol": "HUM",
       "company": "Humana",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1604227.0,
-      "market_value": 41997512704.0
+      "change_pct": 0.08004539424472307,
+      "current_price": 350.0799865722656,
+      "volume": 1738900.0,
+      "market_value": 42031128576.0
     },
     {
       "symbol": "HBAN",
       "company": "Huntington Bancshares",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 18912689.0,
-      "market_value": 33508470784.0
+      "change_pct": -0.06049744988767644,
+      "current_price": 16.520000457763672,
+      "volume": 14277200.0,
+      "market_value": 33488199680.0
     },
     {
       "symbol": "HII",
       "company": "Huntington Ingalls Industries",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 367603.0,
-      "market_value": 11605667840.0
+      "change_pct": -0.5058874276136162,
+      "current_price": 293.0400085449219,
+      "volume": 347400.0,
+      "market_value": 11546956800.0
     },
     {
       "symbol": "IBM",
       "company": "IBM",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 8330958.0,
-      "market_value": 283629191168.0
+      "change_pct": -5.610230736037249,
+      "current_price": 284.8399963378906,
+      "volume": 12477700.0,
+      "market_value": 267716935680.0
     },
     {
       "symbol": "IEX",
       "company": "IDEX Corporation",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 436852.0,
-      "market_value": 16008716288.0
+      "change_pct": -0.434595779645555,
+      "current_price": 215.35000610351562,
+      "volume": 600300.0,
+      "market_value": 15939142656.0
     },
     {
       "symbol": "IDXX",
       "company": "Idexx Laboratories",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 631232.0,
-      "market_value": 44548382720.0
+      "change_pct": -0.4568504328466286,
+      "current_price": 562.1599731445312,
+      "volume": 459100.0,
+      "market_value": 44344864768.0
     },
     {
       "symbol": "ITW",
       "company": "Illinois Tool Works",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 717897.0,
-      "market_value": 72247222272.0
+      "change_pct": 0.6371480306731319,
+      "current_price": 252.72000122070312,
+      "volume": 1582600.0,
+      "market_value": 72707547136.0
     },
     {
       "symbol": "INCY",
       "company": "Incyte",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1779879.0,
-      "market_value": 20225945600.0
+      "change_pct": 1.1260365603547744,
+      "current_price": 102.37999725341797,
+      "volume": 2641100.0,
+      "market_value": 20453697536.0
     },
     {
       "symbol": "IR",
       "company": "Ingersoll Rand",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2900006.0,
-      "market_value": 28180166656.0
+      "change_pct": 0.33328406700432645,
+      "current_price": 72.25,
+      "volume": 3923100.0,
+      "market_value": 28274085888.0
     },
     {
       "symbol": "PODD",
       "company": "Insulet Corporation",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1408216.0,
-      "market_value": 10141040640.0
+      "change_pct": 4.651319847180746,
+      "current_price": 153.22000122070312,
+      "volume": 2307300.0,
+      "market_value": 10612732928.0
     },
     {
       "symbol": "INTC",
       "company": "Intel",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 76359899.0,
-      "market_value": 561806245888.0
+      "change_pct": -11.28108852036157,
+      "current_price": 99.16999816894531,
+      "volume": 144388800.0,
+      "market_value": 498428411904.0
     },
     {
       "symbol": "IBKR",
       "company": "Interactive Brokers",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 6360811.0,
-      "market_value": 147673104384.0
+      "change_pct": -3.055359645426815,
+      "current_price": 84.4000015258789,
+      "volume": 4274400.0,
+      "market_value": 143161163776.0
     },
     {
       "symbol": "ICE",
       "company": "Intercontinental Exchange",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 3012660.0,
-      "market_value": 80336707584.0
+      "change_pct": -0.3941979221580478,
+      "current_price": 141.5,
+      "volume": 5650000.0,
+      "market_value": 80020021248.0
     },
     {
       "symbol": "IFF",
       "company": "International Flavors & Fragrances",
       "sector": "BASIC MATERIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2010611.0,
-      "market_value": 18695874560.0
+      "change_pct": -0.30042497694668585,
+      "current_price": 73.01000213623047,
+      "volume": 1740100.0,
+      "market_value": 18639706112.0
     },
     {
       "symbol": "IP",
       "company": "International Paper",
       "sector": "BASIC MATERIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2941460.0,
-      "market_value": 17940035584.0
+      "change_pct": -0.796931668392926,
+      "current_price": 33.61000061035156,
+      "volume": 5145100.0,
+      "market_value": 17797064704.0
     },
     {
       "symbol": "INTU",
       "company": "Intuit",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 6986618.0,
-      "market_value": 82602704896.0
+      "change_pct": -1.7285916387821632,
+      "current_price": 296.760009765625,
+      "volume": 6301700.0,
+      "market_value": 81174839296.0
     },
     {
       "symbol": "ISRG",
       "company": "Intuitive Surgical",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2333010.0,
-      "market_value": 148330479616.0
+      "change_pct": 0.7735996795078715,
+      "current_price": 422.05999755859375,
+      "volume": 2774000.0,
+      "market_value": 149477965824.0
     },
     {
       "symbol": "IVZ",
       "company": "Invesco",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2259879.0,
-      "market_value": 12487666688.0
+      "change_pct": -2.910897027346044,
+      "current_price": 27.350000381469727,
+      "volume": 6776500.0,
+      "market_value": 12124163072.0
     },
     {
       "symbol": "INVH",
       "company": "Invitation Homes",
       "sector": "REAL ESTATE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2642848.0,
-      "market_value": 17512357888.0
+      "change_pct": 1.8995976322479087,
+      "current_price": 30.040000915527344,
+      "volume": 5643500.0,
+      "market_value": 17845022720.0
     },
     {
       "symbol": "IQV",
       "company": "IQVIA",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1412511.0,
-      "market_value": 31190272000.0
+      "change_pct": -1.835406595114967,
+      "current_price": 183.4499969482422,
+      "volume": 1279000.0,
+      "market_value": 30617804800.0
     },
     {
       "symbol": "IRM",
       "company": "Iron Mountain",
       "sector": "REAL ESTATE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 727930.0,
-      "market_value": 38752587776.0
+      "change_pct": -4.2917438294745685,
+      "current_price": 124.66000366210938,
+      "volume": 1706500.0,
+      "market_value": 37089427456.0
     },
     {
       "symbol": "JBHT",
       "company": "J.B. Hunt",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 476212.0,
-      "market_value": 26715906048.0
+      "change_pct": 0.5788763766087409,
+      "current_price": 284.95001220703125,
+      "volume": 1145500.0,
+      "market_value": 26870558720.0
     },
     {
       "symbol": "JBL",
       "company": "Jabil",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 807232.0,
-      "market_value": 39438991360.0
+      "change_pct": -5.505327881499516,
+      "current_price": 353.239990234375,
+      "volume": 1010700.0,
+      "market_value": 37267746816.0
     },
     {
       "symbol": "JKHY",
       "company": "Jack Henry & Associates",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1049666.0,
-      "market_value": 9288468480.0
+      "change_pct": -0.47425620549981723,
+      "current_price": 130.11000061035156,
+      "volume": 1621000.0,
+      "market_value": 9244418048.0
     },
     {
       "symbol": "J",
       "company": "Jacobs Solutions",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 595297.0,
-      "market_value": 14591254528.0
+      "change_pct": -0.8254403541194872,
+      "current_price": 122.55000305175781,
+      "volume": 981600.0,
+      "market_value": 14470812672.0
     },
     {
       "symbol": "JNJ",
       "company": "Johnson & Johnson",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 7214694.0,
-      "market_value": 549254660096.0
+      "change_pct": 2.016043362593891,
+      "current_price": 232.77000427246094,
+      "volume": 8032100.0,
+      "market_value": 560327884800.0
     },
     {
       "symbol": "JCI",
       "company": "Johnson Controls",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 3947065.0,
-      "market_value": 89931030528.0
+      "change_pct": -2.5440977986970195,
+      "current_price": 143.64999389648438,
+      "volume": 4685700.0,
+      "market_value": 87643103232.0
     },
     {
       "symbol": "JPM",
       "company": "JPMorgan Chase",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 7845219.0,
-      "market_value": 833033273344.0
+      "change_pct": 0.47604631831729954,
+      "current_price": 312.3699951171875,
+      "volume": 9115400.0,
+      "market_value": 836998922240.0
     },
     {
       "symbol": "KVUE",
       "company": "Kenvue",
       "sector": "CONSUMER DEFENSIVE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 25354120.0,
-      "market_value": 32409745408.0
+      "change_pct": 4.917061403860641,
+      "current_price": 17.709999084472656,
+      "volume": 24619400.0,
+      "market_value": 34003351552.0
     },
     {
       "symbol": "KDP",
       "company": "Keurig Dr Pepper",
       "sector": "CONSUMER DEFENSIVE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 9088821.0,
-      "market_value": 40898416640.0
+      "change_pct": 1.5635436761588457,
+      "current_price": 30.530000686645508,
+      "volume": 9765400.0,
+      "market_value": 41537880064.0
     },
     {
       "symbol": "KEY",
       "company": "KeyCorp",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 8829546.0,
-      "market_value": 23495170048.0
+      "change_pct": 0.41532142257049165,
+      "current_price": 21.760000228881836,
+      "volume": 12561100.0,
+      "market_value": 23592751104.0
     },
     {
       "symbol": "KEYS",
       "company": "Keysight Technologies",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 876080.0,
-      "market_value": 58582081536.0
+      "change_pct": -3.8704786646444354,
+      "current_price": 329.8299865722656,
+      "volume": 1251100.0,
+      "market_value": 56366415872.0
     },
     {
       "symbol": "KMB",
       "company": "Kimberly-Clark",
       "sector": "CONSUMER DEFENSIVE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 5384297.0,
-      "market_value": 31358404608.0
+      "change_pct": 6.27749578373422,
+      "current_price": 99.04000091552734,
+      "volume": 6360100.0,
+      "market_value": 32875372544.0
     },
     {
       "symbol": "KIM",
       "company": "Kimco Realty",
       "sector": "REAL ESTATE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2358092.0,
-      "market_value": 16192098304.0
+      "change_pct": 2.0210507041529606,
+      "current_price": 24.229999542236328,
+      "volume": 4259700.0,
+      "market_value": 16340463616.0
     },
     {
       "symbol": "KMI",
       "company": "Kinder Morgan",
       "sector": "ENERGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 7273278.0,
-      "market_value": 70526984192.0
+      "change_pct": -0.06309292518079199,
+      "current_price": 31.68000030517578,
+      "volume": 6903700.0,
+      "market_value": 70482485248.0
     },
     {
       "symbol": "KKR",
       "company": "KKR & Co.",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 4543137.0,
-      "market_value": 89010864128.0
+      "change_pct": -2.1579693885926563,
+      "current_price": 93.4000015258789,
+      "volume": 3090400.0,
+      "market_value": 87090044928.0
     },
     {
       "symbol": "KLAC",
       "company": "KLA Corporation",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 823153.0,
-      "market_value": 278380314624.0
+      "change_pct": -9.473987012924526,
+      "current_price": 1929.199951171875,
+      "volume": 1857800.0,
+      "market_value": 252006612992.0
     },
     {
       "symbol": "KHC",
       "company": "Kraft Heinz",
       "sector": "CONSUMER DEFENSIVE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 17052153.0,
-      "market_value": 26644422656.0
+      "change_pct": 2.3108302489077035,
+      "current_price": 22.579999923706055,
+      "volume": 14553500.0,
+      "market_value": 26774859776.0
     },
     {
       "symbol": "KR",
       "company": "Kroger",
       "sector": "CONSUMER DEFENSIVE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 6558477.0,
-      "market_value": 38374739968.0
+      "change_pct": 2.1368862154410286,
+      "current_price": 63.56999969482422,
+      "volume": 8814200.0,
+      "market_value": 39194763264.0
     },
     {
       "symbol": "LHX",
       "company": "L3Harris",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 884150.0,
-      "market_value": 57710448640.0
+      "change_pct": -0.22688627031434797,
+      "current_price": 307.8299865722656,
+      "volume": 793300.0,
+      "market_value": 57347170304.0
     },
     {
       "symbol": "LH",
       "company": "Labcorp",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 519610.0,
-      "market_value": 21399539712.0
+      "change_pct": 1.6017138583856685,
+      "current_price": 265.1499938964844,
+      "volume": 429300.0,
+      "market_value": 21742299136.0
     },
     {
       "symbol": "LRCX",
       "company": "Lam Research",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 8176709.0,
-      "market_value": 420704583680.0
+      "change_pct": -9.848103362612342,
+      "current_price": 303.2799987792969,
+      "volume": 13299300.0,
+      "market_value": 379273183232.0
     },
     {
       "symbol": "LVS",
       "company": "Las Vegas Sands",
       "sector": "CONSUMER CYCLICAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1716336.0,
-      "market_value": 33615591424.0
+      "change_pct": -0.9461847951263914,
+      "current_price": 50.25,
+      "volume": 2364000.0,
+      "market_value": 33297524736.0
     },
     {
       "symbol": "LDOS",
       "company": "Leidos",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 706534.0,
-      "market_value": 15669095424.0
+      "change_pct": -0.11238612024677909,
+      "current_price": 124.43000030517578,
+      "volume": 1258600.0,
+      "market_value": 15651485696.0
     },
     {
       "symbol": "LEN",
       "company": "Lennar",
       "sector": "CONSUMER CYCLICAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2523791.0,
-      "market_value": 22629888000.0
+      "change_pct": -1.5128422194165108,
+      "current_price": 90.48999786376953,
+      "volume": 2121400.0,
+      "market_value": 22287532032.0
     },
     {
       "symbol": "LII",
       "company": "Lennox International",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 210997.0,
-      "market_value": 18029168640.0
+      "change_pct": -1.8626513464596772,
+      "current_price": 508.42999267578125,
+      "volume": 363100.0,
+      "market_value": 17693347840.0
     },
     {
       "symbol": "LLY",
       "company": "Lilly (Eli)",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 3763451.0,
-      "market_value": 1003449810944.0
+      "change_pct": 0.5465376582790676,
+      "current_price": 1131.4200439453125,
+      "volume": 4120400.0,
+      "market_value": 1008934060032.0
     },
     {
       "symbol": "LIN",
       "company": "Linde plc",
       "sector": "BASIC MATERIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2994569.0,
-      "market_value": 234618142720.0
+      "change_pct": 0.08867507707725503,
+      "current_price": 507.8999938964844,
+      "volume": 2885100.0,
+      "market_value": 234826186752.0
     },
     {
       "symbol": "LYV",
       "company": "Live Nation Entertainment",
       "sector": "COMMUNICATION SERVICES",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 3272815.0,
-      "market_value": 37469085696.0
+      "change_pct": -0.5838067292010738,
+      "current_price": 160.07000732421875,
+      "volume": 1786300.0,
+      "market_value": 37250338816.0
     },
     {
       "symbol": "LMT",
       "company": "Lockheed Martin",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 593588.0,
-      "market_value": 119674044416.0
+      "change_pct": 0.9074312847368599,
+      "current_price": 523.760009765625,
+      "volume": 902000.0,
+      "market_value": 120760000512.0
     },
     {
       "symbol": "L",
       "company": "Loews Corporation",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 733293.0,
-      "market_value": 21609846784.0
+      "change_pct": 2.428111915128468,
+      "current_price": 107.56999969482422,
+      "volume": 751000.0,
+      "market_value": 22134558720.0
     },
     {
       "symbol": "LOW",
       "company": "Lowe's",
       "sector": "CONSUMER CYCLICAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 3172111.0,
-      "market_value": 116363534336.0
+      "change_pct": 1.546767567459465,
+      "current_price": 210.74000549316406,
+      "volume": 2423900.0,
+      "market_value": 118163415040.0
     },
     {
       "symbol": "LULU",
       "company": "Lululemon Athletica",
       "sector": "CONSUMER CYCLICAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 8976116.0,
-      "market_value": 14934298624.0
+      "change_pct": -8.557472757527798,
+      "current_price": 114.2300033569336,
+      "volume": 16178400.0,
+      "market_value": 12971265024.0
     },
     {
       "symbol": "LITE",
       "company": "Lumentum",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 6005503.0,
-      "market_value": 73527222272.0
+      "change_pct": -8.615148185655938,
+      "current_price": 863.6599731445312,
+      "volume": 7503800.0,
+      "market_value": 67192745984.0
     },
     {
       "symbol": "LYB",
       "company": "LyondellBasell",
       "sector": "BASIC MATERIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 5637658.0,
-      "market_value": 21361895424.0
+      "change_pct": -2.5385317277558133,
+      "current_price": 64.5,
+      "volume": 5784100.0,
+      "market_value": 20819617792.0
     },
     {
       "symbol": "MTB",
       "company": "M&T Bank",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 628146.0,
-      "market_value": 32471261184.0
+      "change_pct": 0.32021229763592335,
+      "current_price": 222.44000244140625,
+      "volume": 1181300.0,
+      "market_value": 32575238144.0
     },
     {
       "symbol": "MPC",
       "company": "Marathon Petroleum",
       "sector": "ENERGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1785390.0,
-      "market_value": 77961674752.0
+      "change_pct": -1.8872788832520027,
+      "current_price": 262.010009765625,
+      "volume": 2159900.0,
+      "market_value": 76490317824.0
     },
     {
       "symbol": "MAR",
       "company": "Marriott International",
       "sector": "CONSUMER CYCLICAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1149117.0,
-      "market_value": 101599223808.0
+      "change_pct": 1.8712749029544153,
+      "current_price": 392.510009765625,
+      "volume": 1974700.0,
+      "market_value": 103500423168.0
     },
     {
       "symbol": "MRSH",
       "company": "Marsh McLennan",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2677697.0,
-      "market_value": 77694181376.0
+      "change_pct": 2.5920923210704427,
+      "current_price": 165.44000244140625,
+      "volume": 3006000.0,
+      "market_value": 79708086272.0
     },
     {
       "symbol": "MLM",
       "company": "Martin Marietta Materials",
       "sector": "BASIC MATERIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 272990.0,
-      "market_value": 34878259200.0
+      "change_pct": -0.8659519313719619,
+      "current_price": 575.8300170898438,
+      "volume": 657700.0,
+      "market_value": 34576232448.0
     },
     {
       "symbol": "MAS",
       "company": "Masco",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1264807.0,
-      "market_value": 14103255040.0
+      "change_pct": -0.7152052264460054,
+      "current_price": 69.41000366210938,
+      "volume": 2706500.0,
+      "market_value": 14002387968.0
     },
     {
       "symbol": "MA",
       "company": "Mastercard",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 3264123.0,
-      "market_value": 425675390976.0
+      "change_pct": 1.934568377972005,
+      "current_price": 491.0799865722656,
+      "volume": 4229900.0,
+      "market_value": 433910349824.0
     },
     {
       "symbol": "MKC",
       "company": "McCormick & Company",
       "sector": "CONSUMER DEFENSIVE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2388490.0,
-      "market_value": 12533470208.0
+      "change_pct": 1.3299072517953094,
+      "current_price": 47.2400016784668,
+      "volume": 2969500.0,
+      "market_value": 12700152832.0
     },
     {
       "symbol": "MCD",
       "company": "McDonald's",
       "sector": "CONSUMER CYCLICAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2982017.0,
-      "market_value": 193769160704.0
+      "change_pct": 2.6107344842029123,
+      "current_price": 279.8399963378906,
+      "volume": 5422400.0,
+      "market_value": 198827950080.0
     },
     {
       "symbol": "MCK",
       "company": "McKesson Corporation",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 670144.0,
-      "market_value": 90988453888.0
+      "change_pct": 2.4717564747700527,
+      "current_price": 775.6599731445312,
+      "volume": 982000.0,
+      "market_value": 93237469184.0
     },
     {
       "symbol": "MDT",
       "company": "Medtronic",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 19433028.0,
-      "market_value": 105188696064.0
+      "change_pct": -0.3173466804125516,
+      "current_price": 81.66999816894531,
+      "volume": 15282200.0,
+      "market_value": 104854880256.0
     },
     {
       "symbol": "MRK",
       "company": "Merck & Co.",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 15126297.0,
-      "market_value": 297021112320.0
+      "change_pct": 0.4407107682373834,
+      "current_price": 120.79000091552734,
+      "volume": 15964600.0,
+      "market_value": 298330095616.0
     },
     {
       "symbol": "META",
       "company": "Meta Platforms",
       "sector": "COMMUNICATION SERVICES",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 20953095.0,
-      "market_value": 1593038340096.0
+      "change_pct": -5.508549949927579,
+      "current_price": 593.0,
+      "volume": 30000600.0,
+      "market_value": 1505284980736.0
     },
     {
       "symbol": "MET",
       "company": "MetLife",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2844524.0,
-      "market_value": 53701234688.0
+      "change_pct": 1.2341226822377254,
+      "current_price": 84.48999786376953,
+      "volume": 3512100.0,
+      "market_value": 54363975680.0
     },
     {
       "symbol": "MTD",
       "company": "Mettler Toledo",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 131166.0,
-      "market_value": 23854667776.0
+      "change_pct": -2.215202701165566,
+      "current_price": 1154.3299560546875,
+      "volume": 255100.0,
+      "market_value": 23326238720.0
     },
     {
       "symbol": "MGM",
       "company": "MGM Resorts",
       "sector": "CONSUMER CYCLICAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 3688725.0,
-      "market_value": 12265507840.0
+      "change_pct": -0.8969551887642601,
+      "current_price": 47.5099983215332,
+      "volume": 3268800.0,
+      "market_value": 12155491328.0
     },
     {
       "symbol": "MCHP",
       "company": "Microchip Technology",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 9526841.0,
-      "market_value": 52202237952.0
+      "change_pct": -8.265842639266552,
+      "current_price": 88.33999633789062,
+      "volume": 19724400.0,
+      "market_value": 47887282176.0
     },
     {
       "symbol": "MU",
       "company": "Micron Technology",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 53659458.0,
-      "market_value": 1123223076864.0
+      "change_pct": -13.252007051644076,
+      "current_price": 864.010009765625,
+      "volume": 76501000.0,
+      "market_value": 974373453824.0
     },
     {
       "symbol": "MSFT",
       "company": "Microsoft",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 26089788.0,
-      "market_value": 3179741446144.0
+      "change_pct": -2.658562011392564,
+      "current_price": 416.6700134277344,
+      "volume": 34641500.0,
+      "market_value": 3095206035456.0
     },
     {
       "symbol": "MAA",
       "company": "Mid-America Apartment Communities",
       "sector": "REAL ESTATE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1107404.0,
-      "market_value": 16332236800.0
+      "change_pct": 0.4895142784009475,
+      "current_price": 137.5399932861328,
+      "volume": 1180400.0,
+      "market_value": 16412185600.0
     },
     {
       "symbol": "MRNA",
       "company": "Moderna",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 6696563.0,
-      "market_value": 20470204416.0
+      "change_pct": -8.044197545269306,
+      "current_price": 47.439998626708984,
+      "volume": 6075300.0,
+      "market_value": 18823540736.0
     },
     {
       "symbol": "TAP",
       "company": "Molson Coors Beverage Company",
       "sector": "CONSUMER DEFENSIVE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2190755.0,
-      "market_value": 7207598592.0
+      "change_pct": 1.639347028655593,
+      "current_price": 39.060001373291016,
+      "volume": 2714300.0,
+      "market_value": 7325756416.0
     },
     {
       "symbol": "MDLZ",
       "company": "Mondelez International",
       "sector": "CONSUMER DEFENSIVE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 5783669.0,
-      "market_value": 78289805312.0
+      "change_pct": 1.7215924055815544,
+      "current_price": 62.040000915527344,
+      "volume": 8567100.0,
+      "market_value": 79637635072.0
     },
     {
       "symbol": "MPWR",
       "company": "Monolithic Power Systems",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 678529.0,
-      "market_value": 81192239104.0
+      "change_pct": -10.380608089806405,
+      "current_price": 1481.050048828125,
+      "volume": 1368500.0,
+      "market_value": 72763990016.0
     },
     {
       "symbol": "MNST",
       "company": "Monster Beverage",
       "sector": "CONSUMER DEFENSIVE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 4607206.0,
-      "market_value": 86592839680.0
+      "change_pct": 1.1407297558016445,
+      "current_price": 89.55000305175781,
+      "volume": 5676600.0,
+      "market_value": 87580631040.0
     },
     {
       "symbol": "MCO",
       "company": "Moody's Corporation",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 746817.0,
-      "market_value": 78455914496.0
+      "change_pct": 0.489816817750706,
+      "current_price": 451.3500061035156,
+      "volume": 660500.0,
+      "market_value": 78840209408.0
     },
     {
       "symbol": "MS",
       "company": "Morgan Stanley",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 5556861.0,
-      "market_value": 344273977344.0
+      "change_pct": -2.904664622980266,
+      "current_price": 211.92999267578125,
+      "volume": 6169900.0,
+      "market_value": 334273970176.0
     },
     {
       "symbol": "MOS",
       "company": "Mosaic Company (The)",
       "sector": "BASIC MATERIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 6383203.0,
-      "market_value": 7278688256.0
+      "change_pct": -2.8820954515564674,
+      "current_price": 22.239999771118164,
+      "volume": 8367100.0,
+      "market_value": 7068909568.0
     },
     {
       "symbol": "MSI",
       "company": "Motorola Solutions",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 575721.0,
-      "market_value": 68177707008.0
+      "change_pct": -0.09252164045653619,
+      "current_price": 410.3399963378906,
+      "volume": 910400.0,
+      "market_value": 68114628608.0
     },
     {
       "symbol": "MSCI",
       "company": "MSCI Inc.",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 336441.0,
-      "market_value": 45008924672.0
+      "change_pct": -0.5509999145920051,
+      "current_price": 615.4600219726562,
+      "volume": 457900.0,
+      "market_value": 44760924160.0
     },
     {
       "symbol": "NDAQ",
       "company": "Nasdaq, Inc.",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 3263031.0,
-      "market_value": 50022080512.0
+      "change_pct": -1.3227792078160887,
+      "current_price": 87.27999877929688,
+      "volume": 4355900.0,
+      "market_value": 49360400384.0
     },
     {
       "symbol": "NTAP",
       "company": "NetApp",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 3226591.0,
-      "market_value": 35427053568.0
+      "change_pct": -6.613743027892524,
+      "current_price": 167.0399932861328,
+      "volume": 3258100.0,
+      "market_value": 33084000256.0
     },
     {
       "symbol": "NFLX",
       "company": "Netflix",
       "sector": "COMMUNICATION SERVICES",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 39031609.0,
-      "market_value": 343432724480.0
+      "change_pct": 0.7601799474510937,
+      "current_price": 82.18000030517578,
+      "volume": 43391400.0,
+      "market_value": 346043416576.0
     },
     {
       "symbol": "NEM",
       "company": "Newmont",
       "sector": "BASIC MATERIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 6321941.0,
-      "market_value": 115647995904.0
+      "change_pct": -7.957170313746784,
+      "current_price": 99.70999908447266,
+      "volume": 9871500.0,
+      "market_value": 106445684736.0
     },
     {
       "symbol": "NWSA",
       "company": "News Corp (Class A)",
       "sector": "COMMUNICATION SERVICES",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 3264626.0,
-      "market_value": 14632196096.0
+      "change_pct": 1.5648288893673843,
+      "current_price": 27.260000228881836,
+      "volume": 3632700.0,
+      "market_value": 14858425344.0
     },
     {
       "symbol": "NWS",
       "company": "News Corp (Class B)",
       "sector": "COMMUNICATION SERVICES",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1185866.0,
-      "market_value": 16780141568.0
+      "change_pct": 1.3320332627217764,
+      "current_price": 31.190000534057617,
+      "volume": 926000.0,
+      "market_value": 17000524800.0
     },
     {
       "symbol": "NEE",
       "company": "NextEra Energy",
       "sector": "UTILITIES",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 7425891.0,
-      "market_value": 178694668288.0
+      "change_pct": 0.9205557904133357,
+      "current_price": 85.83999633789062,
+      "volume": 11832200.0,
+      "market_value": 179028361216.0
     },
     {
       "symbol": "NKE",
       "company": "Nike, Inc.",
       "sector": "CONSUMER CYCLICAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 17156507.0,
-      "market_value": 64596291584.0
+      "change_pct": -1.4672155096744381,
+      "current_price": 42.97999954223633,
+      "volume": 18374100.0,
+      "market_value": 63648526336.0
     },
     {
       "symbol": "NI",
       "company": "NiSource",
       "sector": "UTILITIES",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2510799.0,
-      "market_value": 21982287872.0
+      "change_pct": 1.657583776495507,
+      "current_price": 46.61000061035156,
+      "volume": 2949200.0,
+      "market_value": 22346661888.0
     },
     {
       "symbol": "NDSN",
       "company": "Nordson Corporation",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 232507.0,
-      "market_value": 15962078208.0
+      "change_pct": -1.3089918515044192,
+      "current_price": 282.7300109863281,
+      "volume": 317000.0,
+      "market_value": 15753136128.0
     },
     {
       "symbol": "NSC",
       "company": "Norfolk Southern",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 983059.0,
-      "market_value": 68993032192.0
+      "change_pct": 2.0378299149950494,
+      "current_price": 313.45001220703125,
+      "volume": 1445900.0,
+      "market_value": 70398992384.0
     },
     {
       "symbol": "NTRS",
       "company": "Northern Trust",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 740829.0,
-      "market_value": 32024279040.0
+      "change_pct": -1.0391230368126936,
+      "current_price": 170.47000122070312,
+      "volume": 960100.0,
+      "market_value": 31545008128.0
     },
     {
       "symbol": "NOC",
       "company": "Northrop Grumman",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 859235.0,
-      "market_value": 77432381440.0
+      "change_pct": -0.14123273845409767,
+      "current_price": 544.4000244140625,
+      "volume": 1069700.0,
+      "market_value": 77323026432.0
     },
     {
       "symbol": "NCLH",
       "company": "Norwegian Cruise Line Holdings",
       "sector": "CONSUMER CYCLICAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 26822913.0,
-      "market_value": 8782776320.0
+      "change_pct": -1.9864044821598086,
+      "current_price": 18.75,
+      "volume": 17094800.0,
+      "market_value": 8608315392.0
     },
     {
       "symbol": "NRG",
       "company": "NRG Energy",
       "sector": "UTILITIES",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1370292.0,
-      "market_value": 28143484928.0
+      "change_pct": -3.141166849522761,
+      "current_price": 129.1999969482422,
+      "volume": 1737800.0,
+      "market_value": 27259451392.0
     },
     {
       "symbol": "NUE",
       "company": "Nucor",
       "sector": "BASIC MATERIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 953253.0,
-      "market_value": 59731894272.0
+      "change_pct": -3.008235254830738,
+      "current_price": 254.38999938964844,
+      "volume": 1439500.0,
+      "market_value": 57935020032.0
     },
     {
       "symbol": "NVDA",
       "company": "Nvidia",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 167707274.0,
-      "market_value": 5296163913728.0
+      "change_pct": -6.201407359138127,
+      "current_price": 205.10000610351562,
+      "volume": 218529000.0,
+      "market_value": 4967727366144.0
     },
     {
       "symbol": "NVR",
       "company": "NVR, Inc.",
       "sector": "CONSUMER CYCLICAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 31474.0,
-      "market_value": 16674255872.0
+      "change_pct": 0.08547117318097495,
+      "current_price": 6182.5498046875,
+      "volume": 29500.0,
+      "market_value": 16688506880.0
     },
     {
       "symbol": "NXPI",
       "company": "NXP Semiconductors",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 3247081.0,
-      "market_value": 81351229440.0
+      "change_pct": -8.149714377177451,
+      "current_price": 295.9599914550781,
+      "volume": 8437600.0,
+      "market_value": 74721337344.0
     },
     {
       "symbol": "ORLY",
       "company": "O\u2019Reilly Automotive",
       "sector": "CONSUMER CYCLICAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 7525546.0,
-      "market_value": 73258409984.0
+      "change_pct": 2.1832582260881273,
+      "current_price": 90.33000183105469,
+      "volume": 11548400.0,
+      "market_value": 74857832448.0
     },
     {
       "symbol": "OXY",
       "company": "Occidental Petroleum",
       "sector": "ENERGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 7440997.0,
-      "market_value": 58355216384.0
+      "change_pct": -2.965737034385202,
+      "current_price": 56.93000030517578,
+      "volume": 8190800.0,
+      "market_value": 56624553984.0
     },
     {
       "symbol": "ODFL",
       "company": "Old Dominion",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2285581.0,
-      "market_value": 51060375552.0
+      "change_pct": -1.2015301795810034,
+      "current_price": 242.57000732421875,
+      "volume": 2123500.0,
+      "market_value": 50446868480.0
     },
     {
       "symbol": "OMC",
       "company": "Omnicom Group",
       "sector": "COMMUNICATION SERVICES",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1928474.0,
-      "market_value": 21555017728.0
+      "change_pct": -0.42311213334039477,
+      "current_price": 75.30999755859375,
+      "volume": 2903800.0,
+      "market_value": 21463816192.0
     },
     {
       "symbol": "ON",
       "company": "ON Semiconductor",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 10079151.0,
-      "market_value": 51252039680.0
+      "change_pct": -11.045368213473942,
+      "current_price": 117.26000213623047,
+      "volume": 19048200.0,
+      "market_value": 45591064576.0
     },
     {
       "symbol": "OKE",
       "company": "Oneok",
       "sector": "ENERGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2911850.0,
-      "market_value": 56041418752.0
+      "change_pct": -0.7869555618416698,
+      "current_price": 88.25,
+      "volume": 2631500.0,
+      "market_value": 55600398336.0
     },
     {
       "symbol": "ORCL",
       "company": "Oracle Corporation",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 16815742.0,
-      "market_value": 679724711936.0
+      "change_pct": -9.587883563183617,
+      "current_price": 213.67999267578125,
+      "volume": 28891400.0,
+      "market_value": 614553485312.0
     },
     {
       "symbol": "OTIS",
       "company": "Otis Worldwide",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2931749.0,
-      "market_value": 26802567168.0
+      "change_pct": 0.701500178201252,
+      "current_price": 70.33999633789062,
+      "volume": 2820800.0,
+      "market_value": 26990585856.0
     },
     {
       "symbol": "PCAR",
       "company": "Paccar",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 5022838.0,
-      "market_value": 62135988224.0
+      "change_pct": -1.1772672086399356,
+      "current_price": 116.68000030517578,
+      "volume": 3675400.0,
+      "market_value": 61407080448.0
     },
     {
       "symbol": "PKG",
       "company": "Packaging Corporation of America",
       "sector": "BASIC MATERIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 252163.0,
-      "market_value": 20019574784.0
+      "change_pct": -0.8322555952061774,
+      "current_price": 222.82000732421875,
+      "volume": 371200.0,
+      "market_value": 19852961792.0
     },
     {
       "symbol": "PLTR",
       "company": "Palantir Technologies",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 40483209.0,
-      "market_value": 339699105792.0
+      "change_pct": -4.354268385199038,
+      "current_price": 135.52999877929688,
+      "volume": 38108100.0,
+      "market_value": 324907696128.0
     },
     {
       "symbol": "PANW",
       "company": "Palo Alto Networks",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 9668373.0,
-      "market_value": 227588751360.0
+      "change_pct": -2.578339196788272,
+      "current_price": 272.04998779296875,
+      "volume": 7786800.0,
+      "market_value": 221720739840.0
     },
     {
       "symbol": "PSKY",
       "company": "Paramount Skydance Corporation",
       "sector": "COMMUNICATION SERVICES",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 4811805.0,
-      "market_value": 11952769024.0
+      "change_pct": -4.307116338976561,
+      "current_price": 10.220000267028809,
+      "volume": 14612700.0,
+      "market_value": 11437949952.0
     },
     {
       "symbol": "PH",
       "company": "Parker Hannifin",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 608665.0,
-      "market_value": 109976330240.0
+      "change_pct": 1.1591032884796568,
+      "current_price": 882.3400268554688,
+      "volume": 1015700.0,
+      "market_value": 111251070976.0
     },
     {
       "symbol": "PAYX",
       "company": "Paychex",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2217684.0,
-      "market_value": 35642777600.0
+      "change_pct": 1.055483903228174,
+      "current_price": 100.52999877929688,
+      "volume": 2410100.0,
+      "market_value": 36018982912.0
     },
     {
       "symbol": "PYPL",
       "company": "PayPal",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 9946528.0,
-      "market_value": 37710008320.0
+      "change_pct": -3.415202536778143,
+      "current_price": 41.290000915527344,
+      "volume": 23866800.0,
+      "market_value": 36422135808.0
     },
     {
       "symbol": "PNR",
       "company": "Pentair",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2026984.0,
-      "market_value": 11772962816.0
+      "change_pct": 0.41180927665274314,
+      "current_price": 73.1500015258789,
+      "volume": 2265200.0,
+      "market_value": 11821445120.0
     },
     {
       "symbol": "PEP",
       "company": "PepsiCo",
       "sector": "CONSUMER DEFENSIVE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 8077000.0,
-      "market_value": 194310651904.0
+      "change_pct": 0.8886045470042193,
+      "current_price": 141.9199981689453,
+      "volume": 13226600.0,
+      "market_value": 193996259328.0
     },
     {
       "symbol": "PFE",
       "company": "Pfizer",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 22451562.0,
-      "market_value": 146418728960.0
+      "change_pct": 1.3623992767369772,
+      "current_price": 26.040000915527344,
+      "volume": 32159700.0,
+      "market_value": 148413530112.0
     },
     {
       "symbol": "PCG",
       "company": "PG&E Corporation",
       "sector": "UTILITIES",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 14357967.0,
-      "market_value": 37041418240.0
+      "change_pct": 1.7241434054043512,
+      "current_price": 17.110000610351562,
+      "volume": 14405600.0,
+      "market_value": 37680066560.0
     },
     {
       "symbol": "PM",
       "company": "Philip Morris International",
       "sector": "CONSUMER DEFENSIVE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 3294847.0,
-      "market_value": 272732225536.0
+      "change_pct": 1.8858150119308748,
+      "current_price": 178.2899932861328,
+      "volume": 4599000.0,
+      "market_value": 277875458048.0
     },
     {
       "symbol": "PSX",
       "company": "Phillips 66",
       "sector": "ENERGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 987854.0,
-      "market_value": 73828171776.0
+      "change_pct": -0.5756476388113524,
+      "current_price": 183.0800018310547,
+      "volume": 2229200.0,
+      "market_value": 73403179008.0
     },
     {
       "symbol": "PNW",
       "company": "Pinnacle West Capital",
       "sector": "UTILITIES",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 752906.0,
-      "market_value": 12176886784.0
+      "change_pct": 2.567669302811707,
+      "current_price": 103.05999755859375,
+      "volume": 1517900.0,
+      "market_value": 12489548800.0
     },
     {
       "symbol": "PNC",
       "company": "PNC Financial Services",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1335906.0,
-      "market_value": 91187298304.0
+      "change_pct": 0.568078772120389,
+      "current_price": 228.3699951171875,
+      "volume": 1298300.0,
+      "market_value": 91705311232.0
     },
     {
       "symbol": "POOL",
       "company": "Pool Corporation",
       "sector": "CONSUMER CYCLICAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 644154.0,
-      "market_value": 6677087232.0
+      "change_pct": 1.2553231287163213,
+      "current_price": 185.52000427246094,
+      "volume": 1308800.0,
+      "market_value": 6760906240.0
     },
     {
       "symbol": "PPG",
       "company": "PPG Industries",
       "sector": "BASIC MATERIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1077710.0,
-      "market_value": 24955883520.0
+      "change_pct": 1.6434476440973282,
+      "current_price": 113.80000305175781,
+      "volume": 1935000.0,
+      "market_value": 25366020096.0
     },
     {
       "symbol": "PPL",
       "company": "PPL Corporation",
       "sector": "UTILITIES",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 11877096.0,
-      "market_value": 26452637696.0
+      "change_pct": 1.6496070351871106,
+      "current_price": 35.7400016784668,
+      "volume": 8899400.0,
+      "market_value": 26889003008.0
     },
     {
       "symbol": "PFG",
       "company": "Principal Financial Group",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 860572.0,
-      "market_value": 22359441408.0
+      "change_pct": 1.6520133795593113,
+      "current_price": 105.22000122070312,
+      "volume": 1421200.0,
+      "market_value": 22728822784.0
     },
     {
       "symbol": "PG",
       "company": "Procter & Gamble",
       "sector": "CONSUMER DEFENSIVE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 8015709.0,
-      "market_value": 327820181504.0
+      "change_pct": 4.091486402032135,
+      "current_price": 146.5399932861328,
+      "volume": 10958700.0,
+      "market_value": 341232877568.0
     },
     {
       "symbol": "PGR",
       "company": "Progressive Corporation",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1904498.0,
-      "market_value": 114004238336.0
+      "change_pct": 4.422151281463345,
+      "current_price": 204.02000427246094,
+      "volume": 2743600.0,
+      "market_value": 119045677056.0
     },
     {
       "symbol": "PLD",
       "company": "Prologis",
       "sector": "REAL ESTATE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2455971.0,
-      "market_value": 134737543168.0
+      "change_pct": 0.5215940155915777,
+      "current_price": 144.5399932861328,
+      "volume": 5442300.0,
+      "market_value": 135440326656.0
     },
     {
       "symbol": "PRU",
       "company": "Prudential Financial",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1189797.0,
-      "market_value": 35885629440.0
+      "change_pct": 1.258229825394527,
+      "current_price": 104.62000274658203,
+      "volume": 2181800.0,
+      "market_value": 36337156096.0
     },
     {
       "symbol": "PEG",
       "company": "Public Service Enterprise Group",
       "sector": "UTILITIES",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1636656.0,
-      "market_value": 38908936192.0
+      "change_pct": 1.7930346990874237,
+      "current_price": 79.4800033569336,
+      "volume": 2336900.0,
+      "market_value": 39606587392.0
     },
     {
       "symbol": "PTC",
       "company": "PTC Inc.",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1531378.0,
-      "market_value": 16031047680.0
+      "change_pct": -1.2897135043752894,
+      "current_price": 137.0,
+      "volume": 1111200.0,
+      "market_value": 15824293888.0
     },
     {
       "symbol": "PSA",
       "company": "Public Storage",
       "sector": "REAL ESTATE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 603722.0,
-      "market_value": 53832859648.0
+      "change_pct": 0.9848004231420485,
+      "current_price": 309.67999267578125,
+      "volume": 842900.0,
+      "market_value": 54363004928.0
     },
     {
       "symbol": "PHM",
       "company": "PulteGroup",
       "sector": "CONSUMER CYCLICAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 748923.0,
-      "market_value": 22519296000.0
+      "change_pct": 0.15225875766972918,
+      "current_price": 118.4000015258789,
+      "volume": 1281400.0,
+      "market_value": 22553583616.0
     },
     {
       "symbol": "PWR",
       "company": "Quanta Services",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 985394.0,
-      "market_value": 107918753792.0
+      "change_pct": -3.345523051620397,
+      "current_price": 695.1099853515625,
+      "volume": 1062300.0,
+      "market_value": 104308301824.0
     },
     {
       "symbol": "QCOM",
       "company": "Qualcomm",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 14029047.0,
-      "market_value": 255668781056.0
+      "change_pct": -10.978275994038649,
+      "current_price": 215.94000244140625,
+      "volume": 24148000.0,
+      "market_value": 227600760832.0
     },
     {
       "symbol": "DGX",
       "company": "Quest Diagnostics",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 581274.0,
-      "market_value": 21709783040.0
+      "change_pct": 2.1262483544595314,
+      "current_price": 200.2899932861328,
+      "volume": 815600.0,
+      "market_value": 22171387904.0
     },
     {
       "symbol": "Q",
       "company": "Qnity Electronics",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1255554.0,
-      "market_value": 32405708800.0
+      "change_pct": -8.236433946152443,
+      "current_price": 142.0500030517578,
+      "volume": 1861700.0,
+      "market_value": 29736634368.0
     },
     {
       "symbol": "RL",
       "company": "Ralph Lauren Corporation",
       "sector": "CONSUMER CYCLICAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 568669.0,
-      "market_value": 21825832960.0
+      "change_pct": -0.046360554965218764,
+      "current_price": 366.54998779296875,
+      "volume": 593000.0,
+      "market_value": 21815715840.0
     },
     {
       "symbol": "RJF",
       "company": "Raymond James Financial",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 789453.0,
-      "market_value": 29331845120.0
+      "change_pct": 0.6245448646027002,
+      "current_price": 151.4499969482422,
+      "volume": 884100.0,
+      "market_value": 29515036672.0
     },
     {
       "symbol": "RTX",
       "company": "RTX Corporation",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 3523963.0,
-      "market_value": 241608474624.0
+      "change_pct": 0.8806654025994969,
+      "current_price": 180.99000549316406,
+      "volume": 6269700.0,
+      "market_value": 243736231936.0
     },
     {
       "symbol": "O",
       "company": "Realty Income",
       "sector": "REAL ESTATE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 5825469.0,
-      "market_value": 55716429824.0
+      "change_pct": 1.824268037804001,
+      "current_price": 60.84000015258789,
+      "volume": 6830700.0,
+      "market_value": 56732848128.0
     },
     {
       "symbol": "REG",
       "company": "Regency Centers",
       "sector": "REAL ESTATE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 921042.0,
-      "market_value": 14334174208.0
+      "change_pct": 1.3562870518887378,
+      "current_price": 77.72000122070312,
+      "volume": 1581300.0,
+      "market_value": 14528586752.0
     },
     {
       "symbol": "REGN",
       "company": "Regeneron Pharmaceuticals",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 974335.0,
-      "market_value": 65915441152.0
+      "change_pct": 1.068826355834205,
+      "current_price": 635.4500122070312,
+      "volume": 975800.0,
+      "market_value": 66619965440.0
     },
     {
       "symbol": "RF",
       "company": "Regions Financial Corporation",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 7867196.0,
-      "market_value": 24261580800.0
+      "change_pct": 0.3869173730945634,
+      "current_price": 28.540000915527344,
+      "volume": 9464000.0,
+      "market_value": 24355452928.0
     },
     {
       "symbol": "RSG",
       "company": "Republic Services",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1289732.0,
-      "market_value": 63966441472.0
+      "change_pct": 1.024476738255004,
+      "current_price": 210.0399932861328,
+      "volume": 1319500.0,
+      "market_value": 64621764608.0
     },
     {
       "symbol": "RMD",
       "company": "ResMed",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1571473.0,
-      "market_value": 28187357184.0
+      "change_pct": 0.885130659265725,
+      "current_price": 196.0399932861328,
+      "volume": 1536500.0,
+      "market_value": 28436852736.0
     },
     {
       "symbol": "RVTY",
       "company": "Revvity",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 669574.0,
-      "market_value": 11423721472.0
+      "change_pct": -3.9355456242629048,
+      "current_price": 98.37000274658203,
+      "volume": 868600.0,
+      "market_value": 10974135296.0
     },
     {
       "symbol": "HOOD",
       "company": "Robinhood Markets",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 31084348.0,
-      "market_value": 79541616640.0
+      "change_pct": -6.63421316526151,
+      "current_price": 82.47000122070312,
+      "volume": 35795600.0,
+      "market_value": 74264657920.0
     },
     {
       "symbol": "ROK",
       "company": "Rockwell Automation",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 442654.0,
-      "market_value": 51435270144.0
+      "change_pct": -3.3597263558746873,
+      "current_price": 446.7099914550781,
+      "volume": 844000.0,
+      "market_value": 49707184128.0
     },
     {
       "symbol": "ROL",
       "company": "Rollins, Inc.",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 4434335.0,
-      "market_value": 22388060160.0
+      "change_pct": 1.2903192991851478,
+      "current_price": 47.099998474121094,
+      "volume": 4685000.0,
+      "market_value": 22676936704.0
     },
     {
       "symbol": "ROP",
       "company": "Roper Technologies",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 735958.0,
-      "market_value": 33484378112.0
+      "change_pct": 0.11452829921428731,
+      "current_price": 332.17999267578125,
+      "volume": 882700.0,
+      "market_value": 33522726912.0
     },
     {
       "symbol": "ROST",
       "company": "Ross Stores",
       "sector": "CONSUMER CYCLICAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2824205.0,
-      "market_value": 74761240576.0
+      "change_pct": -1.1542102761457185,
+      "current_price": 230.3699951171875,
+      "volume": 4163300.0,
+      "market_value": 73898336256.0
     },
     {
       "symbol": "RCL",
       "company": "Royal Caribbean Group",
       "sector": "CONSUMER CYCLICAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2652060.0,
-      "market_value": 78656225280.0
+      "change_pct": -4.528095620080292,
+      "current_price": 280.0,
+      "volume": 2695400.0,
+      "market_value": 75094589440.0
     },
     {
       "symbol": "SPGI",
       "company": "S&P Global",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2128361.0,
-      "market_value": 124355518464.0
+      "change_pct": 1.0282793902760414,
+      "current_price": 424.44000244140625,
+      "volume": 2259400.0,
+      "market_value": 125634240512.0
     },
     {
       "symbol": "CRM",
       "company": "Salesforce",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 13441903.0,
-      "market_value": 154586251264.0
+      "change_pct": -1.6370841525248345,
+      "current_price": 185.66000366210938,
+      "volume": 13163100.0,
+      "market_value": 152055545856.0
     },
     {
       "symbol": "SNDK",
       "company": "Sandisk",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 10348748.0,
-      "market_value": 260590600192.0
+      "change_pct": -11.386166877287804,
+      "current_price": 1559.3199462890625,
+      "volume": 13160900.0,
+      "market_value": 230919323648.0
     },
     {
       "symbol": "SBAC",
       "company": "SBA Communications",
       "sector": "REAL ESTATE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 771426.0,
-      "market_value": 22045198336.0
+      "change_pct": 0.08178886887337797,
+      "current_price": 208.02000427246094,
+      "volume": 682600.0,
+      "market_value": 22063228928.0
     },
     {
       "symbol": "SLB",
       "company": "Schlumberger",
       "sector": "ENERGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 9944613.0,
-      "market_value": 86728294400.0
+      "change_pct": -5.4128589562169935,
+      "current_price": 54.869998931884766,
+      "volume": 10059900.0,
+      "market_value": 82033811456.0
     },
     {
       "symbol": "STX",
       "company": "Seagate Technology",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2323673.0,
-      "market_value": 209507188736.0
+      "change_pct": -8.479575412189497,
+      "current_price": 847.469970703125,
+      "volume": 3602700.0,
+      "market_value": 191741870080.0
     },
     {
       "symbol": "SRE",
       "company": "Sempra",
       "sector": "UTILITIES",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1593426.0,
-      "market_value": 59054358528.0
+      "change_pct": 1.1954858034477367,
+      "current_price": 91.41999816894531,
+      "volume": 2958500.0,
+      "market_value": 59761930240.0
     },
     {
       "symbol": "NOW",
       "company": "ServiceNow",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 25491628.0,
-      "market_value": 123096924160.0
+      "change_pct": -5.789212153799286,
+      "current_price": 112.44999694824219,
+      "volume": 31294900.0,
+      "market_value": 115970588672.0
     },
     {
       "symbol": "SHW",
       "company": "Sherwin-Williams",
       "sector": "BASIC MATERIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1591108.0,
-      "market_value": 74012884992.0
+      "change_pct": 1.736142996653531,
+      "current_price": 305.29998779296875,
+      "volume": 2470200.0,
+      "market_value": 75297849344.0
     },
     {
       "symbol": "SPG",
       "company": "Simon Property Group",
       "sector": "REAL ESTATE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1152938.0,
-      "market_value": 78359396352.0
+      "change_pct": 1.9833169981962044,
+      "current_price": 210.30999755859375,
+      "volume": 1406500.0,
+      "market_value": 79913508864.0
     },
     {
       "symbol": "SWKS",
       "company": "Skyworks Solutions",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 3524515.0,
-      "market_value": 12021949440.0
+      "change_pct": -7.956963075276915,
+      "current_price": 73.56999969482422,
+      "volume": 7168700.0,
+      "market_value": 11065366528.0
     },
     {
       "symbol": "SJM",
       "company": "J.M. Smucker Company (The)",
       "sector": "CONSUMER DEFENSIVE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 754326.0,
-      "market_value": 10784278528.0
+      "change_pct": 2.3931943267546156,
+      "current_price": 103.54000091552734,
+      "volume": 1840800.0,
+      "market_value": 11042367488.0
     },
     {
       "symbol": "SW",
       "company": "Smurfit Westrock",
       "sector": "BASIC MATERIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2923773.0,
-      "market_value": 22174339072.0
+      "change_pct": -2.365184552677109,
+      "current_price": 41.279998779296875,
+      "volume": 3626500.0,
+      "market_value": 21649874944.0
     },
     {
       "symbol": "SNA",
       "company": "Snap-on",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 189362.0,
-      "market_value": 19627745280.0
+      "change_pct": 0.22961074985532542,
+      "current_price": 379.7699890136719,
+      "volume": 307900.0,
+      "market_value": 19672813568.0
     },
     {
       "symbol": "SOLV",
       "company": "Solventum",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2474722.0,
-      "market_value": 14273059840.0
+      "change_pct": -1.710745042513372,
+      "current_price": 81.01000213623047,
+      "volume": 1726900.0,
+      "market_value": 14028883968.0
     },
     {
       "symbol": "SO",
       "company": "Southern Company",
       "sector": "UTILITIES",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 3397156.0,
-      "market_value": 103283335168.0
+      "change_pct": 1.0696307554690858,
+      "current_price": 92.5999984741211,
+      "volume": 5619900.0,
+      "market_value": 104388083712.0
     },
     {
       "symbol": "LUV",
       "company": "Southwest Airlines",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 3734390.0,
-      "market_value": 20191244288.0
+      "change_pct": 0.5567647896158976,
+      "current_price": 41.540000915527344,
+      "volume": 4883800.0,
+      "market_value": 20303661056.0
     },
     {
       "symbol": "SWK",
       "company": "Stanley Black & Decker",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1016356.0,
-      "market_value": 12329181184.0
+      "change_pct": -1.046519010477792,
+      "current_price": 78.4800033569336,
+      "volume": 1299400.0,
+      "market_value": 12200153088.0
     },
     {
       "symbol": "SBUX",
       "company": "Starbucks",
       "sector": "CONSUMER CYCLICAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 7519681.0,
-      "market_value": 107291353088.0
+      "change_pct": 1.2215865023739947,
+      "current_price": 95.29000091552734,
+      "volume": 7621300.0,
+      "market_value": 108602007552.0
     },
     {
       "symbol": "STT",
       "company": "State Street Corporation",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1645822.0,
-      "market_value": 45043834880.0
+      "change_pct": -0.6144393241167435,
+      "current_price": 161.75,
+      "volume": 1743900.0,
+      "market_value": 44767068160.0
     },
     {
       "symbol": "STLD",
       "company": "Steel Dynamics",
       "sector": "BASIC MATERIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 682597.0,
-      "market_value": 39925309440.0
+      "change_pct": -3.016075824247414,
+      "current_price": 268.5,
+      "volume": 1120200.0,
+      "market_value": 38721130496.0
     },
     {
       "symbol": "STE",
       "company": "Steris",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 828318.0,
-      "market_value": 20715153408.0
+      "change_pct": 0.051828405345148494,
+      "current_price": 212.35000610351562,
+      "volume": 1132700.0,
+      "market_value": 20725889024.0
     },
     {
       "symbol": "SYK",
       "company": "Stryker Corporation",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2011257.0,
-      "market_value": 115472097280.0
+      "change_pct": 1.4773786837329783,
+      "current_price": 305.6600036621094,
+      "volume": 2123100.0,
+      "market_value": 117178056704.0
     },
     {
       "symbol": "SMCI",
       "company": "Supermicro",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 31714050.0,
-      "market_value": 28206528512.0
+      "change_pct": -11.215356002340549,
+      "current_price": 41.63999938964844,
+      "volume": 49052300.0,
+      "market_value": 25043064832.0
     },
     {
       "symbol": "SYF",
       "company": "Synchrony Financial",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 3332401.0,
-      "market_value": 23808284672.0
+      "change_pct": 0.08476626113096128,
+      "current_price": 70.83999633789062,
+      "volume": 3004100.0,
+      "market_value": 23828465664.0
     },
     {
       "symbol": "SNPS",
       "company": "Synopsys",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2005985.0,
-      "market_value": 94682701824.0
+      "change_pct": -5.992154227571342,
+      "current_price": 464.8500061035156,
+      "volume": 1838300.0,
+      "market_value": 89009168384.0
     },
     {
       "symbol": "SYY",
       "company": "Sysco",
       "sector": "CONSUMER DEFENSIVE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1732500.0,
-      "market_value": 35552874496.0
+      "change_pct": 2.609283767613666,
+      "current_price": 76.29000091552734,
+      "volume": 3605300.0,
+      "market_value": 36480548864.0
     },
     {
       "symbol": "TMUS",
       "company": "T-Mobile US",
       "sector": "COMMUNICATION SERVICES",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 5955070.0,
-      "market_value": 191571869696.0
+      "change_pct": 0.6101015732619682,
+      "current_price": 178.10000610351562,
+      "volume": 6338600.0,
+      "market_value": 192740655104.0
     },
     {
       "symbol": "TROW",
       "company": "T. Rowe Price",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1509328.0,
-      "market_value": 22917955584.0
+      "change_pct": -0.9068822260713162,
+      "current_price": 105.98999786376953,
+      "volume": 1482900.0,
+      "market_value": 22710116352.0
     },
     {
       "symbol": "TTWO",
       "company": "Take-Two Interactive",
       "sector": "COMMUNICATION SERVICES",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1940941.0,
-      "market_value": 40224677888.0
+      "change_pct": -1.0431546598223147,
+      "current_price": 214.38999938964844,
+      "volume": 1987700.0,
+      "market_value": 39805075456.0
     },
     {
       "symbol": "TPR",
       "company": "Tapestry, Inc.",
       "sector": "CONSUMER CYCLICAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 3295452.0,
-      "market_value": 28381222912.0
+      "change_pct": 0.021427885904296545,
+      "current_price": 140.10000610351562,
+      "volume": 3127500.0,
+      "market_value": 28306466816.0
     },
     {
       "symbol": "TRGP",
       "company": "Targa Resources",
       "sector": "ENERGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 839330.0,
-      "market_value": 57389338624.0
+      "change_pct": -1.2267639747157346,
+      "current_price": 264.0899963378906,
+      "volume": 821700.0,
+      "market_value": 56685305856.0
     },
     {
       "symbol": "TGT",
       "company": "Target Corporation",
       "sector": "CONSUMER DEFENSIVE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 3070560.0,
-      "market_value": 56251568128.0
+      "change_pct": -1.0335073032433952,
+      "current_price": 122.56999969482422,
+      "volume": 4383900.0,
+      "market_value": 55670202368.0
     },
     {
       "symbol": "TEL",
       "company": "TE Connectivity",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1660094.0,
-      "market_value": 64435998720.0
+      "change_pct": -3.6693119381724237,
+      "current_price": 212.64999389648438,
+      "volume": 1874600.0,
+      "market_value": 62071640064.0
     },
     {
       "symbol": "TDY",
       "company": "Teledyne Technologies",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 177163.0,
-      "market_value": 28658741248.0
+      "change_pct": -2.638259043259981,
+      "current_price": 602.27001953125,
+      "volume": 222200.0,
+      "market_value": 27902650368.0
     },
     {
       "symbol": "TER",
       "company": "Teradyne",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 4210437.0,
-      "market_value": 63690739712.0
+      "change_pct": -12.02624844846845,
+      "current_price": 357.92999267578125,
+      "volume": 5466800.0,
+      "market_value": 56031133696.0
     },
     {
       "symbol": "TSLA",
       "company": "Tesla, Inc.",
       "sector": "CONSUMER CYCLICAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 34237925.0,
-      "market_value": 1571582640128.0
+      "change_pct": -6.559926253138728,
+      "current_price": 391.0,
+      "volume": 63128800.0,
+      "market_value": 1468487958528.0
     },
     {
       "symbol": "TXN",
       "company": "Texas Instruments",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 7720683.0,
-      "market_value": 277915041792.0
+      "change_pct": -6.65094733711466,
+      "current_price": 285.05999755859375,
+      "volume": 11935000.0,
+      "market_value": 259431055360.0
     },
     {
       "symbol": "TPL",
       "company": "Texas Pacific Land Corporation",
       "sector": "ENERGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 345195.0,
-      "market_value": 28053970944.0
+      "change_pct": -4.164925622362219,
+      "current_price": 389.7900085449219,
+      "volume": 291100.0,
+      "market_value": 26885543936.0
     },
     {
       "symbol": "TXT",
       "company": "Textron",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 902651.0,
-      "market_value": 15839546368.0
+      "change_pct": -0.010972123435886114,
+      "current_price": 91.08000183105469,
+      "volume": 1289900.0,
+      "market_value": 15837808640.0
     },
     {
       "symbol": "TMO",
       "company": "Thermo Fisher Scientific",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2146641.0,
-      "market_value": 179132694528.0
+      "change_pct": -1.9148208637849102,
+      "current_price": 472.79998779296875,
+      "volume": 1728100.0,
+      "market_value": 175702622208.0
     },
     {
       "symbol": "TJX",
       "company": "TJX Companies",
       "sector": "CONSUMER CYCLICAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 3997429.0,
-      "market_value": 175239266304.0
+      "change_pct": 1.3112284984113085,
+      "current_price": 160.7100067138672,
+      "volume": 4867000.0,
+      "market_value": 177537056768.0
     },
     {
       "symbol": "TKO",
       "company": "TKO Group Holdings",
       "sector": "COMMUNICATION SERVICES",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 454102.0,
-      "market_value": 38701162496.0
+      "change_pct": 0.4938515348273618,
+      "current_price": 203.49000549316406,
+      "volume": 1007300.0,
+      "market_value": 38892290048.0
     },
     {
       "symbol": "TTD",
       "company": "Trade Desk (The)",
       "sector": "COMMUNICATION SERVICES",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 19118338.0,
-      "market_value": 9886379008.0
+      "change_pct": -5.135520154271213,
+      "current_price": 19.950000762939453,
+      "volume": 18173400.0,
+      "market_value": 9378662400.0
     },
     {
       "symbol": "TSCO",
       "company": "Tractor Supply",
       "sector": "CONSUMER CYCLICAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 10089660.0,
-      "market_value": 15403084800.0
+      "change_pct": 1.3959817354326334,
+      "current_price": 29.780000686645508,
+      "volume": 8601000.0,
+      "market_value": 15618109440.0
     },
     {
       "symbol": "TT",
       "company": "Trane Technologies",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 948000.0,
-      "market_value": 102516686848.0
+      "change_pct": -1.2686186501299757,
+      "current_price": 456.8399963378906,
+      "volume": 1209800.0,
+      "market_value": 100986978304.0
     },
     {
       "symbol": "TDG",
       "company": "TransDigm Group",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 262822.0,
-      "market_value": 68691472384.0
+      "change_pct": 0.867202298729697,
+      "current_price": 1238.739990234375,
+      "volume": 266000.0,
+      "market_value": 69287165952.0
     },
     {
       "symbol": "TRV",
       "company": "Travelers Companies (The)",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1299173.0,
-      "market_value": 62396329984.0
+      "change_pct": 3.3466269874699353,
+      "current_price": 303.25,
+      "volume": 1151500.0,
+      "market_value": 64484503552.0
     },
     {
       "symbol": "TRMB",
       "company": "Trimble Inc.",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2090462.0,
-      "market_value": 12984311808.0
+      "change_pct": -2.7109553241427666,
+      "current_price": 54.189998626708984,
+      "volume": 2362900.0,
+      "market_value": 12632312832.0
     },
     {
       "symbol": "TFC",
       "company": "Truist Financial",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 9951963.0,
-      "market_value": 61272330240.0
+      "change_pct": 0.04066786831956769,
+      "current_price": 49.20000076293945,
+      "volume": 6861200.0,
+      "market_value": 61297262592.0
     },
     {
       "symbol": "TYL",
       "company": "Tyler Technologies",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 572225.0,
-      "market_value": 12677462016.0
+      "change_pct": 1.272112122465662,
+      "current_price": 312.07000732421875,
+      "volume": 658100.0,
+      "market_value": 12838733824.0
     },
     {
       "symbol": "TSN",
       "company": "Tyson Foods",
       "sector": "CONSUMER DEFENSIVE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 7006685.0,
-      "market_value": 20029120512.0
+      "change_pct": 3.252458578377441,
+      "current_price": 58.72999954223633,
+      "volume": 4506400.0,
+      "market_value": 20680560640.0
     },
     {
       "symbol": "USB",
       "company": "U.S. Bancorp",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 6277303.0,
-      "market_value": 86025732096.0
+      "change_pct": 0.41471248833958596,
+      "current_price": 55.689998626708984,
+      "volume": 6500200.0,
+      "market_value": 86382493696.0
     },
     {
       "symbol": "UBER",
       "company": "Uber",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 17314644.0,
-      "market_value": 146990596096.0
+      "change_pct": -2.0772746420412926,
+      "current_price": 70.70999908447266,
+      "volume": 16676000.0,
+      "market_value": 143937208320.0
     },
     {
       "symbol": "UDR",
       "company": "UDR, Inc.",
       "sector": "REAL ESTATE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 4086131.0,
-      "market_value": 14413059072.0
+      "change_pct": 0.7712062346860504,
+      "current_price": 39.20000076293945,
+      "volume": 3767300.0,
+      "market_value": 14524213248.0
     },
     {
       "symbol": "ULTA",
       "company": "Ulta Beauty",
       "sector": "CONSUMER CYCLICAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1274332.0,
-      "market_value": 19883415552.0
+      "change_pct": 0.9837452258549583,
+      "current_price": 467.07000732421875,
+      "volume": 1075700.0,
+      "market_value": 20079017984.0
     },
     {
       "symbol": "UNP",
       "company": "Union Pacific Corporation",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1860340.0,
-      "market_value": 156680912896.0
+      "change_pct": 3.1906076629305087,
+      "current_price": 272.32000732421875,
+      "volume": 2784100.0,
+      "market_value": 161679982592.0
     },
     {
       "symbol": "UAL",
       "company": "United Airlines Holdings",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 4109368.0,
-      "market_value": 34060347392.0
+      "change_pct": 0.7528119850849484,
+      "current_price": 105.7300033569336,
+      "volume": 3831500.0,
+      "market_value": 34316759040.0
     },
     {
       "symbol": "UPS",
       "company": "United Parcel Service",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 4501921.0,
-      "market_value": 93687693312.0
+      "change_pct": -1.5242245387130509,
+      "current_price": 108.54000091552734,
+      "volume": 4044000.0,
+      "market_value": 92259680256.0
     },
     {
       "symbol": "URI",
       "company": "United Rentals",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 581355.0,
-      "market_value": 67947708416.0
+      "change_pct": -1.5535372445459064,
+      "current_price": 1067.77001953125,
+      "volume": 560900.0,
+      "market_value": 66892115968.0
     },
     {
       "symbol": "UNH",
       "company": "UnitedHealth Group",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 7759892.0,
-      "market_value": 360051998720.0
+      "change_pct": 0.7566776782009262,
+      "current_price": 399.4700012207031,
+      "volume": 10889000.0,
+      "market_value": 362776428544.0
     },
     {
       "symbol": "UHS",
       "company": "Universal Health Services",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1017886.0,
-      "market_value": 8639748096.0
+      "change_pct": 1.7166458290968598,
+      "current_price": 145.1699981689453,
+      "volume": 1330400.0,
+      "market_value": 8788062208.0
     },
     {
       "symbol": "VLO",
       "company": "Valero Energy",
       "sector": "ENERGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1860750.0,
-      "market_value": 76861046784.0
+      "change_pct": -1.1705616024150916,
+      "current_price": 255.82000732421875,
+      "volume": 2424100.0,
+      "market_value": 75961344000.0
     },
     {
       "symbol": "VEEV",
       "company": "Veeva Systems",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 3618693.0,
-      "market_value": 29147289600.0
+      "change_pct": -3.353866342922904,
+      "current_price": 172.61000061035156,
+      "volume": 2499900.0,
+      "market_value": 28169728000.0
     },
     {
       "symbol": "VTR",
       "company": "Ventas",
       "sector": "REAL ESTATE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2045933.0,
-      "market_value": 38456025088.0
+      "change_pct": 3.691527465579711,
+      "current_price": 82.0199966430664,
+      "volume": 3685700.0,
+      "market_value": 39875641344.0
     },
     {
       "symbol": "VLTO",
       "company": "Veralto",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1721204.0,
-      "market_value": 20812081152.0
+      "change_pct": 1.5459112827619885,
+      "current_price": 86.05000305175781,
+      "volume": 1995700.0,
+      "market_value": 21133817856.0
     },
     {
       "symbol": "VRSN",
       "company": "Verisign",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 418948.0,
-      "market_value": 26734891008.0
+      "change_pct": 0.3846301269431077,
+      "current_price": 294.9200134277344,
+      "volume": 516700.0,
+      "market_value": 26837721088.0
     },
     {
       "symbol": "VRSK",
       "company": "Verisk Analytics",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1985025.0,
-      "market_value": 23583930368.0
+      "change_pct": 0.9611087375217015,
+      "current_price": 181.72999572753906,
+      "volume": 1901000.0,
+      "market_value": 23810598912.0
     },
     {
       "symbol": "VZ",
       "company": "Verizon",
       "sector": "COMMUNICATION SERVICES",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 33024125.0,
-      "market_value": 187357331456.0
+      "change_pct": 1.114330314023472,
+      "current_price": 45.369998931884766,
+      "volume": 23112400.0,
+      "market_value": 189445095424.0
     },
     {
       "symbol": "VRTX",
       "company": "Vertex Pharmaceuticals",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1361848.0,
-      "market_value": 112116006912.0
+      "change_pct": 1.1522607077502796,
+      "current_price": 446.8299865722656,
+      "volume": 1530000.0,
+      "market_value": 113407877120.0
     },
     {
       "symbol": "VRT",
       "company": "Vertiv",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 6057957.0,
-      "market_value": 124420530176.0
+      "change_pct": -7.2270939403786105,
+      "current_price": 300.510009765625,
+      "volume": 7301300.0,
+      "market_value": 115428540416.0
     },
     {
       "symbol": "VTRS",
       "company": "Viatris",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 7456180.0,
-      "market_value": 18516387840.0
+      "change_pct": -0.12578304760490389,
+      "current_price": 15.880000114440918,
+      "volume": 8978900.0,
+      "market_value": 18493097984.0
     },
     {
       "symbol": "VICI",
       "company": "Vici Properties",
       "sector": "REAL ESTATE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 6730917.0,
-      "market_value": 29299187712.0
+      "change_pct": 2.3888333250618468,
+      "current_price": 27.860000610351562,
+      "volume": 8728700.0,
+      "market_value": 29999095808.0
     },
     {
       "symbol": "V",
       "company": "Visa Inc.",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 5598692.0,
-      "market_value": 608900284416.0
+      "change_pct": 1.0587840358501963,
+      "current_price": 323.57000732421875,
+      "volume": 7175400.0,
+      "market_value": 615347257344.0
     },
     {
       "symbol": "VST",
       "company": "Vistra Corp.",
       "sector": "UTILITIES",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2570639.0,
-      "market_value": 51824943104.0
+      "change_pct": -3.2140550029222026,
+      "current_price": 148.75999450683594,
+      "volume": 3662000.0,
+      "market_value": 50159259648.0
     },
     {
       "symbol": "VMC",
       "company": "Vulcan Materials Company",
       "sector": "BASIC MATERIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 817356.0,
-      "market_value": 36728418304.0
+      "change_pct": -0.5935111602738884,
+      "current_price": 281.3800048828125,
+      "volume": 1416000.0,
+      "market_value": 36510429184.0
     },
     {
       "symbol": "WRB",
       "company": "W. R. Berkley Corporation",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1749775.0,
-      "market_value": 24685670400.0
+      "change_pct": 3.4082373992450457,
+      "current_price": 68.56999969482422,
+      "volume": 1923800.0,
+      "market_value": 25527015424.0
     },
     {
       "symbol": "GWW",
       "company": "W. W. Grainger",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 168590.0,
-      "market_value": 60875182080.0
+      "change_pct": 0.8252103499174771,
+      "current_price": 1300.010009765625,
+      "volume": 255800.0,
+      "market_value": 61377527808.0
     },
     {
       "symbol": "WAB",
       "company": "Wabtec",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 526527.0,
-      "market_value": 44543692800.0
+      "change_pct": -0.8075556932455501,
+      "current_price": 260.3999938964844,
+      "volume": 590000.0,
+      "market_value": 44183977984.0
     },
     {
       "symbol": "WMT",
       "company": "Walmart",
       "sector": "CONSUMER DEFENSIVE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 22422314.0,
-      "market_value": 936984182784.0
+      "change_pct": 0.9682345934535076,
+      "current_price": 118.87999725341797,
+      "volume": 36621000.0,
+      "market_value": 946056396800.0
     },
     {
       "symbol": "DIS",
       "company": "Walt Disney Company (The)",
       "sector": "COMMUNICATION SERVICES",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 7888844.0,
-      "market_value": 172505038848.0
+      "change_pct": 0.37246100284070927,
+      "current_price": 99.70999908447266,
+      "volume": 9498400.0,
+      "market_value": 173147553792.0
     },
     {
       "symbol": "WBD",
       "company": "Warner Bros. Discovery",
       "sector": "COMMUNICATION SERVICES",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 14415617.0,
-      "market_value": 67692691456.0
+      "change_pct": -2.8148156625253185,
+      "current_price": 26.239999771118164,
+      "volume": 49421000.0,
+      "market_value": 65787269120.0
     },
     {
       "symbol": "WM",
       "company": "Waste Management",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 2552182.0,
-      "market_value": 87949099008.0
+      "change_pct": 1.0707847894498306,
+      "current_price": 220.39999389648438,
+      "volume": 2239000.0,
+      "market_value": 88507293696.0
     },
     {
       "symbol": "WAT",
       "company": "Waters Corporation",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 809412.0,
-      "market_value": 36964028416.0
+      "change_pct": -2.9511025667693107,
+      "current_price": 365.3599853515625,
+      "volume": 676500.0,
+      "market_value": 35873181696.0
     },
     {
       "symbol": "WEC",
       "company": "WEC Energy Group",
       "sector": "UTILITIES",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1404757.0,
-      "market_value": 36230467584.0
+      "change_pct": 1.5463396020848694,
+      "current_price": 112.94999694824219,
+      "volume": 2843700.0,
+      "market_value": 36790714368.0
     },
     {
       "symbol": "WFC",
       "company": "Wells Fargo",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 19444067.0,
-      "market_value": 249772670976.0
+      "change_pct": 0.39206038232781026,
+      "current_price": 81.94000244140625,
+      "volume": 15109300.0,
+      "market_value": 250751926272.0
     },
     {
       "symbol": "WELL",
       "company": "Welltower",
       "sector": "REAL ESTATE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1868004.0,
-      "market_value": 141782925312.0
+      "change_pct": 3.0271279001764504,
+      "current_price": 206.92999267578125,
+      "volume": 3176800.0,
+      "market_value": 146074861568.0
     },
     {
       "symbol": "WST",
       "company": "West Pharmaceutical Services",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 476583.0,
-      "market_value": 22417895424.0
+      "change_pct": -0.888695089855281,
+      "current_price": 314.5,
+      "volume": 636000.0,
+      "market_value": 22218668032.0
     },
     {
       "symbol": "WDC",
       "company": "Western Digital",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 6435164.0,
-      "market_value": 198364577792.0
+      "change_pct": -11.059351188888726,
+      "current_price": 511.7200012207031,
+      "volume": 8990300.0,
+      "market_value": 176380739584.0
     },
     {
       "symbol": "WY",
       "company": "Weyerhaeuser",
       "sector": "REAL ESTATE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 3037777.0,
-      "market_value": 17809754112.0
+      "change_pct": -0.040841713127620076,
+      "current_price": 24.479999542236328,
+      "volume": 4968500.0,
+      "market_value": 17651122176.0
     },
     {
       "symbol": "WSM",
       "company": "Williams-Sonoma, Inc.",
       "sector": "CONSUMER CYCLICAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 706770.0,
-      "market_value": 24501891072.0
+      "change_pct": -1.4945459489083905,
+      "current_price": 204.97999572753906,
+      "volume": 829800.0,
+      "market_value": 24135698432.0
     },
     {
       "symbol": "WMB",
       "company": "Williams Companies",
       "sector": "ENERGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 6557589.0,
-      "market_value": 88581767168.0
+      "change_pct": -0.6489040711346499,
+      "current_price": 71.95999908447266,
+      "volume": 5749600.0,
+      "market_value": 88006950912.0
     },
     {
       "symbol": "WTW",
       "company": "Willis Towers Watson",
       "sector": "FINANCIAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 568601.0,
-      "market_value": 24423301120.0
+      "change_pct": 1.914231902677024,
+      "current_price": 263.5400085449219,
+      "volume": 663500.0,
+      "market_value": 24890820608.0
     },
     {
       "symbol": "WDAY",
       "company": "Workday, Inc.",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 3615005.0,
-      "market_value": 36529848320.0
+      "change_pct": -2.4541983590947685,
+      "current_price": 144.27999877929688,
+      "volume": 4595500.0,
+      "market_value": 35633332224.0
     },
     {
       "symbol": "WYNN",
       "company": "Wynn Resorts",
       "sector": "CONSUMER CYCLICAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 873128.0,
-      "market_value": 10752305152.0
+      "change_pct": 0.8494255750711446,
+      "current_price": 104.4800033569336,
+      "volume": 1379600.0,
+      "market_value": 10843637760.0
     },
     {
       "symbol": "XEL",
       "company": "Xcel Energy",
       "sector": "UTILITIES",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 4161444.0,
-      "market_value": 48549441536.0
+      "change_pct": 1.633026009104457,
+      "current_price": 79.04000091552734,
+      "volume": 5334100.0,
+      "market_value": 49342267392.0
     },
     {
       "symbol": "XYL",
       "company": "Xylem Inc.",
       "sector": "INDUSTRIALS",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1596995.0,
-      "market_value": 26189068288.0
+      "change_pct": -0.21782343719802766,
+      "current_price": 109.94000244140625,
+      "volume": 1973300.0,
+      "market_value": 26132023296.0
     },
     {
       "symbol": "YUM",
       "company": "Yum! Brands",
       "sector": "CONSUMER CYCLICAL",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1569507.0,
-      "market_value": 40813989888.0
+      "change_pct": 1.8841121364355002,
+      "current_price": 150.8699951171875,
+      "volume": 1782100.0,
+      "market_value": 41582972928.0
     },
     {
       "symbol": "ZBRA",
       "company": "Zebra Technologies",
       "sector": "TECHNOLOGY",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 747254.0,
-      "market_value": 11693044736.0
+      "change_pct": -5.4464703234014245,
+      "current_price": 232.11000061035156,
+      "volume": 1154900.0,
+      "market_value": 11056186368.0
     },
     {
       "symbol": "ZBH",
       "company": "Zimmer Biomet",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 1161302.0,
-      "market_value": 16771262464.0
+      "change_pct": 0.738262050553076,
+      "current_price": 87.33000183105469,
+      "volume": 1963600.0,
+      "market_value": 16895078400.0
     },
     {
       "symbol": "ZTS",
       "company": "Zoetis",
       "sector": "HEALTHCARE",
-      "change_pct": NaN,
-      "current_price": NaN,
-      "volume": 7330376.0,
-      "market_value": 33337018368.0
+      "change_pct": -0.10059633430219868,
+      "current_price": 79.44000244140625,
+      "volume": 5290000.0,
+      "market_value": 33303484416.0
     }
   ]
 }
