@@ -1,9 +1,20 @@
 import sys
 import os
 import json
+import math
 from datetime import datetime
 
 import yfinance as yf
+
+
+def _num(v):
+    """Coerce to a finite float, or None. NaN/Infinity are valid Python floats
+    but invalid JSON (browser JSON.parse rejects them), so they must become null."""
+    try:
+        f = float(v)
+    except (TypeError, ValueError):
+        return None
+    return f if math.isfinite(f) else None
 
 sys.path.insert(0, os.path.dirname(__file__))
 
@@ -57,15 +68,18 @@ def get_commodity_data():
             if len(h) < 2:
                 print(f"  skip {ticker}: only {len(h)} rows")
                 continue
-            last = float(h['Close'].iloc[-1])
-            prev = float(h['Close'].iloc[-2])
+            last = _num(h['Close'].iloc[-1])
+            prev = _num(h['Close'].iloc[-2])
+            if last is None:
+                print(f"  skip {ticker}: non-finite close price")
+                continue
             chg = (last - prev) / prev * 100 if prev else 0.0
             out.append({
                 'label': label,
                 'symbol': ticker,
                 'unit': unit,
                 'price': last,
-                'change_pct': chg,
+                'change_pct': _num(chg),
             })
         except Exception as e:
             print(f"  skip {ticker}: {e}")
@@ -88,10 +102,10 @@ def main():
             'symbol': str(row['symbol']),
             'company': str(row['company']),
             'sector': str(row['sector']),
-            'change_pct': float(row['change_pct']),
-            'current_price': float(row['current_price']),
-            'volume': float(row['volume']),
-            'market_value': float(row['market_value']),
+            'change_pct': _num(row['change_pct']),
+            'current_price': _num(row['current_price']),
+            'volume': _num(row['volume']),
+            'market_value': _num(row['market_value']),
         })
 
     print("Fetching commodity prices...")
@@ -107,7 +121,9 @@ def main():
 
     out_path = os.path.join(os.path.dirname(__file__), 'data.json')
     with open(out_path, 'w') as f:
-        json.dump(output, f, indent=2)
+        # allow_nan=False makes json.dump raise on any NaN/Infinity rather than
+        # emitting bare NaN tokens that the browser's JSON.parse cannot read.
+        json.dump(output, f, indent=2, allow_nan=False)
 
     print(f"Wrote {len(records)} companies to {out_path}")
 

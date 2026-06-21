@@ -735,12 +735,15 @@
     ));
 
     function cellColor(changePct) {
+      // Missing/non-finite (e.g. yfinance returned no price) → neutral grey.
+      if (changePct == null || !isFinite(changePct)) return '#444';
       const intensity = Math.min(Math.abs(changePct) / 3.0, 1.0);
       const t = 0.4 + intensity * 0.6;
       return changePct >= 0 ? d3.interpolateGreens(t) : d3.interpolateReds(t);
     }
 
     function formatValue(v) {
+      if (v == null || !isFinite(v)) return 'n/a';
       if (v >= 1e12) return '$' + (v / 1e12).toFixed(1) + 'T';
       if (v >= 1e9) return '$' + (v / 1e9).toFixed(1) + 'B';
       if (v >= 1e6) return '$' + (v / 1e6).toFixed(0) + 'M';
@@ -748,6 +751,7 @@
     }
 
     function formatCommodityPrice(v) {
+      if (v == null || !isFinite(v)) return 'n/a';
       // Big numbers get commas; small numbers keep 2 decimals
       if (v >= 1000) return v.toLocaleString('en-US', { maximumFractionDigits: 2 });
       return v.toFixed(2);
@@ -775,6 +779,7 @@
     }
 
     function formatVolume(v) {
+      if (v == null || !isFinite(v)) return 'n/a';
       if (v >= 1e9) return (v / 1e9).toFixed(1) + 'B';
       if (v >= 1e6) return (v / 1e6).toFixed(1) + 'M';
       if (v >= 1e3) return (v / 1e3).toFixed(0) + 'K';
@@ -893,8 +898,8 @@
               `${c.symbol}\n` +
               `${companyName}\n` +
               `Sector:  ${c.sector}\n` +
-              `Price:   $${c.current_price.toFixed(2)}\n` +
-              `Change:  ${c.change_pct >= 0 ? '+' : ''}${c.change_pct.toFixed(2)}%\n` +
+              `Price:   ${c.current_price != null && isFinite(c.current_price) ? '$' + c.current_price.toFixed(2) : 'n/a'}\n` +
+              `Change:  ${c.change_pct != null && isFinite(c.change_pct) ? (c.change_pct >= 0 ? '+' : '') + c.change_pct.toFixed(2) + '%' : 'n/a'}\n` +
               `Volume:  ${formatVolume(c.volume)}\n` +
               `Mkt Val: ${formatValue(c.market_value)}`;
             tooltip.style.display = 'block';
@@ -949,7 +954,10 @@
             const h = d.y1 - d.y0;
             return Math.min(9, Math.max(4, Math.min(w / 7, h / 5))) + 'px';
           })
-          .text(d => (d.data.change_pct >= 0 ? '+' : '') + d.data.change_pct.toFixed(1) + '%');
+          .text(d => {
+            const p = d.data.change_pct;
+            return (p == null || !isFinite(p)) ? 'n/a' : (p >= 0 ? '+' : '') + p.toFixed(1) + '%';
+          });
 
       // Build sidebar
       buildSidebar(root);
