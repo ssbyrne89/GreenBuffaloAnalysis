@@ -53,7 +53,7 @@ class InteractiveSP500Heatmap:
                               'Information Technology', 'Financials', 'Health Care', 'Financials']
             })
 
-    def get_market_data(self, symbols, period='2d'):
+    def get_market_data(self, symbols, period='5d'):
         """Fetch market data for given symbols"""
         data = {}
         print(f"Fetching data for {len(symbols)} symbols...")
@@ -69,10 +69,14 @@ class InteractiveSP500Heatmap:
                     try:
                         ticker = tickers.tickers[symbol]
                         ticker_data = ticker.history(period=period)
+                        # yfinance often returns rows with NaN Close (unsettled/missing
+                        # bars). Drop them so we use the last two REAL closes, otherwise
+                        # change_pct becomes NaN and the cell renders grey.
+                        ticker_data = ticker_data.dropna(subset=['Close'])
                         if len(ticker_data) >= 2:
                             current_price = ticker_data['Close'].iloc[-1]
                             prev_price = ticker_data['Close'].iloc[-2]
-                            change_pct = ((current_price - prev_price) / prev_price) * 100
+                            change_pct = ((current_price - prev_price) / prev_price * 100) if prev_price else 0.0
 
                             # Use actual market cap if available, fall back to price*volume
                             try:
