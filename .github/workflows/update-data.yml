@@ -35,15 +35,25 @@ jobs:
         run: |
           python <<'PY'
           import json, sys
-          d = json.load(open('data.json'))
-          n = len(d.get('companies', []))
+          raw = open('data.json').read()
+          # Reject NaN/Infinity the same way a browser's JSON.parse does — these are
+          # valid to Python's lenient loader but blank the whole page in-browser.
+          def _bad(tok):
+              raise ValueError(f"non-finite token {tok!r} in data.json (browser JSON.parse would fail)")
+          d = json.loads(raw, parse_constant=_bad)
+          companies = d.get('companies', [])
+          n = len(companies)
           td = d.get('trading_date')
-          print(f"trading_date={td}  companies={n}")
+          n_null = sum(1 for c in companies if c.get('change_pct') is None)
+          print(f"trading_date={td}  companies={n}  null change_pct={n_null}")
           if n < 300:
               print(f"::error::Only {n} companies fetched (expected >=300). Refusing to commit.")
               sys.exit(1)
           if not td:
               print("::error::Missing trading_date. Refusing to commit.")
+              sys.exit(1)
+          if n_null > n * 0.5:
+              print(f"::error::{n_null}/{n} companies have no change_pct (>50%). Likely a bad fetch. Refusing to commit.")
               sys.exit(1)
           PY
 
