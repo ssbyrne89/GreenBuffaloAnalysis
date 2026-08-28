@@ -1,83 +1,83 @@
 {
-  "generated_at": "2026-08-27T23:55:13.664874Z",
+  "generated_at": "2026-08-28T01:40:00.401969Z",
   "trading_date": "2026-08-27",
   "commodities": [
     {
       "label": "Silver",
       "symbol": "SI=F",
       "unit": "/oz",
-      "price": 70.02999877929688,
-      "change_pct": 3.0004426821940204
+      "price": 69.68499755859375,
+      "change_pct": 2.4930133079581243
     },
     {
       "label": "Gold",
       "symbol": "GC=F",
       "unit": "/oz",
-      "price": 4651.7001953125,
-      "change_pct": 1.16349871096389
+      "price": 4638.0,
+      "change_pct": 0.8655518028134735
     },
     {
       "label": "Platinum",
       "symbol": "PL=F",
       "unit": "/oz",
-      "price": 1857.5,
-      "change_pct": 1.1875605713345623
+      "price": 1847.699951171875,
+      "change_pct": 0.6537016026142743
     },
     {
       "label": "Copper",
       "symbol": "HG=F",
       "unit": "\u00a2/lb",
-      "price": 6.686500072479248,
-      "change_pct": 1.3951020808957901
+      "price": 6.693999767303467,
+      "change_pct": 1.5088285916315134
     },
     {
       "label": "Brent Crude",
       "symbol": "BZ=F",
       "unit": "/bbl",
-      "price": 88.55999755859375,
-      "change_pct": 0.8196735550096392
+      "price": 88.30999755859375,
+      "change_pct": 0.5350651642734479
     },
     {
       "label": "WTI Crude",
       "symbol": "CL=F",
       "unit": "/bbl",
-      "price": 83.56999969482422,
-      "change_pct": 1.6295710606676475
+      "price": 83.2300033569336,
+      "change_pct": 1.2161011299723856
     },
     {
       "label": "Natural Gas",
       "symbol": "NG=F",
       "unit": "/MMBtu",
-      "price": 2.9040000438690186,
-      "change_pct": 2.181563549373115
+      "price": 2.9100000858306885,
+      "change_pct": 2.3926839556209236
     },
     {
       "label": "Heating Oil",
       "symbol": "HO=F",
       "unit": "/gal",
-      "price": 4.1753997802734375,
-      "change_pct": -1.985925916971238
+      "price": 4.159599781036377,
+      "change_pct": -2.3568178979138708
     },
     {
       "label": "Corn",
       "symbol": "ZC=F",
       "unit": "\u00a2/bu",
-      "price": 531.5,
-      "change_pct": 3.404669260700389
+      "price": 534.75,
+      "change_pct": 4.036964980544747
     },
     {
       "label": "Soybean",
       "symbol": "ZS=F",
       "unit": "\u00a2/bu",
-      "price": 1263.5,
-      "change_pct": 0.7374925254135938
+      "price": 1275.0,
+      "change_pct": 1.65437512457644
     },
     {
       "label": "Wheat",
       "symbol": "ZW=F",
       "unit": "\u00a2/bu",
-      "price": 758.0,
-      "change_pct": 3.764544832306639
+      "price": 759.5,
+      "change_pct": 3.969883641341547
     },
     {
       "label": "Sugar",
@@ -132,15 +132,15 @@
       "label": "Bitcoin",
       "symbol": "BTC-USD",
       "unit": "",
-      "price": 80308.1015625,
-      "change_pct": 1.6205510152231575
+      "price": 80931.46875,
+      "change_pct": 2.409349602738765
     },
     {
       "label": "Ethereum",
       "symbol": "ETH-USD",
       "unit": "",
-      "price": 2512.2900390625,
-      "change_pct": 0.2405596530953486
+      "price": 2521.510009765625,
+      "change_pct": 0.6084371707768971
     }
   ],
   "companies": [
@@ -232,7 +232,7 @@
       "change_pct": 1.6830026950830943,
       "current_price": 157.69000244140625,
       "volume": 3202219.0,
-      "market_value": 44536692736.0
+      "market_value": 44463190016.0
     },
     {
       "symbol": "APD",
@@ -1321,7 +1321,7 @@
       "change_pct": 20.499003879626716,
       "current_price": 227.9600067138672,
       "volume": 23369966.0,
-      "market_value": 232122384384.0
+      "market_value": 233416196096.0
     },
     {
       "symbol": "CCI",
@@ -1474,7 +1474,7 @@
       "change_pct": 2.532986350604175,
       "current_price": 125.88999938964844,
       "volume": 6401446.0,
-      "market_value": 27769651200.0
+      "market_value": 27773446144.0
     },
     {
       "symbol": "DLTR",
@@ -1483,7 +1483,7 @@
       "change_pct": -3.9188931478359486,
       "current_price": 127.0,
       "volume": 5564376.0,
-      "market_value": 24406173696.0
+      "market_value": 23829049344.0
     },
     {
       "symbol": "D",
@@ -1768,7 +1768,7 @@
       "symbol": "EXPE",
       "company": "Expedia Group",
       "sector": "CONSUMER CYCLICAL",
-      "change_pct": -4.3546031991837575,
+      "change_pct": -4.216725017538257,
       "current_price": 318.9200134277344,
       "volume": 1680441.0,
       "market_value": 38277443584.0
@@ -2275,7 +2275,7 @@
       "change_pct": -2.9161247825953813,
       "current_price": 29.6299991607666,
       "volume": 40808603.0,
-      "market_value": 1209158872.6420574
+      "market_value": 26720065536.0
     },
     {
       "symbol": "HUBB",
@@ -3103,7 +3103,7 @@
       "change_pct": 0.7428987609379917,
       "current_price": 31.190000534057617,
       "volume": 5784367.0,
-      "market_value": 16756292608.0
+      "market_value": 16754018304.0
     },
     {
       "symbol": "NWS",
@@ -3112,7 +3112,7 @@
       "change_pct": 0.22700911619508865,
       "current_price": 35.31999969482422,
       "volume": 1591211.0,
-      "market_value": 18975064064.0
+      "market_value": 18972489728.0
     },
     {
       "symbol": "NEE",
@@ -3211,7 +3211,7 @@
       "change_pct": 8.7379527546677,
       "current_price": 227.97999572753906,
       "volume": 297197891.0,
-      "market_value": 5521903452160.0
+      "market_value": 5505032912896.0
     },
     {
       "symbol": "NVR",
@@ -3751,7 +3751,7 @@
       "change_pct": 22.580492674415638,
       "current_price": 252.0500030517578,
       "volume": 55409963.0,
-      "market_value": 13966081343.247787
+      "market_value": 207437152256.0
     },
     {
       "symbol": "SNDK",
@@ -3841,7 +3841,7 @@
       "change_pct": 0.7181073225638217,
       "current_price": 131.83999633789062,
       "volume": 2132169.0,
-      "market_value": 14091149312.0
+      "market_value": 14083568640.0
     },
     {
       "symbol": "SW",
@@ -3967,7 +3967,7 @@
       "change_pct": 13.387808450838415,
       "current_price": 464.8900146484375,
       "volume": 4068779.0,
-      "market_value": 89016827904.0
+      "market_value": 89089957888.0
     },
     {
       "symbol": "SYY",
@@ -4612,7 +4612,7 @@
       "symbol": "XYL",
       "company": "Xylem Inc.",
       "sector": "INDUSTRIALS",
-      "change_pct": -0.678889662755464,
+      "change_pct": -0.30090834969353114,
       "current_price": 112.6500015258789,
       "volume": 2104853.0,
       "market_value": 26302289920.0
