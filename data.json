@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T23:40:54.447631Z",
+  "generated_at": "2026-08-29T01:08:05.895000Z",
   "trading_date": "2026-08-28",
   "commodities": [
     {
@@ -132,15 +132,15 @@
       "label": "Bitcoin",
       "symbol": "BTC-USD",
       "unit": "",
-      "price": 77668.0078125,
-      "change_pct": -3.226527102934742
+      "price": 77675.4921875,
+      "change_pct": -3.217201655023647
     },
     {
       "label": "Ethereum",
       "symbol": "ETH-USD",
       "unit": "",
-      "price": 2439.110107421875,
-      "change_pct": -2.8401752857242886
+      "price": 2441.280029296875,
+      "change_pct": -2.7537383395703827
     }
   ],
   "companies": [
