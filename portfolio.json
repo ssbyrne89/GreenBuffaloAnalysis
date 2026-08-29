@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T04:10:55.686170Z",
+  "generated_at": "2026-08-29T00:53:49.500718Z",
   "ytd_start": "2026-01-01",
   "platforms": [
     "Acorns",
@@ -12,10 +12,10 @@
       "ticker": "SI=F",
       "name": "Silver (spot, COMEX continuous)",
       "asset_class": "Commodity",
-      "current_price": 69.58,
+      "current_price": 67.09,
       "ytd_open_price": 71.375,
-      "ytd_change_dollar": -1.795,
-      "ytd_change_pct": -2.51,
+      "ytd_change_dollar": -4.285,
+      "ytd_change_pct": -6.0,
       "ytd_dividend_per_share": 0.0,
       "payout_schedule": null,
       "last_dividend_amount": null,
@@ -26,29 +26,29 @@
       "ticker": "BTC-USD",
       "name": "Bitcoin",
       "asset_class": "Crypto",
-      "current_price": 79718.0703,
+      "current_price": 77730.8984,
       "ytd_open_price": 87508.0469,
-      "ytd_change_dollar": -7789.9766,
-      "ytd_change_pct": -8.9,
+      "ytd_change_dollar": -9777.1484,
+      "ytd_change_pct": -11.17,
       "ytd_dividend_per_share": 0.0,
       "payout_schedule": null,
       "last_dividend_amount": null,
       "last_dividend_date": null,
-      "as_of": "2026-08-28"
+      "as_of": "2026-08-29"
     },
     {
       "ticker": "ETH-USD",
       "name": "Ethereum",
       "asset_class": "Crypto",
-      "current_price": 2485.27,
+      "current_price": 2441.0801,
       "ytd_open_price": 2966.9973,
-      "ytd_change_dollar": -481.7273,
-      "ytd_change_pct": -16.24,
+      "ytd_change_dollar": -525.9172,
+      "ytd_change_pct": -17.73,
       "ytd_dividend_per_share": 0.0,
       "payout_schedule": null,
       "last_dividend_amount": null,
       "last_dividend_date": null,
-      "as_of": "2026-08-28"
+      "as_of": "2026-08-29"
     },
     {
       "ticker": "VEIPX",
@@ -90,21 +90,21 @@
       "payout_schedule": "Quarterly",
       "last_dividend_amount": 1.257,
       "last_dividend_date": "2026-06-18",
-      "as_of": "2026-08-27"
+      "as_of": "2026-08-28"
     },
     {
       "ticker": "NUDV",
       "name": "Nuveen ESG Dividend ETF",
       "asset_class": "ETF",
-      "current_price": 34.21,
+      "current_price": 34.17,
       "ytd_open_price": 29.925,
-      "ytd_change_dollar": 4.285,
-      "ytd_change_pct": 14.32,
+      "ytd_change_dollar": 4.245,
+      "ytd_change_pct": 14.19,
       "ytd_dividend_per_share": 0.353,
       "payout_schedule": "Quarterly",
       "last_dividend_amount": 0.176,
       "last_dividend_date": "2026-06-29",
-      "as_of": "2026-08-27"
+      "as_of": "2026-08-28"
     },
     {
       "ticker": "DIV",
@@ -118,63 +118,63 @@
       "payout_schedule": "Monthly",
       "last_dividend_amount": 0.106,
       "last_dividend_date": "2026-08-05",
-      "as_of": "2026-08-27"
+      "as_of": "2026-08-28"
     },
     {
       "ticker": "PROK",
       "name": "ProKidney Corp.",
       "asset_class": "Stock",
-      "current_price": 1.82,
+      "current_price": 1.83,
       "ytd_open_price": 2.29,
-      "ytd_change_dollar": -0.47,
-      "ytd_change_pct": -20.52,
+      "ytd_change_dollar": -0.46,
+      "ytd_change_pct": -20.09,
       "ytd_dividend_per_share": 0.0,
       "payout_schedule": null,
       "last_dividend_amount": null,
       "last_dividend_date": null,
-      "as_of": "2026-08-27"
+      "as_of": "2026-08-28"
     },
     {
       "ticker": "HST",
       "name": "Host Hotels & Resorts",
       "asset_class": "Stock",
-      "current_price": 22.34,
+      "current_price": 22.28,
       "ytd_open_price": 17.75,
-      "ytd_change_dollar": 4.59,
-      "ytd_change_pct": 25.86,
+      "ytd_change_dollar": 4.53,
+      "ytd_change_pct": 25.52,
       "ytd_dividend_per_share": 1.12,
       "payout_schedule": "Quarterly",
       "last_dividend_amount": 0.92,
       "last_dividend_date": "2026-06-30",
-      "as_of": "2026-08-27"
+      "as_of": "2026-08-28"
     },
     {
       "ticker": "ET",
       "name": "Energy Transfer LP",
       "asset_class": "Stock",
-      "current_price": 21.38,
+      "current_price": 21.31,
       "ytd_open_price": 16.45,
-      "ytd_change_dollar": 4.93,
-      "ytd_change_pct": 29.97,
+      "ytd_change_dollar": 4.86,
+      "ytd_change_pct": 29.54,
       "ytd_dividend_per_share": 1.013,
       "payout_schedule": "Quarterly",
       "last_dividend_amount": 0.34,
       "last_dividend_date": "2026-08-07",
-      "as_of": "2026-08-27"
+      "as_of": "2026-08-28"
     },
     {
       "ticker": "EPM",
       "name": "Evolution Petroleum",
       "asset_class": "Stock",
-      "current_price": 3.58,
+      "current_price": 3.64,
       "ytd_open_price": 3.56,
-      "ytd_change_dollar": 0.02,
-      "ytd_change_pct": 0.56,
+      "ytd_change_dollar": 0.08,
+      "ytd_change_pct": 2.25,
       "ytd_dividend_per_share": 0.24,
       "payout_schedule": "Quarterly",
       "last_dividend_amount": 0.12,
       "last_dividend_date": "2026-06-15",
-      "as_of": "2026-08-27"
+      "as_of": "2026-08-28"
     },
     {
       "ticker": "EGY",
@@ -188,7 +188,7 @@
       "payout_schedule": "Quarterly",
       "last_dividend_amount": 0.063,
       "last_dividend_date": "2026-08-21",
-      "as_of": "2026-08-27"
+      "as_of": "2026-08-28"
     },
     {
       "ticker": "FXAIX",
@@ -292,57 +292,57 @@
       "ticker": "VOO",
       "name": "Vanguard S&P 500 ETF",
       "asset_class": "ETF",
-      "current_price": 708.75,
+      "current_price": 707.24,
       "ytd_open_price": 630.64,
-      "ytd_change_dollar": 78.11,
-      "ytd_change_pct": 12.39,
+      "ytd_change_dollar": 76.6,
+      "ytd_change_pct": 12.15,
       "ytd_dividend_per_share": 3.834,
       "payout_schedule": "Quarterly",
       "last_dividend_amount": 1.962,
       "last_dividend_date": "2026-06-26",
-      "as_of": "2026-08-27"
+      "as_of": "2026-08-28"
     },
     {
       "ticker": "IJH",
       "name": "iShares Core S&P Mid-Cap ETF",
       "asset_class": "ETF",
-      "current_price": 76.65,
+      "current_price": 75.76,
       "ytd_open_price": 66.28,
-      "ytd_change_dollar": 10.37,
-      "ytd_change_pct": 15.65,
+      "ytd_change_dollar": 9.48,
+      "ytd_change_pct": 14.3,
       "ytd_dividend_per_share": 0.346,
       "payout_schedule": "Quarterly",
       "last_dividend_amount": 0.189,
       "last_dividend_date": "2026-06-15",
-      "as_of": "2026-08-27"
+      "as_of": "2026-08-28"
     },
     {
       "ticker": "IJR",
       "name": "iShares Core S&P Small-Cap ETF",
       "asset_class": "ETF",
-      "current_price": 146.78,
+      "current_price": 145.58,
       "ytd_open_price": 120.65,
-      "ytd_change_dollar": 26.13,
-      "ytd_change_pct": 21.66,
+      "ytd_change_dollar": 24.93,
+      "ytd_change_pct": 20.66,
       "ytd_dividend_per_share": 0.627,
       "payout_schedule": "Quarterly",
       "last_dividend_amount": 0.433,
       "last_dividend_date": "2026-06-15",
-      "as_of": "2026-08-27"
+      "as_of": "2026-08-28"
     },
     {
       "ticker": "IXUS",
       "name": "iShares Core MSCI Total Intl Stock ETF",
       "asset_class": "ETF",
-      "current_price": 98.17,
+      "current_price": 97.71,
       "ytd_open_price": 85.68,
-      "ytd_change_dollar": 12.49,
-      "ytd_change_pct": 14.58,
+      "ytd_change_dollar": 12.03,
+      "ytd_change_pct": 14.04,
       "ytd_dividend_per_share": 1.233,
       "payout_schedule": "Bi-annually",
       "last_dividend_amount": 1.233,
       "last_dividend_date": "2026-06-15",
-      "as_of": "2026-08-27"
+      "as_of": "2026-08-28"
     }
   ]
 }
