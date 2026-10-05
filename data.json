@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-10-05T21:37:46.797827Z",
+  "generated_at": "2026-10-05T23:21:04.367839Z",
   "trading_date": "2026-10-05",
   "commodities": [
     {
       "label": "Silver",
       "symbol": "SI=F",
       "unit": "/oz",
-      "price": 61.400001525878906,
-      "change_pct": 2.372576666814437
+      "price": 61.345001220703125,
+      "change_pct": 2.2808743407822023
     },
     {
       "label": "Gold",
       "symbol": "GC=F",
       "unit": "/oz",
-      "price": 4167.60009765625,
-      "change_pct": 0.12734049005266065
+      "price": 4166.0,
+      "change_pct": 0.08889785662082565
     },
     {
       "label": "Platinum",
       "symbol": "PL=F",
       "unit": "/oz",
-      "price": 1731.0,
-      "change_pct": 2.8398318806298515
+      "price": 1723.9000244140625,
+      "change_pct": 2.4180177294950225
     },
     {
       "label": "Copper",
       "symbol": "HG=F",
       "unit": "\u00a2/lb",
-      "price": 6.632500171661377,
-      "change_pct": 2.1642031182299792
+      "price": 6.638000011444092,
+      "change_pct": 2.248920303927127
     },
     {
       "label": "Brent Crude",
       "symbol": "BZ=F",
       "unit": "/bbl",
-      "price": 100.31999969482422,
-      "change_pct": -1.88753086080761
+      "price": 100.27999877929688,
+      "change_pct": -1.9266515605898533
     },
     {
       "label": "WTI Crude",
       "symbol": "CL=F",
       "unit": "/bbl",
-      "price": 89.30000305175781,
-      "change_pct": -1.9866068998666049
+      "price": 89.25,
+      "change_pct": -2.041488967063223
     },
     {
       "label": "Natural Gas",
       "symbol": "NG=F",
       "unit": "/MMBtu",
-      "price": 3.0799999237060547,
-      "change_pct": 1.482696428426941
+      "price": 3.0810000896453857,
+      "change_pct": 1.515650824178047
     },
     {
       "label": "Heating Oil",
       "symbol": "HO=F",
       "unit": "/gal",
-      "price": 4.508200168609619,
-      "change_pct": 0.15774155619195993
+      "price": 4.507800102233887,
+      "change_pct": 0.14885336508080785
     },
     {
       "label": "Corn",
@@ -125,15 +125,15 @@
       "label": "Bitcoin",
       "symbol": "BTC-USD",
       "unit": "",
-      "price": 85895.59375,
-      "change_pct": -0.6761203485728642
+      "price": 85905.90625,
+      "change_pct": -0.6641956681068729
     },
     {
       "label": "Ethereum",
       "symbol": "ETH-USD",
       "unit": "",
-      "price": 2714.669921875,
-      "change_pct": -0.4342223401408033
+      "price": 2714.389892578125,
+      "change_pct": -0.4444929570162595
     }
   ],
   "companies": [
@@ -162,7 +162,7 @@
       "change_pct": 2.66666510166266,
       "current_price": 100.0999984741211,
       "volume": 11954496.0,
-      "market_value": 174355496960.0
+      "market_value": 173211369472.0
     },
     {
       "symbol": "ABBV",
@@ -207,7 +207,7 @@
       "change_pct": -0.06707061692942708,
       "current_price": 14.899999618530273,
       "volume": 9213300.0,
-      "market_value": 10626049024.0
+      "market_value": 10630236160.0
     },
     {
       "symbol": "AFL",
@@ -225,7 +225,7 @@
       "change_pct": 2.0920220123812823,
       "current_price": 171.2899932861328,
       "volume": 1768860.0,
-      "market_value": 48291594240.0
+      "market_value": 48297922560.0
     },
     {
       "symbol": "APD",
@@ -414,7 +414,7 @@
       "change_pct": 0.8209241509102962,
       "current_price": 494.94000244140625,
       "volume": 578998.0,
-      "market_value": 43752697856.0
+      "market_value": 43719643136.0
     },
     {
       "symbol": "AME",
@@ -423,7 +423,7 @@
       "change_pct": -0.003967176249951243,
       "current_price": 251.9199981689453,
       "volume": 1096710.0,
-      "market_value": 57740820480.0
+      "market_value": 57755492352.0
     },
     {
       "symbol": "AMGN",
@@ -504,7 +504,7 @@
       "change_pct": 5.126388761994636,
       "current_price": 281.9700012207031,
       "volume": 6817633.0,
-      "market_value": 94361411584.0
+      "market_value": 94724866048.0
     },
     {
       "symbol": "APTV",
@@ -513,7 +513,7 @@
       "change_pct": 0.8038549994524148,
       "current_price": 43.88999938964844,
       "volume": 2621688.0,
-      "market_value": 9288025088.0
+      "market_value": 9113026560.0
     },
     {
       "symbol": "ACGL",
@@ -522,7 +522,7 @@
       "change_pct": 0.8119681075001269,
       "current_price": 94.36000061035156,
       "volume": 2405130.0,
-      "market_value": 32176760832.0
+      "market_value": 32198379520.0
     },
     {
       "symbol": "ADM",
@@ -531,7 +531,7 @@
       "change_pct": 2.510881726646323,
       "current_price": 82.47000122070312,
       "volume": 4331744.0,
-      "market_value": 39746953216.0
+      "market_value": 39747207168.0
     },
     {
       "symbol": "ARES",
@@ -621,7 +621,7 @@
       "change_pct": 0.07653198713687728,
       "current_price": 170.0,
       "volume": 924203.0,
-      "market_value": 13003365376.0
+      "market_value": 12883984384.0
     },
     {
       "symbol": "AXON",
@@ -648,7 +648,7 @@
       "change_pct": 1.3127580139942614,
       "current_price": 57.11000061035156,
       "volume": 2151517.0,
-      "market_value": 15205338112.0
+      "market_value": 15117208576.0
     },
     {
       "symbol": "BAC",
@@ -756,7 +756,7 @@
       "change_pct": -0.43397207505974705,
       "current_price": 192.72000122070312,
       "volume": 6383321.0,
-      "market_value": 152208818176.0
+      "market_value": 152320114688.0
     },
     {
       "symbol": "BKNG",
@@ -765,7 +765,7 @@
       "change_pct": -0.43390920819245915,
       "current_price": 158.3300018310547,
       "volume": 8304850.0,
-      "market_value": 122686504960.0
+      "market_value": 118966075392.0
     },
     {
       "symbol": "BSX",
@@ -846,7 +846,7 @@
       "change_pct": 0.6062344800941749,
       "current_price": 353.4800109863281,
       "volume": 1951705.0,
-      "market_value": 97495441408.0
+      "market_value": 97345921024.0
     },
     {
       "symbol": "CPT",
@@ -855,7 +855,7 @@
       "change_pct": 1.46936606457047,
       "current_price": 97.37000274658203,
       "volume": 953556.0,
-      "market_value": 9789516800.0
+      "market_value": 11268881408.0
     },
     {
       "symbol": "COF",
@@ -864,7 +864,7 @@
       "change_pct": 0.21569338861562068,
       "current_price": 195.13999938964844,
       "volume": 2489407.0,
-      "market_value": 119718395904.0
+      "market_value": 119715438592.0
     },
     {
       "symbol": "CAH",
@@ -891,7 +891,7 @@
       "change_pct": 1.106677471284748,
       "current_price": 55.72999954223633,
       "volume": 4873589.0,
-      "market_value": 46288244736.0
+      "market_value": 45939634176.0
     },
     {
       "symbol": "CVNA",
@@ -990,7 +990,7 @@
       "change_pct": 7.0919006165352085,
       "current_price": 310.7699890136719,
       "volume": 1305410.0,
-      "market_value": 14835808256.0
+      "market_value": 14969083904.0
     },
     {
       "symbol": "SCHW",
@@ -1134,7 +1134,7 @@
       "change_pct": 0.4549687687379642,
       "current_price": 64.02999877929688,
       "volume": 5353902.0,
-      "market_value": 19780122624.0
+      "market_value": 20078344192.0
     },
     {
       "symbol": "KO",
@@ -1152,7 +1152,7 @@
       "change_pct": -0.5810975257928894,
       "current_price": 58.16999816894531,
       "volume": 3470552.0,
-      "market_value": 27514408960.0
+      "market_value": 26202339328.0
     },
     {
       "symbol": "COHR",
@@ -1260,7 +1260,7 @@
       "change_pct": -2.935627780344814,
       "current_price": 159.3699951171875,
       "volume": 6537179.0,
-      "market_value": 137000476672.0
+      "market_value": 137279455232.0
     },
     {
       "symbol": "CPAY",
@@ -1323,7 +1323,7 @@
       "change_pct": 1.7158328533383307,
       "current_price": 67.58000183105469,
       "volume": 3256358.0,
-      "market_value": 28752277504.0
+      "market_value": 29532461056.0
     },
     {
       "symbol": "CSX",
@@ -1341,7 +1341,7 @@
       "change_pct": -0.9369344598743414,
       "current_price": 523.3699951171875,
       "volume": 802501.0,
-      "market_value": 72219336704.0
+      "market_value": 72049459200.0
     },
     {
       "symbol": "CVS",
@@ -1386,7 +1386,7 @@
       "change_pct": 0.016788168832619396,
       "current_price": 178.72000122070312,
       "volume": 451957.0,
-      "market_value": 11471142912.0
+      "market_value": 11402336256.0
     },
     {
       "symbol": "DECK",
@@ -1449,7 +1449,7 @@
       "change_pct": -0.3410778300649599,
       "current_price": 184.0800018310547,
       "volume": 2836740.0,
-      "market_value": 51784155136.0
+      "market_value": 51546042368.0
     },
     {
       "symbol": "DLR",
@@ -1557,7 +1557,7 @@
       "change_pct": 0.5462430660141631,
       "current_price": 130.69000244140625,
       "volume": 700644.0,
-      "market_value": 17645686784.0
+      "market_value": 17648766976.0
     },
     {
       "symbol": "ETN",
@@ -1566,7 +1566,7 @@
       "change_pct": -0.8048380834979888,
       "current_price": 432.6000061035156,
       "volume": 1426410.0,
-      "market_value": 167978582016.0
+      "market_value": 168021835776.0
     },
     {
       "symbol": "EBAY",
@@ -1611,7 +1611,7 @@
       "change_pct": 2.4427501982164155,
       "current_price": 87.2300033569336,
       "volume": 3315832.0,
-      "market_value": 50227036160.0
+      "market_value": 50279374848.0
     },
     {
       "symbol": "ELV",
@@ -1638,7 +1638,7 @@
       "change_pct": 0.4455177389913375,
       "current_price": 162.3300018310547,
       "volume": 2130319.0,
-      "market_value": 90921025536.0
+      "market_value": 90547675136.0
     },
     {
       "symbol": "ETR",
@@ -1656,7 +1656,7 @@
       "change_pct": 1.9097445572166794,
       "current_price": 144.0800018310547,
       "volume": 2514863.0,
-      "market_value": 76741124096.0
+      "market_value": 75574165504.0
     },
     {
       "symbol": "EQT",
@@ -1701,7 +1701,7 @@
       "change_pct": 1.2209189852283104,
       "current_price": 271.92999267578125,
       "volume": 432021.0,
-      "market_value": 18743099392.0
+      "market_value": 18744920064.0
     },
     {
       "symbol": "EL",
@@ -1764,7 +1764,7 @@
       "change_pct": 1.0640829020462248,
       "current_price": 86.43000030517578,
       "volume": 2395941.0,
-      "market_value": 20676548608.0
+      "market_value": 20008871936.0
     },
     {
       "symbol": "EXPE",
@@ -1773,7 +1773,7 @@
       "change_pct": -1.8226364423643868,
       "current_price": 260.1700134277344,
       "volume": 1291720.0,
-      "market_value": 31225434112.0
+      "market_value": 31226146816.0
     },
     {
       "symbol": "EXPD",
@@ -1845,7 +1845,7 @@
       "change_pct": -0.6748535047588428,
       "current_price": 105.97000122070312,
       "volume": 852095.0,
-      "market_value": 9210742784.0
+      "market_value": 9263721472.0
     },
     {
       "symbol": "FDX",
@@ -1881,7 +1881,7 @@
       "change_pct": 3.514190051189147,
       "current_price": 33.58000183105469,
       "volume": 7930343.0,
-      "market_value": 17356802048.0
+      "market_value": 17317406720.0
     },
     {
       "symbol": "FITB",
@@ -1890,7 +1890,7 @@
       "change_pct": -0.13760506446628545,
       "current_price": 50.79999923706055,
       "volume": 6862147.0,
-      "market_value": 46053908480.0
+      "market_value": 46070140928.0
     },
     {
       "symbol": "FSLR",
@@ -1908,7 +1908,7 @@
       "change_pct": 0.6921994370196917,
       "current_price": 43.63999938964844,
       "volume": 4262964.0,
-      "market_value": 25242736640.0
+      "market_value": 25251846144.0
     },
     {
       "symbol": "FISV",
@@ -1953,7 +1953,7 @@
       "change_pct": -0.15660370745819432,
       "current_price": 57.380001068115234,
       "volume": 3652988.0,
-      "market_value": 17492926464.0
+      "market_value": 17329739776.0
     },
     {
       "symbol": "FOXA",
@@ -1998,7 +1998,7 @@
       "change_pct": 1.5507132219283275,
       "current_price": 285.5199890136719,
       "volume": 729043.0,
-      "market_value": 55064301568.0
+      "market_value": 55063257088.0
     },
     {
       "symbol": "IT",
@@ -2025,7 +2025,7 @@
       "change_pct": 2.2554004162286203,
       "current_price": 65.73999786376953,
       "volume": 4284935.0,
-      "market_value": 29904584704.0
+      "market_value": 29693851648.0
     },
     {
       "symbol": "GEV",
@@ -2142,7 +2142,7 @@
       "change_pct": 2.9199321403092346,
       "current_price": 32.779998779296875,
       "volume": 9044705.0,
-      "market_value": 27384338432.0
+      "market_value": 27310012416.0
     },
     {
       "symbol": "HIG",
@@ -2169,7 +2169,7 @@
       "change_pct": 1.9288033324517098,
       "current_price": 434.9200134277344,
       "volume": 1148813.0,
-      "market_value": 96482574336.0
+      "market_value": 94160838656.0
     },
     {
       "symbol": "DOC",
@@ -2187,7 +2187,7 @@
       "change_pct": -0.7657798274235935,
       "current_price": 84.2300033569336,
       "volume": 1904334.0,
-      "market_value": 9595208704.0
+      "market_value": 9387143168.0
     },
     {
       "symbol": "HSY",
@@ -2286,7 +2286,7 @@
       "change_pct": 1.0788200288810583,
       "current_price": 480.6499938964844,
       "volume": 399951.0,
-      "market_value": 25398398976.0
+      "market_value": 25393975296.0
     },
     {
       "symbol": "HUM",
@@ -2340,7 +2340,7 @@
       "change_pct": 1.6744135555288155,
       "current_price": 527.0700073242188,
       "volume": 570110.0,
-      "market_value": 41576861696.0
+      "market_value": 41523167232.0
     },
     {
       "symbol": "ITW",
@@ -2421,7 +2421,7 @@
       "change_pct": 1.0191749404838713,
       "current_price": 83.26000213623047,
       "volume": 1645957.0,
-      "market_value": 21256566784.0
+      "market_value": 21243787264.0
     },
     {
       "symbol": "IP",
@@ -2493,7 +2493,7 @@
       "change_pct": -1.9043516281786184,
       "current_price": 229.74000549316406,
       "volume": 816723.0,
-      "market_value": 21572587520.0
+      "market_value": 21576017920.0
     },
     {
       "symbol": "JBL",
@@ -2520,7 +2520,7 @@
       "change_pct": 0.4418373324196775,
       "current_price": 138.6699981689453,
       "volume": 603658.0,
-      "market_value": 16374275072.0
+      "market_value": 16229743616.0
     },
     {
       "symbol": "JNJ",
@@ -2592,7 +2592,7 @@
       "change_pct": 1.1127628708838988,
       "current_price": 95.41000366210938,
       "volume": 3157046.0,
-      "market_value": 31670429696.0
+      "market_value": 31731367936.0
     },
     {
       "symbol": "KIM",
@@ -2610,7 +2610,7 @@
       "change_pct": 1.09430368821191,
       "current_price": 31.40999984741211,
       "volume": 9328763.0,
-      "market_value": 69881782272.0
+      "market_value": 69943853056.0
     },
     {
       "symbol": "KKR",
@@ -2691,7 +2691,7 @@
       "change_pct": 1.4523518901802615,
       "current_price": 119.44999694824219,
       "volume": 1475655.0,
-      "market_value": 15025073152.0
+      "market_value": 14990044160.0
     },
     {
       "symbol": "LEN",
@@ -2718,7 +2718,7 @@
       "change_pct": 0.023626857156956352,
       "current_price": 1143.1199951171875,
       "volume": 1975581.0,
-      "market_value": 1018928103424.0
+      "market_value": 1019367391232.0
     },
     {
       "symbol": "LIN",
@@ -2799,7 +2799,7 @@
       "change_pct": -0.4015720020368262,
       "current_price": 218.25999450683594,
       "volume": 1094408.0,
-      "market_value": 31633074176.0
+      "market_value": 31520290816.0
     },
     {
       "symbol": "MPC",
@@ -2808,7 +2808,7 @@
       "change_pct": 2.637751285162725,
       "current_price": 433.4700012207031,
       "volume": 2122887.0,
-      "market_value": 126545772544.0
+      "market_value": 121729114112.0
     },
     {
       "symbol": "MAR",
@@ -2943,7 +2943,7 @@
       "change_pct": -1.0170586305712195,
       "current_price": 30.170000076293945,
       "volume": 5031876.0,
-      "market_value": 7590553600.0
+      "market_value": 7719031808.0
     },
     {
       "symbol": "MCHP",
@@ -2979,7 +2979,7 @@
       "change_pct": 1.041038095413964,
       "current_price": 116.47000122070312,
       "volume": 1389419.0,
-      "market_value": 13897973760.0
+      "market_value": 13855713280.0
     },
     {
       "symbol": "MRNA",
@@ -2997,7 +2997,7 @@
       "change_pct": 0.5155577570680888,
       "current_price": 58.4900016784668,
       "volume": 7146643.0,
-      "market_value": 75080679424.0
+      "market_value": 74651262976.0
     },
     {
       "symbol": "MPWR",
@@ -3123,7 +3123,7 @@
       "change_pct": -0.7158701531300774,
       "current_price": 76.27999877929688,
       "volume": 12344480.0,
-      "market_value": 159089983488.0
+      "market_value": 159118409728.0
     },
     {
       "symbol": "NKE",
@@ -3150,7 +3150,7 @@
       "change_pct": 0.2668297979429685,
       "current_price": 334.42999267578125,
       "volume": 332593.0,
-      "market_value": 18633752576.0
+      "market_value": 18627538944.0
     },
     {
       "symbol": "NSC",
@@ -3222,7 +3222,7 @@
       "change_pct": -0.39440653892885813,
       "current_price": 5970.2099609375,
       "volume": 52243.0,
-      "market_value": 15909773312.0
+      "market_value": 15989135360.0
     },
     {
       "symbol": "NXPI",
@@ -3258,7 +3258,7 @@
       "change_pct": -0.615026948486452,
       "current_price": 179.3699951171875,
       "volume": 1798286.0,
-      "market_value": 37193555968.0
+      "market_value": 37303271424.0
     },
     {
       "symbol": "OMC",
@@ -3267,7 +3267,7 @@
       "change_pct": 1.4834773452259282,
       "current_price": 75.25,
       "volume": 2358094.0,
-      "market_value": 21446717440.0
+      "market_value": 20644532224.0
     },
     {
       "symbol": "ON",
@@ -3348,7 +3348,7 @@
       "change_pct": 2.894732826634457,
       "current_price": 9.774999618530273,
       "volume": 31657941.0,
-      "market_value": 10939917312.0
+      "market_value": 10967019520.0
     },
     {
       "symbol": "PH",
@@ -3375,7 +3375,7 @@
       "change_pct": 3.0492436242716763,
       "current_price": 54.40999984741211,
       "volume": 8263466.0,
-      "market_value": 46901420032.0
+      "market_value": 46545625088.0
     },
     {
       "symbol": "PNR",
@@ -3384,7 +3384,7 @@
       "change_pct": -0.47143127617344205,
       "current_price": 52.779998779296875,
       "volume": 2229899.0,
-      "market_value": 8529540096.0
+      "market_value": 8423687680.0
     },
     {
       "symbol": "PEP",
@@ -3429,7 +3429,7 @@
       "change_pct": 1.9427072754172925,
       "current_price": 269.7200012207031,
       "volume": 2004183.0,
-      "market_value": 107623923712.0
+      "market_value": 108140191744.0
     },
     {
       "symbol": "PNW",
@@ -3483,7 +3483,7 @@
       "change_pct": 0.7107851447568461,
       "current_price": 145.94000244140625,
       "volume": 7032638.0,
-      "market_value": 339227770880.0
+      "market_value": 338970804224.0
     },
     {
       "symbol": "PGR",
@@ -3519,7 +3519,7 @@
       "change_pct": 0.8961372309186959,
       "current_price": 68.68000030517578,
       "volume": 5451592.0,
-      "market_value": 34224713728.0
+      "market_value": 34231488512.0
     },
     {
       "symbol": "PTC",
@@ -3582,7 +3582,7 @@
       "change_pct": 0.03803091982253475,
       "current_price": 131.52999877929688,
       "volume": 1901716.0,
-      "market_value": 27534385152.0
+      "market_value": 27517200384.0
     },
     {
       "symbol": "RL",
@@ -3600,7 +3600,7 @@
       "change_pct": 1.6370622767084495,
       "current_price": 160.8000030517578,
       "volume": 1098875.0,
-      "market_value": 30931763200.0
+      "market_value": 30889680896.0
     },
     {
       "symbol": "RDDT",
@@ -3699,7 +3699,7 @@
       "change_pct": 0.18267559395091704,
       "current_price": 455.17999267578125,
       "volume": 710467.0,
-      "market_value": 50547134464.0
+      "market_value": 50649677824.0
     },
     {
       "symbol": "ROL",
@@ -3726,7 +3726,7 @@
       "change_pct": -0.949504783711299,
       "current_price": 226.3699951171875,
       "volume": 2586848.0,
-      "market_value": 72314601472.0
+      "market_value": 72615215104.0
     },
     {
       "symbol": "RCL",
@@ -3834,7 +3834,7 @@
       "change_pct": -1.317176447449505,
       "current_price": 83.91000366210938,
       "volume": 29215969.0,
-      "market_value": 12620565504.0
+      "market_value": 12626171904.0
     },
     {
       "symbol": "SJM",
@@ -3951,7 +3951,7 @@
       "change_pct": -1.1444266782245565,
       "current_price": 43.189998626708984,
       "volume": 22032582.0,
-      "market_value": 27938445312.0
+      "market_value": 28374333440.0
     },
     {
       "symbol": "SYF",
@@ -4032,7 +4032,7 @@
       "change_pct": -1.929483658228165,
       "current_price": 152.99000549316406,
       "volume": 5054005.0,
-      "market_value": 69502050304.0
+      "market_value": 69502861312.0
     },
     {
       "symbol": "TEL",
@@ -4041,7 +4041,7 @@
       "change_pct": -0.6489417002221305,
       "current_price": 218.92999267578125,
       "volume": 1156976.0,
-      "market_value": 63476707328.0
+      "market_value": 63383126016.0
     },
     {
       "symbol": "TDY",
@@ -4050,7 +4050,7 @@
       "change_pct": 0.4002190331153584,
       "current_price": 619.6400146484375,
       "volume": 169217.0,
-      "market_value": 28707387392.0
+      "market_value": 28723828736.0
     },
     {
       "symbol": "TER",
@@ -4095,7 +4095,7 @@
       "change_pct": -1.9544422656990392,
       "current_price": 75.75,
       "volume": 1644540.0,
-      "market_value": 13172089856.0
+      "market_value": 13028008960.0
     },
     {
       "symbol": "TMO",
@@ -4113,7 +4113,7 @@
       "change_pct": 1.3038974086738193,
       "current_price": 134.41000366210938,
       "volume": 9657717.0,
-      "market_value": 148483325952.0
+      "market_value": 147847512064.0
     },
     {
       "symbol": "TKO",
@@ -4149,7 +4149,7 @@
       "change_pct": 0.20910410009949182,
       "current_price": 1092.6600341796875,
       "volume": 318269.0,
-      "market_value": 61116391424.0
+      "market_value": 60398448640.0
     },
     {
       "symbol": "TRV",
@@ -4221,7 +4221,7 @@
       "change_pct": 1.7132542440083054,
       "current_price": 33.84000015258789,
       "volume": 3628032.0,
-      "market_value": 12538249216.0
+      "market_value": 12431605760.0
     },
     {
       "symbol": "ULTA",
@@ -4338,7 +4338,7 @@
       "change_pct": -0.36612526582768784,
       "current_price": 163.27999877929688,
       "volume": 1077526.0,
-      "market_value": 21393246208.0
+      "market_value": 21251874816.0
     },
     {
       "symbol": "VZ",
@@ -4356,7 +4356,7 @@
       "change_pct": -0.24369681999381704,
       "current_price": 503.5,
       "volume": 914793.0,
-      "market_value": 127536553984.0
+      "market_value": 127617581056.0
     },
     {
       "symbol": "VRT",
@@ -4437,7 +4437,7 @@
       "change_pct": 0.510811274136369,
       "current_price": 1286.8399658203125,
       "volume": 207110.0,
-      "market_value": 60755730432.0
+      "market_value": 60611379200.0
     },
     {
       "symbol": "WAB",
@@ -4455,7 +4455,7 @@
       "change_pct": 0.7769015365407085,
       "current_price": 105.06999969482422,
       "volume": 19199115.0,
-      "market_value": 833598717952.0
+      "market_value": 836155342848.0
     },
     {
       "symbol": "DIS",
@@ -4554,7 +4554,7 @@
       "change_pct": 2.7550554508853873,
       "current_price": 238.6999969482422,
       "volume": 1202675.0,
-      "market_value": 28111220736.0
+      "market_value": 28113889280.0
     },
     {
       "symbol": "WMB",
@@ -4626,7 +4626,7 @@
       "change_pct": -0.05320643251397755,
       "current_price": 375.6600036621094,
       "volume": 348268.0,
-      "market_value": 17893959680.0
+      "market_value": 17772722176.0
     },
     {
       "symbol": "ZBH",
