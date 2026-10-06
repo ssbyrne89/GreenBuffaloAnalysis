@@ -1,83 +1,83 @@
 {
-  "generated_at": "2026-10-05T23:21:04.367839Z",
+  "generated_at": "2026-10-06T01:50:22.923300Z",
   "trading_date": "2026-10-05",
   "commodities": [
     {
       "label": "Silver",
       "symbol": "SI=F",
       "unit": "/oz",
-      "price": 61.345001220703125,
-      "change_pct": 2.2808743407822023
+      "price": 61.154998779296875,
+      "change_pct": 1.964082174392027
     },
     {
       "label": "Gold",
       "symbol": "GC=F",
       "unit": "/oz",
-      "price": 4166.0,
-      "change_pct": 0.08889785662082565
+      "price": 4160.10009765625,
+      "change_pct": -0.05284835630467401
     },
     {
       "label": "Platinum",
       "symbol": "PL=F",
       "unit": "/oz",
-      "price": 1723.9000244140625,
-      "change_pct": 2.4180177294950225
+      "price": 1724.0999755859375,
+      "change_pct": 2.4298969582067267
     },
     {
       "label": "Copper",
       "symbol": "HG=F",
       "unit": "\u00a2/lb",
-      "price": 6.638000011444092,
-      "change_pct": 2.248920303927127
+      "price": 6.666999816894531,
+      "change_pct": 2.695620935325032
     },
     {
       "label": "Brent Crude",
       "symbol": "BZ=F",
       "unit": "/bbl",
-      "price": 100.27999877929688,
-      "change_pct": -1.9266515605898533
+      "price": 100.47000122070312,
+      "change_pct": -1.740830102001834
     },
     {
       "label": "WTI Crude",
       "symbol": "CL=F",
       "unit": "/bbl",
-      "price": 89.25,
-      "change_pct": -2.041488967063223
+      "price": 89.4800033569336,
+      "change_pct": -1.7890431813176553
     },
     {
       "label": "Natural Gas",
       "symbol": "NG=F",
       "unit": "/MMBtu",
-      "price": 3.0810000896453857,
-      "change_pct": 1.515650824178047
+      "price": 3.0769999027252197,
+      "change_pct": 1.3838489524469249
     },
     {
       "label": "Heating Oil",
       "symbol": "HO=F",
       "unit": "/gal",
-      "price": 4.507800102233887,
-      "change_pct": 0.14885336508080785
+      "price": 4.515999794006348,
+      "change_pct": 0.33102420458899745
     },
     {
       "label": "Corn",
       "symbol": "ZC=F",
       "unit": "\u00a2/bu",
-      "price": 497.5,
-      "change_pct": -0.05022601707684581
+      "price": 496.25,
+      "change_pct": -0.30135610246107486
     },
     {
       "label": "Soybean",
       "symbol": "ZS=F",
       "unit": "\u00a2/bu",
-      "price": 1281.0,
-      "change_pct": 0.21513788382554275
+      "price": 1279.25,
+      "change_pct": 0.07823195775474281
     },
     {
       "label": "Wheat",
       "symbol": "ZW=F",
       "unit": "\u00a2/bu",
-      "price": 691.5,
-      "change_pct": 1.2445095168374818
+      "price": 690.25,
+      "change_pct": 1.061493411420205
     },
     {
       "label": "Coffee",
@@ -125,15 +125,15 @@
       "label": "Bitcoin",
       "symbol": "BTC-USD",
       "unit": "",
-      "price": 85905.90625,
-      "change_pct": -0.6641956681068729
+      "price": 85646.46875,
+      "change_pct": -0.9641917203149308
     },
     {
       "label": "Ethereum",
       "symbol": "ETH-USD",
       "unit": "",
-      "price": 2714.389892578125,
-      "change_pct": -0.4444929570162595
+      "price": 2708.06005859375,
+      "change_pct": -0.6766518791871008
     }
   ],
   "companies": [
@@ -143,7 +143,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": 0.8030162805973409,
       "current_price": 163.19000244140625,
-      "volume": 2338106.0,
+      "volume": 2338300.0,
       "market_value": 84160741376.0
     },
     {
@@ -152,7 +152,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": 0.38766734925660795,
       "current_price": 56.970001220703125,
-      "volume": 1455932.0,
+      "volume": 1456000.0,
       "market_value": 7742711808.0
     },
     {
@@ -161,7 +161,7 @@
       "sector": "HEALTHCARE",
       "change_pct": 2.66666510166266,
       "current_price": 100.0999984741211,
-      "volume": 11954496.0,
+      "volume": 11985600.0,
       "market_value": 173211369472.0
     },
     {
@@ -170,7 +170,7 @@
       "sector": "HEALTHCARE",
       "change_pct": 1.1186372267996394,
       "current_price": 265.760009765625,
-      "volume": 7540753.0,
+      "volume": 7542000.0,
       "market_value": 469629108224.0
     },
     {
@@ -179,16 +179,16 @@
       "sector": "TECHNOLOGY",
       "change_pct": -1.9356415097379307,
       "current_price": 195.0500030517578,
-      "volume": 6984005.0,
+      "volume": 6993900.0,
       "market_value": 119359307776.0
     },
     {
       "symbol": "ADBE",
       "company": "Adobe Inc.",
       "sector": "TECHNOLOGY",
-      "change_pct": 0.46068459314903554,
-      "current_price": 238.78500366210938,
-      "volume": 3288294.0,
+      "change_pct": 0.4627838080811686,
+      "current_price": 238.7899932861328,
+      "volume": 3292400.0,
       "market_value": 92935127040.0
     },
     {
@@ -197,7 +197,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": -0.3407381546336355,
       "current_price": 631.75,
-      "volume": 13607612.0,
+      "volume": 13690000.0,
       "market_value": 1031316111360.0
     },
     {
@@ -206,7 +206,7 @@
       "sector": "UTILITIES",
       "change_pct": -0.06707061692942708,
       "current_price": 14.899999618530273,
-      "volume": 9213300.0,
+      "volume": 9216700.0,
       "market_value": 10630236160.0
     },
     {
@@ -215,7 +215,7 @@
       "sector": "FINANCIAL",
       "change_pct": 0.7530897713787719,
       "current_price": 112.37999725341797,
-      "volume": 1920173.0,
+      "volume": 1923300.0,
       "market_value": 56340959232.0
     },
     {
@@ -224,7 +224,7 @@
       "sector": "HEALTHCARE",
       "change_pct": 2.0920220123812823,
       "current_price": 171.2899932861328,
-      "volume": 1768860.0,
+      "volume": 1768900.0,
       "market_value": 48297922560.0
     },
     {
@@ -233,7 +233,7 @@
       "sector": "BASIC MATERIALS",
       "change_pct": 0.6773083666120091,
       "current_price": 279.45001220703125,
-      "volume": 1090479.0,
+      "volume": 1090500.0,
       "market_value": 62229475328.0
     },
     {
@@ -242,7 +242,7 @@
       "sector": "CONSUMER CYCLICAL",
       "change_pct": 1.009674765984294,
       "current_price": 164.07000732421875,
-      "volume": 4160681.0,
+      "volume": 4161100.0,
       "market_value": 98242764800.0
     },
     {
@@ -251,7 +251,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": -0.8538379735677759,
       "current_price": 107.98999786376953,
-      "volume": 3615571.0,
+      "volume": 3619700.0,
       "market_value": 15519955968.0
     },
     {
@@ -260,7 +260,7 @@
       "sector": "BASIC MATERIALS",
       "change_pct": -0.2103390372037856,
       "current_price": 104.37000274658203,
-      "volume": 2028684.0,
+      "volume": 2028700.0,
       "market_value": 12316187648.0
     },
     {
@@ -269,7 +269,7 @@
       "sector": "REAL ESTATE",
       "change_pct": -3.145446268453709,
       "current_price": 45.880001068115234,
-      "volume": 2282903.0,
+      "volume": 2282900.0,
       "market_value": 7895731712.0
     },
     {
@@ -278,7 +278,7 @@
       "sector": "HEALTHCARE",
       "change_pct": -2.1497227484290318,
       "current_price": 140.64999389648438,
-      "volume": 1679816.0,
+      "volume": 1680100.0,
       "market_value": 9991755776.0
     },
     {
@@ -287,7 +287,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": -0.3501773694387079,
       "current_price": 153.6699981689453,
-      "volume": 747565.0,
+      "volume": 747600.0,
       "market_value": 13067602944.0
     },
     {
@@ -296,7 +296,7 @@
       "sector": "UTILITIES",
       "change_pct": -0.06218080893638914,
       "current_price": 64.29000091552734,
-      "volume": 2969579.0,
+      "volume": 2983600.0,
       "market_value": 16669413376.0
     },
     {
@@ -305,7 +305,7 @@
       "sector": "FINANCIAL",
       "change_pct": 0.43353946406011035,
       "current_price": 224.7100067138672,
-      "volume": 1978749.0,
+      "volume": 1978900.0,
       "market_value": 56819712000.0
     },
     {
@@ -314,7 +314,7 @@
       "sector": "COMMUNICATION SERVICES",
       "change_pct": 0.8646291763327876,
       "current_price": 346.4700012207031,
-      "volume": 24975488.0,
+      "volume": 25591100.0,
       "market_value": 4237305577472.0
     },
     {
@@ -323,7 +323,7 @@
       "sector": "COMMUNICATION SERVICES",
       "change_pct": 1.022471105139802,
       "current_price": 343.8299865722656,
-      "volume": 13225512.0,
+      "volume": 13945200.0,
       "market_value": 4205018349568.0
     },
     {
@@ -332,7 +332,7 @@
       "sector": "CONSUMER DEFENSIVE",
       "change_pct": 0.7869321325976338,
       "current_price": 67.87999725341797,
-      "volume": 7392707.0,
+      "volume": 9267200.0,
       "market_value": 113342210048.0
     },
     {
@@ -341,7 +341,7 @@
       "sector": "CONSUMER CYCLICAL",
       "change_pct": -0.04771404816237215,
       "current_price": 251.39999389648438,
-      "volume": 37819808.0,
+      "volume": 39168400.0,
       "market_value": 2711679139840.0
     },
     {
@@ -350,7 +350,7 @@
       "sector": "BASIC MATERIALS",
       "change_pct": -0.14333820452973878,
       "current_price": 41.79999923706055,
-      "volume": 3036750.0,
+      "volume": 3036900.0,
       "market_value": 19309330432.0
     },
     {
@@ -359,7 +359,7 @@
       "sector": "UTILITIES",
       "change_pct": -0.24014957704726406,
       "current_price": 99.69999694824219,
-      "volume": 2467032.0,
+      "volume": 2467100.0,
       "market_value": 27601272832.0
     },
     {
@@ -368,7 +368,7 @@
       "sector": "UTILITIES",
       "change_pct": 0.1338158923791492,
       "current_price": 119.7300033569336,
-      "volume": 3108393.0,
+      "volume": 3108500.0,
       "market_value": 65180700672.0
     },
     {
@@ -377,7 +377,7 @@
       "sector": "FINANCIAL",
       "change_pct": 0.4095350549488761,
       "current_price": 304.0199890136719,
-      "volume": 2827744.0,
+      "volume": 2828200.0,
       "market_value": 205307691008.0
     },
     {
@@ -386,7 +386,7 @@
       "sector": "FINANCIAL",
       "change_pct": 0.253573255882031,
       "current_price": 75.12000274658203,
-      "volume": 4297504.0,
+      "volume": 4452000.0,
       "market_value": 39279738880.0
     },
     {
@@ -395,7 +395,7 @@
       "sector": "REAL ESTATE",
       "change_pct": 0.03698986419395257,
       "current_price": 162.25999450683594,
-      "volume": 2484177.0,
+      "volume": 2506000.0,
       "market_value": 75606679552.0
     },
     {
@@ -404,7 +404,7 @@
       "sector": "UTILITIES",
       "change_pct": -1.8502907194697698,
       "current_price": 127.83999633789062,
-      "volume": 1821071.0,
+      "volume": 1821100.0,
       "market_value": 25405513728.0
     },
     {
@@ -413,7 +413,7 @@
       "sector": "FINANCIAL",
       "change_pct": 0.8209241509102962,
       "current_price": 494.94000244140625,
-      "volume": 578998.0,
+      "volume": 579000.0,
       "market_value": 43719643136.0
     },
     {
@@ -422,7 +422,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": -0.003967176249951243,
       "current_price": 251.9199981689453,
-      "volume": 1096710.0,
+      "volume": 1204100.0,
       "market_value": 57755492352.0
     },
     {
@@ -431,7 +431,7 @@
       "sector": "HEALTHCARE",
       "change_pct": -0.0148862538015411,
       "current_price": 402.9800109863281,
-      "volume": 3103313.0,
+      "volume": 3103900.0,
       "market_value": 217863897088.0
     },
     {
@@ -440,7 +440,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": 0.35648293681859333,
       "current_price": 87.2699966430664,
-      "volume": 9412079.0,
+      "volume": 9548400.0,
       "market_value": 215204921344.0
     },
     {
@@ -449,7 +449,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": 0.46746068214378184,
       "current_price": 419.1000061035156,
-      "volume": 2130351.0,
+      "volume": 2130900.0,
       "market_value": 203081400320.0
     },
     {
@@ -458,7 +458,7 @@
       "sector": "FINANCIAL",
       "change_pct": 0.9649194537574618,
       "current_price": 272.04998779296875,
-      "volume": 1358125.0,
+      "volume": 1366000.0,
       "market_value": 57708724224.0
     },
     {
@@ -467,7 +467,7 @@
       "sector": "ENERGY",
       "change_pct": 0.38918994449999783,
       "current_price": 43.849998474121094,
-      "volume": 3808421.0,
+      "volume": 3829400.0,
       "market_value": 15362913280.0
     },
     {
@@ -476,7 +476,7 @@
       "sector": "FINANCIAL",
       "change_pct": 1.1664636644554447,
       "current_price": 115.3499984741211,
-      "volume": 3691205.0,
+      "volume": 3691200.0,
       "market_value": 68119154688.0
     },
     {
@@ -485,7 +485,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": -0.23973981453316767,
       "current_price": 332.8900146484375,
-      "volume": 34328912.0,
+      "volume": 34350900.0,
       "market_value": 4858257080320.0
     },
     {
@@ -494,7 +494,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": 0.41479360059855236,
       "current_price": 542.280029296875,
-      "volume": 4632077.0,
+      "volume": 4644000.0,
       "market_value": 430352039936.0
     },
     {
@@ -503,7 +503,7 @@
       "sector": "COMMUNICATION SERVICES",
       "change_pct": 5.126388761994636,
       "current_price": 281.9700012207031,
-      "volume": 6817633.0,
+      "volume": 6894700.0,
       "market_value": 94724866048.0
     },
     {
@@ -512,7 +512,7 @@
       "sector": "CONSUMER CYCLICAL",
       "change_pct": 0.8038549994524148,
       "current_price": 43.88999938964844,
-      "volume": 2621688.0,
+      "volume": 2621700.0,
       "market_value": 9113026560.0
     },
     {
@@ -521,7 +521,7 @@
       "sector": "FINANCIAL",
       "change_pct": 0.8119681075001269,
       "current_price": 94.36000061035156,
-      "volume": 2405130.0,
+      "volume": 2426900.0,
       "market_value": 32198379520.0
     },
     {
@@ -530,7 +530,7 @@
       "sector": "CONSUMER DEFENSIVE",
       "change_pct": 2.510881726646323,
       "current_price": 82.47000122070312,
-      "volume": 4331744.0,
+      "volume": 4387400.0,
       "market_value": 39747207168.0
     },
     {
@@ -539,7 +539,7 @@
       "sector": "FINANCIAL",
       "change_pct": -0.35729969156607616,
       "current_price": 117.12999725341797,
-      "volume": 1688637.0,
+      "volume": 1688600.0,
       "market_value": 38860914688.0
     },
     {
@@ -548,7 +548,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": -0.2170302357293348,
       "current_price": 206.89999389648438,
-      "volume": 3493550.0,
+      "volume": 3560300.0,
       "market_value": 260947378176.0
     },
     {
@@ -557,7 +557,7 @@
       "sector": "FINANCIAL",
       "change_pct": 0.49975891369785225,
       "current_price": 227.24000549316406,
-      "volume": 1147849.0,
+      "volume": 1147800.0,
       "market_value": 58250928128.0
     },
     {
@@ -566,7 +566,7 @@
       "sector": "FINANCIAL",
       "change_pct": -0.34041734145461033,
       "current_price": 266.4100036621094,
-      "volume": 312564.0,
+      "volume": 312600.0,
       "market_value": 13140344832.0
     },
     {
@@ -575,7 +575,7 @@
       "sector": "COMMUNICATION SERVICES",
       "change_pct": -0.24691139023114086,
       "current_price": 24.239999771118164,
-      "volume": 34234414.0,
+      "volume": 34239300.0,
       "market_value": 166101827584.0
     },
     {
@@ -584,7 +584,7 @@
       "sector": "UTILITIES",
       "change_pct": 0.5599064026625262,
       "current_price": 158.0500030517578,
-      "volume": 842619.0,
+      "volume": 857400.0,
       "market_value": 26708641792.0
     },
     {
@@ -593,7 +593,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": 4.5094328106574295,
       "current_price": 221.55999755859375,
-      "volume": 3211963.0,
+      "volume": 3223800.0,
       "market_value": 46306037760.0
     },
     {
@@ -602,7 +602,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": 1.0012485110126441,
       "current_price": 260.260009765625,
-      "volume": 1707652.0,
+      "volume": 1707900.0,
       "market_value": 103128432640.0
     },
     {
@@ -611,7 +611,7 @@
       "sector": "CONSUMER CYCLICAL",
       "change_pct": 0.5623131201002435,
       "current_price": 2807.72998046875,
-      "volume": 218959.0,
+      "volume": 219100.0,
       "market_value": 45409415168.0
     },
     {
@@ -620,7 +620,7 @@
       "sector": "BASIC MATERIALS",
       "change_pct": 0.07653198713687728,
       "current_price": 170.0,
-      "volume": 924203.0,
+      "volume": 924200.0,
       "market_value": 12883984384.0
     },
     {
@@ -629,7 +629,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": -0.3725676840890645,
       "current_price": 411.80999755859375,
-      "volume": 1053306.0,
+      "volume": 1054500.0,
       "market_value": 33454381056.0
     },
     {
@@ -638,7 +638,7 @@
       "sector": "ENERGY",
       "change_pct": 2.4642876216343472,
       "current_price": 57.380001068115234,
-      "volume": 6657514.0,
+      "volume": 6663900.0,
       "market_value": 56959639552.0
     },
     {
@@ -647,7 +647,7 @@
       "sector": "BASIC MATERIALS",
       "change_pct": 1.3127580139942614,
       "current_price": 57.11000061035156,
-      "volume": 2151517.0,
+      "volume": 2151500.0,
       "market_value": 15117208576.0
     },
     {
@@ -656,7 +656,7 @@
       "sector": "FINANCIAL",
       "change_pct": 0.46511627906976744,
       "current_price": 54.0,
-      "volume": 34268492.0,
+      "volume": 34975200.0,
       "market_value": 377608404992.0
     },
     {
@@ -665,7 +665,7 @@
       "sector": "HEALTHCARE",
       "change_pct": 3.1077034880770413,
       "current_price": 24.219999313354492,
-      "volume": 10163076.0,
+      "volume": 10163100.0,
       "market_value": 12521643008.0
     },
     {
@@ -674,7 +674,7 @@
       "sector": "HEALTHCARE",
       "change_pct": 2.1889112275945877,
       "current_price": 180.6699981689453,
-      "volume": 1636584.0,
+      "volume": 1645000.0,
       "market_value": 49212125184.0
     },
     {
@@ -683,7 +683,7 @@
       "sector": "CONSUMER CYCLICAL",
       "change_pct": -0.6593177481031888,
       "current_price": 87.38999938964844,
-      "volume": 2925891.0,
+      "volume": 2925900.0,
       "market_value": 18328102912.0
     },
     {
@@ -692,7 +692,7 @@
       "sector": "HEALTHCARE",
       "change_pct": 0.24861920080407915,
       "current_price": 72.58000183105469,
-      "volume": 2087225.0,
+      "volume": 2087200.0,
       "market_value": 11381868544.0
     },
     {
@@ -701,7 +701,7 @@
       "sector": "HEALTHCARE",
       "change_pct": 1.6872800494321467,
       "current_price": 223.58999633789062,
-      "volume": 951290.0,
+      "volume": 951300.0,
       "market_value": 33036316672.0
     },
     {
@@ -710,7 +710,7 @@
       "sector": "FINANCIAL",
       "change_pct": 0.6436158147311747,
       "current_price": 1066.449951171875,
-      "volume": 610515.0,
+      "volume": 610500.0,
       "market_value": 173272727552.0
     },
     {
@@ -719,7 +719,7 @@
       "sector": "FINANCIAL",
       "change_pct": -0.08948409317323826,
       "current_price": 111.6500015258789,
-      "volume": 4776426.0,
+      "volume": 4776800.0,
       "market_value": 133455003648.0
     },
     {
@@ -728,7 +728,7 @@
       "sector": "FINANCIAL",
       "change_pct": 2.5561704279214688,
       "current_price": 76.2300033569336,
-      "volume": 3870578.0,
+      "volume": 3870800.0,
       "market_value": 45798604800.0
     },
     {
@@ -737,7 +737,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": -0.8646031654059102,
       "current_price": 286.6499938964844,
-      "volume": 7474549.0,
+      "volume": 7481800.0,
       "market_value": 84426268672.0
     },
     {
@@ -746,7 +746,7 @@
       "sector": "FINANCIAL",
       "change_pct": -1.1347964001009978,
       "current_price": 143.75,
-      "volume": 3861425.0,
+      "volume": 3861700.0,
       "market_value": 97534967808.0
     },
     {
@@ -755,7 +755,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": -0.43397207505974705,
       "current_price": 192.72000122070312,
-      "volume": 6383321.0,
+      "volume": 6488700.0,
       "market_value": 152320114688.0
     },
     {
@@ -764,7 +764,7 @@
       "sector": "CONSUMER CYCLICAL",
       "change_pct": -0.43390920819245915,
       "current_price": 158.3300018310547,
-      "volume": 8304850.0,
+      "volume": 8342100.0,
       "market_value": 118966075392.0
     },
     {
@@ -773,7 +773,7 @@
       "sector": "HEALTHCARE",
       "change_pct": -0.4694764211404441,
       "current_price": 42.400001525878906,
-      "volume": 13646690.0,
+      "volume": 13737400.0,
       "market_value": 61447335936.0
     },
     {
@@ -782,7 +782,7 @@
       "sector": "HEALTHCARE",
       "change_pct": -3.8266559185572446,
       "current_price": 58.810001373291016,
-      "volume": 19237043.0,
+      "volume": 19237900.0,
       "market_value": 120132050944.0
     },
     {
@@ -791,7 +791,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": 2.0752364738406777,
       "current_price": 362.510009765625,
-      "volume": 21357358.0,
+      "volume": 21428100.0,
       "market_value": 1730488696832.0
     },
     {
@@ -800,7 +800,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": 1.370043494308558,
       "current_price": 159.0800018310547,
-      "volume": 701982.0,
+      "volume": 702100.0,
       "market_value": 17960136704.0
     },
     {
@@ -809,7 +809,7 @@
       "sector": "FINANCIAL",
       "change_pct": 1.7025545991680255,
       "current_price": 60.93000030517578,
-      "volume": 2263044.0,
+      "volume": 2263000.0,
       "market_value": 20387809280.0
     },
     {
@@ -818,7 +818,7 @@
       "sector": "CONSUMER DEFENSIVE",
       "change_pct": 0.5622174543272936,
       "current_price": 107.31999969482422,
-      "volume": 1820576.0,
+      "volume": 1835300.0,
       "market_value": 20618223616.0
     },
     {
@@ -836,7 +836,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": -10.848339131324847,
       "current_price": 140.61000061035156,
-      "volume": 8655249.0,
+      "volume": 8657100.0,
       "market_value": 16430454784.0
     },
     {
@@ -845,7 +845,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": 0.6062344800941749,
       "current_price": 353.4800109863281,
-      "volume": 1951705.0,
+      "volume": 1952000.0,
       "market_value": 97345921024.0
     },
     {
@@ -854,7 +854,7 @@
       "sector": "REAL ESTATE",
       "change_pct": 1.46936606457047,
       "current_price": 97.37000274658203,
-      "volume": 953556.0,
+      "volume": 960200.0,
       "market_value": 11268881408.0
     },
     {
@@ -863,7 +863,7 @@
       "sector": "FINANCIAL",
       "change_pct": 0.21569338861562068,
       "current_price": 195.13999938964844,
-      "volume": 2489407.0,
+      "volume": 2489500.0,
       "market_value": 119715438592.0
     },
     {
@@ -872,7 +872,7 @@
       "sector": "HEALTHCARE",
       "change_pct": 2.1112536141039597,
       "current_price": 233.1199951171875,
-      "volume": 1721705.0,
+      "volume": 1721700.0,
       "market_value": 53981114368.0
     },
     {
@@ -881,7 +881,7 @@
       "sector": "CONSUMER CYCLICAL",
       "change_pct": -0.7764004703509839,
       "current_price": 25.559999465942383,
-      "volume": 21583951.0,
+      "volume": 22051800.0,
       "market_value": 34368233472.0
     },
     {
@@ -890,7 +890,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": 1.106677471284748,
       "current_price": 55.72999954223633,
-      "volume": 4873589.0,
+      "volume": 4902200.0,
       "market_value": 45939634176.0
     },
     {
@@ -899,7 +899,7 @@
       "sector": "CONSUMER CYCLICAL",
       "change_pct": -0.0784055773900496,
       "current_price": 63.720001220703125,
-      "volume": 6980368.0,
+      "volume": 6980800.0,
       "market_value": 70631309312.0
     },
     {
@@ -908,7 +908,7 @@
       "sector": "CONSUMER DEFENSIVE",
       "change_pct": -0.06960513289689746,
       "current_price": 617.3300170898438,
-      "volume": 605221.0,
+      "volume": 606600.0,
       "market_value": 22816620544.0
     },
     {
@@ -917,7 +917,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": 0.32173733685808925,
       "current_price": 848.1400146484375,
-      "volume": 2268195.0,
+      "volume": 2300100.0,
       "market_value": 389868650496.0
     },
     {
@@ -926,7 +926,7 @@
       "sector": "FINANCIAL",
       "change_pct": 2.2893132903901696,
       "current_price": 277.4700012207031,
-      "volume": 1363249.0,
+      "volume": 1363300.0,
       "market_value": 28976474112.0
     },
     {
@@ -935,7 +935,7 @@
       "sector": "REAL ESTATE",
       "change_pct": -0.13891644700314584,
       "current_price": 129.39999389648438,
-      "volume": 2003536.0,
+      "volume": 2003500.0,
       "market_value": 37471039488.0
     },
     {
@@ -944,7 +944,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": 0.47265729953191044,
       "current_price": 133.9199981689453,
-      "volume": 1097552.0,
+      "volume": 1097600.0,
       "market_value": 16742333440.0
     },
     {
@@ -953,7 +953,7 @@
       "sector": "HEALTHCARE",
       "change_pct": 1.9026064116046786,
       "current_price": 314.92999267578125,
-      "volume": 1095371.0,
+      "volume": 1148100.0,
       "market_value": 60097200128.0
     },
     {
@@ -962,7 +962,7 @@
       "sector": "HEALTHCARE",
       "change_pct": 2.0796973144689423,
       "current_price": 64.30000305175781,
-      "volume": 4538083.0,
+      "volume": 4538100.0,
       "market_value": 31763879936.0
     },
     {
@@ -971,7 +971,7 @@
       "sector": "UTILITIES",
       "change_pct": -0.1058505280715883,
       "current_price": 37.75,
-      "volume": 7441970.0,
+      "volume": 7442000.0,
       "market_value": 24866689024.0
     },
     {
@@ -980,7 +980,7 @@
       "sector": "BASIC MATERIALS",
       "change_pct": 0.8781797131345056,
       "current_price": 116.0199966430664,
-      "volume": 2081361.0,
+      "volume": 2089300.0,
       "market_value": 17558249472.0
     },
     {
@@ -989,7 +989,7 @@
       "sector": "HEALTHCARE",
       "change_pct": 7.0919006165352085,
       "current_price": 310.7699890136719,
-      "volume": 1305410.0,
+      "volume": 1305600.0,
       "market_value": 14969083904.0
     },
     {
@@ -998,7 +998,7 @@
       "sector": "FINANCIAL",
       "change_pct": 1.3030012161271045,
       "current_price": 97.95999908447266,
-      "volume": 5872011.0,
+      "volume": 5872500.0,
       "market_value": 169405726720.0
     },
     {
@@ -1007,7 +1007,7 @@
       "sector": "COMMUNICATION SERVICES",
       "change_pct": -1.3907990298543254,
       "current_price": 107.7699966430664,
-      "volume": 3106058.0,
+      "volume": 3106300.0,
       "market_value": 14005530624.0
     },
     {
@@ -1016,7 +1016,7 @@
       "sector": "ENERGY",
       "change_pct": -0.10644018486839599,
       "current_price": 206.47000122070312,
-      "volume": 6403501.0,
+      "volume": 6445100.0,
       "market_value": 405012250624.0
     },
     {
@@ -1025,7 +1025,7 @@
       "sector": "CONSUMER CYCLICAL",
       "change_pct": -4.666255254639289,
       "current_price": 30.850000381469727,
-      "volume": 23553086.0,
+      "volume": 23566200.0,
       "market_value": 39038144512.0
     },
     {
@@ -1034,7 +1034,7 @@
       "sector": "FINANCIAL",
       "change_pct": -0.12089346802668435,
       "current_price": 330.489990234375,
-      "volume": 2715591.0,
+      "volume": 2715600.0,
       "market_value": 127502999552.0
     },
     {
@@ -1043,7 +1043,7 @@
       "sector": "CONSUMER DEFENSIVE",
       "change_pct": 1.431455983950038,
       "current_price": 95.66000366210938,
-      "volume": 2005444.0,
+      "volume": 2011500.0,
       "market_value": 22690926592.0
     },
     {
@@ -1052,7 +1052,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": -0.4216266959484862,
       "current_price": 389.69000244140625,
-      "volume": 2473302.0,
+      "volume": 2473900.0,
       "market_value": 55261364224.0
     },
     {
@@ -1061,7 +1061,7 @@
       "sector": "HEALTHCARE",
       "change_pct": 0.2809336373246463,
       "current_price": 271.2900085449219,
-      "volume": 1500953.0,
+      "volume": 1536000.0,
       "market_value": 71685799936.0
     },
     {
@@ -1070,7 +1070,7 @@
       "sector": "FINANCIAL",
       "change_pct": 0.11732167026034161,
       "current_price": 162.13999938964844,
-      "volume": 607310.0,
+      "volume": 607300.0,
       "market_value": 24884930560.0
     },
     {
@@ -1079,7 +1079,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": 1.2330274434477368,
       "current_price": 195.39999389648438,
-      "volume": 1335310.0,
+      "volume": 1344100.0,
       "market_value": 78065614848.0
     },
     {
@@ -1088,7 +1088,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": 0.5525871331957686,
       "current_price": 112.81999969482422,
-      "volume": 17678851.0,
+      "volume": 18540800.0,
       "market_value": 444802662400.0
     },
     {
@@ -1097,7 +1097,7 @@
       "sector": "FINANCIAL",
       "change_pct": 0.03891288074537938,
       "current_price": 128.5500030517578,
-      "volume": 6600730.0,
+      "volume": 6602000.0,
       "market_value": 215634509824.0
     },
     {
@@ -1106,7 +1106,7 @@
       "sector": "FINANCIAL",
       "change_pct": -0.031096334356515796,
       "current_price": 64.30999755859375,
-      "volume": 3442883.0,
+      "volume": 3488800.0,
       "market_value": 27085879296.0
     },
     {
@@ -1115,7 +1115,7 @@
       "sector": "CONSUMER DEFENSIVE",
       "change_pct": 1.9898002751553678,
       "current_price": 82.01000213623047,
-      "volume": 2789137.0,
+      "volume": 2793400.0,
       "market_value": 9917552640.0
     },
     {
@@ -1124,7 +1124,7 @@
       "sector": "FINANCIAL",
       "change_pct": 2.6183718732647288,
       "current_price": 270.0299987792969,
-      "volume": 1547055.0,
+      "volume": 1564800.0,
       "market_value": 97097187328.0
     },
     {
@@ -1133,7 +1133,7 @@
       "sector": "UTILITIES",
       "change_pct": 0.4549687687379642,
       "current_price": 64.02999877929688,
-      "volume": 5353902.0,
+      "volume": 5368600.0,
       "market_value": 20078344192.0
     },
     {
@@ -1142,7 +1142,7 @@
       "sector": "CONSUMER DEFENSIVE",
       "change_pct": 1.0040870928551189,
       "current_price": 86.51000213623047,
-      "volume": 20444719.0,
+      "volume": 21274700.0,
       "market_value": 372213514240.0
     },
     {
@@ -1151,7 +1151,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": -0.5810975257928894,
       "current_price": 58.16999816894531,
-      "volume": 3470552.0,
+      "volume": 3478200.0,
       "market_value": 26202339328.0
     },
     {
@@ -1160,7 +1160,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": -1.0087805038822897,
       "current_price": 333.6400146484375,
-      "volume": 5407129.0,
+      "volume": 5411800.0,
       "market_value": 65337470976.0
     },
     {
@@ -1169,7 +1169,7 @@
       "sector": "FINANCIAL",
       "change_pct": 2.8524596834443305,
       "current_price": 188.22000122070312,
-      "volume": 7795072.0,
+      "volume": 7805000.0,
       "market_value": 49659387904.0
     },
     {
@@ -1178,7 +1178,7 @@
       "sector": "CONSUMER DEFENSIVE",
       "change_pct": 2.29052961814003,
       "current_price": 86.19000244140625,
-      "volume": 6000413.0,
+      "volume": 6004700.0,
       "market_value": 68708327424.0
     },
     {
@@ -1187,7 +1187,7 @@
       "sector": "COMMUNICATION SERVICES",
       "change_pct": 0.0,
       "current_price": 21.56999969482422,
-      "volume": 31074378.0,
+      "volume": 31087800.0,
       "market_value": 76544090112.0
     },
     {
@@ -1196,7 +1196,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": -0.8645819984913665,
       "current_price": 1713.0699462890625,
-      "volume": 251073.0,
+      "volume": 255700.0,
       "market_value": 60290347008.0
     },
     {
@@ -1205,7 +1205,7 @@
       "sector": "ENERGY",
       "change_pct": 1.301770332532051,
       "current_price": 128.39999389648438,
-      "volume": 5675833.0,
+      "volume": 5707100.0,
       "market_value": 154251722752.0
     },
     {
@@ -1214,7 +1214,7 @@
       "sector": "UTILITIES",
       "change_pct": -0.00967418153546307,
       "current_price": 103.37999725341797,
-      "volume": 2080275.0,
+      "volume": 2095200.0,
       "market_value": 38232883200.0
     },
     {
@@ -1223,7 +1223,7 @@
       "sector": "CONSUMER DEFENSIVE",
       "change_pct": 0.3898244009080108,
       "current_price": 113.30999755859375,
-      "volume": 2941813.0,
+      "volume": 2942500.0,
       "market_value": 19350902784.0
     },
     {
@@ -1232,7 +1232,7 @@
       "sector": "UTILITIES",
       "change_pct": 3.934135409920933,
       "current_price": 267.6199951171875,
-      "volume": 3502745.0,
+      "volume": 3520100.0,
       "market_value": 94819745792.0
     },
     {
@@ -1241,7 +1241,7 @@
       "sector": "HEALTHCARE",
       "change_pct": -0.24600138819856937,
       "current_price": 56.77000045776367,
-      "volume": 3948533.0,
+      "volume": 3948500.0,
       "market_value": 10795116544.0
     },
     {
@@ -1250,7 +1250,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": 1.579721954529284,
       "current_price": 27.649999618530273,
-      "volume": 11326983.0,
+      "volume": 11327000.0,
       "market_value": 25613035520.0
     },
     {
@@ -1259,7 +1259,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": -2.935627780344814,
       "current_price": 159.3699951171875,
-      "volume": 6537179.0,
+      "volume": 6552200.0,
       "market_value": 137279455232.0
     },
     {
@@ -1268,7 +1268,7 @@
       "sector": "FINANCIAL",
       "change_pct": 1.8043575790821726,
       "current_price": 401.7200012207031,
-      "volume": 481376.0,
+      "volume": 481400.0,
       "market_value": 26376773632.0
     },
     {
@@ -1277,7 +1277,7 @@
       "sector": "BASIC MATERIALS",
       "change_pct": 3.942955235071917,
       "current_price": 12.390000343322754,
-      "volume": 183061500.0,
+      "volume": 183186600.0,
       "market_value": 8266558976.0
     },
     {
@@ -1286,7 +1286,7 @@
       "sector": "REAL ESTATE",
       "change_pct": 1.0226468050690334,
       "current_price": 27.65999984741211,
-      "volume": 4933970.0,
+      "volume": 4934000.0,
       "market_value": 11207766016.0
     },
     {
@@ -1295,7 +1295,7 @@
       "sector": "CONSUMER DEFENSIVE",
       "change_pct": 0.31173573465270654,
       "current_price": 923.52001953125,
-      "volume": 1949392.0,
+      "volume": 1952600.0,
       "market_value": 409365020672.0
     },
     {
@@ -1304,7 +1304,7 @@
       "sector": "BASIC MATERIALS",
       "change_pct": 0.8664865307764218,
       "current_price": 82.6500015258789,
-      "volume": 3939903.0,
+      "volume": 3939900.0,
       "market_value": 54985764864.0
     },
     {
@@ -1313,7 +1313,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": 0.9739315655424413,
       "current_price": 272.6700134277344,
-      "volume": 4829740.0,
+      "volume": 4833300.0,
       "market_value": 279196336128.0
     },
     {
@@ -1322,7 +1322,7 @@
       "sector": "REAL ESTATE",
       "change_pct": 1.7158328533383307,
       "current_price": 67.58000183105469,
-      "volume": 3256358.0,
+      "volume": 3257900.0,
       "market_value": 29532461056.0
     },
     {
@@ -1331,7 +1331,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": 0.0,
       "current_price": 47.43000030517578,
-      "volume": 8034847.0,
+      "volume": 8250700.0,
       "market_value": 87862886400.0
     },
     {
@@ -1340,7 +1340,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": -0.9369344598743414,
       "current_price": 523.3699951171875,
-      "volume": 802501.0,
+      "volume": 802600.0,
       "market_value": 72049459200.0
     },
     {
@@ -1349,7 +1349,7 @@
       "sector": "HEALTHCARE",
       "change_pct": 0.6361358519336227,
       "current_price": 87.01000213623047,
-      "volume": 12009345.0,
+      "volume": 12009700.0,
       "market_value": 111283216384.0
     },
     {
@@ -1358,7 +1358,7 @@
       "sector": "HEALTHCARE",
       "change_pct": 3.3401893099229323,
       "current_price": 221.2100067138672,
-      "volume": 3079987.0,
+      "volume": 3093800.0,
       "market_value": 155507556352.0
     },
     {
@@ -1367,7 +1367,7 @@
       "sector": "CONSUMER CYCLICAL",
       "change_pct": -0.30449788088456037,
       "current_price": 199.72000122070312,
-      "volume": 1046737.0,
+      "volume": 1046700.0,
       "market_value": 22596964352.0
     },
     {
@@ -1376,7 +1376,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": -0.2903804459406128,
       "current_price": 276.4150085449219,
-      "volume": 2347252.0,
+      "volume": 2348000.0,
       "market_value": 99253723136.0
     },
     {
@@ -1385,7 +1385,7 @@
       "sector": "HEALTHCARE",
       "change_pct": 0.016788168832619396,
       "current_price": 178.72000122070312,
-      "volume": 451957.0,
+      "volume": 452000.0,
       "market_value": 11402336256.0
     },
     {
@@ -1394,7 +1394,7 @@
       "sector": "CONSUMER CYCLICAL",
       "change_pct": 1.377649519783052,
       "current_price": 80.20999908447266,
-      "volume": 2800375.0,
+      "volume": 2801900.0,
       "market_value": 10923146240.0
     },
     {
@@ -1403,7 +1403,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": -0.6986881794714338,
       "current_price": 682.2000122070312,
-      "volume": 751245.0,
+      "volume": 752900.0,
       "market_value": 183938449408.0
     },
     {
@@ -1412,7 +1412,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": -1.8186093203280091,
       "current_price": 552.2899780273438,
-      "volume": 4171010.0,
+      "volume": 4184800.0,
       "market_value": 351152996352.0
     },
     {
@@ -1421,7 +1421,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": -1.201087585707074,
       "current_price": 83.08000183105469,
-      "volume": 7551123.0,
+      "volume": 7558900.0,
       "market_value": 54635323392.0
     },
     {
@@ -1430,7 +1430,7 @@
       "sector": "ENERGY",
       "change_pct": 0.6925456574816659,
       "current_price": 47.97999954223633,
-      "volume": 9730878.0,
+      "volume": 9967700.0,
       "market_value": 52778000384.0
     },
     {
@@ -1439,7 +1439,7 @@
       "sector": "HEALTHCARE",
       "change_pct": 1.8041247709885662,
       "current_price": 86.9000015258789,
-      "volume": 3074334.0,
+      "volume": 3078900.0,
       "market_value": 32792651776.0
     },
     {
@@ -1448,7 +1448,7 @@
       "sector": "ENERGY",
       "change_pct": -0.3410778300649599,
       "current_price": 184.0800018310547,
-      "volume": 2836740.0,
+      "volume": 2836800.0,
       "market_value": 51546042368.0
     },
     {
@@ -1457,7 +1457,7 @@
       "sector": "REAL ESTATE",
       "change_pct": 0.7392842581173467,
       "current_price": 179.8699951171875,
-      "volume": 1507937.0,
+      "volume": 1517900.0,
       "market_value": 67930370048.0
     },
     {
@@ -1466,7 +1466,7 @@
       "sector": "CONSUMER DEFENSIVE",
       "change_pct": 0.3194865021170383,
       "current_price": 119.31999969482422,
-      "volume": 1717598.0,
+      "volume": 1717600.0,
       "market_value": 26323994624.0
     },
     {
@@ -1475,7 +1475,7 @@
       "sector": "CONSUMER DEFENSIVE",
       "change_pct": 0.9183298374345863,
       "current_price": 113.19000244140625,
-      "volume": 2191744.0,
+      "volume": 2193800.0,
       "market_value": 21237874688.0
     },
     {
@@ -1484,7 +1484,7 @@
       "sector": "UTILITIES",
       "change_pct": -0.4730075175853434,
       "current_price": 61.02000045776367,
-      "volume": 4046538.0,
+      "volume": 4046600.0,
       "market_value": 53668675584.0
     },
     {
@@ -1493,7 +1493,7 @@
       "sector": "CONSUMER CYCLICAL",
       "change_pct": -0.11760167638528807,
       "current_price": 297.2699890136719,
-      "volume": 597275.0,
+      "volume": 597300.0,
       "market_value": 9834207232.0
     },
     {
@@ -1502,7 +1502,7 @@
       "sector": "CONSUMER CYCLICAL",
       "change_pct": 1.3851495958336688,
       "current_price": 191.77000427246094,
-      "volume": 2920381.0,
+      "volume": 2920400.0,
       "market_value": 83093553152.0
     },
     {
@@ -1511,7 +1511,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": 0.8487535397912598,
       "current_price": 191.3000030517578,
-      "volume": 915004.0,
+      "volume": 915200.0,
       "market_value": 25764327424.0
     },
     {
@@ -1520,7 +1520,7 @@
       "sector": "BASIC MATERIALS",
       "change_pct": 1.9306432920415415,
       "current_price": 28.510000228881836,
-      "volume": 7044903.0,
+      "volume": 7157900.0,
       "market_value": 20593934336.0
     },
     {
@@ -1529,7 +1529,7 @@
       "sector": "CONSUMER CYCLICAL",
       "change_pct": -1.3111142758969907,
       "current_price": 133.22999572753906,
-      "volume": 4889959.0,
+      "volume": 4890900.0,
       "market_value": 37264601088.0
     },
     {
@@ -1538,7 +1538,7 @@
       "sector": "UTILITIES",
       "change_pct": 0.474089177784821,
       "current_price": 125.04000091552734,
-      "volume": 1852083.0,
+      "volume": 1852100.0,
       "market_value": 26019332096.0
     },
     {
@@ -1547,7 +1547,7 @@
       "sector": "UTILITIES",
       "change_pct": -0.254097014375122,
       "current_price": 113.83999633789062,
-      "volume": 4225401.0,
+      "volume": 4226000.0,
       "market_value": 88761294848.0
     },
     {
@@ -1556,7 +1556,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": 0.5462430660141631,
       "current_price": 130.69000244140625,
-      "volume": 700644.0,
+      "volume": 700700.0,
       "market_value": 17648766976.0
     },
     {
@@ -1565,7 +1565,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": -0.8048380834979888,
       "current_price": 432.6000061035156,
-      "volume": 1426410.0,
+      "volume": 1426700.0,
       "market_value": 168021835776.0
     },
     {
@@ -1574,7 +1574,7 @@
       "sector": "CONSUMER CYCLICAL",
       "change_pct": 0.6954867040951563,
       "current_price": 107.13999938964844,
-      "volume": 2757736.0,
+      "volume": 2757800.0,
       "market_value": 47677300736.0
     },
     {
@@ -1583,7 +1583,7 @@
       "sector": "COMMUNICATION SERVICES",
       "change_pct": 4.201590540554542,
       "current_price": 98.20999908447266,
-      "volume": 6791426.0,
+      "volume": 6793800.0,
       "market_value": 28561022976.0
     },
     {
@@ -1592,7 +1592,7 @@
       "sector": "BASIC MATERIALS",
       "change_pct": 1.2312732798266663,
       "current_price": 277.07000732421875,
-      "volume": 933124.0,
+      "volume": 940200.0,
       "market_value": 77670645760.0
     },
     {
@@ -1601,7 +1601,7 @@
       "sector": "UTILITIES",
       "change_pct": 0.6494753994849557,
       "current_price": 54.2400016784668,
-      "volume": 4787840.0,
+      "volume": 4789700.0,
       "market_value": 20872310784.0
     },
     {
@@ -1610,7 +1610,7 @@
       "sector": "HEALTHCARE",
       "change_pct": 2.4427501982164155,
       "current_price": 87.2300033569336,
-      "volume": 3315832.0,
+      "volume": 3315800.0,
       "market_value": 50279374848.0
     },
     {
@@ -1619,7 +1619,7 @@
       "sector": "HEALTHCARE",
       "change_pct": 2.0909394309418854,
       "current_price": 394.510009765625,
-      "volume": 712036.0,
+      "volume": 712100.0,
       "market_value": 85557108736.0
     },
     {
@@ -1628,7 +1628,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": -0.9420136131655491,
       "current_price": 779.2000122070312,
-      "volume": 356833.0,
+      "volume": 395600.0,
       "market_value": 34370433024.0
     },
     {
@@ -1637,7 +1637,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": 0.4455177389913375,
       "current_price": 162.3300018310547,
-      "volume": 2130319.0,
+      "volume": 2139300.0,
       "market_value": 90547675136.0
     },
     {
@@ -1646,7 +1646,7 @@
       "sector": "UTILITIES",
       "change_pct": -0.08919231396178393,
       "current_price": 100.81999969482422,
-      "volume": 2128141.0,
+      "volume": 2128200.0,
       "market_value": 48169525248.0
     },
     {
@@ -1655,7 +1655,7 @@
       "sector": "ENERGY",
       "change_pct": 1.9097445572166794,
       "current_price": 144.0800018310547,
-      "volume": 2514863.0,
+      "volume": 2523400.0,
       "market_value": 75574165504.0
     },
     {
@@ -1664,7 +1664,7 @@
       "sector": "ENERGY",
       "change_pct": 1.8935634793933347,
       "current_price": 51.119998931884766,
-      "volume": 8493051.0,
+      "volume": 8513600.0,
       "market_value": 31976378368.0
     },
     {
@@ -1673,7 +1673,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": 1.8571472167968748,
       "current_price": 142.60000610351562,
-      "volume": 2534030.0,
+      "volume": 2552300.0,
       "market_value": 16753346560.0
     },
     {
@@ -1682,16 +1682,16 @@
       "sector": "REAL ESTATE",
       "change_pct": -0.22227979632256212,
       "current_price": 1023.4400024414062,
-      "volume": 368677.0,
+      "volume": 368800.0,
       "market_value": 100984553472.0
     },
     {
       "symbol": "ERIE",
       "company": "Erie Indemnity",
       "sector": "FINANCIAL",
-      "change_pct": 0.16735735768482154,
+      "change_pct": 0.8346004005287119,
       "current_price": 221.4600067138672,
-      "volume": 133240.0,
+      "volume": 133200.0,
       "market_value": 11580114944.0
     },
     {
@@ -1700,7 +1700,7 @@
       "sector": "REAL ESTATE",
       "change_pct": 1.2209189852283104,
       "current_price": 271.92999267578125,
-      "volume": 432021.0,
+      "volume": 437500.0,
       "market_value": 18744920064.0
     },
     {
@@ -1709,7 +1709,7 @@
       "sector": "CONSUMER DEFENSIVE",
       "change_pct": 1.4461257077327234,
       "current_price": 93.30000305175781,
-      "volume": 2786505.0,
+      "volume": 2787200.0,
       "market_value": 33804716032.0
     },
     {
@@ -1718,7 +1718,7 @@
       "sector": "FINANCIAL",
       "change_pct": -0.3964459496111489,
       "current_price": 366.80999755859375,
-      "volume": 332724.0,
+      "volume": 336100.0,
       "market_value": 14064498688.0
     },
     {
@@ -1727,7 +1727,7 @@
       "sector": "UTILITIES",
       "change_pct": -0.1010506920613628,
       "current_price": 79.08999633789062,
-      "volume": 1937574.0,
+      "volume": 1950900.0,
       "market_value": 18235555840.0
     },
     {
@@ -1736,7 +1736,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": 2.668763743009065,
       "current_price": 143.8800048828125,
-      "volume": 4951334.0,
+      "volume": 4959900.0,
       "market_value": 47944740864.0
     },
     {
@@ -1745,7 +1745,7 @@
       "sector": "UTILITIES",
       "change_pct": 0.2945774285368217,
       "current_price": 64.69000244140625,
-      "volume": 2310075.0,
+      "volume": 2324900.0,
       "market_value": 24367089664.0
     },
     {
@@ -1754,7 +1754,7 @@
       "sector": "UTILITIES",
       "change_pct": 0.22096772305278808,
       "current_price": 40.81999969482422,
-      "volume": 9026829.0,
+      "volume": 9027100.0,
       "market_value": 42054967296.0
     },
     {
@@ -1763,7 +1763,7 @@
       "sector": "ENERGY",
       "change_pct": 1.0640829020462248,
       "current_price": 86.43000030517578,
-      "volume": 2395941.0,
+      "volume": 2395900.0,
       "market_value": 20008871936.0
     },
     {
@@ -1772,7 +1772,7 @@
       "sector": "CONSUMER CYCLICAL",
       "change_pct": -1.8226364423643868,
       "current_price": 260.1700134277344,
-      "volume": 1291720.0,
+      "volume": 1291700.0,
       "market_value": 31226146816.0
     },
     {
@@ -1781,7 +1781,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": 0.8572732820801232,
       "current_price": 194.1199951171875,
-      "volume": 1625165.0,
+      "volume": 1633300.0,
       "market_value": 25233778688.0
     },
     {
@@ -1790,7 +1790,7 @@
       "sector": "REAL ESTATE",
       "change_pct": -0.2551567263719512,
       "current_price": 132.91000366210938,
-      "volume": 1118318.0,
+      "volume": 1118300.0,
       "market_value": 29333575680.0
     },
     {
@@ -1799,7 +1799,7 @@
       "sector": "ENERGY",
       "change_pct": -0.00609384011382363,
       "current_price": 164.0,
-      "volume": 12460048.0,
+      "volume": 12462700.0,
       "market_value": 674353577984.0
     },
     {
@@ -1808,7 +1808,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": 0.9888974869779056,
       "current_price": 458.5299987792969,
-      "volume": 374889.0,
+      "volume": 377600.0,
       "market_value": 25965262848.0
     },
     {
@@ -1817,7 +1817,7 @@
       "sector": "FINANCIAL",
       "change_pct": 3.9248129478970863,
       "current_price": 276.44000244140625,
-      "volume": 589242.0,
+      "volume": 589300.0,
       "market_value": 9831739392.0
     },
     {
@@ -1826,7 +1826,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": 4.288844665642722,
       "current_price": 689.6099853515625,
-      "volume": 1167512.0,
+      "volume": 1167800.0,
       "market_value": 14893945856.0
     },
     {
@@ -1835,7 +1835,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": -0.11822930697737069,
       "current_price": 50.689998626708984,
-      "volume": 5561363.0,
+      "volume": 5561400.0,
       "market_value": 58166652928.0
     },
     {
@@ -1844,7 +1844,7 @@
       "sector": "REAL ESTATE",
       "change_pct": -0.6748535047588428,
       "current_price": 105.97000122070312,
-      "volume": 852095.0,
+      "volume": 852100.0,
       "market_value": 9263721472.0
     },
     {
@@ -1853,7 +1853,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": -0.42360536258491766,
       "current_price": 289.1300048828125,
-      "volume": 1884950.0,
+      "volume": 1885000.0,
       "market_value": 68428521472.0
     },
     {
@@ -1862,7 +1862,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": -1.1604194930254128,
       "current_price": 111.58000183105469,
-      "volume": 1477432.0,
+      "volume": 1477600.0,
       "market_value": 16683233280.0
     },
     {
@@ -1871,7 +1871,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": -0.1791112488218388,
       "current_price": 222.92999267578125,
-      "volume": 1312016.0,
+      "volume": 1312000.0,
       "market_value": 43126415360.0
     },
     {
@@ -1880,7 +1880,7 @@
       "sector": "FINANCIAL",
       "change_pct": 3.514190051189147,
       "current_price": 33.58000183105469,
-      "volume": 7930343.0,
+      "volume": 7940400.0,
       "market_value": 17317406720.0
     },
     {
@@ -1889,7 +1889,7 @@
       "sector": "FINANCIAL",
       "change_pct": -0.13760506446628545,
       "current_price": 50.79999923706055,
-      "volume": 6862147.0,
+      "volume": 6862200.0,
       "market_value": 46070140928.0
     },
     {
@@ -1898,7 +1898,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": 0.8876943166712997,
       "current_price": 176.16000366210938,
-      "volume": 1538255.0,
+      "volume": 1540100.0,
       "market_value": 18931879936.0
     },
     {
@@ -1907,7 +1907,7 @@
       "sector": "UTILITIES",
       "change_pct": 0.6921994370196917,
       "current_price": 43.63999938964844,
-      "volume": 4262964.0,
+      "volume": 4334700.0,
       "market_value": 25251846144.0
     },
     {
@@ -1916,7 +1916,7 @@
       "sector": "FINANCIAL",
       "change_pct": 4.012621178552251,
       "current_price": 46.13999938964844,
-      "volume": 5897563.0,
+      "volume": 5898900.0,
       "market_value": 24535715840.0
     },
     {
@@ -1925,7 +1925,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": 0.12863521575660683,
       "current_price": 116.76000213623047,
-      "volume": 2604240.0,
+      "volume": 2604500.0,
       "market_value": 43131490304.0
     },
     {
@@ -1934,7 +1934,7 @@
       "sector": "CONSUMER CYCLICAL",
       "change_pct": 0.4132168221838826,
       "current_price": 12.149999618530273,
-      "volume": 35523032.0,
+      "volume": 35611100.0,
       "market_value": 48449286144.0
     },
     {
@@ -1943,7 +1943,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": 1.7573959592162371,
       "current_price": 184.1300048828125,
-      "volume": 3057345.0,
+      "volume": 3060200.0,
       "market_value": 135098703872.0
     },
     {
@@ -1952,7 +1952,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": -0.15660370745819432,
       "current_price": 57.380001068115234,
-      "volume": 3652988.0,
+      "volume": 3653000.0,
       "market_value": 17329739776.0
     },
     {
@@ -1961,7 +1961,7 @@
       "sector": "COMMUNICATION SERVICES",
       "change_pct": 1.6859394225082334,
       "current_price": 63.33000183105469,
-      "volume": 5043697.0,
+      "volume": 5043800.0,
       "market_value": 26704592896.0
     },
     {
@@ -1970,7 +1970,7 @@
       "sector": "COMMUNICATION SERVICES",
       "change_pct": 1.4492778352776983,
       "current_price": 56.70000076293945,
-      "volume": 1018639.0,
+      "volume": 1055300.0,
       "market_value": 23908894720.0
     },
     {
@@ -1979,7 +1979,7 @@
       "sector": "FINANCIAL",
       "change_pct": 0.2133486494797955,
       "current_price": 32.880001068115234,
-      "volume": 3363286.0,
+      "volume": 3449500.0,
       "market_value": 16705568768.0
     },
     {
@@ -1988,7 +1988,7 @@
       "sector": "BASIC MATERIALS",
       "change_pct": 0.7773425200957339,
       "current_price": 72.5999984741211,
-      "volume": 13698524.0,
+      "volume": 13700500.0,
       "market_value": 104254873600.0
     },
     {
@@ -1997,7 +1997,7 @@
       "sector": "CONSUMER CYCLICAL",
       "change_pct": 1.5507132219283275,
       "current_price": 285.5199890136719,
-      "volume": 729043.0,
+      "volume": 731100.0,
       "market_value": 55063257088.0
     },
     {
@@ -2006,16 +2006,16 @@
       "sector": "TECHNOLOGY",
       "change_pct": 1.601726951405464,
       "current_price": 187.75999450683594,
-      "volume": 626077.0,
+      "volume": 626100.0,
       "market_value": 11856850944.0
     },
     {
       "symbol": "GE",
       "company": "GE Aerospace",
       "sector": "INDUSTRIALS",
-      "change_pct": -1.0401864730902903,
+      "change_pct": -0.8897085096839428,
       "current_price": 306.3399963378906,
-      "volume": 5211629.0,
+      "volume": 5408700.0,
       "market_value": 317846880256.0
     },
     {
@@ -2024,7 +2024,7 @@
       "sector": "HEALTHCARE",
       "change_pct": 2.2554004162286203,
       "current_price": 65.73999786376953,
-      "volume": 4284935.0,
+      "volume": 4299500.0,
       "market_value": 29693851648.0
     },
     {
@@ -2033,7 +2033,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": 0.13148455314234747,
       "current_price": 990.0,
-      "volume": 1657188.0,
+      "volume": 1665600.0,
       "market_value": 263670251520.0
     },
     {
@@ -2042,7 +2042,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": 1.3187854413178903,
       "current_price": 22.280000686645508,
-      "volume": 11810855.0,
+      "volume": 11822000.0,
       "market_value": 13336518656.0
     },
     {
@@ -2051,7 +2051,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": -0.7380101849600283,
       "current_price": 215.1999969482422,
-      "volume": 930490.0,
+      "volume": 930700.0,
       "market_value": 12710558720.0
     },
     {
@@ -2060,7 +2060,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": 0.49380620464001435,
       "current_price": 331.7200012207031,
-      "volume": 1378294.0,
+      "volume": 1378900.0,
       "market_value": 89749225472.0
     },
     {
@@ -2069,7 +2069,7 @@
       "sector": "CONSUMER DEFENSIVE",
       "change_pct": -1.0309216921621374,
       "current_price": 31.68000030517578,
-      "volume": 12383721.0,
+      "volume": 12391000.0,
       "market_value": 16938888192.0
     },
     {
@@ -2078,7 +2078,7 @@
       "sector": "CONSUMER CYCLICAL",
       "change_pct": 2.504160978574433,
       "current_price": 80.2300033569336,
-      "volume": 6488023.0,
+      "volume": 6490600.0,
       "market_value": 70397935616.0
     },
     {
@@ -2087,7 +2087,7 @@
       "sector": "CONSUMER CYCLICAL",
       "change_pct": -0.7859163916920665,
       "current_price": 126.23999786376953,
-      "volume": 707943.0,
+      "volume": 707900.0,
       "market_value": 17403416576.0
     },
     {
@@ -2096,7 +2096,7 @@
       "sector": "HEALTHCARE",
       "change_pct": -0.0759987606583017,
       "current_price": 144.6300048828125,
-      "volume": 5678453.0,
+      "volume": 6137600.0,
       "market_value": 179334725632.0
     },
     {
@@ -2105,16 +2105,16 @@
       "sector": "FINANCIAL",
       "change_pct": 4.848179618419294,
       "current_price": 82.18000030517578,
-      "volume": 2421083.0,
+      "volume": 2421100.0,
       "market_value": 21746339840.0
     },
     {
       "symbol": "GL",
       "company": "Globe Life",
       "sector": "FINANCIAL",
-      "change_pct": 0.1448608786660974,
+      "change_pct": 0.3447277627937824,
       "current_price": 165.9199981689453,
-      "volume": 375484.0,
+      "volume": 375500.0,
       "market_value": 12750860288.0
     },
     {
@@ -2123,7 +2123,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": 2.6026116686806877,
       "current_price": 99.73999786376953,
-      "volume": 1556638.0,
+      "volume": 1556800.0,
       "market_value": 12631841792.0
     },
     {
@@ -2132,7 +2132,7 @@
       "sector": "FINANCIAL",
       "change_pct": -1.008240517035183,
       "current_price": 893.4600219726562,
-      "volume": 1896103.0,
+      "volume": 1897300.0,
       "market_value": 260150001664.0
     },
     {
@@ -2141,7 +2141,7 @@
       "sector": "ENERGY",
       "change_pct": 2.9199321403092346,
       "current_price": 32.779998779296875,
-      "volume": 9044705.0,
+      "volume": 9045100.0,
       "market_value": 27310012416.0
     },
     {
@@ -2150,7 +2150,7 @@
       "sector": "FINANCIAL",
       "change_pct": 0.12693060598272832,
       "current_price": 126.20999908447266,
-      "volume": 2385142.0,
+      "volume": 2416900.0,
       "market_value": 34186754048.0
     },
     {
@@ -2159,7 +2159,7 @@
       "sector": "CONSUMER CYCLICAL",
       "change_pct": 3.171762685785426,
       "current_price": 92.37999725341797,
-      "volume": 2127011.0,
+      "volume": 2127000.0,
       "market_value": 13029687296.0
     },
     {
@@ -2168,7 +2168,7 @@
       "sector": "HEALTHCARE",
       "change_pct": 1.9288033324517098,
       "current_price": 434.9200134277344,
-      "volume": 1148813.0,
+      "volume": 1148800.0,
       "market_value": 94160838656.0
     },
     {
@@ -2177,7 +2177,7 @@
       "sector": "REAL ESTATE",
       "change_pct": -3.3350416940152803,
       "current_price": 18.84000015258789,
-      "volume": 6718715.0,
+      "volume": 7007300.0,
       "market_value": 13356566528.0
     },
     {
@@ -2186,7 +2186,7 @@
       "sector": "HEALTHCARE",
       "change_pct": -0.7657798274235935,
       "current_price": 84.2300033569336,
-      "volume": 1904334.0,
+      "volume": 1904300.0,
       "market_value": 9387143168.0
     },
     {
@@ -2195,7 +2195,7 @@
       "sector": "CONSUMER DEFENSIVE",
       "change_pct": 0.5118871670718785,
       "current_price": 161.00999450683594,
-      "volume": 1584760.0,
+      "volume": 1594200.0,
       "market_value": 32351039488.0
     },
     {
@@ -2204,7 +2204,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": -1.3991074499995708,
       "current_price": 68.36000061035156,
-      "volume": 15722318.0,
+      "volume": 15737500.0,
       "market_value": 90745495552.0
     },
     {
@@ -2213,7 +2213,7 @@
       "sector": "CONSUMER CYCLICAL",
       "change_pct": -1.0145260467770585,
       "current_price": 316.1199951171875,
-      "volume": 1417792.0,
+      "volume": 1424000.0,
       "market_value": 71147520000.0
     },
     {
@@ -2222,7 +2222,7 @@
       "sector": "CONSUMER CYCLICAL",
       "change_pct": -0.601029581172818,
       "current_price": 281.1499938964844,
-      "volume": 4260429.0,
+      "volume": 4261500.0,
       "market_value": 280500436992.0
     },
     {
@@ -2231,7 +2231,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": 0.7178429640436116,
       "current_price": 155.74000549316406,
-      "volume": 2500869.0,
+      "volume": 2501100.0,
       "market_value": 49362219008.0
     },
     {
@@ -2240,7 +2240,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": 0.07009387944950848,
       "current_price": 214.13999938964844,
-      "volume": 1740405.0,
+      "volume": 1744400.0,
       "market_value": 67869532160.0
     },
     {
@@ -2249,7 +2249,7 @@
       "sector": "CONSUMER DEFENSIVE",
       "change_pct": -0.8395065495997299,
       "current_price": 20.079999923706055,
-      "volume": 6148564.0,
+      "volume": 6148700.0,
       "market_value": 11051043840.0
     },
     {
@@ -2258,7 +2258,7 @@
       "sector": "REAL ESTATE",
       "change_pct": -0.5319101716554628,
       "current_price": 22.440000534057617,
-      "volume": 10836322.0,
+      "volume": 10854200.0,
       "market_value": 15589662720.0
     },
     {
@@ -2267,7 +2267,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": -0.7350702282339253,
       "current_price": 229.57000732421875,
-      "volume": 2250820.0,
+      "volume": 2254000.0,
       "market_value": 91552841728.0
     },
     {
@@ -2276,16 +2276,16 @@
       "sector": "TECHNOLOGY",
       "change_pct": -2.0236601498919544,
       "current_price": 31.469999313354492,
-      "volume": 8911326.0,
+      "volume": 8912000.0,
       "market_value": 28379361280.0
     },
     {
       "symbol": "HUBB",
       "company": "Hubbell Incorporated",
       "sector": "INDUSTRIALS",
-      "change_pct": 1.0788200288810583,
-      "current_price": 480.6499938964844,
-      "volume": 399951.0,
+      "change_pct": 1.8287673618633273,
+      "current_price": 475.5199890136719,
+      "volume": 460405.0,
       "market_value": 25393975296.0
     },
     {
@@ -2294,7 +2294,7 @@
       "sector": "HEALTHCARE",
       "change_pct": 4.045221589560718,
       "current_price": 404.07000732421875,
-      "volume": 1517892.0,
+      "volume": 1518900.0,
       "market_value": 48520847360.0
     },
     {
@@ -2303,7 +2303,7 @@
       "sector": "FINANCIAL",
       "change_pct": -0.26092604078341886,
       "current_price": 15.289999961853027,
-      "volume": 19459574.0,
+      "volume": 19460100.0,
       "market_value": 30892142592.0
     },
     {
@@ -2312,7 +2312,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": -0.7671101113594958,
       "current_price": 266.4800109863281,
-      "volume": 566052.0,
+      "volume": 566100.0,
       "market_value": 10500538368.0
     },
     {
@@ -2321,7 +2321,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": -0.47610382747918484,
       "current_price": 221.5800018310547,
-      "volume": 6309080.0,
+      "volume": 6311400.0,
       "market_value": 208758145024.0
     },
     {
@@ -2330,7 +2330,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": 0.9871615686262696,
       "current_price": 235.2899932861328,
-      "volume": 691945.0,
+      "volume": 691900.0,
       "market_value": 17345554432.0
     },
     {
@@ -2339,7 +2339,7 @@
       "sector": "HEALTHCARE",
       "change_pct": 1.6744135555288155,
       "current_price": 527.0700073242188,
-      "volume": 570110.0,
+      "volume": 588900.0,
       "market_value": 41523167232.0
     },
     {
@@ -2348,7 +2348,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": 0.4830324618939446,
       "current_price": 264.19000244140625,
-      "volume": 1175359.0,
+      "volume": 1176700.0,
       "market_value": 75241316352.0
     },
     {
@@ -2357,7 +2357,7 @@
       "sector": "HEALTHCARE",
       "change_pct": 7.562991960970049,
       "current_price": 293.69000244140625,
-      "volume": 4220939.0,
+      "volume": 4222200.0,
       "market_value": 44347191296.0
     },
     {
@@ -2366,7 +2366,7 @@
       "sector": "HEALTHCARE",
       "change_pct": -1.0147491477642303,
       "current_price": 114.12999725341797,
-      "volume": 1948659.0,
+      "volume": 1948800.0,
       "market_value": 23133892608.0
     },
     {
@@ -2375,7 +2375,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": 3.2601595463163027,
       "current_price": 78.55000305175781,
-      "volume": 4237795.0,
+      "volume": 4305500.0,
       "market_value": 30477355008.0
     },
     {
@@ -2384,7 +2384,7 @@
       "sector": "HEALTHCARE",
       "change_pct": 2.9842756495732083,
       "current_price": 135.6199951171875,
-      "volume": 1940303.0,
+      "volume": 1940300.0,
       "market_value": 9405815808.0
     },
     {
@@ -2393,7 +2393,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": -2.6313578659740515,
       "current_price": 116.19000244140625,
-      "volume": 80977583.0,
+      "volume": 81109000.0,
       "market_value": 614192578560.0
     },
     {
@@ -2402,7 +2402,7 @@
       "sector": "FINANCIAL",
       "change_pct": 0.8493770940872799,
       "current_price": 89.05000305175781,
-      "volume": 2935360.0,
+      "volume": 2935400.0,
       "market_value": 151724785664.0
     },
     {
@@ -2411,7 +2411,7 @@
       "sector": "FINANCIAL",
       "change_pct": 1.3320013861464621,
       "current_price": 152.14999389648438,
-      "volume": 2759080.0,
+      "volume": 2759300.0,
       "market_value": 85416165376.0
     },
     {
@@ -2420,7 +2420,7 @@
       "sector": "BASIC MATERIALS",
       "change_pct": 1.0191749404838713,
       "current_price": 83.26000213623047,
-      "volume": 1645957.0,
+      "volume": 1646000.0,
       "market_value": 21243787264.0
     },
     {
@@ -2429,7 +2429,7 @@
       "sector": "BASIC MATERIALS",
       "change_pct": 0.25023436166492863,
       "current_price": 32.04999923706055,
-      "volume": 6673312.0,
+      "volume": 6675100.0,
       "market_value": 16972715008.0
     },
     {
@@ -2438,7 +2438,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": 1.280776389460252,
       "current_price": 284.67999267578125,
-      "volume": 2917555.0,
+      "volume": 2949100.0,
       "market_value": 76076744704.0
     },
     {
@@ -2447,7 +2447,7 @@
       "sector": "HEALTHCARE",
       "change_pct": 3.707105071251282,
       "current_price": 406.4800109863281,
-      "volume": 1663497.0,
+      "volume": 1663900.0,
       "market_value": 143600467968.0
     },
     {
@@ -2456,7 +2456,7 @@
       "sector": "FINANCIAL",
       "change_pct": -0.5218520815668377,
       "current_price": 30.5,
-      "volume": 3646316.0,
+      "volume": 3646300.0,
       "market_value": 13465743360.0
     },
     {
@@ -2465,7 +2465,7 @@
       "sector": "REAL ESTATE",
       "change_pct": 0.0767993460519203,
       "current_price": 26.059999465942383,
-      "volume": 4897204.0,
+      "volume": 4897900.0,
       "market_value": 15391641600.0
     },
     {
@@ -2474,7 +2474,7 @@
       "sector": "HEALTHCARE",
       "change_pct": 3.0517815512895896,
       "current_price": 266.0899963378906,
-      "volume": 1688062.0,
+      "volume": 1688100.0,
       "market_value": 43798413312.0
     },
     {
@@ -2483,7 +2483,7 @@
       "sector": "REAL ESTATE",
       "change_pct": -0.9348245562214184,
       "current_price": 112.33000183105469,
-      "volume": 1602484.0,
+      "volume": 1817800.0,
       "market_value": 33440958464.0
     },
     {
@@ -2492,7 +2492,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": -1.9043516281786184,
       "current_price": 229.74000549316406,
-      "volume": 816723.0,
+      "volume": 816800.0,
       "market_value": 21576017920.0
     },
     {
@@ -2501,7 +2501,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": -1.1399103771092802,
       "current_price": 300.94000244140625,
-      "volume": 1044796.0,
+      "volume": 1044900.0,
       "market_value": 31534626816.0
     },
     {
@@ -2510,7 +2510,7 @@
       "sector": "FINANCIAL",
       "change_pct": 1.8100196103388522,
       "current_price": 145.1199951171875,
-      "volume": 735225.0,
+      "volume": 735200.0,
       "market_value": 10174653440.0
     },
     {
@@ -2519,7 +2519,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": 0.4418373324196775,
       "current_price": 138.6699981689453,
-      "volume": 603658.0,
+      "volume": 604700.0,
       "market_value": 16229743616.0
     },
     {
@@ -2528,7 +2528,7 @@
       "sector": "HEALTHCARE",
       "change_pct": -1.2107979995687512,
       "current_price": 252.92999267578125,
-      "volume": 9041571.0,
+      "volume": 10026800.0,
       "market_value": 609535590400.0
     },
     {
@@ -2537,7 +2537,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": 0.39042536412241213,
       "current_price": 156.85000610351562,
-      "volume": 2904999.0,
+      "volume": 2905500.0,
       "market_value": 95010545664.0
     },
     {
@@ -2546,7 +2546,7 @@
       "sector": "FINANCIAL",
       "change_pct": 0.0,
       "current_price": 332.3800048828125,
-      "volume": 5328422.0,
+      "volume": 5332000.0,
       "market_value": 883527974912.0
     },
     {
@@ -2555,7 +2555,7 @@
       "sector": "CONSUMER DEFENSIVE",
       "change_pct": 1.1046431295420123,
       "current_price": 17.389999389648438,
-      "volume": 13929771.0,
+      "volume": 13930200.0,
       "market_value": 33402249216.0
     },
     {
@@ -2564,7 +2564,7 @@
       "sector": "CONSUMER DEFENSIVE",
       "change_pct": 1.7122111822377046,
       "current_price": 30.889999389648438,
-      "volume": 11692790.0,
+      "volume": 11692800.0,
       "market_value": 42035912704.0
     },
     {
@@ -2573,7 +2573,7 @@
       "sector": "FINANCIAL",
       "change_pct": 0.49800986976931244,
       "current_price": 20.18000030517578,
-      "volume": 12546801.0,
+      "volume": 12632500.0,
       "market_value": 21534654464.0
     },
     {
@@ -2582,7 +2582,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": -0.12219249240948266,
       "current_price": 384.1700134277344,
-      "volume": 850643.0,
+      "volume": 850800.0,
       "market_value": 65402929152.0
     },
     {
@@ -2591,7 +2591,7 @@
       "sector": "CONSUMER DEFENSIVE",
       "change_pct": 1.1127628708838988,
       "current_price": 95.41000366210938,
-      "volume": 3157046.0,
+      "volume": 3157600.0,
       "market_value": 31731367936.0
     },
     {
@@ -2600,7 +2600,7 @@
       "sector": "REAL ESTATE",
       "change_pct": -0.9442404974543671,
       "current_price": 22.030000686645508,
-      "volume": 5008325.0,
+      "volume": 5008300.0,
       "market_value": 14777490432.0
     },
     {
@@ -2609,7 +2609,7 @@
       "sector": "ENERGY",
       "change_pct": 1.09430368821191,
       "current_price": 31.40999984741211,
-      "volume": 9328763.0,
+      "volume": 9789800.0,
       "market_value": 69943853056.0
     },
     {
@@ -2618,7 +2618,7 @@
       "sector": "FINANCIAL",
       "change_pct": -0.3654910042180944,
       "current_price": 89.95999908447266,
-      "volume": 4844244.0,
+      "volume": 4914800.0,
       "market_value": 83086204928.0
     },
     {
@@ -2627,7 +2627,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": -0.019330700493401194,
       "current_price": 206.85000610351562,
-      "volume": 7837240.0,
+      "volume": 7980800.0,
       "market_value": 269940588544.0
     },
     {
@@ -2636,7 +2636,7 @@
       "sector": "CONSUMER DEFENSIVE",
       "change_pct": -1.5772887473911485,
       "current_price": 21.84000015258789,
-      "volume": 16410007.0,
+      "volume": 16415900.0,
       "market_value": 25898391552.0
     },
     {
@@ -2645,7 +2645,7 @@
       "sector": "CONSUMER DEFENSIVE",
       "change_pct": -0.42351347648626503,
       "current_price": 58.779998779296875,
-      "volume": 6101697.0,
+      "volume": 6480100.0,
       "market_value": 34714800128.0
     },
     {
@@ -2654,7 +2654,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": 0.11834267627802673,
       "current_price": 236.8800048828125,
-      "volume": 1273471.0,
+      "volume": 1273500.0,
       "market_value": 44110520320.0
     },
     {
@@ -2663,7 +2663,7 @@
       "sector": "HEALTHCARE",
       "change_pct": 0.05186672734107592,
       "current_price": 308.6499938964844,
-      "volume": 700603.0,
+      "volume": 705900.0,
       "market_value": 25031514112.0
     },
     {
@@ -2672,7 +2672,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": -0.4863456470404737,
       "current_price": 345.79998779296875,
-      "volume": 6052653.0,
+      "volume": 6117500.0,
       "market_value": 432742531072.0
     },
     {
@@ -2681,7 +2681,7 @@
       "sector": "CONSUMER CYCLICAL",
       "change_pct": 1.048857501839699,
       "current_price": 36.61000061035156,
-      "volume": 5862845.0,
+      "volume": 5863200.0,
       "market_value": 23712339968.0
     },
     {
@@ -2690,7 +2690,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": 1.4523518901802615,
       "current_price": 119.44999694824219,
-      "volume": 1475655.0,
+      "volume": 1670400.0,
       "market_value": 14990044160.0
     },
     {
@@ -2699,7 +2699,7 @@
       "sector": "CONSUMER CYCLICAL",
       "change_pct": -6.728474228112881,
       "current_price": 74.44000244140625,
-      "volume": 10634062.0,
+      "volume": 10657800.0,
       "market_value": 17932234752.0
     },
     {
@@ -2708,7 +2708,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": 1.3612142210719815,
       "current_price": 361.1499938964844,
-      "volume": 439023.0,
+      "volume": 439000.0,
       "market_value": 12481588224.0
     },
     {
@@ -2717,7 +2717,7 @@
       "sector": "HEALTHCARE",
       "change_pct": 0.023626857156956352,
       "current_price": 1143.1199951171875,
-      "volume": 1975581.0,
+      "volume": 1976600.0,
       "market_value": 1019367391232.0
     },
     {
@@ -2726,7 +2726,7 @@
       "sector": "BASIC MATERIALS",
       "change_pct": 0.6048206035782094,
       "current_price": 482.3800048828125,
-      "volume": 2797550.0,
+      "volume": 2797700.0,
       "market_value": 222367612928.0
     },
     {
@@ -2735,7 +2735,7 @@
       "sector": "COMMUNICATION SERVICES",
       "change_pct": 1.1257888536976275,
       "current_price": 170.6699981689453,
-      "volume": 2832120.0,
+      "volume": 2832100.0,
       "market_value": 39759196160.0
     },
     {
@@ -2744,7 +2744,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": 0.2413884196717946,
       "current_price": 506.6300048828125,
-      "volume": 957721.0,
+      "volume": 1011700.0,
       "market_value": 116925521920.0
     },
     {
@@ -2753,7 +2753,7 @@
       "sector": "FINANCIAL",
       "change_pct": -0.3395271286392349,
       "current_price": 105.66999816894531,
-      "volume": 1129702.0,
+      "volume": 1129800.0,
       "market_value": 21601875968.0
     },
     {
@@ -2762,7 +2762,7 @@
       "sector": "CONSUMER CYCLICAL",
       "change_pct": -0.7190282244550954,
       "current_price": 179.5,
-      "volume": 2773768.0,
+      "volume": 2774300.0,
       "market_value": 100709195776.0
     },
     {
@@ -2771,7 +2771,7 @@
       "sector": "CONSUMER CYCLICAL",
       "change_pct": -1.3974165865106392,
       "current_price": 93.13999938964844,
-      "volume": 7039442.0,
+      "volume": 7048400.0,
       "market_value": 10311531520.0
     },
     {
@@ -2780,7 +2780,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": 0.5758139473159478,
       "current_price": 1091.6700439453125,
-      "volume": 2999068.0,
+      "volume": 3003800.0,
       "market_value": 97922801664.0
     },
     {
@@ -2789,7 +2789,7 @@
       "sector": "BASIC MATERIALS",
       "change_pct": 1.0925219693474952,
       "current_price": 59.220001220703125,
-      "volume": 2853837.0,
+      "volume": 2854000.0,
       "market_value": 19130308608.0
     },
     {
@@ -2798,7 +2798,7 @@
       "sector": "FINANCIAL",
       "change_pct": -0.4015720020368262,
       "current_price": 218.25999450683594,
-      "volume": 1094408.0,
+      "volume": 1205600.0,
       "market_value": 31520290816.0
     },
     {
@@ -2807,7 +2807,7 @@
       "sector": "ENERGY",
       "change_pct": 2.637751285162725,
       "current_price": 433.4700012207031,
-      "volume": 2122887.0,
+      "volume": 2123500.0,
       "market_value": 121729114112.0
     },
     {
@@ -2816,7 +2816,7 @@
       "sector": "CONSUMER CYCLICAL",
       "change_pct": -0.8552420547471558,
       "current_price": 355.8900146484375,
-      "volume": 1216939.0,
+      "volume": 1369700.0,
       "market_value": 92804120576.0
     },
     {
@@ -2825,7 +2825,7 @@
       "sector": "FINANCIAL",
       "change_pct": 0.2175674012108692,
       "current_price": 170.42999267578125,
-      "volume": 2113950.0,
+      "volume": 2114000.0,
       "market_value": 81331109888.0
     },
     {
@@ -2834,7 +2834,7 @@
       "sector": "BASIC MATERIALS",
       "change_pct": 0.6697516038545283,
       "current_price": 485.5,
-      "volume": 707061.0,
+      "volume": 707100.0,
       "market_value": 34479910912.0
     },
     {
@@ -2843,7 +2843,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": -0.3819488458205018,
       "current_price": 271.25,
-      "volume": 12506520.0,
+      "volume": 12843800.0,
       "market_value": 243773636608.0
     },
     {
@@ -2852,7 +2852,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": 0.1462821434000269,
       "current_price": 68.45999908447266,
-      "volume": 1468440.0,
+      "volume": 1759200.0,
       "market_value": 13499450368.0
     },
     {
@@ -2861,7 +2861,7 @@
       "sector": "FINANCIAL",
       "change_pct": 2.232647099520481,
       "current_price": 564.5900268554688,
-      "volume": 2404521.0,
+      "volume": 2404800.0,
       "market_value": 494586462208.0
     },
     {
@@ -2870,7 +2870,7 @@
       "sector": "CONSUMER DEFENSIVE",
       "change_pct": 1.9476220780032607,
       "current_price": 45.540000915527344,
-      "volume": 4343627.0,
+      "volume": 4344400.0,
       "market_value": 12253196288.0
     },
     {
@@ -2879,7 +2879,7 @@
       "sector": "CONSUMER CYCLICAL",
       "change_pct": 0.49592216115884413,
       "current_price": 233.0399932861328,
-      "volume": 5577154.0,
+      "volume": 5594000.0,
       "market_value": 164908777472.0
     },
     {
@@ -2888,7 +2888,7 @@
       "sector": "HEALTHCARE",
       "change_pct": 1.4596336483718142,
       "current_price": 915.4500122070312,
-      "volume": 697614.0,
+      "volume": 697600.0,
       "market_value": 106732650496.0
     },
     {
@@ -2897,7 +2897,7 @@
       "sector": "HEALTHCARE",
       "change_pct": 1.8407085179922733,
       "current_price": 87.97000122070312,
-      "volume": 43792366.0,
+      "volume": 43693700.0,
       "market_value": 112525762560.0
     },
     {
@@ -2906,7 +2906,7 @@
       "sector": "HEALTHCARE",
       "change_pct": -3.2986899965051766,
       "current_price": 139.5399932861328,
-      "volume": 9476639.0,
+      "volume": 9478700.0,
       "market_value": 344269094912.0
     },
     {
@@ -2915,7 +2915,7 @@
       "sector": "COMMUNICATION SERVICES",
       "change_pct": 1.8981440226113755,
       "current_price": 741.9000244140625,
-      "volume": 14774510.0,
+      "volume": 15196500.0,
       "market_value": 1889994932224.0
     },
     {
@@ -2924,7 +2924,7 @@
       "sector": "FINANCIAL",
       "change_pct": 2.59451121499986,
       "current_price": 96.87999725341797,
-      "volume": 4417239.0,
+      "volume": 4417300.0,
       "market_value": 61565001728.0
     },
     {
@@ -2933,7 +2933,7 @@
       "sector": "HEALTHCARE",
       "change_pct": 3.7303484522378394,
       "current_price": 1541.6300048828125,
-      "volume": 166382.0,
+      "volume": 167800.0,
       "market_value": 30888962048.0
     },
     {
@@ -2942,7 +2942,7 @@
       "sector": "CONSUMER CYCLICAL",
       "change_pct": -1.0170586305712195,
       "current_price": 30.170000076293945,
-      "volume": 5031876.0,
+      "volume": 5039100.0,
       "market_value": 7719031808.0
     },
     {
@@ -2951,7 +2951,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": 0.20904841316192524,
       "current_price": 81.48999786376953,
-      "volume": 5172674.0,
+      "volume": 5830000.0,
       "market_value": 44249776128.0
     },
     {
@@ -2960,7 +2960,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": -1.01685321865348,
       "current_price": 1063.9599609375,
-      "volume": 17877625.0,
+      "volume": 18207100.0,
       "market_value": 1201629036544.0
     },
     {
@@ -2969,7 +2969,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": 1.478168018443223,
       "current_price": 525.1799926757812,
-      "volume": 26287910.0,
+      "volume": 26575800.0,
       "market_value": 3899747991552.0
     },
     {
@@ -2978,7 +2978,7 @@
       "sector": "REAL ESTATE",
       "change_pct": 1.041038095413964,
       "current_price": 116.47000122070312,
-      "volume": 1389419.0,
+      "volume": 1585800.0,
       "market_value": 13855713280.0
     },
     {
@@ -2987,7 +2987,7 @@
       "sector": "HEALTHCARE",
       "change_pct": 6.947009414579167,
       "current_price": 203.2100067138672,
-      "volume": 19256172.0,
+      "volume": 19274700.0,
       "market_value": 81128734720.0
     },
     {
@@ -2996,7 +2996,7 @@
       "sector": "CONSUMER DEFENSIVE",
       "change_pct": 0.5155577570680888,
       "current_price": 58.4900016784668,
-      "volume": 7146643.0,
+      "volume": 8067000.0,
       "market_value": 74651262976.0
     },
     {
@@ -3005,7 +3005,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": 2.789414315496307,
       "current_price": 1479.8900146484375,
-      "volume": 665911.0,
+      "volume": 685400.0,
       "market_value": 72726233088.0
     },
     {
@@ -3014,7 +3014,7 @@
       "sector": "CONSUMER DEFENSIVE",
       "change_pct": 1.327432960069251,
       "current_price": 43.5099983215332,
-      "volume": 10393965.0,
+      "volume": 10394800.0,
       "market_value": 85238341632.0
     },
     {
@@ -3023,7 +3023,7 @@
       "sector": "FINANCIAL",
       "change_pct": 1.538428668270264,
       "current_price": 448.1499938964844,
-      "volume": 892531.0,
+      "volume": 943800.0,
       "market_value": 77611057152.0
     },
     {
@@ -3032,7 +3032,7 @@
       "sector": "FINANCIAL",
       "change_pct": -0.06305245059474882,
       "current_price": 190.19000244140625,
-      "volume": 4297606.0,
+      "volume": 4298700.0,
       "market_value": 298706010112.0
     },
     {
@@ -3041,7 +3041,7 @@
       "sector": "BASIC MATERIALS",
       "change_pct": 1.0441443943502648,
       "current_price": 21.290000915527344,
-      "volume": 8857972.0,
+      "volume": 8860500.0,
       "market_value": 6767998464.0
     },
     {
@@ -3050,7 +3050,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": 1.7791268389004613,
       "current_price": 455.3699951171875,
-      "volume": 819150.0,
+      "volume": 834000.0,
       "market_value": 75360903168.0
     },
     {
@@ -3059,7 +3059,7 @@
       "sector": "FINANCIAL",
       "change_pct": 3.059980036453686,
       "current_price": 552.3499755859375,
-      "volume": 470557.0,
+      "volume": 488100.0,
       "market_value": 40155844608.0
     },
     {
@@ -3068,7 +3068,7 @@
       "sector": "FINANCIAL",
       "change_pct": 2.059117206518322,
       "current_price": 92.19000244140625,
-      "volume": 3662143.0,
+      "volume": 3662400.0,
       "market_value": 51532124160.0
     },
     {
@@ -3077,7 +3077,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": -1.1048746863458085,
       "current_price": 223.77000427246094,
-      "volume": 3357933.0,
+      "volume": 3365400.0,
       "market_value": 43952680960.0
     },
     {
@@ -3086,7 +3086,7 @@
       "sector": "COMMUNICATION SERVICES",
       "change_pct": 0.6561325043619295,
       "current_price": 67.5,
-      "volume": 36088428.0,
+      "volume": 36724900.0,
       "market_value": 281065914368.0
     },
     {
@@ -3095,7 +3095,7 @@
       "sector": "BASIC MATERIALS",
       "change_pct": 0.2249931998299297,
       "current_price": 115.81999969482422,
-      "volume": 3992356.0,
+      "volume": 3994900.0,
       "market_value": 122038640640.0
     },
     {
@@ -3104,7 +3104,7 @@
       "sector": "COMMUNICATION SERVICES",
       "change_pct": 0.9062398886092464,
       "current_price": 28.950000762939453,
-      "volume": 3584129.0,
+      "volume": 3584200.0,
       "market_value": 15611612160.0
     },
     {
@@ -3113,7 +3113,7 @@
       "sector": "COMMUNICATION SERVICES",
       "change_pct": 1.1058464002786599,
       "current_price": 32.0,
-      "volume": 917014.0,
+      "volume": 921200.0,
       "market_value": 17256357888.0
     },
     {
@@ -3122,7 +3122,7 @@
       "sector": "UTILITIES",
       "change_pct": -0.7158701531300774,
       "current_price": 76.27999877929688,
-      "volume": 12344480.0,
+      "volume": 13018400.0,
       "market_value": 159118409728.0
     },
     {
@@ -3131,7 +3131,7 @@
       "sector": "CONSUMER CYCLICAL",
       "change_pct": 0.26572233665813816,
       "current_price": 33.959999084472656,
-      "volume": 67893335.0,
+      "volume": 69487200.0,
       "market_value": 50379616256.0
     },
     {
@@ -3140,7 +3140,7 @@
       "sector": "UTILITIES",
       "change_pct": 0.3043340881461113,
       "current_price": 39.54999923706055,
-      "volume": 4072915.0,
+      "volume": 4072900.0,
       "market_value": 18966601728.0
     },
     {
@@ -3149,7 +3149,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": 0.2668297979429685,
       "current_price": 334.42999267578125,
-      "volume": 332593.0,
+      "volume": 333600.0,
       "market_value": 18627538944.0
     },
     {
@@ -3158,7 +3158,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": -0.3811717004070613,
       "current_price": 316.2300109863281,
-      "volume": 750175.0,
+      "volume": 750200.0,
       "market_value": 71027908608.0
     },
     {
@@ -3167,7 +3167,7 @@
       "sector": "FINANCIAL",
       "change_pct": -0.42590183986817265,
       "current_price": 170.6699981689453,
-      "volume": 928906.0,
+      "volume": 994900.0,
       "market_value": 31225040896.0
     },
     {
@@ -3176,7 +3176,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": -0.3954005540664226,
       "current_price": 476.1099853515625,
-      "volume": 1200266.0,
+      "volume": 1200500.0,
       "market_value": 67637624832.0
     },
     {
@@ -3185,7 +3185,7 @@
       "sector": "CONSUMER CYCLICAL",
       "change_pct": -1.7833583331637843,
       "current_price": 14.869999885559082,
-      "volume": 21567763.0,
+      "volume": 21570500.0,
       "market_value": 6828123136.0
     },
     {
@@ -3194,7 +3194,7 @@
       "sector": "UTILITIES",
       "change_pct": 1.6486397558337467,
       "current_price": 96.80000305175781,
-      "volume": 3221403.0,
+      "volume": 3222000.0,
       "market_value": 20348375040.0
     },
     {
@@ -3203,7 +3203,7 @@
       "sector": "BASIC MATERIALS",
       "change_pct": 4.584219102475473,
       "current_price": 251.41000366210938,
-      "volume": 1586374.0,
+      "volume": 1586400.0,
       "market_value": 57038815232.0
     },
     {
@@ -3212,7 +3212,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": 2.11583544039853,
       "current_price": 238.89999389648438,
-      "volume": 126384437.0,
+      "volume": 126639900.0,
       "market_value": 5768717795328.0
     },
     {
@@ -3221,7 +3221,7 @@
       "sector": "CONSUMER CYCLICAL",
       "change_pct": -0.39440653892885813,
       "current_price": 5970.2099609375,
-      "volume": 52243.0,
+      "volume": 55400.0,
       "market_value": 15989135360.0
     },
     {
@@ -3230,7 +3230,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": -0.693590419439469,
       "current_price": 241.97000122070312,
-      "volume": 1892834.0,
+      "volume": 1893100.0,
       "market_value": 61016166400.0
     },
     {
@@ -3239,7 +3239,7 @@
       "sector": "CONSUMER CYCLICAL",
       "change_pct": -1.1778562803620016,
       "current_price": 83.9000015258789,
-      "volume": 8286354.0,
+      "volume": 8286500.0,
       "market_value": 67871809536.0
     },
     {
@@ -3248,7 +3248,7 @@
       "sector": "ENERGY",
       "change_pct": 0.396004708996669,
       "current_price": 58.310001373291016,
-      "volume": 8528237.0,
+      "volume": 8565700.0,
       "market_value": 58288857088.0
     },
     {
@@ -3257,7 +3257,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": -0.615026948486452,
       "current_price": 179.3699951171875,
-      "volume": 1798286.0,
+      "volume": 2081800.0,
       "market_value": 37303271424.0
     },
     {
@@ -3266,7 +3266,7 @@
       "sector": "COMMUNICATION SERVICES",
       "change_pct": 1.4834773452259282,
       "current_price": 75.25,
-      "volume": 2358094.0,
+      "volume": 2358100.0,
       "market_value": 20644532224.0
     },
     {
@@ -3275,7 +3275,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": 1.2251159418127673,
       "current_price": 85.93000030517578,
-      "volume": 11335525.0,
+      "volume": 11337000.0,
       "market_value": 33454149632.0
     },
     {
@@ -3284,7 +3284,7 @@
       "sector": "ENERGY",
       "change_pct": 0.7965459712272499,
       "current_price": 88.58000183105469,
-      "volume": 3195719.0,
+      "volume": 3638800.0,
       "market_value": 55841648640.0
     },
     {
@@ -3293,7 +3293,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": 0.12648817422427075,
       "current_price": 142.47999572753906,
-      "volume": 17008043.0,
+      "volume": 18014400.0,
       "market_value": 431928246272.0
     },
     {
@@ -3302,7 +3302,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": 2.857133668176981,
       "current_price": 65.87999725341797,
-      "volume": 5405727.0,
+      "volume": 5737200.0,
       "market_value": 25078495232.0
     },
     {
@@ -3311,7 +3311,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": -0.29175756193822516,
       "current_price": 109.36000061035156,
-      "volume": 2755163.0,
+      "volume": 2932400.0,
       "market_value": 57563271168.0
     },
     {
@@ -3320,7 +3320,7 @@
       "sector": "BASIC MATERIALS",
       "change_pct": 0.3369232060389928,
       "current_price": 229.30999755859375,
-      "volume": 489521.0,
+      "volume": 489500.0,
       "market_value": 20431130624.0
     },
     {
@@ -3329,7 +3329,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": 0.34436762727649006,
       "current_price": 189.39999389648438,
-      "volume": 17670382.0,
+      "volume": 17682500.0,
       "market_value": 455139262464.0
     },
     {
@@ -3338,16 +3338,16 @@
       "sector": "TECHNOLOGY",
       "change_pct": 0.8729341376097297,
       "current_price": 406.760009765625,
-      "volume": 4446125.0,
+      "volume": 4449300.0,
       "market_value": 332729679872.0
     },
     {
       "symbol": "PSKY",
       "company": "Paramount Skydance Corporation",
       "sector": "COMMUNICATION SERVICES",
-      "change_pct": 2.894732826634457,
-      "current_price": 9.774999618530273,
-      "volume": 31657941.0,
+      "change_pct": 2.947365610223067,
+      "current_price": 9.779999732971191,
+      "volume": 31670300.0,
       "market_value": 10967019520.0
     },
     {
@@ -3356,7 +3356,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": 0.32183485909197285,
       "current_price": 975.6799926757812,
-      "volume": 329622.0,
+      "volume": 334900.0,
       "market_value": 123045363712.0
     },
     {
@@ -3365,7 +3365,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": 0.8489956712787463,
       "current_price": 99.77999877929688,
-      "volume": 2740893.0,
+      "volume": 2740900.0,
       "market_value": 35519733760.0
     },
     {
@@ -3374,7 +3374,7 @@
       "sector": "FINANCIAL",
       "change_pct": 3.0492436242716763,
       "current_price": 54.40999984741211,
-      "volume": 8263466.0,
+      "volume": 8277600.0,
       "market_value": 46545625088.0
     },
     {
@@ -3383,7 +3383,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": -0.47143127617344205,
       "current_price": 52.779998779296875,
-      "volume": 2229899.0,
+      "volume": 2229900.0,
       "market_value": 8423687680.0
     },
     {
@@ -3392,7 +3392,7 @@
       "sector": "CONSUMER DEFENSIVE",
       "change_pct": -0.19064092853531744,
       "current_price": 125.6500015258789,
-      "volume": 8820758.0,
+      "volume": 8824200.0,
       "market_value": 171637899264.0
     },
     {
@@ -3401,7 +3401,7 @@
       "sector": "HEALTHCARE",
       "change_pct": -1.4028755408328364,
       "current_price": 27.40999984741211,
-      "volume": 32606099.0,
+      "volume": 32978100.0,
       "market_value": 156228059136.0
     },
     {
@@ -3410,7 +3410,7 @@
       "sector": "UTILITIES",
       "change_pct": 0.24351207295980262,
       "current_price": 12.350000381469727,
-      "volume": 30655201.0,
+      "volume": 30655500.0,
       "market_value": 37079232512.0
     },
     {
@@ -3419,7 +3419,7 @@
       "sector": "CONSUMER DEFENSIVE",
       "change_pct": 1.104231298033215,
       "current_price": 189.52999877929688,
-      "volume": 5283694.0,
+      "volume": 5320300.0,
       "market_value": 295403978752.0
     },
     {
@@ -3428,7 +3428,7 @@
       "sector": "ENERGY",
       "change_pct": 1.9427072754172925,
       "current_price": 269.7200012207031,
-      "volume": 2004183.0,
+      "volume": 2004400.0,
       "market_value": 108140191744.0
     },
     {
@@ -3437,7 +3437,7 @@
       "sector": "UTILITIES",
       "change_pct": 0.04170237311398771,
       "current_price": 95.95999908447266,
-      "volume": 1392673.0,
+      "volume": 1401100.0,
       "market_value": 11630086144.0
     },
     {
@@ -3446,7 +3446,7 @@
       "sector": "FINANCIAL",
       "change_pct": -0.33932045611097833,
       "current_price": 220.27999877929688,
-      "volume": 2882942.0,
+      "volume": 3021000.0,
       "market_value": 87879311360.0
     },
     {
@@ -3455,7 +3455,7 @@
       "sector": "BASIC MATERIALS",
       "change_pct": 0.11411803656319254,
       "current_price": 105.2699966430664,
-      "volume": 1588572.0,
+      "volume": 1588600.0,
       "market_value": 23401521152.0
     },
     {
@@ -3464,7 +3464,7 @@
       "sector": "UTILITIES",
       "change_pct": 0.4573217358780311,
       "current_price": 32.95000076293945,
-      "volume": 6789873.0,
+      "volume": 6789900.0,
       "market_value": 24796352512.0
     },
     {
@@ -3473,7 +3473,7 @@
       "sector": "FINANCIAL",
       "change_pct": -0.830654084298541,
       "current_price": 111.02999877929688,
-      "volume": 1402835.0,
+      "volume": 1402800.0,
       "market_value": 23772037120.0
     },
     {
@@ -3482,7 +3482,7 @@
       "sector": "CONSUMER DEFENSIVE",
       "change_pct": 0.7107851447568461,
       "current_price": 145.94000244140625,
-      "volume": 7032638.0,
+      "volume": 7036500.0,
       "market_value": 338970804224.0
     },
     {
@@ -3491,7 +3491,7 @@
       "sector": "FINANCIAL",
       "change_pct": 1.0983774358849343,
       "current_price": 212.6199951171875,
-      "volume": 2762623.0,
+      "volume": 2775000.0,
       "market_value": 123404648448.0
     },
     {
@@ -3500,7 +3500,7 @@
       "sector": "REAL ESTATE",
       "change_pct": -0.6438614595266284,
       "current_price": 128.0800018310547,
-      "volume": 2783154.0,
+      "volume": 2783300.0,
       "market_value": 124505464832.0
     },
     {
@@ -3509,7 +3509,7 @@
       "sector": "FINANCIAL",
       "change_pct": 0.7815318780974513,
       "current_price": 113.4800033569336,
-      "volume": 1487431.0,
+      "volume": 1487500.0,
       "market_value": 39150600192.0
     },
     {
@@ -3518,7 +3518,7 @@
       "sector": "UTILITIES",
       "change_pct": 0.8961372309186959,
       "current_price": 68.68000030517578,
-      "volume": 5451592.0,
+      "volume": 5451600.0,
       "market_value": 34231488512.0
     },
     {
@@ -3527,7 +3527,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": 33.4860766064741,
       "current_price": 192.25999450683594,
-      "volume": 29525582.0,
+      "volume": 29552500.0,
       "market_value": 20861413376.0
     },
     {
@@ -3536,7 +3536,7 @@
       "sector": "REAL ESTATE",
       "change_pct": -0.7575469204676272,
       "current_price": 281.6600036621094,
-      "volume": 862271.0,
+      "volume": 862300.0,
       "market_value": 52628815872.0
     },
     {
@@ -3545,7 +3545,7 @@
       "sector": "CONSUMER CYCLICAL",
       "change_pct": -1.5121402827602652,
       "current_price": 113.9800033569336,
-      "volume": 1603688.0,
+      "volume": 1603700.0,
       "market_value": 21711634432.0
     },
     {
@@ -3554,7 +3554,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": 1.0139507769181089,
       "current_price": 683.4199829101562,
-      "volume": 934355.0,
+      "volume": 934500.0,
       "market_value": 102747676672.0
     },
     {
@@ -3563,7 +3563,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": -2.2069572882654156,
       "current_price": 180.7899932861328,
-      "volume": 12256815.0,
+      "volume": 12281600.0,
       "market_value": 193094647808.0
     },
     {
@@ -3572,7 +3572,7 @@
       "sector": "HEALTHCARE",
       "change_pct": -0.47572133957949886,
       "current_price": 232.22000122070312,
-      "volume": 1014132.0,
+      "volume": 1014100.0,
       "market_value": 25630902272.0
     },
     {
@@ -3581,7 +3581,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": 0.03803091982253475,
       "current_price": 131.52999877929688,
-      "volume": 1901716.0,
+      "volume": 1901800.0,
       "market_value": 27517200384.0
     },
     {
@@ -3590,7 +3590,7 @@
       "sector": "CONSUMER CYCLICAL",
       "change_pct": 0.5971911431582406,
       "current_price": 365.5400085449219,
-      "volume": 446181.0,
+      "volume": 446300.0,
       "market_value": 21779691520.0
     },
     {
@@ -3599,7 +3599,7 @@
       "sector": "FINANCIAL",
       "change_pct": 1.6370622767084495,
       "current_price": 160.8000030517578,
-      "volume": 1098875.0,
+      "volume": 1098900.0,
       "market_value": 30889680896.0
     },
     {
@@ -3608,7 +3608,7 @@
       "sector": "COMMUNICATION SERVICES",
       "change_pct": 1.731365851498939,
       "current_price": 150.4199981689453,
-      "volume": 5197532.0,
+      "volume": 5199300.0,
       "market_value": 28940283904.0
     },
     {
@@ -3617,7 +3617,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": -0.1895120525269871,
       "current_price": 184.3300018310547,
-      "volume": 3383949.0,
+      "volume": 3385200.0,
       "market_value": 248432246784.0
     },
     {
@@ -3626,7 +3626,7 @@
       "sector": "REAL ESTATE",
       "change_pct": -0.6650666972988801,
       "current_price": 53.77000045776367,
-      "volume": 8197000.0,
+      "volume": 8202300.0,
       "market_value": 50878144512.0
     },
     {
@@ -3635,7 +3635,7 @@
       "sector": "REAL ESTATE",
       "change_pct": -0.37709029164853,
       "current_price": 71.33000183105469,
-      "volume": 1516956.0,
+      "volume": 1517700.0,
       "market_value": 13335767040.0
     },
     {
@@ -3644,7 +3644,7 @@
       "sector": "HEALTHCARE",
       "change_pct": -1.1874376168328848,
       "current_price": 726.469970703125,
-      "volume": 694688.0,
+      "volume": 694700.0,
       "market_value": 74793713664.0
     },
     {
@@ -3653,7 +3653,7 @@
       "sector": "FINANCIAL",
       "change_pct": -0.11070363920002561,
       "current_price": 27.06999969482422,
-      "volume": 10662802.0,
+      "volume": 10662800.0,
       "market_value": 23061731328.0
     },
     {
@@ -3662,7 +3662,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": 1.5604143493782168,
       "current_price": 212.8300018310547,
-      "volume": 1236778.0,
+      "volume": 1236800.0,
       "market_value": 65171312640.0
     },
     {
@@ -3671,7 +3671,7 @@
       "sector": "HEALTHCARE",
       "change_pct": 1.8136969399118519,
       "current_price": 222.86000061035156,
-      "volume": 951860.0,
+      "volume": 951900.0,
       "market_value": 31342862336.0
     },
     {
@@ -3680,7 +3680,7 @@
       "sector": "HEALTHCARE",
       "change_pct": 3.8474241919225993,
       "current_price": 157.36000061035156,
-      "volume": 1549597.0,
+      "volume": 1549600.0,
       "market_value": 17559236608.0
     },
     {
@@ -3689,7 +3689,7 @@
       "sector": "FINANCIAL",
       "change_pct": 1.2151878415302857,
       "current_price": 114.11000061035156,
-      "volume": 19510937.0,
+      "volume": 19526700.0,
       "market_value": 102594281472.0
     },
     {
@@ -3698,7 +3698,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": 0.18267559395091704,
       "current_price": 455.17999267578125,
-      "volume": 710467.0,
+      "volume": 714200.0,
       "market_value": 50649677824.0
     },
     {
@@ -3707,7 +3707,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": -1.558353168873841,
       "current_price": 29.690000534057617,
-      "volume": 6483505.0,
+      "volume": 6531100.0,
       "market_value": 14285207552.0
     },
     {
@@ -3716,7 +3716,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": 2.557009869979892,
       "current_price": 363.3800048828125,
-      "volume": 712148.0,
+      "volume": 712200.0,
       "market_value": 35938598912.0
     },
     {
@@ -3725,7 +3725,7 @@
       "sector": "CONSUMER CYCLICAL",
       "change_pct": -0.949504783711299,
       "current_price": 226.3699951171875,
-      "volume": 2586848.0,
+      "volume": 2588400.0,
       "market_value": 72615215104.0
     },
     {
@@ -3734,7 +3734,7 @@
       "sector": "CONSUMER CYCLICAL",
       "change_pct": -0.9757296573645223,
       "current_price": 275.0299987792969,
-      "volume": 3025593.0,
+      "volume": 3026100.0,
       "market_value": 73557344256.0
     },
     {
@@ -3743,7 +3743,7 @@
       "sector": "FINANCIAL",
       "change_pct": 1.2038275160687968,
       "current_price": 390.9200134277344,
-      "volume": 1686296.0,
+      "volume": 1690500.0,
       "market_value": 115243220992.0
     },
     {
@@ -3752,7 +3752,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": -2.0878644613320483,
       "current_price": 229.7899932861328,
-      "volume": 6362014.0,
+      "volume": 6365500.0,
       "market_value": 189117169664.0
     },
     {
@@ -3761,7 +3761,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": -0.920351638356362,
       "current_price": 1704.1600341796875,
-      "volume": 6461198.0,
+      "volume": 6480700.0,
       "market_value": 249521422336.0
     },
     {
@@ -3770,7 +3770,7 @@
       "sector": "REAL ESTATE",
       "change_pct": 2.101080014915083,
       "current_price": 161.82000732421875,
-      "volume": 848131.0,
+      "volume": 848400.0,
       "market_value": 17167178752.0
     },
     {
@@ -3779,7 +3779,7 @@
       "sector": "ENERGY",
       "change_pct": 3.159616429620364,
       "current_price": 50.279998779296875,
-      "volume": 8727159.0,
+      "volume": 8749400.0,
       "market_value": 74622722048.0
     },
     {
@@ -3788,7 +3788,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": 4.487689732428497,
       "current_price": 887.0900268554688,
-      "volume": 5584376.0,
+      "volume": 5585800.0,
       "market_value": 201718071296.0
     },
     {
@@ -3797,7 +3797,7 @@
       "sector": "UTILITIES",
       "change_pct": -0.2806756813186802,
       "current_price": 78.16000366210938,
-      "volume": 3599062.0,
+      "volume": 3599100.0,
       "market_value": 51108855808.0
     },
     {
@@ -3806,7 +3806,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": 1.2650668897688222,
       "current_price": 136.0800018310547,
-      "volume": 7099373.0,
+      "volume": 7823100.0,
       "market_value": 140687949824.0
     },
     {
@@ -3815,7 +3815,7 @@
       "sector": "BASIC MATERIALS",
       "change_pct": -0.32863393272627384,
       "current_price": 318.4599914550781,
-      "volume": 1323255.0,
+      "volume": 1323300.0,
       "market_value": 77308755968.0
     },
     {
@@ -3824,7 +3824,7 @@
       "sector": "REAL ESTATE",
       "change_pct": 0.22393478729840002,
       "current_price": 201.39999389648438,
-      "volume": 1040003.0,
+      "volume": 1040900.0,
       "market_value": 76456165376.0
     },
     {
@@ -3833,7 +3833,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": -1.317176447449505,
       "current_price": 83.91000366210938,
-      "volume": 29215969.0,
+      "volume": 29443800.0,
       "market_value": 12626171904.0
     },
     {
@@ -3842,7 +3842,7 @@
       "sector": "CONSUMER DEFENSIVE",
       "change_pct": -0.8191817258068967,
       "current_price": 116.2300033569336,
-      "volume": 960287.0,
+      "volume": 961000.0,
       "market_value": 12416059392.0
     },
     {
@@ -3851,7 +3851,7 @@
       "sector": "BASIC MATERIALS",
       "change_pct": -0.3055972386398874,
       "current_price": 42.40999984741211,
-      "volume": 3612043.0,
+      "volume": 3612000.0,
       "market_value": 22245017600.0
     },
     {
@@ -3860,7 +3860,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": -0.40661426533417333,
       "current_price": 367.3999938964844,
-      "volume": 223862.0,
+      "volume": 223900.0,
       "market_value": 19004545024.0
     },
     {
@@ -3869,7 +3869,7 @@
       "sector": "HEALTHCARE",
       "change_pct": 0.20489505782837988,
       "current_price": 88.02999877929688,
-      "volume": 1043999.0,
+      "volume": 1044000.0,
       "market_value": 14984794112.0
     },
     {
@@ -3878,7 +3878,7 @@
       "sector": "UTILITIES",
       "change_pct": 0.0836116743950889,
       "current_price": 83.79000091552734,
-      "volume": 6571733.0,
+      "volume": 6572300.0,
       "market_value": 96388915200.0
     },
     {
@@ -3887,7 +3887,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": -1.4598604397491624,
       "current_price": 41.849998474121094,
-      "volume": 5776657.0,
+      "volume": 5795000.0,
       "market_value": 20473362432.0
     },
     {
@@ -3896,7 +3896,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": -1.817381321731263,
       "current_price": 89.68000030517578,
-      "volume": 1608972.0,
+      "volume": 1612300.0,
       "market_value": 13543172096.0
     },
     {
@@ -3905,7 +3905,7 @@
       "sector": "CONSUMER CYCLICAL",
       "change_pct": -0.2956380340022406,
       "current_price": 94.43000030517578,
-      "volume": 8822206.0,
+      "volume": 8822700.0,
       "market_value": 107650203648.0
     },
     {
@@ -3914,7 +3914,7 @@
       "sector": "FINANCIAL",
       "change_pct": 0.23300090229423812,
       "current_price": 176.3699951171875,
-      "volume": 1809876.0,
+      "volume": 1878800.0,
       "market_value": 48449146880.0
     },
     {
@@ -3923,7 +3923,7 @@
       "sector": "BASIC MATERIALS",
       "change_pct": 3.901024862571255,
       "current_price": 241.0399932861328,
-      "volume": 1063839.0,
+      "volume": 1063800.0,
       "market_value": 34547802112.0
     },
     {
@@ -3932,7 +3932,7 @@
       "sector": "HEALTHCARE",
       "change_pct": 1.213203279725134,
       "current_price": 211.07000732421875,
-      "volume": 738852.0,
+      "volume": 804100.0,
       "market_value": 20579348480.0
     },
     {
@@ -3941,7 +3941,7 @@
       "sector": "HEALTHCARE",
       "change_pct": 3.554445341922531,
       "current_price": 285.2200012207031,
-      "volume": 3315984.0,
+      "volume": 3331500.0,
       "market_value": 109402710016.0
     },
     {
@@ -3950,7 +3950,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": -1.1444266782245565,
       "current_price": 43.189998626708984,
-      "volume": 22032582.0,
+      "volume": 22070700.0,
       "market_value": 28374333440.0
     },
     {
@@ -3959,7 +3959,7 @@
       "sector": "FINANCIAL",
       "change_pct": 0.1532682395104856,
       "current_price": 71.87999725341797,
-      "volume": 2212809.0,
+      "volume": 2212800.0,
       "market_value": 23387656192.0
     },
     {
@@ -3968,7 +3968,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": -0.29189481396144024,
       "current_price": 488.4700012207031,
-      "volume": 2818341.0,
+      "volume": 2818700.0,
       "market_value": 93608747008.0
     },
     {
@@ -3977,7 +3977,7 @@
       "sector": "CONSUMER DEFENSIVE",
       "change_pct": -1.4324437229989182,
       "current_price": 76.37999725341797,
-      "volume": 5239945.0,
+      "volume": 5342500.0,
       "market_value": 37572386816.0
     },
     {
@@ -3986,7 +3986,7 @@
       "sector": "COMMUNICATION SERVICES",
       "change_pct": 0.6110975334452722,
       "current_price": 164.63999938964844,
-      "volume": 4245429.0,
+      "volume": 4296200.0,
       "market_value": 176604659712.0
     },
     {
@@ -3995,7 +3995,7 @@
       "sector": "FINANCIAL",
       "change_pct": -0.6595320429092539,
       "current_price": 103.93000030517578,
-      "volume": 1848845.0,
+      "volume": 1848900.0,
       "market_value": 22169917440.0
     },
     {
@@ -4004,7 +4004,7 @@
       "sector": "COMMUNICATION SERVICES",
       "change_pct": 0.36009026868881816,
       "current_price": 203.4600067138672,
-      "volume": 2227858.0,
+      "volume": 2229100.0,
       "market_value": 38043041792.0
     },
     {
@@ -4013,7 +4013,7 @@
       "sector": "CONSUMER CYCLICAL",
       "change_pct": -0.990523002992141,
       "current_price": 116.94999694824219,
-      "volume": 2370531.0,
+      "volume": 2495500.0,
       "market_value": 23207012352.0
     },
     {
@@ -4022,7 +4022,7 @@
       "sector": "ENERGY",
       "change_pct": 2.0089457862907243,
       "current_price": 287.3999938964844,
-      "volume": 1380991.0,
+      "volume": 1381000.0,
       "market_value": 61627473920.0
     },
     {
@@ -4031,7 +4031,7 @@
       "sector": "CONSUMER DEFENSIVE",
       "change_pct": -1.929483658228165,
       "current_price": 152.99000549316406,
-      "volume": 5054005.0,
+      "volume": 5054500.0,
       "market_value": 69502861312.0
     },
     {
@@ -4040,7 +4040,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": -0.6489417002221305,
       "current_price": 218.92999267578125,
-      "volume": 1156976.0,
+      "volume": 1158200.0,
       "market_value": 63383126016.0
     },
     {
@@ -4049,7 +4049,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": 0.4002190331153584,
       "current_price": 619.6400146484375,
-      "volume": 169217.0,
+      "volume": 169200.0,
       "market_value": 28723828736.0
     },
     {
@@ -4058,7 +4058,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": -1.004367022938407,
       "current_price": 444.5299987792969,
-      "volume": 1677831.0,
+      "volume": 1678200.0,
       "market_value": 69498150912.0
     },
     {
@@ -4067,7 +4067,7 @@
       "sector": "CONSUMER CYCLICAL",
       "change_pct": 2.196501451435761,
       "current_price": 378.7300109863281,
-      "volume": 42006295.0,
+      "volume": 42112900.0,
       "market_value": 1495812145152.0
     },
     {
@@ -4076,7 +4076,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": 0.37440644970031906,
       "current_price": 294.8999938964844,
-      "volume": 3772126.0,
+      "volume": 3778300.0,
       "market_value": 269316734976.0
     },
     {
@@ -4085,7 +4085,7 @@
       "sector": "ENERGY",
       "change_pct": 1.3169143579108427,
       "current_price": 344.6700134277344,
-      "volume": 268650.0,
+      "volume": 268800.0,
       "market_value": 23773503488.0
     },
     {
@@ -4094,7 +4094,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": -1.9544422656990392,
       "current_price": 75.75,
-      "volume": 1644540.0,
+      "volume": 1644700.0,
       "market_value": 13028008960.0
     },
     {
@@ -4103,7 +4103,7 @@
       "sector": "HEALTHCARE",
       "change_pct": 3.353699203122077,
       "current_price": 676.760009765625,
-      "volume": 2107014.0,
+      "volume": 2124400.0,
       "market_value": 250230177792.0
     },
     {
@@ -4112,7 +4112,7 @@
       "sector": "CONSUMER CYCLICAL",
       "change_pct": 1.3038974086738193,
       "current_price": 134.41000366210938,
-      "volume": 9657717.0,
+      "volume": 9657800.0,
       "market_value": 147847512064.0
     },
     {
@@ -4121,7 +4121,7 @@
       "sector": "COMMUNICATION SERVICES",
       "change_pct": 0.8315249116371165,
       "current_price": 177.0399932861328,
-      "volume": 1423363.0,
+      "volume": 1423400.0,
       "market_value": 33508308992.0
     },
     {
@@ -4130,7 +4130,7 @@
       "sector": "CONSUMER CYCLICAL",
       "change_pct": 1.0614342942632182,
       "current_price": 31.420000076293945,
-      "volume": 16717993.0,
+      "volume": 16718400.0,
       "market_value": 16371081216.0
     },
     {
@@ -4139,7 +4139,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": 1.476580812968382,
       "current_price": 470.760009765625,
-      "volume": 1370981.0,
+      "volume": 1371100.0,
       "market_value": 103578116096.0
     },
     {
@@ -4148,7 +4148,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": 0.20910410009949182,
       "current_price": 1092.6600341796875,
-      "volume": 318269.0,
+      "volume": 318300.0,
       "market_value": 60398448640.0
     },
     {
@@ -4157,7 +4157,7 @@
       "sector": "FINANCIAL",
       "change_pct": 0.08879719182056431,
       "current_price": 360.70001220703125,
-      "volume": 900237.0,
+      "volume": 900200.0,
       "market_value": 75233009664.0
     },
     {
@@ -4166,7 +4166,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": 2.242699765752919,
       "current_price": 58.810001373291016,
-      "volume": 2694207.0,
+      "volume": 2694200.0,
       "market_value": 13713306624.0
     },
     {
@@ -4175,7 +4175,7 @@
       "sector": "FINANCIAL",
       "change_pct": -0.2583399998143979,
       "current_price": 46.33000183105469,
-      "volume": 10441041.0,
+      "volume": 10441500.0,
       "market_value": 56597946368.0
     },
     {
@@ -4184,7 +4184,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": 1.7068894418689338,
       "current_price": 328.32000732421875,
-      "volume": 562478.0,
+      "volume": 562500.0,
       "market_value": 13445450752.0
     },
     {
@@ -4193,7 +4193,7 @@
       "sector": "CONSUMER DEFENSIVE",
       "change_pct": -0.3468882391463076,
       "current_price": 51.709999084472656,
-      "volume": 3920528.0,
+      "volume": 3965000.0,
       "market_value": 18191654912.0
     },
     {
@@ -4202,7 +4202,7 @@
       "sector": "FINANCIAL",
       "change_pct": -0.4173150248200755,
       "current_price": 57.27000045776367,
-      "volume": 6291506.0,
+      "volume": 6312200.0,
       "market_value": 89229606912.0
     },
     {
@@ -4211,7 +4211,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": 2.01145607738229,
       "current_price": 69.4800033569336,
-      "volume": 16996770.0,
+      "volume": 17008800.0,
       "market_value": 141917077504.0
     },
     {
@@ -4220,7 +4220,7 @@
       "sector": "REAL ESTATE",
       "change_pct": 1.7132542440083054,
       "current_price": 33.84000015258789,
-      "volume": 3628032.0,
+      "volume": 3628100.0,
       "market_value": 12431605760.0
     },
     {
@@ -4229,7 +4229,7 @@
       "sector": "CONSUMER CYCLICAL",
       "change_pct": -0.17841632804086568,
       "current_price": 542.719970703125,
-      "volume": 305682.0,
+      "volume": 305900.0,
       "market_value": 23205332992.0
     },
     {
@@ -4238,7 +4238,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": -0.4384078000771822,
       "current_price": 277.05999755859375,
-      "volume": 2241116.0,
+      "volume": 2241100.0,
       "market_value": 164594565120.0
     },
     {
@@ -4247,7 +4247,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": -2.230914664094738,
       "current_price": 110.0,
-      "volume": 4927777.0,
+      "volume": 4933800.0,
       "market_value": 35704213504.0
     },
     {
@@ -4256,7 +4256,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": 0.12900747249271816,
       "current_price": 93.13999938964844,
-      "volume": 4789723.0,
+      "volume": 4791100.0,
       "market_value": 79241797632.0
     },
     {
@@ -4265,7 +4265,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": -0.6253246430620107,
       "current_price": 1074.280029296875,
-      "volume": 422169.0,
+      "volume": 422200.0,
       "market_value": 66865860608.0
     },
     {
@@ -4274,7 +4274,7 @@
       "sector": "HEALTHCARE",
       "change_pct": 1.7961798293657885,
       "current_price": 378.5799865722656,
-      "volume": 5590526.0,
+      "volume": 5823300.0,
       "market_value": 339811434496.0
     },
     {
@@ -4283,7 +4283,7 @@
       "sector": "HEALTHCARE",
       "change_pct": 0.1877998114968184,
       "current_price": 176.0500030517578,
-      "volume": 580145.0,
+      "volume": 580100.0,
       "market_value": 10375774208.0
     },
     {
@@ -4292,7 +4292,7 @@
       "sector": "ENERGY",
       "change_pct": 3.2069897048425084,
       "current_price": 419.3299865722656,
-      "volume": 2546493.0,
+      "volume": 2555100.0,
       "market_value": 120736612352.0
     },
     {
@@ -4301,7 +4301,7 @@
       "sector": "HEALTHCARE",
       "change_pct": 3.702493737213862,
       "current_price": 283.45001220703125,
-      "volume": 1324143.0,
+      "volume": 1324400.0,
       "market_value": 45893066752.0
     },
     {
@@ -4310,7 +4310,7 @@
       "sector": "REAL ESTATE",
       "change_pct": -3.1543881186690945,
       "current_price": 81.36000061035156,
-      "volume": 7548356.0,
+      "volume": 7569400.0,
       "market_value": 41733316608.0
     },
     {
@@ -4319,7 +4319,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": 1.9961970675501979,
       "current_price": 96.56999969482422,
-      "volume": 2269733.0,
+      "volume": 2269700.0,
       "market_value": 23543123968.0
     },
     {
@@ -4328,7 +4328,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": 1.3665379929654613,
       "current_price": 292.260009765625,
-      "volume": 1136244.0,
+      "volume": 1136200.0,
       "market_value": 26420303872.0
     },
     {
@@ -4337,7 +4337,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": -0.36612526582768784,
       "current_price": 163.27999877929688,
-      "volume": 1077526.0,
+      "volume": 1077500.0,
       "market_value": 21251874816.0
     },
     {
@@ -4346,7 +4346,7 @@
       "sector": "COMMUNICATION SERVICES",
       "change_pct": -0.15243836588730095,
       "current_price": 45.849998474121094,
-      "volume": 22507493.0,
+      "volume": 22510900.0,
       "market_value": 190496440320.0
     },
     {
@@ -4355,7 +4355,7 @@
       "sector": "HEALTHCARE",
       "change_pct": -0.24369681999381704,
       "current_price": 503.5,
-      "volume": 914793.0,
+      "volume": 914900.0,
       "market_value": 127617581056.0
     },
     {
@@ -4364,7 +4364,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": 0.57102168420538,
       "current_price": 253.6199951171875,
-      "volume": 4337359.0,
+      "volume": 4341400.0,
       "market_value": 97640693760.0
     },
     {
@@ -4373,7 +4373,7 @@
       "sector": "HEALTHCARE",
       "change_pct": 0.1136389621032593,
       "current_price": 17.6200008392334,
-      "volume": 6356515.0,
+      "volume": 6356500.0,
       "market_value": 20238172160.0
     },
     {
@@ -4382,7 +4382,7 @@
       "sector": "REAL ESTATE",
       "change_pct": -0.52979661768556,
       "current_price": 22.530000686645508,
-      "volume": 8665649.0,
+      "volume": 8926700.0,
       "market_value": 24807276544.0
     },
     {
@@ -4391,7 +4391,7 @@
       "sector": "FINANCIAL",
       "change_pct": 2.5092851164742376,
       "current_price": 369.7099914550781,
-      "volume": 4521760.0,
+      "volume": 4523500.0,
       "market_value": 694077030400.0
     },
     {
@@ -4400,16 +4400,16 @@
       "sector": "UTILITIES",
       "change_pct": 3.478070967424851,
       "current_price": 144.88999938964844,
-      "volume": 10751775.0,
+      "volume": 10795000.0,
       "market_value": 48630181888.0
     },
     {
       "symbol": "VMRK",
       "company": "Vivmark Residential",
       "sector": "REAL ESTATE",
-      "change_pct": 0.5017548627978657,
+      "change_pct": 1.697494070585358,
       "current_price": 60.09000015258789,
-      "volume": 6571087.0,
+      "volume": 6674700.0,
       "market_value": 46496387072.0
     },
     {
@@ -4418,7 +4418,7 @@
       "sector": "BASIC MATERIALS",
       "change_pct": 1.0326708593913811,
       "current_price": 245.57000732421875,
-      "volume": 1015536.0,
+      "volume": 1015500.0,
       "market_value": 31820650496.0
     },
     {
@@ -4427,7 +4427,7 @@
       "sector": "FINANCIAL",
       "change_pct": 1.1452497067085248,
       "current_price": 69.7699966430664,
-      "volume": 2316476.0,
+      "volume": 2316500.0,
       "market_value": 25900541952.0
     },
     {
@@ -4436,7 +4436,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": 0.510811274136369,
       "current_price": 1286.8399658203125,
-      "volume": 207110.0,
+      "volume": 207500.0,
       "market_value": 60611379200.0
     },
     {
@@ -4445,7 +4445,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": 1.5023915553531475,
       "current_price": 291.8599853515625,
-      "volume": 1002913.0,
+      "volume": 1002900.0,
       "market_value": 49298317312.0
     },
     {
@@ -4454,7 +4454,7 @@
       "sector": "CONSUMER DEFENSIVE",
       "change_pct": 0.7769015365407085,
       "current_price": 105.06999969482422,
-      "volume": 19199115.0,
+      "volume": 19220800.0,
       "market_value": 836155342848.0
     },
     {
@@ -4463,7 +4463,7 @@
       "sector": "COMMUNICATION SERVICES",
       "change_pct": 1.3895666259128545,
       "current_price": 103.61000061035156,
-      "volume": 6976055.0,
+      "volume": 7037600.0,
       "market_value": 178902024192.0
     },
     {
@@ -4472,7 +4472,7 @@
       "sector": "COMMUNICATION SERVICES",
       "change_pct": 0.03232135975831045,
       "current_price": 30.950000762939453,
-      "volume": 433479617.0,
+      "volume": 435632600.0,
       "market_value": 77595885568.0
     },
     {
@@ -4481,7 +4481,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": 1.0809521872610566,
       "current_price": 206.66000366210938,
-      "volume": 2558975.0,
+      "volume": 2596100.0,
       "market_value": 82605146112.0
     },
     {
@@ -4490,7 +4490,7 @@
       "sector": "HEALTHCARE",
       "change_pct": 3.5065036009824246,
       "current_price": 440.1199951171875,
-      "volume": 1007404.0,
+      "volume": 1007400.0,
       "market_value": 43213557760.0
     },
     {
@@ -4499,7 +4499,7 @@
       "sector": "UTILITIES",
       "change_pct": -0.28545456894031995,
       "current_price": 101.30000305175781,
-      "volume": 2764863.0,
+      "volume": 2764900.0,
       "market_value": 33008543744.0
     },
     {
@@ -4508,7 +4508,7 @@
       "sector": "FINANCIAL",
       "change_pct": 1.2305848734848135,
       "current_price": 81.44000244140625,
-      "volume": 12758845.0,
+      "volume": 12761100.0,
       "market_value": 246274506752.0
     },
     {
@@ -4517,7 +4517,7 @@
       "sector": "REAL ESTATE",
       "change_pct": -1.5590017772994176,
       "current_price": 224.16000366210938,
-      "volume": 2446966.0,
+      "volume": 2449100.0,
       "market_value": 161523433472.0
     },
     {
@@ -4526,7 +4526,7 @@
       "sector": "HEALTHCARE",
       "change_pct": 3.2275736820387526,
       "current_price": 376.760009765625,
-      "volume": 682733.0,
+      "volume": 682700.0,
       "market_value": 26514771968.0
     },
     {
@@ -4535,7 +4535,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": 6.344965099410849,
       "current_price": 441.6400146484375,
-      "volume": 11266920.0,
+      "volume": 11277200.0,
       "market_value": 159229296640.0
     },
     {
@@ -4544,7 +4544,7 @@
       "sector": "REAL ESTATE",
       "change_pct": 0.10828618574560966,
       "current_price": 18.489999771118164,
-      "volume": 7636347.0,
+      "volume": 7636700.0,
       "market_value": 13326408704.0
     },
     {
@@ -4553,7 +4553,7 @@
       "sector": "CONSUMER CYCLICAL",
       "change_pct": 2.7550554508853873,
       "current_price": 238.6999969482422,
-      "volume": 1202675.0,
+      "volume": 1202700.0,
       "market_value": 28113889280.0
     },
     {
@@ -4562,7 +4562,7 @@
       "sector": "ENERGY",
       "change_pct": 0.38275678985279726,
       "current_price": 70.80999755859375,
-      "volume": 5803280.0,
+      "volume": 5803300.0,
       "market_value": 86612484096.0
     },
     {
@@ -4571,7 +4571,7 @@
       "sector": "FINANCIAL",
       "change_pct": -0.17324417912669876,
       "current_price": 288.1099853515625,
-      "volume": 722556.0,
+      "volume": 722600.0,
       "market_value": 26757332992.0
     },
     {
@@ -4580,7 +4580,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": 1.5149926579271147,
       "current_price": 188.9600067138672,
-      "volume": 2176447.0,
+      "volume": 2176500.0,
       "market_value": 45539360768.0
     },
     {
@@ -4589,7 +4589,7 @@
       "sector": "CONSUMER CYCLICAL",
       "change_pct": 1.7000539828949934,
       "current_price": 77.16999816894531,
-      "volume": 1970319.0,
+      "volume": 1970700.0,
       "market_value": 7946494976.0
     },
     {
@@ -4598,7 +4598,7 @@
       "sector": "UTILITIES",
       "change_pct": 0.126045288469645,
       "current_price": 71.48999786376953,
-      "volume": 4458408.0,
+      "volume": 4486900.0,
       "market_value": 44655104000.0
     },
     {
@@ -4607,7 +4607,7 @@
       "sector": "INDUSTRIALS",
       "change_pct": 0.6189186047269866,
       "current_price": 102.41999816894531,
-      "volume": 1786190.0,
+      "volume": 1786200.0,
       "market_value": 23913719808.0
     },
     {
@@ -4616,7 +4616,7 @@
       "sector": "CONSUMER CYCLICAL",
       "change_pct": 0.6244535218972375,
       "current_price": 136.97000122070312,
-      "volume": 3171980.0,
+      "volume": 3172000.0,
       "market_value": 37379260416.0
     },
     {
@@ -4625,7 +4625,7 @@
       "sector": "TECHNOLOGY",
       "change_pct": -0.05320643251397755,
       "current_price": 375.6600036621094,
-      "volume": 348268.0,
+      "volume": 348300.0,
       "market_value": 17772722176.0
     },
     {
@@ -4634,7 +4634,7 @@
       "sector": "HEALTHCARE",
       "change_pct": 3.715028593594713,
       "current_price": 91.56999969482422,
-      "volume": 2293166.0,
+      "volume": 2293200.0,
       "market_value": 17465849856.0
     },
     {
@@ -4643,7 +4643,7 @@
       "sector": "HEALTHCARE",
       "change_pct": 2.4680745594022073,
       "current_price": 71.41000366210938,
-      "volume": 3643499.0,
+      "volume": 3644100.0,
       "market_value": 29508300800.0
     }
   ]
