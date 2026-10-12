@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-10-12T22:16:19.103057Z",
+  "generated_at": "2026-10-12T23:48:07.451642Z",
   "trading_date": "2026-10-12",
   "commodities": [
     {
       "label": "Silver",
       "symbol": "SI=F",
       "unit": "/oz",
-      "price": 60.58000183105469,
-      "change_pct": -0.1483374659745593
+      "price": 60.61000061035156,
+      "change_pct": -0.09889164398303953
     },
     {
       "label": "Gold",
       "symbol": "GC=F",
       "unit": "/oz",
-      "price": 4198.39990234375,
-      "change_pct": -0.4245405491291122
+      "price": 4198.60009765625,
+      "change_pct": -0.4197924211075368
     },
     {
       "label": "Platinum",
       "symbol": "PL=F",
       "unit": "/oz",
-      "price": 1698.699951171875,
-      "change_pct": 1.1552374072333254
+      "price": 1697.699951171875,
+      "change_pct": 1.095688787515376
     },
     {
       "label": "Copper",
       "symbol": "HG=F",
       "unit": "\u00a2/lb",
-      "price": 6.758999824523926,
-      "change_pct": 1.753856261286522
+      "price": 6.757500171661377,
+      "change_pct": 1.7312796277935083
     },
     {
       "label": "Brent Crude",
       "symbol": "BZ=F",
       "unit": "/bbl",
-      "price": 106.04000091552734,
-      "change_pct": 1.260503895566471
+      "price": 106.05000305175781,
+      "change_pct": 1.2700552096553512
     },
     {
       "label": "WTI Crude",
       "symbol": "CL=F",
       "unit": "/bbl",
-      "price": 93.2699966430664,
-      "change_pct": 1.545996943424446
+      "price": 93.30000305175781,
+      "change_pct": 1.5786658701418055
     },
     {
       "label": "Natural Gas",
       "symbol": "NG=F",
       "unit": "/MMBtu",
-      "price": 3.187999963760376,
-      "change_pct": -0.9937908250163876
+      "price": 3.180000066757202,
+      "change_pct": -1.242234829118668
     },
     {
       "label": "Heating Oil",
       "symbol": "HO=F",
       "unit": "/gal",
-      "price": 4.703800201416016,
-      "change_pct": -0.7301996700259481
+      "price": 4.690999984741211,
+      "change_pct": -1.0003376221238596
     },
     {
       "label": "Corn",
@@ -132,15 +132,15 @@
       "label": "Bitcoin",
       "symbol": "BTC-USD",
       "unit": "",
-      "price": 82608.9765625,
-      "change_pct": -1.2792769881202193
+      "price": 81785.1015625,
+      "change_pct": -2.2638374929931664
     },
     {
       "label": "Ethereum",
       "symbol": "ETH-USD",
       "unit": "",
-      "price": 2491.7099609375,
-      "change_pct": -1.6960299468471205
+      "price": 2448.449951171875,
+      "change_pct": -3.4027417115258065
     }
   ],
   "companies": [
