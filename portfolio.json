@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T22:29:25.059997Z",
+  "generated_at": "2026-11-05T00:49:19.652885Z",
   "ytd_start": "2026-01-01",
   "platforms": [
     "Acorns",
@@ -12,10 +12,10 @@
       "ticker": "SI=F",
       "name": "Silver (spot, COMEX continuous)",
       "asset_class": "Commodity",
-      "current_price": 52.325,
+      "current_price": 52.45,
       "ytd_open_price": 71.375,
-      "ytd_change_dollar": -19.05,
-      "ytd_change_pct": -26.69,
+      "ytd_change_dollar": -18.925,
+      "ytd_change_pct": -26.51,
       "ytd_dividend_per_share": 0.0,
       "payout_schedule": null,
       "last_dividend_amount": null,
@@ -26,29 +26,29 @@
       "ticker": "BTC-USD",
       "name": "Bitcoin",
       "asset_class": "Crypto",
-      "current_price": 80586.7031,
+      "current_price": 80721.2422,
       "ytd_open_price": 87508.0469,
-      "ytd_change_dollar": -6921.3438,
-      "ytd_change_pct": -7.91,
+      "ytd_change_dollar": -6786.8047,
+      "ytd_change_pct": -7.76,
       "ytd_dividend_per_share": 0.0,
       "payout_schedule": null,
       "last_dividend_amount": null,
       "last_dividend_date": null,
-      "as_of": "2026-11-04"
+      "as_of": "2026-11-05"
     },
     {
       "ticker": "ETH-USD",
       "name": "Ethereum",
       "asset_class": "Crypto",
-      "current_price": 2432.3999,
+      "current_price": 2426.3601,
       "ytd_open_price": 2966.9973,
-      "ytd_change_dollar": -534.5974,
-      "ytd_change_pct": -18.02,
+      "ytd_change_dollar": -540.6372,
+      "ytd_change_pct": -18.22,
       "ytd_dividend_per_share": 0.0,
       "payout_schedule": null,
       "last_dividend_amount": null,
       "last_dividend_date": null,
-      "as_of": "2026-11-04"
+      "as_of": "2026-11-05"
     },
     {
       "ticker": "VEIPX",
