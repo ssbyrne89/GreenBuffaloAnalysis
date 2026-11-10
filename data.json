@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-11-09T23:33:46.382143Z",
+  "generated_at": "2026-11-10T00:52:56.988531Z",
   "trading_date": "2026-11-09",
   "commodities": [
     {
       "label": "Silver",
       "symbol": "SI=F",
       "unit": "/oz",
-      "price": 53.625,
-      "change_pct": 3.5171680150128357
+      "price": 53.209999084472656,
+      "change_pct": 2.7160543646813076
     },
     {
       "label": "Gold",
       "symbol": "GC=F",
       "unit": "/oz",
-      "price": 4150.89990234375,
-      "change_pct": 1.865076488290848
+      "price": 4133.89990234375,
+      "change_pct": 1.447888326436316
     },
     {
       "label": "Platinum",
       "symbol": "PL=F",
       "unit": "/oz",
-      "price": 1580.5999755859375,
-      "change_pct": 2.7564702743463303
+      "price": 1572.9000244140625,
+      "change_pct": 2.2558883333568764
     },
     {
       "label": "Copper",
       "symbol": "HG=F",
       "unit": "\u00a2/lb",
-      "price": 6.386000156402588,
-      "change_pct": 2.70183697337695
+      "price": 6.373000144958496,
+      "change_pct": 2.4927663464925205
     },
     {
       "label": "Brent Crude",
       "symbol": "BZ=F",
       "unit": "/bbl",
-      "price": 92.05999755859375,
-      "change_pct": -6.3669672046998675
+      "price": 92.43000030517578,
+      "change_pct": -5.990642196837293
     },
     {
       "label": "WTI Crude",
       "symbol": "CL=F",
       "unit": "/bbl",
-      "price": 86.18000030517578,
-      "change_pct": -5.11945550163919
+      "price": 86.58000183105469,
+      "change_pct": -4.679070697262641
     },
     {
       "label": "Natural Gas",
       "symbol": "NG=F",
       "unit": "/MMBtu",
-      "price": 3.2060000896453857,
-      "change_pct": 6.937964962965196
+      "price": 3.2139999866485596,
+      "change_pct": 7.204806098807884
     },
     {
       "label": "Heating Oil",
       "symbol": "HO=F",
       "unit": "/gal",
-      "price": 4.184500217437744,
-      "change_pct": -3.3981955328534617
+      "price": 4.201499938964844,
+      "change_pct": -3.0057463299323124
     },
     {
       "label": "Corn",
@@ -132,15 +132,15 @@
       "label": "Bitcoin",
       "symbol": "BTC-USD",
       "unit": "",
-      "price": 75090.0078125,
-      "change_pct": 0.6775648683568952
+      "price": 74901.703125,
+      "change_pct": 0.42509376144030975
     },
     {
       "label": "Ethereum",
       "symbol": "ETH-USD",
       "unit": "",
-      "price": 2128.590087890625,
-      "change_pct": 0.3587899214218993
+      "price": 2121.5,
+      "change_pct": 0.024506376089420072
     }
   ],
   "companies": [
@@ -224,15 +224,6 @@
       "current_price": 125.22000122070312,
       "volume": 1753218.0,
       "market_value": 61934698496.0
-    },
-    {
-      "symbol": "A",
-      "company": "Agilent Technologies",
-      "sector": "HEALTHCARE",
-      "change_pct": 3.095676260105259,
-      "current_price": 180.1699981689453,
-      "volume": 2167835.0,
-      "market_value": 50801782784.0
     },
     {
       "symbol": "APD",
@@ -2185,7 +2176,7 @@
       "change_pct": 2.742592128593019,
       "current_price": 88.41000366210938,
       "volume": 1761915.0,
-      "market_value": 9772712960.0
+      "market_value": 155770911.60232544
     },
     {
       "symbol": "HSY",
