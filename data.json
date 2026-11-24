@@ -1,146 +1,146 @@
 {
-  "generated_at": "2026-11-24T03:30:00.109918Z",
+  "generated_at": "2026-11-24T05:24:15.471342Z",
   "trading_date": "2026-11-23",
   "commodities": [
     {
       "label": "Silver",
       "symbol": "SI=F",
       "unit": "/oz",
-      "price": 42.494998931884766,
-      "change_pct": 3.5579361274561614
+      "price": 42.4900016784668,
+      "change_pct": -1.5226961096311493
     },
     {
       "label": "Gold",
       "symbol": "GC=F",
       "unit": "/oz",
-      "price": 3634.39990234375,
-      "change_pct": 3.3851056296799005
+      "price": 3636.10009765625,
+      "change_pct": -0.4190120254338454
     },
     {
       "label": "Platinum",
       "symbol": "PL=F",
       "unit": "/oz",
-      "price": 1298.199951171875,
-      "change_pct": 0.6824822856515316
+      "price": 1295.0999755859375,
+      "change_pct": -2.1236378947150896
     },
     {
       "label": "Copper",
       "symbol": "HG=F",
       "unit": "\u00a2/lb",
-      "price": 5.513999938964844,
-      "change_pct": 0.6755468478340172
+      "price": 5.507500171661377,
+      "change_pct": -2.12368378280766
     },
     {
       "label": "Brent Crude",
       "symbol": "BZ=F",
       "unit": "/bbl",
-      "price": 86.5999984741211,
-      "change_pct": -6.449174938300146
+      "price": 86.16000366210938,
+      "change_pct": -3.591808197181043
     },
     {
       "label": "WTI Crude",
       "symbol": "CL=F",
       "unit": "/bbl",
-      "price": 80.0999984741211,
-      "change_pct": -4.620153283778307
+      "price": 79.48999786376953,
+      "change_pct": -0.8481979801755645
     },
     {
       "label": "Natural Gas",
       "symbol": "NG=F",
       "unit": "/MMBtu",
-      "price": 3.5360000133514404,
-      "change_pct": 3.664614468212289
+      "price": 3.5329999923706055,
+      "change_pct": 10.961054505002895
     },
     {
       "label": "Heating Oil",
       "symbol": "HO=F",
       "unit": "/gal",
-      "price": 3.638700008392334,
-      "change_pct": -7.213894520817031
+      "price": 3.6285998821258545,
+      "change_pct": -1.8634241653850525
     },
     {
       "label": "Corn",
       "symbol": "ZC=F",
       "unit": "\u00a2/bu",
-      "price": 448.0,
-      "change_pct": 3.1070195627157653
+      "price": 448.75,
+      "change_pct": 3.3390903857225105
     },
     {
       "label": "Soybean",
       "symbol": "ZS=F",
       "unit": "\u00a2/bu",
-      "price": 1228.25,
-      "change_pct": 0.614376407945935
+      "price": 1228.5,
+      "change_pct": -0.02034587995930824
     },
     {
       "label": "Wheat",
       "symbol": "ZW=F",
       "unit": "\u00a2/bu",
-      "price": 591.75,
-      "change_pct": 3.04745319982586
+      "price": 592.75,
+      "change_pct": 2.729636048526863
     },
     {
       "label": "Sugar",
       "symbol": "SB=F",
       "unit": "\u00a2/lb",
-      "price": 17.579999923706055,
-      "change_pct": 3.229590222458665
+      "price": 17.610000610351562,
+      "change_pct": 3.405753965476207
     },
     {
       "label": "Coffee",
       "symbol": "KC=F",
       "unit": "\u00a2/lb",
-      "price": 267.3500061035156,
-      "change_pct": -2.7287610818445116
+      "price": 274.3500061035156,
+      "change_pct": -0.1819174054563008
     },
     {
       "label": "Cocoa",
       "symbol": "CC=F",
       "unit": "/mt",
-      "price": 5281.0,
-      "change_pct": 3.0439024390243903
+      "price": 5186.0,
+      "change_pct": 1.1902439024390243
     },
     {
       "label": "Cotton",
       "symbol": "CT=F",
       "unit": "\u00a2/lb",
-      "price": 81.20999908447266,
-      "change_pct": 7.60566817401206
+      "price": 77.52999877929688,
+      "change_pct": 2.729558136046043
     },
     {
       "label": "Lumber",
       "symbol": "LBR=F",
       "unit": "/kbf",
-      "price": 540.0,
-      "change_pct": 0.5586592178770949
+      "price": 541.0,
+      "change_pct": 0.74487895716946
     },
     {
       "label": "Live Cattle",
       "symbol": "LE=F",
       "unit": "\u00a2/lb",
-      "price": 228.77499389648438,
-      "change_pct": 2.5896833616521864
+      "price": 224.5500030517578,
+      "change_pct": 0.6950686330752522
     },
     {
       "label": "Lean Hogs",
       "symbol": "HE=F",
       "unit": "\u00a2/lb",
-      "price": 57.29999923706055,
-      "change_pct": 8.93536292639215
+      "price": 52.45000076293945,
+      "change_pct": -0.2851667595683271
     },
     {
       "label": "Bitcoin",
       "symbol": "BTC-USD",
       "unit": "",
-      "price": 60134.58984375,
-      "change_pct": -1.6796733618611819
+      "price": 60595.328125,
+      "change_pct": -0.9263641861455209
     },
     {
       "label": "Ethereum",
       "symbol": "ETH-USD",
       "unit": "",
-      "price": 1689.1500244140625,
-      "change_pct": -1.8549828740258563
+      "price": 1704.97998046875,
+      "change_pct": -0.9352118142411276
     }
   ],
   "companies": [
