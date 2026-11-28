@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T22:55:30.592108Z",
+  "generated_at": "2026-11-28T00:40:03.946470Z",
   "trading_date": "2026-11-27",
   "commodities": [
     {
@@ -132,15 +132,15 @@
       "label": "Bitcoin",
       "symbol": "BTC-USD",
       "unit": "",
-      "price": 59770.0,
-      "change_pct": -1.197974048092789
+      "price": 59900.23828125,
+      "change_pct": -0.9826853406476779
     },
     {
       "label": "Ethereum",
       "symbol": "ETH-USD",
       "unit": "",
-      "price": 1656.3299560546875,
-      "change_pct": -1.861177156253867
+      "price": 1662.97998046875,
+      "change_pct": -1.4671580989442992
     }
   ],
   "companies": [
